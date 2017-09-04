@@ -18,7 +18,17 @@
 */
 package com.rapidminer.tools;
 
-import java.awt.Desktop;
+import com.rapidminer.gui.MainFrame;
+import com.rapidminer.gui.RapidMinerGUI;
+import com.rapidminer.gui.actions.SettingsAction;
+import com.rapidminer.gui.dialog.BrowserUnavailableDialogFactory;
+import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorCreationException;
+
+import javax.swing.*;
+import javax.swing.event.HyperlinkListener;
+import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -29,17 +39,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.swing.Action;
-import javax.swing.event.HyperlinkListener;
-
-import com.rapidminer.gui.MainFrame;
-import com.rapidminer.gui.RapidMinerGUI;
-import com.rapidminer.gui.actions.SettingsAction;
-import com.rapidminer.gui.dialog.BrowserUnavailableDialogFactory;
-import com.rapidminer.gui.tools.dialogs.ButtonDialog;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCreationException;
 
 
 /**

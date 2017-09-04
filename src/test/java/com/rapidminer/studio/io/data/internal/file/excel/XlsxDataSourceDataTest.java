@@ -18,15 +18,13 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Locale;
-
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-
-import com.rapidminer.studio.io.data.internal.file.excel.ExcelDataSource;
 
 
 /**

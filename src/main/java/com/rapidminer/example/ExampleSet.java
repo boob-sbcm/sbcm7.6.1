@@ -18,12 +18,12 @@
 */
 package com.rapidminer.example;
 
+import com.rapidminer.example.table.ExampleTable;
+import com.rapidminer.operator.ResultObject;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
-
-import com.rapidminer.example.table.ExampleTable;
-import com.rapidminer.operator.ResultObject;
 
 
 /**

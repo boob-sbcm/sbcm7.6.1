@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.new_plotter.gui.cellrenderer;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

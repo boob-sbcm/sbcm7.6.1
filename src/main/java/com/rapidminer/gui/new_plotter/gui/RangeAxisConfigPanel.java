@@ -18,28 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.Objects;
-
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JSpinner;
-import javax.swing.JTextField;
-import javax.swing.JToggleButton;
-import javax.swing.JTree;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn.ValueType;
 import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
@@ -50,6 +28,19 @@ import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEve
 import com.rapidminer.gui.new_plotter.listener.events.RangeAxisConfigChangeEvent;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.TreePath;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.util.Objects;
 
 
 /**

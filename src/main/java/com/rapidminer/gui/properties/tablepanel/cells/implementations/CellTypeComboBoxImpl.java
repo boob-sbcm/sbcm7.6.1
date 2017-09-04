@@ -18,19 +18,17 @@
 */
 package com.rapidminer.gui.properties.tablepanel.cells.implementations;
 
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Collections;
-import java.util.Vector;
-
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JComboBox;
-
 import com.rapidminer.gui.properties.tablepanel.TablePanel;
 import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeComboBox;
 import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
 import com.rapidminer.gui.tools.autocomplete.AutoCompleteComboBoxAddition;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Collections;
+import java.util.Vector;
 
 
 /**

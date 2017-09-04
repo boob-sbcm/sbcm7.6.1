@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
-import javax.swing.JTree;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeCellRenderer;
-import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.MutableTreeNode;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.operator.clustering.Cluster;
@@ -38,6 +26,12 @@ import com.rapidminer.operator.clustering.HierarchicalClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterNode;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.ObjectVisualizerService;
+
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.*;
+import java.awt.*;
 
 
 /**

@@ -18,14 +18,11 @@
 */
 package com.rapidminer.gui.tools.components.composite;
 
-import java.awt.Dimension;
-
-import javax.swing.Action;
-import javax.swing.JToggleButton;
-import javax.swing.SwingConstants;
-
 import com.rapidminer.gui.Perspective;
 import com.rapidminer.gui.PerspectiveController;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

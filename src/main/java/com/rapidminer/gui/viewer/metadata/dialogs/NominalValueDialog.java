@@ -18,15 +18,6 @@
 */
 package com.rapidminer.gui.viewer.metadata.dialogs;
 
-import java.awt.GridLayout;
-import java.awt.Window;
-import java.util.List;
-
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ExtendedJTable;
@@ -34,6 +25,11 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.gui.viewer.metadata.AttributeStatisticsPanel;
 import com.rapidminer.gui.viewer.metadata.model.NominalValueTableModel;
 import com.rapidminer.tools.container.ValueAndCount;
+
+import javax.swing.*;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.util.List;
 
 
 /**

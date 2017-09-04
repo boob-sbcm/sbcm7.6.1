@@ -18,16 +18,15 @@
 */
 package com.rapidminer.gui.tools.dialogs.wizards.dataimport;
 
-import java.awt.Window;
-
-import javax.swing.JComponent;
-
 import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard;
 import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
 import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.repository.MalformedRepositoryLocationException;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

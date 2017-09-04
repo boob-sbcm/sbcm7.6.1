@@ -18,18 +18,16 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Map;
-
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.components.DropDownPopupButton;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Map;
 
 
 /**

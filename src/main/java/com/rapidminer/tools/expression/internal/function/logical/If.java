@@ -18,19 +18,14 @@
 */
 package com.rapidminer.tools.expression.internal.function.logical;
 
-import java.util.Date;
-import java.util.concurrent.Callable;
-
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.expression.DoubleCallable;
-import com.rapidminer.tools.expression.ExpressionEvaluator;
-import com.rapidminer.tools.expression.ExpressionParsingException;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInputException;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.internal.SimpleExpressionEvaluator;
 import com.rapidminer.tools.expression.internal.function.AbstractFunction;
+
+import java.util.Date;
+import java.util.concurrent.Callable;
 
 
 /**

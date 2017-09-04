@@ -18,37 +18,27 @@
  */
 package com.rapidminer.operator.features.selection;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.MissingIOObjectException;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
-import com.rapidminer.operator.ValueString;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceCriterion;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.math.AnovaCalculator;
 import com.rapidminer.tools.math.SignificanceCalculationException;
 import com.rapidminer.tools.math.SignificanceTestResult;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

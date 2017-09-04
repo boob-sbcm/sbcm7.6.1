@@ -18,17 +18,6 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.text.DateFormat;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.Process;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
@@ -53,6 +42,11 @@ import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.text.DateFormat;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.*;
 
 
 /**

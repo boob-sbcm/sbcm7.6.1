@@ -19,14 +19,13 @@
 package com.rapidminer.example.test;
 
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.table.DataRow;
 import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.test_utils.RapidAssert;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 
 /**

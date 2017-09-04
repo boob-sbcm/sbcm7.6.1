@@ -18,19 +18,13 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.Component;
-import java.util.Collection;
-
-import javax.swing.Action;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.Icon;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JList;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Collection;
 
 
 /**

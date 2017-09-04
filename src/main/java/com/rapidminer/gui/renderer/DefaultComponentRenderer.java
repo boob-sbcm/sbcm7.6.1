@@ -21,7 +21,7 @@ package com.rapidminer.gui.renderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

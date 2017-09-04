@@ -18,9 +18,9 @@
 */
 package com.rapidminer.tools.expression.internal.function.comparison;
 
-import java.util.Date;
-
 import com.rapidminer.tools.expression.FunctionDescription;
+
+import java.util.Date;
 
 
 /**

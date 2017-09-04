@@ -18,14 +18,6 @@
 */
 package com.rapidminer.example.test;
 
-import static junit.framework.Assert.assertEquals;
-
-import java.io.Reader;
-import java.io.StringReader;
-import java.util.Iterator;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -35,6 +27,13 @@ import com.rapidminer.example.table.SparseFormatDataRowReader;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.att.AttributeSet;
+import org.junit.Test;
+
+import java.io.Reader;
+import java.io.StringReader;
+import java.util.Iterator;
+
+import static junit.framework.Assert.assertEquals;
 
 
 /**

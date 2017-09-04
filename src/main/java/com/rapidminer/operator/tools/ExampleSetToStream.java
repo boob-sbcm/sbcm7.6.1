@@ -18,37 +18,18 @@
 */
 package com.rapidminer.operator.tools;
 
-import java.io.DataInput;
-import java.io.DataInputStream;
-import java.io.DataOutput;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
-import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.example.table.DoubleSparseArrayDataRow;
-import com.rapidminer.example.table.NominalMapping;
-import com.rapidminer.example.table.PolynominalMapping;
-import com.rapidminer.example.table.SparseDataRow;
+import com.rapidminer.example.*;
+import com.rapidminer.example.table.*;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.operator.Annotations;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+
+import java.io.*;
+import java.nio.charset.Charset;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

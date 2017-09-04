@@ -18,34 +18,6 @@
  */
 package com.rapidminer.gui.tools;
 
-import java.awt.AlphaComposite;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Paint;
-import java.awt.RenderingHints;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
-import java.util.logging.Level;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.Timer;
-
 import com.rapidminer.gui.license.LicenseTools;
 import com.rapidminer.license.License;
 import com.rapidminer.tools.FontTools;
@@ -54,6 +26,20 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.plugin.Plugin;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import javax.swing.Timer;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

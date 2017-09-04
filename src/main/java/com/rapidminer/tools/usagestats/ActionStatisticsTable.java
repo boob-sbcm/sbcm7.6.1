@@ -18,16 +18,11 @@
 */
 package com.rapidminer.tools.usagestats;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import com.rapidminer.tools.usagestats.ActionStatisticsCollector.Key;
 
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
-
-import com.rapidminer.tools.usagestats.ActionStatisticsCollector.Key;
+import java.util.*;
 
 
 /**

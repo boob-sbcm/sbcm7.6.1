@@ -18,23 +18,16 @@
  */
 package com.rapidminer;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Observable;
-import java.util.Set;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.operator.Value;
 import com.rapidminer.parameter.UndefinedMacroError;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Tools;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 /**

@@ -18,20 +18,16 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.util.List;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeList;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.util.List;
 
 
 /**

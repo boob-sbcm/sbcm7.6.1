@@ -22,7 +22,7 @@ import com.rapidminer.gui.tools.ResourceMenu;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 
-import javax.swing.Icon;
+import javax.swing.*;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 

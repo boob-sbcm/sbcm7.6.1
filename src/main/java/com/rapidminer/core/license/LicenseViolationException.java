@@ -18,14 +18,14 @@
 */
 package com.rapidminer.core.license;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.license.violation.LicenseViolation;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.I18N;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

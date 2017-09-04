@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.List;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
@@ -29,6 +27,8 @@ import com.rapidminer.operator.learner.SimplePredictionModel;
 import com.rapidminer.operator.learner.meta.ConfidenceVoteModel;
 import com.rapidminer.operator.learner.meta.MetaModel;
 import com.rapidminer.operator.learner.meta.SimpleVoteModel;
+
+import java.util.List;
 
 
 /**

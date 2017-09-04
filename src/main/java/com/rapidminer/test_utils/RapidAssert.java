@@ -18,18 +18,6 @@
 */
 package com.rapidminer.test_utils;
 
-import java.text.MessageFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-
-import org.junit.Assert;
-import org.junit.ComparisonFailure;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -39,8 +27,12 @@ import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.meta.ParameterValue;
 import com.rapidminer.tools.Ontology;
-
 import junit.framework.AssertionFailedError;
+import org.junit.Assert;
+import org.junit.ComparisonFailure;
+
+import java.text.MessageFormat;
+import java.util.*;
 
 
 /**

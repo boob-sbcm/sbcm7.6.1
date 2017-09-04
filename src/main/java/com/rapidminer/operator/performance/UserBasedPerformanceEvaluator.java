@@ -18,22 +18,18 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorCapability;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ValueDouble;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

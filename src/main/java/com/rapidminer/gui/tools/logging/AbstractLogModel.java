@@ -18,20 +18,14 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.util.AbstractList;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.RandomAccess;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-
 import com.rapidminer.gui.tools.ScaledImageIcon;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

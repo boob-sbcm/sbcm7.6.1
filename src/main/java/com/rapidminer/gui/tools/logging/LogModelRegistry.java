@@ -18,14 +18,14 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-
 import com.rapidminer.gui.tools.Registry;
 import com.rapidminer.gui.tools.RegistryEvent;
 import com.rapidminer.gui.tools.RegistryEvent.RegistryEventType;
 import com.rapidminer.gui.tools.RegistryListener;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Locale;
 
 
 /**

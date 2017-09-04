@@ -18,11 +18,6 @@
 */
 package com.rapidminer.parameter;
 
-import java.util.Collections;
-import java.util.Vector;
-
-import org.w3c.dom.Element;
-
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.MetaDataChangeListener;
@@ -32,6 +27,10 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.ModelMetaData;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
+
+import java.util.Collections;
+import java.util.Vector;
 
 
 /**

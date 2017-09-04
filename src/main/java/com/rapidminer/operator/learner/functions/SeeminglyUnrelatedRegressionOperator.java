@@ -18,46 +18,29 @@
 */
 package com.rapidminer.operator.learner.functions;
 
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.M5_PRIME;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.PARAMETER_ELIMINATE_COLINEAR_FEATURES;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.PARAMETER_FEATURE_SELECTION;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.PARAMETER_MIN_TOLERANCE;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.PARAMETER_RIDGE;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.PARAMETER_USE_BIAS;
-import static com.rapidminer.operator.learner.functions.linear.LinearRegression.SELECTION_METHODS;
+import Jama.Matrix;
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.Attributes;
+import com.rapidminer.example.Example;
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.learner.AbstractLearner;
+import com.rapidminer.operator.learner.functions.linear.LinearRegression;
+import com.rapidminer.operator.learner.functions.linear.LinearRegressionMethod;
+import com.rapidminer.operator.ports.InputPortExtender;
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+import com.rapidminer.parameter.conditions.EqualTypeCondition;
+import com.rapidminer.tools.OperatorService;
+import com.rapidminer.tools.container.Pair;
+import com.rapidminer.tools.math.matrix.CovarianceMatrix;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 
-import Jama.Matrix;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.learner.AbstractLearner;
-import com.rapidminer.operator.learner.functions.linear.LinearRegression;
-import com.rapidminer.operator.learner.functions.linear.LinearRegressionMethod;
-import com.rapidminer.operator.ports.InputPortExtender;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.parameter.conditions.BooleanParameterCondition;
-import com.rapidminer.parameter.conditions.EqualTypeCondition;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.container.Pair;
-import com.rapidminer.tools.math.matrix.CovarianceMatrix;
+import static com.rapidminer.operator.learner.functions.linear.LinearRegression.*;
 
 
 /**

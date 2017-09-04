@@ -18,31 +18,6 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.Calendar;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JSpinner;
-import javax.swing.KeyStroke;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.WindowConstants;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
@@ -50,6 +25,15 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeCronExpression;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Calendar;
 
 
 /**

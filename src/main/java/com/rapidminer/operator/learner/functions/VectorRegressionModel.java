@@ -18,6 +18,7 @@
 */
 package com.rapidminer.operator.learner.functions;
 
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -29,8 +30,6 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
-
-import Jama.Matrix;
 
 
 /**

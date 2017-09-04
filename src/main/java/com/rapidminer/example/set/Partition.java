@@ -18,10 +18,10 @@
 */
 package com.rapidminer.example.set;
 
+import com.rapidminer.tools.LogService;
+
 import java.io.Serializable;
 import java.util.logging.Level;
-
-import com.rapidminer.tools.LogService;
 
 
 /**

@@ -18,7 +18,7 @@
 */
 package com.rapidminer.report;
 
-import java.awt.Graphics;
+import java.awt.*;
 
 
 /**

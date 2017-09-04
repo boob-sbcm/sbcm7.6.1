@@ -18,20 +18,14 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
-
-import javax.swing.ImageIcon;
-
 import com.rapidminer.core.io.data.ColumnMetaData;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
+import java.util.*;
 
 
 /**

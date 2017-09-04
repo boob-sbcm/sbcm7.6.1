@@ -18,15 +18,15 @@
 */
 package com.rapidminer.gui.metadata;
 
-import java.awt.Component;
+import com.rapidminer.gui.flow.ExampleSetMetaDataTableModel;
+import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
+import com.rapidminer.operator.ports.metadata.MetaData;
+
+import java.awt.*;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import com.rapidminer.gui.flow.ExampleSetMetaDataTableModel;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
 
 
 /**

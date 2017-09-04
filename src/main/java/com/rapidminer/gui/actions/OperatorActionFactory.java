@@ -18,12 +18,11 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.util.List;
-
-import javax.swing.Action;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceMenu;
+
+import javax.swing.*;
+import java.util.List;
 
 
 /**

@@ -18,6 +18,11 @@
 */
 package com.rapidminer.tools.cipher;
 
+import com.rapidminer.tools.FileSystemService;
+import com.rapidminer.tools.LogService;
+
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -27,12 +32,6 @@ import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.logging.Level;
-
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.LogService;
 
 
 /**

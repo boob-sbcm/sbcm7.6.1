@@ -28,7 +28,7 @@ import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 
-import java.awt.Component;
+import java.awt.*;
 import java.util.logging.Level;
 
 

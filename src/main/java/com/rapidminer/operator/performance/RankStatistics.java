@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.TreeMap;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -31,6 +25,12 @@ import com.rapidminer.example.set.ConditionedExampleSet;
 import com.rapidminer.example.set.NoMissingAttributesCondition;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.tools.ExpressionEvaluationException;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.TreeMap;
 
 
 /**

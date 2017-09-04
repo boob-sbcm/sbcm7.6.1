@@ -18,29 +18,6 @@
  */
 package com.rapidminer.gui.plotter;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Polygon;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.MainFrame;
@@ -51,18 +28,19 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.ModelMetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeEnumeration;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.tools.FontTools;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.Tools;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.math.MathFunctions;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

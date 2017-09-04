@@ -18,6 +18,11 @@
 */
 package com.rapidminer.repository.resource;
 
+import com.rapidminer.repository.DataEntry;
+import com.rapidminer.repository.Entry;
+import com.rapidminer.repository.Folder;
+import com.rapidminer.repository.RepositoryException;
+
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Collections;
@@ -27,11 +32,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.RepositoryException;
 
 
 /**

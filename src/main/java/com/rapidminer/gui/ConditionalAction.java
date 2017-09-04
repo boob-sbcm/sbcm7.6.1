@@ -18,14 +18,11 @@
 */
 package com.rapidminer.gui;
 
+import javax.swing.*;
 import java.lang.ref.WeakReference;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.AbstractAction;
-import javax.swing.Icon;
-import javax.swing.SwingUtilities;
 
 
 /**

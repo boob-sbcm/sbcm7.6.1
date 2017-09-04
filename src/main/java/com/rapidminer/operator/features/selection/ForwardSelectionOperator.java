@@ -28,11 +28,7 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
 

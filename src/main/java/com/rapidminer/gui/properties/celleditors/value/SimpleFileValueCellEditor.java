@@ -21,7 +21,7 @@ package com.rapidminer.gui.properties.celleditors.value;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeFile;
 
-import java.awt.GridBagConstraints;
+import java.awt.*;
 
 
 /**

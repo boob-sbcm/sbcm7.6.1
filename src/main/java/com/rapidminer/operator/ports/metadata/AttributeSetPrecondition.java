@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.ports.metadata;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.ports.InputPort;
@@ -30,6 +26,10 @@ import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

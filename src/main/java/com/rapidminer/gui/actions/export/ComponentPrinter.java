@@ -18,18 +18,16 @@
  */
 package com.rapidminer.gui.actions.export;
 
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.print.PageFormat;
-import java.awt.print.Pageable;
-import java.awt.print.Printable;
-
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.license.LicenseTools;
 import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.tools.FontTools;
+
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.awt.print.PageFormat;
+import java.awt.print.Pageable;
+import java.awt.print.Printable;
 
 
 /**

@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.dialogs.AboutBox;
+
+import java.awt.event.ActionEvent;
 
 
 /**

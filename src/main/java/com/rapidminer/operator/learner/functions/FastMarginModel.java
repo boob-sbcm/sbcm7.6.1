@@ -18,22 +18,17 @@
 */
 package com.rapidminer.operator.learner.functions;
 
-import java.util.Iterator;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.FastExample2SparseTransform;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.Tools;
-
 import de.bwaldvogel.liblinear.FeatureNode;
 import de.bwaldvogel.liblinear.Linear;
 import de.bwaldvogel.liblinear.Model;
+
+import java.util.Iterator;
 
 
 /**

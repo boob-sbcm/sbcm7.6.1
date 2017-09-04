@@ -18,12 +18,12 @@
 */
 package com.rapidminer.operator.learner.tree;
 
+import com.rapidminer.tools.math.MathFunctions;
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-
-import com.rapidminer.tools.math.MathFunctions;
 
 
 /**

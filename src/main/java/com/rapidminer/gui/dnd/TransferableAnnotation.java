@@ -18,15 +18,15 @@
 */
 package com.rapidminer.gui.dnd;
 
+import com.rapidminer.gui.flow.processrendering.annotations.model.OperatorAnnotation;
+import com.rapidminer.gui.flow.processrendering.annotations.model.ProcessAnnotation;
+import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
+
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.util.Arrays;
-
-import com.rapidminer.gui.flow.processrendering.annotations.model.OperatorAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.ProcessAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 
 
 /**

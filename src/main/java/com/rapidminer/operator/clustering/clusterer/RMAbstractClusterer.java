@@ -18,25 +18,10 @@
  */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.ProcessSetupError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
@@ -47,6 +32,10 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
 import com.rapidminer.tools.math.similarity.DistanceMeasureHelper;
 import com.rapidminer.tools.math.similarity.DistanceMeasures;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 /**

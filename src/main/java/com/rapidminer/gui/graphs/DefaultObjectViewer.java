@@ -21,7 +21,7 @@ package com.rapidminer.gui.graphs;
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.tools.ObjectVisualizerService;
 
-import javax.swing.JComponent;
+import javax.swing.*;
 
 
 /**

@@ -26,14 +26,10 @@ import com.rapidminer.gui.new_plotter.configuration.ValueGrouping.GroupingType;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.tools.ResourceLabel;
 
-import java.awt.GridBagConstraints;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JSpinner;
-import javax.swing.SpinnerNumberModel;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.*;
 
 
 /**

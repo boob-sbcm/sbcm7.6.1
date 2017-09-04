@@ -18,44 +18,28 @@
 */
 package com.rapidminer.operator.visualization;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.InputPortExtender;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.OutputPortExtender;
-import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.Precondition;
-import com.rapidminer.operator.ports.metadata.PredictionModelMetaData;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.ROCBias;
 import com.rapidminer.tools.math.ROCData;
 import com.rapidminer.tools.math.ROCDataGenerator;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

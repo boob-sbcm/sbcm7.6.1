@@ -18,19 +18,7 @@
 */
 package com.rapidminer.core.license;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-
-import com.rapidminer.license.AlreadyRegisteredException;
-import com.rapidminer.license.ConstraintNotRestrictedException;
-import com.rapidminer.license.InvalidProductException;
-import com.rapidminer.license.License;
-import com.rapidminer.license.LicenseManager;
-import com.rapidminer.license.LicenseManagerListener;
-import com.rapidminer.license.LicenseValidationException;
-import com.rapidminer.license.StudioLicenseConstants;
-import com.rapidminer.license.UnknownProductException;
+import com.rapidminer.license.*;
 import com.rapidminer.license.location.LicenseLoadingException;
 import com.rapidminer.license.location.LicenseLocation;
 import com.rapidminer.license.location.LicenseStoringException;
@@ -39,6 +27,10 @@ import com.rapidminer.license.product.Product;
 import com.rapidminer.license.utils.Pair;
 import com.rapidminer.license.violation.LicenseConstraintViolation;
 import com.rapidminer.license.violation.LicenseViolation;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Objects;
 
 
 /**

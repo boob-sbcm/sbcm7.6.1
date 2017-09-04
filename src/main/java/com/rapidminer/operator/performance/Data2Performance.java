@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -31,12 +29,10 @@ import com.rapidminer.operator.ValueDouble;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
 import com.rapidminer.operator.ports.metadata.ParameterConditionedPrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.util.List;
 
 
 /**

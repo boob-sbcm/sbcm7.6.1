@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -35,12 +28,7 @@ import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.operator.preprocessing.PreprocessingOperator;
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
@@ -50,6 +38,12 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

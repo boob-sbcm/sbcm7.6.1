@@ -20,7 +20,7 @@ package com.rapidminer.gui.new_plotter.utility;
 
 import com.rapidminer.gui.new_plotter.listener.SeriesFormatListener;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

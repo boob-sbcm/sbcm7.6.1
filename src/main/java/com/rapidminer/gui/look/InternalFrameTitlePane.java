@@ -18,16 +18,9 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.LayoutManager;
-
-import javax.swing.Icon;
-import javax.swing.JInternalFrame;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.awt.*;
 
 
 /**

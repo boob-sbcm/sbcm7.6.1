@@ -18,10 +18,10 @@
 */
 package com.rapidminer.operator.generator;
 
+import com.rapidminer.tools.RandomGenerator;
+
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.tools.RandomGenerator;
 
 
 /**

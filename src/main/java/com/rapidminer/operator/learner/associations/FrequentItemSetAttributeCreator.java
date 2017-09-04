@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.learner.associations;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -35,6 +31,10 @@ import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
 import com.rapidminer.operator.ports.metadata.SetRelation;
 import com.rapidminer.tools.Ontology;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
 
 
 /**

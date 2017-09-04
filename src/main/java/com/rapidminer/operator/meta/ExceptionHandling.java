@@ -18,24 +18,16 @@
  */
 package com.rapidminer.operator.meta;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.Value;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.MultiInputPortPairExtender;
-import com.rapidminer.operator.ports.MultiOutputPortPairExtender;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.Port;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.LogService;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

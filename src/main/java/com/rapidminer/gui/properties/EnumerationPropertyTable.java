@@ -25,11 +25,10 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeEnumeration;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 
-import java.awt.Point;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.util.List;
-
-import javax.swing.table.DefaultTableModel;
 
 
 /**

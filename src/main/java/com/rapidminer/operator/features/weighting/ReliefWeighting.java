@@ -18,18 +18,7 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeSet;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.OperatorCapability;
 import com.rapidminer.operator.OperatorDescription;
@@ -39,6 +28,8 @@ import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
 
 
 /**

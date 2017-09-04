@@ -26,11 +26,9 @@ import com.rapidminer.operator.Operator;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.util.List;
-
-import javax.swing.JPanel;
 
 
 /**

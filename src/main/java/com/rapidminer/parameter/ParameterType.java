@@ -18,17 +18,6 @@
 */
 package com.rapidminer.parameter;
 
-import java.io.Serializable;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.logging.Level;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.Operator;
@@ -36,6 +25,16 @@ import com.rapidminer.parameter.conditions.ParameterCondition;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.io.Serializable;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.logging.Level;
 
 
 /**

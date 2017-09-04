@@ -18,33 +18,20 @@
 */
 package com.rapidminer.operator.learner.lazy;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.example.Tools;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
 import com.rapidminer.operator.ports.metadata.ParameterConditionedPrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

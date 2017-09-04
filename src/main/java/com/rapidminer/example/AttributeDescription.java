@@ -18,9 +18,9 @@
 */
 package com.rapidminer.example;
 
-import java.io.Serializable;
-
 import com.rapidminer.tools.Ontology;
+
+import java.io.Serializable;
 
 
 /**

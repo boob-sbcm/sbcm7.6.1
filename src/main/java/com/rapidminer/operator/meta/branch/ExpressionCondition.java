@@ -21,12 +21,7 @@ package com.rapidminer.operator.meta.branch;
 import com.rapidminer.generator.GenerationException;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionRegistry;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.MacroResolver;
+import com.rapidminer.tools.expression.*;
 
 
 /**

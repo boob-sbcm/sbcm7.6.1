@@ -18,17 +18,13 @@
 */
 package com.rapidminer.gui.actions;
 
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.components.ToggleDropDownButton;
+
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.util.Collection;
 import java.util.LinkedList;
-
-import javax.swing.Action;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JToggleButton;
-
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.components.ToggleDropDownButton;
 
 
 /**

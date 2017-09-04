@@ -18,11 +18,9 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
-
-import javax.swing.Popup;
-import javax.swing.PopupFactory;
 
 
 /**

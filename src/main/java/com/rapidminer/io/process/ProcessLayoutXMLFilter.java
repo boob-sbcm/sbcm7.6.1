@@ -18,20 +18,15 @@
  */
 package com.rapidminer.io.process;
 
-import java.awt.Point;
-import java.awt.geom.Rectangle2D;
-import java.util.HashMap;
-import java.util.Map;
-
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.ports.Port;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.FlagUserData;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.UserData;
-import com.rapidminer.operator.ports.Port;
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

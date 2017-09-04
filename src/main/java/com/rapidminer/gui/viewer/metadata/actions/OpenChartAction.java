@@ -18,14 +18,6 @@
 */
 package com.rapidminer.gui.viewer.metadata.actions;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.event.ActionEvent;
-
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.gui.plotter.PlotterConfigurationSettings;
 import com.rapidminer.gui.plotter.PlotterPanel;
@@ -36,6 +28,10 @@ import com.rapidminer.gui.viewer.metadata.model.AbstractAttributeStatisticsModel
 import com.rapidminer.gui.viewer.metadata.model.DateTimeAttributeStatisticsModel;
 import com.rapidminer.gui.viewer.metadata.model.NominalAttributeStatisticsModel;
 import com.rapidminer.gui.viewer.metadata.model.NumericalAttributeStatisticsModel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

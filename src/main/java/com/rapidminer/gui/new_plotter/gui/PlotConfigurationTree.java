@@ -18,15 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.gui;
 
-import javax.swing.DropMode;
-import javax.swing.JTree;
-import javax.swing.TransferHandler;
-import javax.swing.event.TreeModelEvent;
-import javax.swing.event.TreeModelListener;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.look.Colors;
@@ -35,6 +26,13 @@ import com.rapidminer.gui.new_plotter.gui.cellrenderer.PlotConfigurationTreeCell
 import com.rapidminer.gui.new_plotter.gui.dnd.DataTableColumnListTransferHandler;
 import com.rapidminer.gui.new_plotter.gui.dnd.PlotConfigurationTreeTransferHandler;
 import com.rapidminer.gui.new_plotter.gui.treenodes.PlotConfigurationTreeNode;
+
+import javax.swing.*;
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
+import javax.swing.tree.TreeSelectionModel;
 
 
 /**

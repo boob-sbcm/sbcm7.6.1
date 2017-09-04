@@ -18,15 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
@@ -39,13 +30,7 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.SetRelation;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.operator.preprocessing.PreprocessingOperator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.parameter.conditions.OrParameterCondition;
@@ -53,6 +38,9 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.math.container.Range;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.*;
 
 
 /**

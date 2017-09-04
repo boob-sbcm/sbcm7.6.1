@@ -18,12 +18,6 @@
 */
 package com.rapidminer.gui.renderer.models;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
@@ -34,6 +28,9 @@ import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.features.transformation.SVDModel;
 import com.rapidminer.report.Reportable;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

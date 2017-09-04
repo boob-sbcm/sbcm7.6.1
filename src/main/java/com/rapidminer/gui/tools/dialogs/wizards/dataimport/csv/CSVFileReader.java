@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.tools.dialogs.wizards.dataimport.csv;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.jfree.util.Log;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
@@ -42,6 +31,16 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.tools.CSVParseException;
 import com.rapidminer.tools.LineParser;
 import com.rapidminer.tools.Ontology;
+import org.jfree.util.Log;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

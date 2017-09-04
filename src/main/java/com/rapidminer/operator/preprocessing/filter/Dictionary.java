@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -35,6 +30,11 @@ import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.studio.internal.ProcessStoppedRuntimeException;
 import com.rapidminer.tools.Tools;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 
 /**

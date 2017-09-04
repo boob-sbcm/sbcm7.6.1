@@ -18,10 +18,6 @@
 */
 package com.rapidminer.studio.io.gui.internal;
 
-import java.awt.Dialog.ModalityType;
-import java.awt.Window;
-import java.nio.file.Path;
-
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.core.io.data.source.DataSourceFactory;
 import com.rapidminer.core.io.data.source.FileDataSourceFactory;
@@ -32,6 +28,10 @@ import com.rapidminer.studio.io.gui.internal.steps.LocationSelectionStep;
 import com.rapidminer.studio.io.gui.internal.steps.StoreToRepositoryStep;
 import com.rapidminer.studio.io.gui.internal.steps.TypeSelectionStep;
 import com.rapidminer.studio.io.gui.internal.steps.configuration.ConfigureDataStep;
+
+import java.awt.Dialog.ModalityType;
+import java.awt.*;
+import java.nio.file.Path;
 
 
 /**

@@ -18,16 +18,6 @@
 */
 package com.rapidminer.operator.features.aggregation;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
 import com.rapidminer.example.Attribute;
@@ -35,27 +25,21 @@ import com.rapidminer.example.ExampleSet;
 import com.rapidminer.generator.AlgebraicOrGenerator;
 import com.rapidminer.generator.FeatureGenerator;
 import com.rapidminer.generator.MinMaxGenerator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.*;
 
 
 /**

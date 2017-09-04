@@ -18,9 +18,7 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import javax.swing.AbstractButton;
-import javax.swing.JComponent;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 
 

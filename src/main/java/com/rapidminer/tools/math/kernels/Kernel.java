@@ -18,21 +18,17 @@
 */
 package com.rapidminer.tools.math.kernels;
 
-import java.io.Serializable;
-import java.util.Collection;
-import java.util.LinkedList;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.learner.functions.kernel.SupportVector;
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.io.Serializable;
+import java.util.Collection;
+import java.util.LinkedList;
 
 
 /**

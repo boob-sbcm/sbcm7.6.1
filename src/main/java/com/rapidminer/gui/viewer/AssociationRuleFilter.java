@@ -18,30 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JSlider;
-import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingConstants;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookTools;
 import com.rapidminer.gui.properties.PropertyPanel;
@@ -52,6 +28,19 @@ import com.rapidminer.operator.learner.associations.AssociationRule;
 import com.rapidminer.operator.learner.associations.AssociationRuleGenerator;
 import com.rapidminer.operator.learner.associations.AssociationRules;
 import com.rapidminer.operator.learner.associations.Item;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

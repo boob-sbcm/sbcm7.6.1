@@ -18,14 +18,6 @@
 */
 package com.rapidminer.example.utils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.function.IntToDoubleFunction;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
@@ -34,6 +26,10 @@ import com.rapidminer.example.table.DataRow;
 import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.example.table.DataRowReader;
 import com.rapidminer.example.table.ExampleTable;
+
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.function.IntToDoubleFunction;
 
 
 /**

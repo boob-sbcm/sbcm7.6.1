@@ -18,16 +18,14 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Paint;
-import java.util.Set;
-
-import javax.swing.JComponent;
-
-import org.apache.commons.collections15.Transformer;
-
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.renderers.Renderer;
+import org.apache.commons.collections15.Transformer;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Set;
 
 
 /**

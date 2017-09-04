@@ -18,21 +18,14 @@
 */
 package com.rapidminer.gui.tools.table;
 
-import java.awt.Component;
-import java.awt.Rectangle;
-import java.util.EventObject;
-
-import javax.swing.JComponent;
-import javax.swing.JTable;
-import javax.swing.event.CellEditorListener;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.TableColumnModelEvent;
-import javax.swing.event.TableColumnModelListener;
+import javax.swing.*;
+import javax.swing.event.*;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
+import java.awt.*;
+import java.util.EventObject;
 
 
 /**

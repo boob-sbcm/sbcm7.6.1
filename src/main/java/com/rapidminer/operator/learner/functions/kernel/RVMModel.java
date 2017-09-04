@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import java.util.Iterator;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.ProcessStoppedException;
+
+import java.util.Iterator;
 
 
 /**

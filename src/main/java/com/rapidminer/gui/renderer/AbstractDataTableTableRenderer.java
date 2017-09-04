@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.renderer;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.processeditor.results.ResultDisplayTools;
@@ -43,6 +36,10 @@ import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.report.Tableable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.List;
 
 
 /**

@@ -20,20 +20,9 @@ package com.rapidminer.gui;
 
 import com.rapidminer.gui.tools.SwingTools;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-
-import javax.swing.JComponent;
-import javax.swing.JLayer;
-import javax.swing.JPanel;
-import javax.swing.JToolBar;
+import javax.swing.*;
 import javax.swing.plaf.LayerUI;
+import java.awt.*;
 
 
 /**

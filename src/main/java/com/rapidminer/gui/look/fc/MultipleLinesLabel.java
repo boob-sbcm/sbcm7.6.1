@@ -18,16 +18,9 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Insets;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Vector;
-
-import javax.swing.JComponent;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
 
 
 /**

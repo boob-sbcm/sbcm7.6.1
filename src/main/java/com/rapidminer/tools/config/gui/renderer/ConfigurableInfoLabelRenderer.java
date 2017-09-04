@@ -18,20 +18,14 @@
 */
 package com.rapidminer.tools.config.gui.renderer;
 
-import java.awt.Component;
-import java.awt.Image;
-import java.awt.image.ImageObserver;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JList;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.config.Configurable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.ImageObserver;
 
 
 /**

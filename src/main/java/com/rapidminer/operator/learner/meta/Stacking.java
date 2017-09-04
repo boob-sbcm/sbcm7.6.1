@@ -27,11 +27,7 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDTransformationRule;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 

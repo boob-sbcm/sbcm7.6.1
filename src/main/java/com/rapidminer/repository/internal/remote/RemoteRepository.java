@@ -18,14 +18,14 @@
 */
 package com.rapidminer.repository.internal.remote;
 
+import com.rapidminer.repository.Repository;
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.tools.PasswordInputCanceledException;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
-
-import com.rapidminer.repository.Repository;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.tools.PasswordInputCanceledException;
 
 
 /**

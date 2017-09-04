@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator.visualization;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
 import com.rapidminer.operator.ResultObjectAdapter;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

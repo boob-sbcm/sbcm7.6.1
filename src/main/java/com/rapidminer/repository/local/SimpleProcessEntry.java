@@ -18,15 +18,15 @@
 */
 package com.rapidminer.repository.local;
 
-import java.io.File;
-import java.io.IOException;
-
 import com.rapidminer.RepositoryProcessLocation;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.repository.Folder;
 import com.rapidminer.repository.ProcessEntry;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tools.Tools;
+
+import java.io.File;
+import java.io.IOException;
 
 
 /**

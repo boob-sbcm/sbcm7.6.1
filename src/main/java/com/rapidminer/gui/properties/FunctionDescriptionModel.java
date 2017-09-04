@@ -18,17 +18,11 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.expression.FunctionDescription;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

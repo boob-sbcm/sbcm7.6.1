@@ -18,16 +18,11 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.tools.expression.internal.BasicConstants;
 import com.rapidminer.tools.expression.internal.StandardFunctionsWithConstants;
 import com.rapidminer.tools.expression.internal.StandardOperations;
+
+import java.util.*;
 
 
 /**

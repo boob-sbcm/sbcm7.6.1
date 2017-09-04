@@ -18,57 +18,13 @@
 */
 package com.rapidminer.gui.viewer.metadata;
 
-import java.awt.BasicStroke;
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.RenderingHints;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.font.TextAttribute;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
-import org.jfree.chart.ChartPanel;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.gui.look.RapidLookAndFeel;
 import com.rapidminer.gui.tools.AttributeGuiTools;
 import com.rapidminer.gui.tools.AttributeGuiTools.ColorScope;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.viewer.metadata.actions.AttributePopupMenu;
-import com.rapidminer.gui.viewer.metadata.actions.CopyAttributeNameAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyDateTimeFromValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyDateTimeUntilValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyNumAvgValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyNumDeviationValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyNumMaximumValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.CopyNumMinimumValueAction;
-import com.rapidminer.gui.viewer.metadata.actions.OpenChartAction;
-import com.rapidminer.gui.viewer.metadata.actions.ShowNomValueAction;
+import com.rapidminer.gui.viewer.metadata.actions.*;
 import com.rapidminer.gui.viewer.metadata.event.AttributeStatisticsEvent;
 import com.rapidminer.gui.viewer.metadata.event.AttributeStatisticsEventListener;
 import com.rapidminer.gui.viewer.metadata.model.AbstractAttributeStatisticsModel;
@@ -79,6 +35,18 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.ValueAndCount;
+import org.jfree.chart.ChartPanel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.font.TextAttribute;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

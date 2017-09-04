@@ -18,9 +18,9 @@
 */
 package com.rapidminer.example.set;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

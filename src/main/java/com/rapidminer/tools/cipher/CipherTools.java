@@ -19,20 +19,20 @@
 package com.rapidminer.tools.cipher;
 
 import com.rapidminer.io.Base64;
-//
-// import sun.misc.BASE64Decoder;
-// import sun.misc.BASE64Encoder;
-
-import java.io.IOException;
-import java.security.InvalidKeyException;
-import java.security.Key;
-import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.xml.bind.DatatypeConverter;
+import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.Key;
+import java.security.NoSuchAlgorithmException;
+
+//
+// import sun.misc.BASE64Decoder;
+// import sun.misc.BASE64Encoder;
 
 
 /**

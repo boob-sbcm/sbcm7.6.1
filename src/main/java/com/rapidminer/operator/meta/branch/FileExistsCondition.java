@@ -18,10 +18,10 @@
 */
 package com.rapidminer.operator.meta.branch;
 
-import java.io.File;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import java.io.File;
 
 
 /**

@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.renderer.similarity;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.Random;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
@@ -39,6 +32,10 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.similarity.SimilarityMeasureObject;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Random;
 
 
 /**

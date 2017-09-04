@@ -27,9 +27,8 @@ package com.rapidminer.gui.tools.syntax;
  * package.
  */
 
-import java.awt.Color;
-
-import javax.swing.JPopupMenu;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

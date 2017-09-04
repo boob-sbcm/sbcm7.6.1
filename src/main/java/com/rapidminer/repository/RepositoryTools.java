@@ -18,11 +18,11 @@
 */
 package com.rapidminer.repository;
 
-import java.util.Comparator;
-
 import com.rapidminer.external.alphanum.AlphanumComparator;
 import com.rapidminer.external.alphanum.AlphanumComparator.AlphanumCaseSensitivity;
 import com.rapidminer.repository.RepositoryManager.RepositoryType;
+
+import java.util.Comparator;
 
 
 /**

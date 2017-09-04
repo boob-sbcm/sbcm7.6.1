@@ -18,20 +18,16 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map.Entry;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.PredictionModel;
+
+import java.io.Serializable;
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

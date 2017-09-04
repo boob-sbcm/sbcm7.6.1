@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.data;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.logging.Level;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.new_plotter.ConfigurationChangeResponse;
@@ -38,17 +31,12 @@ import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimensio
 import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
 import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent.DimensionConfigChangeType;
-import com.rapidminer.gui.new_plotter.utility.CategoricalColorProvider;
-import com.rapidminer.gui.new_plotter.utility.CategoricalSizeProvider;
-import com.rapidminer.gui.new_plotter.utility.ColorProvider;
-import com.rapidminer.gui.new_plotter.utility.ContinuousColorProvider;
-import com.rapidminer.gui.new_plotter.utility.ContinuousSizeProvider;
-import com.rapidminer.gui.new_plotter.utility.NumericalValueRange;
-import com.rapidminer.gui.new_plotter.utility.ShapeProvider;
-import com.rapidminer.gui.new_plotter.utility.SizeProvider;
-import com.rapidminer.gui.new_plotter.utility.ValueRange;
+import com.rapidminer.gui.new_plotter.utility.*;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

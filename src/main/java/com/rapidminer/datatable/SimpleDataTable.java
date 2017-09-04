@@ -18,17 +18,10 @@
 */
 package com.rapidminer.datatable;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-
 import com.rapidminer.tools.Tools;
+
+import java.io.Serializable;
+import java.util.*;
 
 
 /**

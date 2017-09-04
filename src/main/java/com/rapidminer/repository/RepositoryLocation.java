@@ -18,13 +18,13 @@
 */
 package com.rapidminer.repository;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.UserError;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.UserError;
 
 
 /**

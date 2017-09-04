@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.util.Vector;
-
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.util.Vector;
 
 
 /**

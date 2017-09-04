@@ -18,9 +18,6 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps;
 
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetMetaData;
@@ -36,14 +33,11 @@ import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.OperatorException;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryManager;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
 import com.rapidminer.studio.io.data.DataSetReader;
+
+import javax.swing.*;
 
 
 /**

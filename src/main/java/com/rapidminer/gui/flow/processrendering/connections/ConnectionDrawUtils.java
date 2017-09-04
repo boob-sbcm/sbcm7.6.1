@@ -18,20 +18,16 @@
 */
 package com.rapidminer.gui.flow.processrendering.connections;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Shape;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Point2D;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawUtils;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.Port;
+
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Point2D;
 
 
 /**

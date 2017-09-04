@@ -18,14 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-
-import javax.swing.JSeparator;
-import javax.swing.JToolBar;
-import javax.swing.SwingConstants;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

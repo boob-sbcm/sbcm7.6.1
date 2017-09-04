@@ -18,42 +18,21 @@
  */
 package com.rapidminer.operator.meta.branch;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.generator.GenerationException;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.MultiInputPortPairExtender;
-import com.rapidminer.operator.ports.MultiOutputPortPairExtender;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
 import com.rapidminer.operator.preprocessing.filter.ExampleFilter;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeExpression;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
-import com.rapidminer.parameter.conditions.AndParameterCondition;
-import com.rapidminer.parameter.conditions.BelowOrEqualOperatorVersionCondition;
-import com.rapidminer.parameter.conditions.EqualStringCondition;
-import com.rapidminer.parameter.conditions.NonEqualStringCondition;
-import com.rapidminer.parameter.conditions.OrParameterCondition;
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.conditions.*;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.expression.ExpressionParserBuilder;
 import com.rapidminer.tools.expression.internal.ExpressionParserUtils;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 
 /**

@@ -18,19 +18,17 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import org.apache.commons.collections15.Factory;
-
 import com.rapidminer.operator.clustering.ClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterNode;
 import com.rapidminer.tools.Tools;
-
 import edu.uci.ics.jung.graph.DelegateTree;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.Tree;
+import org.apache.commons.collections15.Factory;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

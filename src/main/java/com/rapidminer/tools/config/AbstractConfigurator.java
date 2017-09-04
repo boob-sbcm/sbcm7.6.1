@@ -18,14 +18,14 @@
 */
 package com.rapidminer.tools.config;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.conditions.ParameterCondition;
 import com.rapidminer.tools.I18N;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

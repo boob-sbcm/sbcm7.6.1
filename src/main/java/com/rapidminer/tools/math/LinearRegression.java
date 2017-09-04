@@ -18,14 +18,12 @@
 */
 package com.rapidminer.tools.math;
 
-import java.util.logging.Logger;
-
+import Jama.Matrix;
+import com.rapidminer.Process;
 import org.apache.commons.math3.linear.MatrixUtils;
 import org.apache.commons.math3.linear.RealMatrix;
 
-import com.rapidminer.Process;
-
-import Jama.Matrix;
+import java.util.logging.Logger;
 
 
 /**

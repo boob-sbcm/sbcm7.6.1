@@ -18,16 +18,6 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.Process;
 import com.rapidminer.ProcessListener;
@@ -37,20 +27,19 @@ import com.rapidminer.gui.actions.OperatorActionFactory.ResourceEntry;
 import com.rapidminer.gui.dnd.OperatorTransferHandler;
 import com.rapidminer.gui.flow.AutoWireThread;
 import com.rapidminer.gui.operatormenu.OperatorMenu;
-import com.rapidminer.gui.operatortree.actions.DeleteOperatorAction;
-import com.rapidminer.gui.operatortree.actions.InfoOperatorAction;
-import com.rapidminer.gui.operatortree.actions.ToggleActivationItem;
-import com.rapidminer.gui.operatortree.actions.ToggleAllBreakpointsItem;
-import com.rapidminer.gui.operatortree.actions.ToggleBreakpointItem;
+import com.rapidminer.gui.operatortree.actions.*;
 import com.rapidminer.gui.processeditor.ProcessEditor;
 import com.rapidminer.gui.tools.EditBlockingProgressThread;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.ProcessRootOperator;
+import com.rapidminer.operator.*;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

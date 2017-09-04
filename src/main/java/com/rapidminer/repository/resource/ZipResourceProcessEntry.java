@@ -18,12 +18,12 @@
 */
 package com.rapidminer.repository.resource;
 
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.tools.Tools;
+
 import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.tools.Tools;
 
 
 /**

@@ -18,17 +18,15 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.gui.properties.celleditors.value.PropertyValueCellEditor;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
+
+import javax.swing.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 
 /**

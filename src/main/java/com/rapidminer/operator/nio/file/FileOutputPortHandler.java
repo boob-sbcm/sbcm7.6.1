@@ -29,11 +29,7 @@ import com.rapidminer.parameter.ParameterTypeFile;
 import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.parameter.conditions.PortConnectedCondition;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 
 /**

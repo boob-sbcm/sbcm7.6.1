@@ -18,18 +18,14 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.util.Date;
+import com.rapidminer.tools.Tools;
 
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JTable;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
-
-import com.rapidminer.tools.Tools;
+import java.awt.*;
+import java.util.Date;
 
 
 /**

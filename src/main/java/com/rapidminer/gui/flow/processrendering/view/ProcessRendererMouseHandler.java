@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.view;
 
-import java.awt.Cursor;
-import java.awt.Point;
-import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.HashMap;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
-
-import javax.swing.JOptionPane;
-import javax.swing.JViewport;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawUtils;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
@@ -45,6 +30,17 @@ import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.Port;
 import com.rapidminer.operator.ports.PortException;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.InputEvent;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.HashMap;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Map;
 
 
 /**

@@ -18,11 +18,10 @@
 */
 package com.rapidminer.gui.flow.processrendering.view;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.swing.Timer;
 
 
 /**

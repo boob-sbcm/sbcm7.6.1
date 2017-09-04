@@ -3,10 +3,10 @@
  */
 package com.rapidminer.doc;
 
-import java.io.PrintWriter;
-
 import com.rapidminer.operator.Operator;
 import com.sun.javadoc.RootDoc;
+
+import java.io.PrintWriter;
 
 
 /**

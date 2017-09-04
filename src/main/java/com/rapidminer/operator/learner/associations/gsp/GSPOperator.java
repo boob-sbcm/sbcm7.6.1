@@ -18,41 +18,20 @@
 */
 package com.rapidminer.operator.learner.associations.gsp;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.logging.Level;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SortedExampleSet;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.AttributeParameterPrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

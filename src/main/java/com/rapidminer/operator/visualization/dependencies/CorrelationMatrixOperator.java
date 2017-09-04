@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.visualization.dependencies;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
@@ -32,6 +30,8 @@ import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.tools.math.MathFunctions;
+
+import java.util.List;
 
 
 /**

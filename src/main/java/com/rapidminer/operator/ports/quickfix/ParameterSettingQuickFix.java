@@ -22,12 +22,7 @@ import com.rapidminer.gui.properties.AttributesPropertyDialog;
 import com.rapidminer.gui.properties.ListPropertyDialog;
 import com.rapidminer.gui.tools.dialogs.SetParameterDialog;
 import com.rapidminer.operator.Operator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttributes;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeConfiguration;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 
 import java.util.Collection;
 import java.util.Collections;

@@ -18,26 +18,10 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.event;
 
-import java.awt.Cursor;
-import java.awt.Point;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Rectangle2D;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationDrawer;
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationsDecorator;
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationsVisualizer;
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationResizeHelper;
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationsModel;
-import com.rapidminer.gui.flow.processrendering.annotations.model.OperatorAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.ProcessAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotations;
+import com.rapidminer.gui.flow.processrendering.annotations.model.*;
 import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationStyle;
 import com.rapidminer.gui.flow.processrendering.event.ProcessRendererAnnotationEvent;
 import com.rapidminer.gui.flow.processrendering.event.ProcessRendererEventListener;
@@ -53,6 +37,15 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Rectangle2D;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

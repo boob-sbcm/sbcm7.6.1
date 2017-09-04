@@ -18,16 +18,6 @@
  */
 package com.rapidminer.gui;
 
-import java.awt.Dimension;
-import java.util.Date;
-import java.util.Iterator;
-
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
@@ -40,6 +30,13 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder.DefaultButtons;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.util.Date;
+import java.util.Iterator;
 
 
 /**

@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.features.selection;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
@@ -38,6 +35,9 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

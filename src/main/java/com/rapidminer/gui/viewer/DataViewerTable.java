@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Color;
-import java.awt.event.MouseEvent;
-import java.lang.ref.WeakReference;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.table.JTableHeader;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.ExampleSet;
@@ -47,6 +35,13 @@ import com.rapidminer.gui.viewer.metadata.model.NumericalAttributeStatisticsMode
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.table.JTableHeader;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.lang.ref.WeakReference;
+import java.util.*;
+import java.util.List;
 
 
 /**

@@ -18,22 +18,6 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JMenu;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.actions.ImportDataAction;
 import com.rapidminer.gui.actions.OpenAction;
@@ -51,6 +35,10 @@ import com.rapidminer.repository.ProcessEntry;
 import com.rapidminer.repository.RepositoryLocation;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

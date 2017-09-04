@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.view;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.TransferHandler;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.dnd.ReceivingOperatorTransferHandler;
@@ -48,6 +37,15 @@ import com.rapidminer.operator.io.RepositorySource;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.io.IOException;
+import java.util.Collections;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

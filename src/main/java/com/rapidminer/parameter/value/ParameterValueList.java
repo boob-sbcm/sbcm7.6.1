@@ -18,14 +18,10 @@
 */
 package com.rapidminer.parameter.value;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
+
+import java.util.*;
 
 
 /**

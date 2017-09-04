@@ -18,8 +18,7 @@
 */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.ArrayList;
-
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -32,7 +31,7 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.kernels.Kernel;
 
-import Jama.Matrix;
+import java.util.ArrayList;
 
 
 /**

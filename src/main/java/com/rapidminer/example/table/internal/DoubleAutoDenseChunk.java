@@ -18,11 +18,11 @@
 */
 package com.rapidminer.example.table.internal;
 
-import java.util.Arrays;
-
 import com.rapidminer.example.table.internal.AutoColumnUtils.DensityResult;
 import com.rapidminer.example.table.internal.DoubleAutoColumn.DoubleAutoChunk;
 import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
+
+import java.util.Arrays;
 
 
 /**

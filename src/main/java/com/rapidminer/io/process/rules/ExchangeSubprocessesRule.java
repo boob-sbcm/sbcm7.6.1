@@ -24,11 +24,10 @@ import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
 
 import java.util.LinkedList;
 import java.util.List;
-
-import org.w3c.dom.Element;
 
 
 /**

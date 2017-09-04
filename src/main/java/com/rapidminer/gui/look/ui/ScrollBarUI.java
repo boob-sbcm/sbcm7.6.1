@@ -18,24 +18,16 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Adjustable;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.look.GenericArrowButton;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicScrollBarUI;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollBar;
-import javax.swing.UIManager;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicScrollBarUI;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.look.GenericArrowButton;
 
 
 /**

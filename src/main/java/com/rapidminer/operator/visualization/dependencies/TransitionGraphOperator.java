@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.visualization.dependencies;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.ExampleVisualizer;
 import com.rapidminer.operator.Operator;
@@ -36,6 +34,8 @@ import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.ObjectVisualizerService;
+
+import java.util.List;
 
 
 /**

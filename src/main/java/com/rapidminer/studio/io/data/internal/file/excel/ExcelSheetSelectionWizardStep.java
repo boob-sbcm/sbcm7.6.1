@@ -18,12 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import java.util.Map;
-
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
@@ -33,6 +27,11 @@ import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
 import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
 import com.rapidminer.studio.io.data.HeaderRowNotFoundException;
 import com.rapidminer.studio.io.gui.internal.steps.AbstractWizardStep;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.util.Map;
 
 
 /**

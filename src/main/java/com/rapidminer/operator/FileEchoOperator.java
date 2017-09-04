@@ -18,6 +18,12 @@
  */
 package com.rapidminer.operator;
 
+import com.rapidminer.operator.meta.branch.ProcessBranch;
+import com.rapidminer.operator.ports.DummyPortPairExtender;
+import com.rapidminer.operator.ports.PortPairExtender;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.io.Encoding;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,16 +31,6 @@ import java.nio.file.OpenOption;
 import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
-
-import com.rapidminer.operator.meta.branch.ProcessBranch;
-import com.rapidminer.operator.ports.DummyPortPairExtender;
-import com.rapidminer.operator.ports.PortPairExtender;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeText;
-import com.rapidminer.parameter.TextType;
-import com.rapidminer.tools.io.Encoding;
 
 
 /**

@@ -25,13 +25,9 @@ import com.rapidminer.gui.plotter.conditions.PlotterCondition;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import javax.swing.*;
+import java.awt.*;
 import java.util.logging.Level;
-
-import javax.swing.Icon;
 
 
 /**

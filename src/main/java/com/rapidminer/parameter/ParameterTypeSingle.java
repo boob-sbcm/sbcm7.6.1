@@ -18,12 +18,11 @@
 */
 package com.rapidminer.parameter;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
 
 /**

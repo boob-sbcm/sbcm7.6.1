@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.validation;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.MappedExampleSet;
 import com.rapidminer.operator.OperatorCapability;
@@ -28,12 +26,10 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ValueDouble;
 import com.rapidminer.operator.ports.metadata.MDInteger;
 import com.rapidminer.operator.visualization.ProcessLogOperator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.List;
 
 
 /**

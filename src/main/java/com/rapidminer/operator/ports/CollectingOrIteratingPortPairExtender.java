@@ -18,13 +18,13 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.metadata.CollectionMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

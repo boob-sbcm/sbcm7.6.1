@@ -18,60 +18,9 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSpinner;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.OverlayLayout;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.TableColumnModelEvent;
-import javax.swing.event.TableColumnModelListener;
-import javax.swing.event.UndoableEditEvent;
-import javax.swing.event.UndoableEditListener;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.ColoredTableCellRenderer;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.RowNumberTable;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.bubble.BubbleWindow;
 import com.rapidminer.gui.tools.bubble.BubbleWindow.AlignedSide;
 import com.rapidminer.gui.tools.bubble.BubbleWindow.BubbleStyle;
@@ -85,6 +34,19 @@ import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

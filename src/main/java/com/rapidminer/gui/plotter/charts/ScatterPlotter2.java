@@ -21,14 +21,12 @@ package com.rapidminer.gui.plotter.charts;
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.plotter.ColorProvider;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-
-import java.awt.Color;
-import java.awt.Paint;
-import java.awt.geom.Ellipse2D;
-
 import org.jfree.chart.renderer.xy.AbstractXYItemRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYZDataset;
+
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
 
 
 /**

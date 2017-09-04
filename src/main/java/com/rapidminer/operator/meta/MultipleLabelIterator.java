@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -33,12 +29,12 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.CollectingPortPairExtender;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

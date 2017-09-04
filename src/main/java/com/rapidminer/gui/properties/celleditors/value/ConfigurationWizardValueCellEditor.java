@@ -23,12 +23,9 @@ import com.rapidminer.gui.wizards.ConfigurationWizardCreator;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeConfiguration;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JButton;
-import javax.swing.JTable;
 
 
 /**

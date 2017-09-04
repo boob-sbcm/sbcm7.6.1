@@ -26,33 +26,18 @@ import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.IndicatorType;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
-import com.rapidminer.gui.new_plotter.data.DimensionConfigData;
-import com.rapidminer.gui.new_plotter.data.GroupCellData;
-import com.rapidminer.gui.new_plotter.data.GroupCellKeyAndData;
-import com.rapidminer.gui.new_plotter.data.GroupCellSeriesData;
-import com.rapidminer.gui.new_plotter.data.PlotInstance;
-import com.rapidminer.gui.new_plotter.data.ValueSourceData;
+import com.rapidminer.gui.new_plotter.data.*;
 import com.rapidminer.gui.new_plotter.utility.ValueRange;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.container.Pair;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.SeriesException;
 import org.jfree.data.statistics.DefaultMultiValueCategoryDataset;
 import org.jfree.data.statistics.DefaultStatisticalCategoryDataset;
-import org.jfree.data.xy.DefaultIntervalXYDataset;
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.DefaultXYDataset;
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
+import org.jfree.data.xy.*;
+
+import java.util.*;
 
 
 /**

@@ -18,15 +18,15 @@
 */
 package com.rapidminer.example;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.ExampleTable;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.tools.Ontology;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 
 /**

@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools;
 
-import java.awt.Color;
-import java.util.logging.Level;
-
 import com.rapidminer.tools.plugin.Plugin;
+
+import java.awt.*;
+import java.util.logging.Level;
 
 
 /**

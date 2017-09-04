@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.util.Date;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ProgressListener;
+
+import java.util.Date;
 
 
 /**

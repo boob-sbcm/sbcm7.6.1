@@ -26,26 +26,18 @@ package com.rapidminer.gui.tools.syntax;
  * package.
  */
 
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.util.Enumeration;
-import java.util.EventObject;
-import java.util.Hashtable;
-
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.JPopupMenu;
-import javax.swing.KeyStroke;
-import javax.swing.text.BadLocationException;
-
 import com.rapidminer.gui.dialog.SearchDialog;
 import com.rapidminer.gui.dialog.SearchableJEditTextArea;
 import com.rapidminer.gui.tools.IconSize;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Enumeration;
+import java.util.EventObject;
+import java.util.Hashtable;
 
 
 /**

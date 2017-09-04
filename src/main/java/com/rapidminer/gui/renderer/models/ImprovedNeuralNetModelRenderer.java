@@ -25,7 +25,7 @@ import com.rapidminer.operator.learner.functions.neuralnet.ImprovedNeuralNetMode
 import com.rapidminer.operator.learner.functions.neuralnet.ImprovedNeuralNetVisualizer;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

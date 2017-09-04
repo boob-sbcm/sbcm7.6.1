@@ -18,8 +18,6 @@
 */
 package com.rapidminer.gui.renderer.models;
 
-import java.util.Iterator;
-
 import com.rapidminer.datatable.AbstractDataTable;
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
@@ -27,6 +25,8 @@ import com.rapidminer.gui.renderer.AbstractDataTableTableRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.learner.local.LocalPolynomialRegressionModel;
 import com.rapidminer.operator.learner.local.LocalPolynomialRegressionModel.RegressionData;
+
+import java.util.Iterator;
 
 
 /**

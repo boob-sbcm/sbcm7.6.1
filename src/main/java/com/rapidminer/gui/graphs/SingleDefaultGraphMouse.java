@@ -3,14 +3,13 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.event.InputEvent;
-
 import com.rapidminer.gui.graphs.plugins.ExtendedPickingGraphMousePlugin;
-
 import edu.uci.ics.jung.visualization.control.CrossoverScalingControl;
 import edu.uci.ics.jung.visualization.control.PluggableGraphMouse;
 import edu.uci.ics.jung.visualization.control.ScalingGraphMousePlugin;
 import edu.uci.ics.jung.visualization.control.TranslatingGraphMousePlugin;
+
+import java.awt.event.InputEvent;
 
 
 /**

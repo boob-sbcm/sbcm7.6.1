@@ -18,13 +18,13 @@
 */
 package com.rapidminer.tools;
 
+import com.rapidminer.gui.tools.SwingTools;
+
 import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
 import java.net.URLStreamHandlerFactory;
-
-import com.rapidminer.gui.tools.SwingTools;
 
 
 /**

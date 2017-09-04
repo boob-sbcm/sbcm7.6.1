@@ -24,13 +24,7 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.LoggingHandler;
 import com.rapidminer.tools.XMLSerialization;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;

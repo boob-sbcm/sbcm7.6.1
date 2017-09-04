@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.animation;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.Timer;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessStateListener;
 import com.rapidminer.gui.RapidMinerGUI;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

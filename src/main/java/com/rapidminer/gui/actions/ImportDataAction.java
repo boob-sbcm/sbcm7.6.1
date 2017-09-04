@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.JDialog;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.studio.io.gui.internal.DataImportWizardBuilder;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 
 /**

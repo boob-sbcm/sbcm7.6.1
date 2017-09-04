@@ -18,36 +18,21 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import com.rapidminer.gui.tools.ArrowButton;
+import com.rapidminer.gui.tools.ViewToolBar;
+import com.vlsolutions.swing.toolbars.VLToolBar;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseListener;
 import java.awt.geom.GeneralPath;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JToolBar;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-
-import com.rapidminer.gui.tools.ArrowButton;
-import com.rapidminer.gui.tools.ViewToolBar;
-import com.vlsolutions.swing.toolbars.VLToolBar;
 
 
 /**

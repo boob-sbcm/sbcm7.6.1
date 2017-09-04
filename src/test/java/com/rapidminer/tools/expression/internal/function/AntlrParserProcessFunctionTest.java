@@ -18,29 +18,19 @@
 */
 package com.rapidminer.tools.expression.internal.function;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
+import com.rapidminer.MacroHandler;
+import com.rapidminer.tools.expression.*;
+import com.rapidminer.tools.expression.internal.antlr.AntlrParser;
+import com.rapidminer.tools.expression.internal.function.process.MacroValue;
+import com.rapidminer.tools.expression.internal.function.process.ParameterValue;
+import com.rapidminer.tools.expression.internal.function.statistical.Random;
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.junit.Test;
-
-import com.rapidminer.MacroHandler;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionContext;
-import com.rapidminer.tools.expression.ExpressionEvaluator;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.Function;
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInput;
-import com.rapidminer.tools.expression.internal.antlr.AntlrParser;
-import com.rapidminer.tools.expression.internal.function.process.MacroValue;
-import com.rapidminer.tools.expression.internal.function.process.ParameterValue;
-import com.rapidminer.tools.expression.internal.function.statistical.Random;
+import static org.junit.Assert.*;
 
 
 /**

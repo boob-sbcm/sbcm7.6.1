@@ -19,7 +19,6 @@
 package com.rapidminer.gui.tools;
 
 import com.rapidminer.parameter.TextType;
-
 import org.fife.ui.autocomplete.AutoCompletion;
 import org.fife.ui.autocomplete.CompletionProvider;
 import org.fife.ui.autocomplete.DefaultCompletionProvider;

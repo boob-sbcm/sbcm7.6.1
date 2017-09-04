@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools.math.function.aggregation;
 
-import java.util.HashMap;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
+
+import java.util.HashMap;
 
 
 /**

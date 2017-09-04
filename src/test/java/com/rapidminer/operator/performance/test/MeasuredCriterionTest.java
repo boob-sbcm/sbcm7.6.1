@@ -18,27 +18,22 @@
 */
 package com.rapidminer.operator.performance.test;
 
-import static junit.framework.Assert.assertEquals;
-
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.test.ExampleTestTools;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.performance.AbsoluteError;
-import com.rapidminer.operator.performance.AbstractPerformanceEvaluator;
-import com.rapidminer.operator.performance.PerformanceCriterion;
-import com.rapidminer.operator.performance.PerformanceVector;
-import com.rapidminer.operator.performance.SquaredError;
+import com.rapidminer.operator.performance.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+import static junit.framework.Assert.assertEquals;
 
 
 /**

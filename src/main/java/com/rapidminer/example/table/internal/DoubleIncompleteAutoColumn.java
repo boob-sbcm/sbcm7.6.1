@@ -18,10 +18,10 @@
  */
 package com.rapidminer.example.table.internal;
 
+import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
+
 import java.io.Serializable;
 import java.util.Arrays;
-
-import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
 
 
 /**

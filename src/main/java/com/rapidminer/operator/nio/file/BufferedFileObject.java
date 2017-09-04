@@ -18,13 +18,13 @@
 */
 package com.rapidminer.operator.nio.file;
 
+import com.rapidminer.operator.OperatorException;
+
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.Buffer;
-
-import com.rapidminer.operator.OperatorException;
 
 
 /**

@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.execution;
 
-import java.util.List;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
+
+import java.util.List;
 
 
 /**

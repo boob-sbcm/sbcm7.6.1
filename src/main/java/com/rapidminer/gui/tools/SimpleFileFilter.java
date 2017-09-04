@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.tools;
 
+import javax.swing.filechooser.FileFilter;
 import java.io.File;
 import java.util.Arrays;
-
-import javax.swing.filechooser.FileFilter;
 
 
 /**

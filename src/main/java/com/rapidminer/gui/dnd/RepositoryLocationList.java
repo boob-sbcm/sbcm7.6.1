@@ -18,10 +18,10 @@
 */
 package com.rapidminer.gui.dnd;
 
+import com.rapidminer.repository.RepositoryLocation;
+
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.repository.RepositoryLocation;
 
 
 /**

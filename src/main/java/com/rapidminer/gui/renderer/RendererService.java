@@ -18,36 +18,23 @@
 */
 package com.rapidminer.gui.renderer;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.xml.parsers.DocumentBuilderFactory;
-
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.operator.IOObject;
+import com.rapidminer.tools.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.tools.DominatingClassFinder;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.WebServiceTools;
+import javax.swing.*;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.logging.Level;
 
 
 /**

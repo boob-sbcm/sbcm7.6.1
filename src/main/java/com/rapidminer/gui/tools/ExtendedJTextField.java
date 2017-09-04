@@ -18,13 +18,11 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,14 +18,14 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.tools.expression.Constant;
 import com.rapidminer.tools.expression.ExpressionParser;
 import com.rapidminer.tools.expression.ExpressionParserModule;
 import com.rapidminer.tools.expression.Function;
+
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

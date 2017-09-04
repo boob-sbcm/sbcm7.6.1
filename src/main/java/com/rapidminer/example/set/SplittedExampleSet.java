@@ -18,11 +18,6 @@
 */
 package com.rapidminer.example.set;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -32,6 +27,11 @@ import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Tools;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**

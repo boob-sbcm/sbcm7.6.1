@@ -18,24 +18,14 @@
 */
 package com.rapidminer.gui.new_plotter.gui.cellrenderer;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import com.rapidminer.gui.new_plotter.templates.style.ColorRGB;
+import com.rapidminer.gui.new_plotter.templates.style.ColorScheme;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-
-import com.rapidminer.gui.new_plotter.templates.style.ColorRGB;
-import com.rapidminer.gui.new_plotter.templates.style.ColorScheme;
 
 
 /**

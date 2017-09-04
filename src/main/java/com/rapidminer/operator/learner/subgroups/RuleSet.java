@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.learner.subgroups;
 
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -31,6 +27,10 @@ import com.rapidminer.operator.learner.SimplePredictionModel;
 import com.rapidminer.operator.learner.subgroups.hypothesis.Rule;
 import com.rapidminer.operator.learner.subgroups.utility.UtilityFunction;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
 
 
 /**

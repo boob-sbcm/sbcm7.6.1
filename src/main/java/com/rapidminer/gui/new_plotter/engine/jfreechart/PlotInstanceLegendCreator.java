@@ -19,61 +19,29 @@
 package com.rapidminer.gui.new_plotter.engine.jfreechart;
 
 import com.rapidminer.gui.new_plotter.ChartPlottimeException;
-import com.rapidminer.gui.new_plotter.configuration.DefaultDimensionConfig;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.DistinctValueGrouping;
 import com.rapidminer.gui.new_plotter.configuration.LineFormat.LineStyle;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.SeriesFormat;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.FillStyle;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationType;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.data.DimensionConfigData;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.legend.CustomLegendItem;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.legend.FlankedShapeLegendItem;
-import com.rapidminer.gui.new_plotter.utility.ColorProvider;
-import com.rapidminer.gui.new_plotter.utility.ContinuousColorProvider;
-import com.rapidminer.gui.new_plotter.utility.ContinuousSizeProvider;
-import com.rapidminer.gui.new_plotter.utility.DataStructureUtils;
-import com.rapidminer.gui.new_plotter.utility.ShapeProvider;
-import com.rapidminer.gui.new_plotter.utility.SizeProvider;
+import com.rapidminer.gui.new_plotter.utility.*;
 import com.rapidminer.tools.I18N;
+import org.jfree.chart.LegendItem;
+import org.jfree.chart.LegendItemCollection;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.LinearGradientPaint;
+import java.awt.*;
 import java.awt.MultipleGradientPaint.CycleMethod;
-import java.awt.Paint;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.TexturePaint;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Area;
-import java.awt.geom.CubicCurve2D;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.Rectangle2D;
+import java.awt.geom.*;
 import java.awt.image.BufferedImage;
 import java.sql.Date;
 import java.text.DateFormat;
-import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.*;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
-
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
 
 
 /**

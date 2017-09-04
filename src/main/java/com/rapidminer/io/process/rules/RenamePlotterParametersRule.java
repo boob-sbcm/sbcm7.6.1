@@ -23,14 +23,13 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.tools.XMLException;
 import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 
 /**

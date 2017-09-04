@@ -18,14 +18,6 @@
  */
 package com.rapidminer.operator.preprocessing.transformation.aggregation;
 
-import java.lang.reflect.Constructor;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
@@ -38,6 +30,9 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
 import com.rapidminer.tools.Ontology;
+
+import java.lang.reflect.Constructor;
+import java.util.*;
 
 
 /**

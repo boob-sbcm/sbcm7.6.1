@@ -18,18 +18,14 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.util.Collection;
-import java.util.List;
-
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.MetaDataError;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.tools.Observable;
+
+import java.util.Collection;
+import java.util.List;
 
 
 /**

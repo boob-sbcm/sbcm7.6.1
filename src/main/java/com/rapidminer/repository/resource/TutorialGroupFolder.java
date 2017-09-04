@@ -18,18 +18,18 @@
 */
 package com.rapidminer.repository.resource;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
-
 import com.rapidminer.repository.DataEntry;
 import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.Folder;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tutorial.Tutorial;
 import com.rapidminer.tutorial.TutorialGroup;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 
 /**

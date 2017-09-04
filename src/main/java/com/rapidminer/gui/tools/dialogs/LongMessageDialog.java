@@ -18,16 +18,14 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Window;
-
-import javax.swing.JEditorPane;
-import javax.swing.JScrollPane;
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.StyleSheet;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
+
+import javax.swing.*;
+import javax.swing.text.html.HTMLEditorKit;
+import javax.swing.text.html.StyleSheet;
+import java.awt.*;
 
 
 /**

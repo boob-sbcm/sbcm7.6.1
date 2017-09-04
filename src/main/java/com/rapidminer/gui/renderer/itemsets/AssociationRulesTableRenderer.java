@@ -24,9 +24,8 @@ import com.rapidminer.gui.viewer.AssociationRuleTableViewer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.learner.associations.AssociationRules;
 
-import java.awt.Component;
-
 import javax.swing.table.TableModel;
+import java.awt.*;
 
 
 /**

@@ -18,24 +18,15 @@
  */
 package com.rapidminer.gui.look.borders;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.Paint;
-import java.awt.Shape;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.geom.RoundRectangle2D;
-
-import javax.swing.border.Border;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.FontTools;
+
+import javax.swing.border.Border;
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Rectangle2D;
+import java.awt.geom.RoundRectangle2D;
 
 
 /**

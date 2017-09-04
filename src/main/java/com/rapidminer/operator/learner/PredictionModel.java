@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner;
 
-import java.util.Iterator;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
@@ -31,6 +29,8 @@ import com.rapidminer.example.table.ExampleTable;
 import com.rapidminer.operator.AbstractModel;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Iterator;
 
 
 /**

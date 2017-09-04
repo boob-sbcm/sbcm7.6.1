@@ -20,9 +20,7 @@ package com.rapidminer.gui.tools.dialogs.wizards;
 
 import com.rapidminer.gui.tools.dialogs.MultiPageDialog;
 
-import java.awt.Component;
-import java.awt.Dialog;
-import java.awt.Frame;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;

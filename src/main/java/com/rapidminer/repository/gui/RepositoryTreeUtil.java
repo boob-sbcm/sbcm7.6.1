@@ -18,17 +18,12 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.util.HashSet;
-
-import javax.swing.JTree;
-import javax.swing.tree.TreePath;
-
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.Repository;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import javax.swing.tree.TreePath;
+import java.util.HashSet;
 
 
 /**

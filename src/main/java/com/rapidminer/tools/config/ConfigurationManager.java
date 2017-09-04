@@ -18,43 +18,27 @@
 */
 package com.rapidminer.tools.config;
 
-import java.net.HttpURLConnection;
-import java.security.Key;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.logging.Level;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.Repository;
-import com.rapidminer.repository.RepositoryAccessor;
-import com.rapidminer.repository.RepositoryListener;
-import com.rapidminer.repository.RepositoryManager;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.internal.remote.ConnectionListener;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.WebServiceTools;
 import com.rapidminer.tools.config.gui.event.ConfigurableEvent;
 import com.rapidminer.tools.config.gui.event.ConfigurableEvent.EventType;
 import com.rapidminer.tools.container.ComparablePair;
 import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.net.HttpURLConnection;
+import java.security.Key;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.logging.Level;
 
 
 /**

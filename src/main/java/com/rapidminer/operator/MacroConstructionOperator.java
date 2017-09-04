@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.generator.GenerationException;
 import com.rapidminer.operator.ports.DummyPortPairExtender;
@@ -32,12 +27,13 @@ import com.rapidminer.parameter.ParameterTypeExpression;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.UnknownValue;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.internal.ExpressionParserUtils;
+
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

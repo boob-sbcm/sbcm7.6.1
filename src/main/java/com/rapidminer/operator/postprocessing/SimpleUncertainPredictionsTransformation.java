@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.postprocessing;
 
-import java.util.HashMap;
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -33,13 +28,13 @@ import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
 import com.rapidminer.operator.preprocessing.AbstractDataProcessing;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.HashMap;
+import java.util.List;
 
 
 /**

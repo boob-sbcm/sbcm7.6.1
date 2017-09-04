@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Dimension;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
-
-import javax.swing.JList;
 
 
 /**

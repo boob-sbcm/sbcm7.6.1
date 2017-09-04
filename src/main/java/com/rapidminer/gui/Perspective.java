@@ -18,20 +18,15 @@
 */
 package com.rapidminer.gui;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.logging.Level;
-
 import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.vlsolutions.swing.docking.DockingContext;
 import com.vlsolutions.swing.docking.ws.Workspace;
 import com.vlsolutions.swing.docking.ws.WorkspaceException;
+
+import java.io.*;
+import java.util.logging.Level;
 
 
 /**

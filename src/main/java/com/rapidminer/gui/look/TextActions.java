@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.JTextComponent;
 import javax.swing.text.TextAction;
+import java.awt.event.ActionEvent;
 
 
 /**

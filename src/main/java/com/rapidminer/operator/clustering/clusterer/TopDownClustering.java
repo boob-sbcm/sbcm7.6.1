@@ -18,45 +18,24 @@
 */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.Partition;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorProgress;
-import com.rapidminer.operator.clustering.ClusterModel;
-import com.rapidminer.operator.clustering.ClusterModel2ExampleSet;
-import com.rapidminer.operator.clustering.FlattenClusterModel;
-import com.rapidminer.operator.clustering.HierarchicalClusterLeafNode;
-import com.rapidminer.operator.clustering.HierarchicalClusterModel;
-import com.rapidminer.operator.clustering.HierarchicalClusterNode;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.clustering.*;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.metadata.MetaDataTools;
+
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,18 +18,17 @@
  */
 package com.rapidminer.example.set;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
-import org.junit.Assert;
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
 import com.rapidminer.example.test.ExampleTestTools;
 import com.rapidminer.example.utils.ExampleSets;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 /**

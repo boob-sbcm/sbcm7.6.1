@@ -18,31 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Writer;
-import java.lang.management.ManagementFactory;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import javax.xml.transform.stream.StreamResult;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.MacroHandler;
 import com.rapidminer.Process;
@@ -56,55 +31,36 @@ import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.annotation.ResourceConsumer;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.PortOwner;
-import com.rapidminer.operator.ports.Ports;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.impl.InputPortsImpl;
 import com.rapidminer.operator.ports.impl.OutputPortsImpl;
-import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
-import com.rapidminer.operator.ports.metadata.MDTransformer;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.MetaDataError;
-import com.rapidminer.operator.ports.metadata.Precondition;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.operator.ports.quickfix.RelativizeRepositoryLocationQuickfix;
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDate;
-import com.rapidminer.parameter.ParameterTypeInnerOperator;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeRepositoryLocation;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.Parameters;
-import com.rapidminer.parameter.UndefinedMacroError;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.repository.RepositoryManager;
 import com.rapidminer.studio.internal.ProcessStoppedRuntimeException;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.DelegatingObserver;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.LoggingHandler;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.WebServiceTools;
-import com.rapidminer.tools.WrapperLoggingHandler;
-import com.rapidminer.tools.XMLException;
 import com.rapidminer.tools.io.Encoding;
 import com.rapidminer.tools.math.StringToMatrixConverter;
 import com.rapidminer.tools.patterns.Visitor;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.xml.transform.stream.StreamResult;
+import java.io.*;
+import java.lang.management.ManagementFactory;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.charset.Charset;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**

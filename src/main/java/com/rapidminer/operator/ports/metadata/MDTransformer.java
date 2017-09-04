@@ -18,17 +18,17 @@
 */
 package com.rapidminer.operator.ports.metadata;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.SimpleProcessSetupError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

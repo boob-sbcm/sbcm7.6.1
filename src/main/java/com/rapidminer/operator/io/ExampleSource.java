@@ -18,16 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.xml.sax.SAXException;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.DataRowFactory;
@@ -42,20 +32,21 @@ import com.rapidminer.operator.generator.ExampleSetGenerator;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttributeFile;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeConfiguration;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.att.AttributeDataSource;
 import com.rapidminer.tools.att.AttributeDataSources;
 import com.rapidminer.tools.att.AttributeSet;
 import com.rapidminer.tools.io.Encoding;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

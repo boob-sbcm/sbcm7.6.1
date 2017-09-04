@@ -18,12 +18,11 @@
 */
 package com.rapidminer.operator.learner.functions.kernel.gaussianprocess;
 
-import java.util.TreeSet;
-
+import Jama.Matrix;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.Kernel;
 
-import Jama.Matrix;
+import java.util.TreeSet;
 
 
 /**

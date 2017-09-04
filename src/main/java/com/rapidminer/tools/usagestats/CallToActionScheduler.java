@@ -18,17 +18,6 @@
  */
 package com.rapidminer.tools.usagestats;
 
-import java.sql.SQLException;
-import java.util.Collection;
-import java.util.Map;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.RapidMiner.ExecutionMode;
 import com.rapidminer.gui.tools.BrowserPopup;
@@ -38,6 +27,16 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector.Key;
+
+import javax.swing.*;
+import java.sql.SQLException;
+import java.util.Collection;
+import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.logging.Level;
 
 
 /**

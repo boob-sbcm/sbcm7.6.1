@@ -18,12 +18,7 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.FastExample2SparseTransform;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.operator.OperatorProgress;
@@ -32,7 +27,6 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.FormulaProvider;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
-
 import libsvm.Svm;
 import libsvm.svm_model;
 import libsvm.svm_node;

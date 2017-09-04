@@ -18,15 +18,9 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.RenderingHints;
-import java.awt.geom.GeneralPath;
-
 import javax.swing.border.Border;
+import java.awt.*;
+import java.awt.geom.GeneralPath;
 
 
 /**

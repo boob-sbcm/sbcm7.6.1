@@ -18,11 +18,10 @@
 */
 package com.rapidminer.operator.nio;
 
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.tools.Tools;
-
 import jxl.Sheet;
+
+import javax.swing.table.AbstractTableModel;
 
 
 /**

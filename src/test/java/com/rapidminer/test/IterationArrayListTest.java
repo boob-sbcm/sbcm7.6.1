@@ -18,13 +18,12 @@
 */
 package com.rapidminer.test;
 
-import static junit.framework.Assert.assertEquals;
+import com.rapidminer.tools.IterationArrayList;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
-import org.junit.Test;
-
-import com.rapidminer.tools.IterationArrayList;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * A test for the  {@link IterationArrayList}.

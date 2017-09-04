@@ -18,11 +18,10 @@
 */
 package com.rapidminer.repository;
 
-import org.w3c.dom.Element;
-
 import com.rapidminer.repository.gui.NewRepositoryDialog;
 import com.rapidminer.repository.gui.RepositoryConfigurationPanel;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
 
 
 /**

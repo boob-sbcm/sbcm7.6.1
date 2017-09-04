@@ -18,33 +18,12 @@
 */
 package com.rapidminer.gui.renderer.models;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Collections;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.gui.actions.export.AbstractPrintableIOObjectPanel;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookTools;
-import com.rapidminer.gui.plotter.LabelRotatingPlotterAdapter;
-import com.rapidminer.gui.plotter.Plotter;
-import com.rapidminer.gui.plotter.PlotterAdapter;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.gui.plotter.RangeablePlotterAdapter;
+import com.rapidminer.gui.plotter.*;
 import com.rapidminer.gui.plotter.charts.DistributionPlotter;
 import com.rapidminer.gui.plotter.settings.ListeningJComboBox;
 import com.rapidminer.gui.properties.PropertyPanel;
@@ -52,15 +31,15 @@ import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.learner.bayes.DistributionModel;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.report.Reportable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

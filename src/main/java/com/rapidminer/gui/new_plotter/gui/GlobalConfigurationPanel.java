@@ -18,27 +18,6 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.Map;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.JToggleButton;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-
-import org.jfree.chart.plot.PlotOrientation;
-
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.gui.cellrenderer.ColorSchemeComboBoxRenderer;
 import com.rapidminer.gui.new_plotter.gui.cellrenderer.EnumComboBoxCellRenderer;
@@ -51,6 +30,16 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
+import org.jfree.chart.plot.PlotOrientation;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.util.Map;
 
 
 /**

@@ -25,19 +25,14 @@ import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.plots.Lin
 import com.rapidminer.gui.plotter.CoordinateTransformation;
 import com.rapidminer.gui.plotter.NullCoordinateTransformation;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.panel.Overlay;
+import org.jfree.chart.plot.*;
+import org.jfree.data.Range;
 
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GraphicsConfiguration;
-import java.awt.Image;
-import java.awt.Insets;
-import java.awt.Paint;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Transparency;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
@@ -47,20 +42,6 @@ import java.lang.reflect.Field;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.JPopupMenu;
-import javax.swing.SwingUtilities;
-
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.panel.Overlay;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.Pannable;
-import org.jfree.chart.plot.Plot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.PlotRenderingInfo;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.data.Range;
 
 
 /**

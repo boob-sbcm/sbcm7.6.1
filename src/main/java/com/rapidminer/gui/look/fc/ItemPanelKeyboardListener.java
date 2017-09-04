@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.look.fc;
 
+import javax.swing.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-
-import javax.swing.JComponent;
 
 
 /**

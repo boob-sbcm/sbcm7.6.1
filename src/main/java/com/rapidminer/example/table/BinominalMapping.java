@@ -18,12 +18,12 @@
 */
 package com.rapidminer.example.table;
 
+import com.rapidminer.example.AttributeTypeException;
+import com.rapidminer.example.Example;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
-import com.rapidminer.example.AttributeTypeException;
-import com.rapidminer.example.Example;
 
 
 /**

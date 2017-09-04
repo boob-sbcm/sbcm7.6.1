@@ -18,24 +18,17 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Dimension;
-import java.awt.Shape;
-import java.awt.geom.Point2D;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import org.apache.commons.collections15.Transformer;
-import org.apache.commons.collections15.map.LazyMap;
-
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.Forest;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.Tree;
+import org.apache.commons.collections15.Transformer;
+import org.apache.commons.collections15.map.LazyMap;
+
+import java.awt.*;
+import java.awt.geom.Point2D;
+import java.util.*;
+import java.util.List;
 
 
 /**

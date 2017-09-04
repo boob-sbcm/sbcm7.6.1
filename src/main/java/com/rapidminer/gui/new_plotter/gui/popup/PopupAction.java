@@ -21,18 +21,11 @@ package com.rapidminer.gui.new_plotter.gui.popup;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ResourceAction;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.KeyboardFocusManager;
-import java.awt.Point;
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-
-import javax.swing.JDialog;
-import javax.swing.JToggleButton;
-import javax.swing.SwingUtilities;
 
 
 /**

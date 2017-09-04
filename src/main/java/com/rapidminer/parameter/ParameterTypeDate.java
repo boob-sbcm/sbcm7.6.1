@@ -18,16 +18,15 @@
 */
 package com.rapidminer.parameter;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.w3c.dom.Element;
-
 import com.michaelbaranov.microba.calendar.DatePicker;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 /**

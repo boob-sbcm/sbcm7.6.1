@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.util.Observable;
-import java.util.Observer;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
+
+import java.util.Observable;
+import java.util.Observer;
 
 
 /**

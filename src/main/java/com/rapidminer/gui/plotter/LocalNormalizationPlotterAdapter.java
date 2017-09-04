@@ -24,11 +24,10 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 
-import java.util.List;
-
-import javax.swing.JComponent;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.util.List;
 
 
 /**

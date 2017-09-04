@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.generator;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
@@ -34,32 +27,26 @@ import com.rapidminer.example.table.DataRow;
 import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.io.AbstractExampleSource;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
-import com.rapidminer.parameter.conditions.BelowOrEqualOperatorVersionCondition;
-import com.rapidminer.parameter.conditions.EqualStringCondition;
-import com.rapidminer.parameter.conditions.NonEqualStringCondition;
-import com.rapidminer.parameter.conditions.OrParameterCondition;
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.conditions.*;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

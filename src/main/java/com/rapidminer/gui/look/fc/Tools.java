@@ -18,15 +18,12 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.ConvolveOp;
 import java.awt.image.Kernel;
 import java.io.File;
-
-import javax.swing.ImageIcon;
 
 
 /**

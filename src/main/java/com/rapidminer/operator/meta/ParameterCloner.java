@@ -18,17 +18,8 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.DummyPortPairExtender;
 import com.rapidminer.operator.ports.PortPairExtender;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
@@ -36,6 +27,11 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

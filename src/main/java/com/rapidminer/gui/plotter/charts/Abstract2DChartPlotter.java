@@ -18,21 +18,15 @@
  */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Random;
-
-import javax.swing.JComponent;
-
+import com.rapidminer.ObjectVisualizer;
+import com.rapidminer.datatable.DataTable;
+import com.rapidminer.datatable.DataTableRow;
+import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.gui.plotter.RangeablePlotterAdapter;
+import com.rapidminer.tools.FontTools;
+import com.rapidminer.tools.ObjectVisualizerService;
+import com.rapidminer.tools.Tools;
+import com.rapidminer.tools.math.MathFunctions;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartMouseEvent;
 import org.jfree.chart.ChartMouseListener;
@@ -41,11 +35,7 @@ import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.LogAxis;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.axis.SymbolAxis;
-import org.jfree.chart.block.BlockBorder;
-import org.jfree.chart.block.BlockContainer;
-import org.jfree.chart.block.BlockResult;
-import org.jfree.chart.block.BorderArrangement;
-import org.jfree.chart.block.LabelBlock;
+import org.jfree.chart.block.*;
 import org.jfree.chart.entity.XYItemEntity;
 import org.jfree.chart.labels.XYToolTipGenerator;
 import org.jfree.chart.plot.PlotOrientation;
@@ -59,15 +49,10 @@ import org.jfree.data.xy.XYDataset;
 import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 
-import com.rapidminer.ObjectVisualizer;
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.datatable.DataTableRow;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.gui.plotter.RangeablePlotterAdapter;
-import com.rapidminer.tools.FontTools;
-import com.rapidminer.tools.ObjectVisualizerService;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.math.MathFunctions;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

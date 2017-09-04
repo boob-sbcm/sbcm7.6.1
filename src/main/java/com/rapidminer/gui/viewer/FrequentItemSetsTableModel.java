@@ -23,10 +23,9 @@ import com.rapidminer.operator.learner.associations.FrequentItemSets;
 import com.rapidminer.operator.learner.associations.Item;
 import com.rapidminer.tools.Tools;
 
+import javax.swing.table.AbstractTableModel;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
 
 
 /**

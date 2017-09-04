@@ -18,34 +18,6 @@
  */
 package com.rapidminer.gui.flow.processrendering.view;
 
-import java.awt.BasicStroke;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.awt.datatransfer.UnsupportedFlavorException;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.JScrollPane;
-import javax.swing.JViewport;
-import javax.swing.SwingConstants;
-import javax.swing.Timer;
-
 import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
 import com.mxgraph.model.mxGraphModel;
 import com.mxgraph.util.mxRectangle;
@@ -73,6 +45,21 @@ import com.rapidminer.repository.Folder;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.Timer;
+import java.awt.*;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.io.IOException;
+import java.util.*;
+import java.util.List;
 
 
 /**

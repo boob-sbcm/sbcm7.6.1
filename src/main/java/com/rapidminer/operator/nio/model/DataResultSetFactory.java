@@ -18,12 +18,12 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import javax.swing.table.TableModel;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.tools.ProgressListener;
+
+import javax.swing.table.TableModel;
 
 
 /**

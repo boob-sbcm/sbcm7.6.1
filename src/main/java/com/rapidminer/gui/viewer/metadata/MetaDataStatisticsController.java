@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.viewer.metadata;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
-import java.util.logging.Level;
-
-import javax.swing.SwingWorker;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
 import com.rapidminer.gui.tools.UpdateQueue;
@@ -38,6 +27,12 @@ import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel.SortingD
 import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel.SortingType;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+
+import javax.swing.*;
+import java.util.*;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
+import java.util.logging.Level;
 
 
 /**

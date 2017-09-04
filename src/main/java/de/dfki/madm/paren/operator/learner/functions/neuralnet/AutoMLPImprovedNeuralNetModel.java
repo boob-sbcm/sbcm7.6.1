@@ -18,11 +18,6 @@
  */
 package de.dfki.madm.paren.operator.learner.functions.neuralnet;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -31,15 +26,14 @@ import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.learner.PredictionModel;
-import com.rapidminer.operator.learner.functions.neuralnet.ActivationFunction;
-import com.rapidminer.operator.learner.functions.neuralnet.InnerNode;
-import com.rapidminer.operator.learner.functions.neuralnet.InputNode;
-import com.rapidminer.operator.learner.functions.neuralnet.LinearFunction;
-import com.rapidminer.operator.learner.functions.neuralnet.Node;
-import com.rapidminer.operator.learner.functions.neuralnet.OutputNode;
-import com.rapidminer.operator.learner.functions.neuralnet.SigmoidFunction;
+import com.rapidminer.operator.learner.functions.neuralnet.*;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

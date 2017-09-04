@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-
-import javax.swing.JButton;
-import javax.swing.JFileChooser;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.properties.DefaultRMCellEditor;
 import com.rapidminer.gui.tools.ProgressThread;
@@ -41,6 +26,12 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.parameter.ParameterTypeRemoteFile;
+
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

@@ -18,46 +18,9 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
-import java.util.Set;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.TableModelEvent;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.gui.tools.CellColorProviderAlternating;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
 import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.gui.tools.table.EditableTableHeader;
@@ -70,6 +33,18 @@ import com.rapidminer.operator.nio.model.ParsingError;
 import com.rapidminer.operator.nio.model.WizardState;
 import com.rapidminer.parameter.ParameterTypeDateFormat;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.event.TableModelEvent;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import java.util.List;
 
 
 /**

@@ -18,24 +18,8 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import java.text.DateFormat;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import javax.swing.table.AbstractTableModel;
-
-import com.rapidminer.core.io.data.ColumnMetaData;
+import com.rapidminer.core.io.data.*;
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
-import com.rapidminer.core.io.data.DataSet;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetMetaData;
-import com.rapidminer.core.io.data.DataSetRow;
-import com.rapidminer.core.io.data.ParseException;
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.operator.nio.ImportWizardUtils;
@@ -43,6 +27,10 @@ import com.rapidminer.operator.nio.model.DefaultPreview;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.table.AbstractTableModel;
+import java.text.DateFormat;
+import java.util.*;
 
 
 /**

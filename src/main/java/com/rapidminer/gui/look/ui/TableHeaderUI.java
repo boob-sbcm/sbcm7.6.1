@@ -18,45 +18,24 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.Paint;
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.QuadCurve2D;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.look.RapidLookAndFeel;
+import com.rapidminer.gui.look.RapidLookTools;
+import com.rapidminer.gui.tools.ExtendedJTableSorterModel;
 
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JTable;
-import javax.swing.RowSorter;
+import javax.swing.*;
 import javax.swing.RowSorter.SortKey;
-import javax.swing.SortOrder;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.event.MouseInputListener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicTableHeaderUI;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.look.RapidLookAndFeel;
-import com.rapidminer.gui.look.RapidLookTools;
-import com.rapidminer.gui.tools.ExtendedJTableSorterModel;
+import javax.swing.table.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Line2D;
+import java.awt.geom.Path2D;
+import java.awt.geom.QuadCurve2D;
 
 
 /**

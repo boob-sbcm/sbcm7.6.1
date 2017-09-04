@@ -24,10 +24,9 @@ import com.rapidminer.operator.features.transformation.AbstractEigenvectorModel;
 import com.rapidminer.operator.features.transformation.ComponentVector;
 import com.rapidminer.tools.Tools;
 
-import java.util.List;
-
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
+import java.util.List;
 
 
 /**

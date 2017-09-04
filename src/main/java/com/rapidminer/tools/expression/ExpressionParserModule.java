@@ -18,9 +18,9 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.List;
-
 import com.rapidminer.gui.properties.ExpressionPropertyDialog;
+
+import java.util.List;
 
 
 /**

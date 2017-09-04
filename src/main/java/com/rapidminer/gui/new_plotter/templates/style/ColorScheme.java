@@ -18,17 +18,16 @@
 */
 package com.rapidminer.gui.new_plotter.templates.style;
 
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.gui.new_plotter.utility.ListUtility;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.tools.AbstractChangeAwareSaveable;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

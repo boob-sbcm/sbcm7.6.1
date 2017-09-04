@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -40,6 +35,10 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

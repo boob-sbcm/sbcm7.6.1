@@ -27,7 +27,7 @@ import com.rapidminer.repository.gui.RepositoryTree;
 import com.rapidminer.repository.local.LocalRepository;
 import com.rapidminer.repository.local.SimpleFolder;
 
-import java.awt.Desktop;
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;

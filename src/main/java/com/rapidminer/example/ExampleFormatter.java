@@ -18,10 +18,10 @@
 */
 package com.rapidminer.example;
 
+import com.rapidminer.tools.Tools;
+
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.tools.Tools;
 
 
 /**

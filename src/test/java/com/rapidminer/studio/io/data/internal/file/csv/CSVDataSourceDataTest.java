@@ -18,9 +18,17 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import com.rapidminer.core.io.data.*;
+import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
+import com.rapidminer.studio.io.data.HeaderRowBehindStartRowException;
+import com.rapidminer.studio.io.data.HeaderRowNotFoundException;
+import com.rapidminer.studio.io.data.StartRowNotFoundException;
+import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
+import com.rapidminer.studio.io.data.internal.file.FileDataSourceTestUtils;
+import com.rapidminer.tools.Tools;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,22 +38,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
-import com.rapidminer.core.io.data.ColumnMetaData;
-import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
-import com.rapidminer.core.io.data.DataSet;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetRow;
-import com.rapidminer.core.io.data.ParseException;
-import com.rapidminer.studio.io.data.HeaderRowBehindStartRowException;
-import com.rapidminer.studio.io.data.HeaderRowNotFoundException;
-import com.rapidminer.studio.io.data.StartRowNotFoundException;
-import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
-import com.rapidminer.studio.io.data.internal.file.FileDataSourceTestUtils;
-import com.rapidminer.tools.Tools;
+import static org.junit.Assert.*;
 
 
 /**

@@ -21,7 +21,7 @@ package com.rapidminer.repository.gui.actions;
 import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.gui.RepositoryTree;
 
-import java.awt.Toolkit;
+import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.ClipboardOwner;
 import java.awt.datatransfer.StringSelection;

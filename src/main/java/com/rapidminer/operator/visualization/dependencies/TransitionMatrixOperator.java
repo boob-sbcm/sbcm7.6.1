@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.visualization.dependencies;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeSet;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -40,6 +33,9 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.container.Pair;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

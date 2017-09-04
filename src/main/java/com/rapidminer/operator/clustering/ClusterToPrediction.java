@@ -30,12 +30,7 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 
 import java.util.HashMap;
 import java.util.Vector;

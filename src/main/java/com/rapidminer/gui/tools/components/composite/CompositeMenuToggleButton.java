@@ -18,23 +18,16 @@
 */
 package com.rapidminer.gui.tools.components.composite;
 
-import java.awt.Font;
+import com.rapidminer.gui.tools.Ionicon;
+import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Enumeration;
-
-import javax.swing.AbstractButton;
-import javax.swing.Action;
-import javax.swing.ButtonGroup;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.SwingConstants;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-
-import com.rapidminer.gui.tools.Ionicon;
-import com.rapidminer.tools.I18N;
 
 
 /**

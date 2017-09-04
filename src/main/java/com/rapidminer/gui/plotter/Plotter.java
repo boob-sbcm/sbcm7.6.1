@@ -28,14 +28,12 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.report.Renderable;
 
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.geom.Point2D;
 import java.util.List;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
 
 
 /**

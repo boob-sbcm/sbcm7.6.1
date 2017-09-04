@@ -20,11 +20,7 @@ package com.rapidminer.operator.validation;
 
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
 import com.rapidminer.operator.ports.metadata.MDInteger;

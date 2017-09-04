@@ -18,19 +18,6 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-
-import javax.swing.JButton;
-import javax.swing.ScrollPaneConstants;
-
-import org.fife.ui.rsyntaxtextarea.RSyntaxDocument;
-import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
-import org.fife.ui.rtextarea.RTextScrollPane;
-
 import com.rapidminer.gui.properties.celleditors.value.TextValueCellEditor;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SQLEditor;
@@ -39,6 +26,15 @@ import com.rapidminer.gui.tools.syntax.JEditTextArea;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeText;
 import com.rapidminer.tools.I18N;
+import org.fife.ui.rsyntaxtextarea.RSyntaxDocument;
+import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
+import org.fife.ui.rtextarea.RTextScrollPane;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 
 /**

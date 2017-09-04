@@ -24,7 +24,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.visualization.dependencies.ANOVAMatrix;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

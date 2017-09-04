@@ -18,16 +18,10 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.RenderingHints;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.ImageObserver;
 import java.net.URL;
-
-import javax.swing.GrayFilter;
-import javax.swing.ImageIcon;
 
 
 /**

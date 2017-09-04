@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.style;
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
-
 import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationsModel;
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 import com.rapidminer.gui.tools.ResourceAction;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

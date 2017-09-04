@@ -18,10 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.view.components;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Rectangle2D;
-
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessEventDecorator;
 import com.rapidminer.gui.tools.ProcessGUITools;
@@ -33,6 +29,10 @@ import com.rapidminer.operator.ports.Port;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.ProcessTools;
 import com.rapidminer.tools.container.Pair;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Rectangle2D;
 
 
 /**

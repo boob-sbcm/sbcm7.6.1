@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
 
 
 /**

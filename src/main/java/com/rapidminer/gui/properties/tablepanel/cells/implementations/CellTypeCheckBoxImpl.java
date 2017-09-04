@@ -22,10 +22,9 @@ import com.rapidminer.gui.properties.tablepanel.TablePanel;
 import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeCheckBox;
 import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JCheckBox;
 
 
 /**

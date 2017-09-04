@@ -18,10 +18,6 @@
  */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
@@ -33,10 +29,13 @@ import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
 import com.rapidminer.tools.math.similarity.DistanceMeasures;
-
 import de.dfki.madm.operator.ClusteringAlgorithms;
 import de.dfki.madm.operator.KMeanspp;
 import de.dfki.madm.operator.clustering.XMeansCore;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 
 
 /**

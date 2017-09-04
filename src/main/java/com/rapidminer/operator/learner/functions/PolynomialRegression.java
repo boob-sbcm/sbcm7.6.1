@@ -18,16 +18,10 @@
 */
 package com.rapidminer.operator.learner.functions;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.performance.EstimatedPerformance;
@@ -40,6 +34,8 @@ import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.optimization.ec.es.ESOptimization;
 import com.rapidminer.tools.math.optimization.ec.es.Individual;
 import com.rapidminer.tools.math.optimization.ec.es.OptimizationValueType;
+
+import java.util.List;
 
 
 /**

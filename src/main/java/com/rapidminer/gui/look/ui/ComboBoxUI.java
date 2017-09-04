@@ -18,46 +18,22 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Polygon;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Toolkit;
+import com.rapidminer.gui.look.*;
+import com.rapidminer.gui.look.borders.Borders;
+import com.rapidminer.gui.tools.SwingTools;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicComboBoxUI;
+import javax.swing.plaf.basic.BasicComboPopup;
+import javax.swing.plaf.basic.ComboPopup;
+import java.awt.*;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-
-import javax.swing.BoxLayout;
-import javax.swing.ComboBoxEditor;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.ListCellRenderer;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
-import javax.swing.UIManager;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicComboBoxUI;
-import javax.swing.plaf.basic.BasicComboPopup;
-import javax.swing.plaf.basic.ComboPopup;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.look.RapidLookAndFeel;
-import com.rapidminer.gui.look.RapidLookComboBoxEditor;
-import com.rapidminer.gui.look.RapidLookListCellRenderer;
-import com.rapidminer.gui.look.RapidLookTools;
-import com.rapidminer.gui.look.borders.Borders;
-import com.rapidminer.gui.tools.SwingTools;
 
 
 /**

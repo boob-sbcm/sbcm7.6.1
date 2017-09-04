@@ -18,17 +18,14 @@
 */
 package com.rapidminer.io.remote;
 
-import java.io.File;
-import java.io.IOException;
-
-import javax.swing.Icon;
-import javax.swing.JFileChooser;
-import javax.swing.UIManager;
-import javax.swing.filechooser.FileSystemView;
-
 import com.rapidminer.gui.properties.celleditors.value.RemoteFileValueCellEditor;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.UserError;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileSystemView;
+import java.io.File;
+import java.io.IOException;
 
 
 /**

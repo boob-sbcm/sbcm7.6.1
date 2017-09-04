@@ -18,18 +18,15 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.awt.BorderLayout;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
 import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.operator.nio.ExcelWorkbookPane.ExcelWorkbookSelection;
 import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
 
 
 /**

@@ -18,32 +18,21 @@
 */
 package com.rapidminer.studio.io.data;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.NoSuchElementException;
-
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
-import com.rapidminer.core.io.data.ColumnMetaData;
+import com.rapidminer.core.io.data.*;
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
-import com.rapidminer.core.io.data.DataSet;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetRow;
-import com.rapidminer.core.io.data.ParseException;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.UserError;
-import com.rapidminer.studio.io.data.DataSetReader;
-import com.rapidminer.studio.io.data.DefaultColumnMetaData;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import java.util.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 
 /**

@@ -18,25 +18,6 @@
  */
 package com.rapidminer.gui.look;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JTextField;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.plaf.BorderUIResource.LineBorderUIResource;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.FontUIResource;
-import javax.swing.plaf.InsetsUIResource;
-import javax.swing.plaf.basic.BasicLookAndFeel;
-import javax.swing.text.DefaultEditorKit;
-
 import com.rapidminer.gui.look.borders.Borders;
 import com.rapidminer.gui.look.icons.IconFactory;
 import com.rapidminer.gui.tools.ScaledImageIcon;
@@ -44,6 +25,18 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
+import javax.swing.*;
+import javax.swing.plaf.BorderUIResource.LineBorderUIResource;
+import javax.swing.plaf.ColorUIResource;
+import javax.swing.plaf.FontUIResource;
+import javax.swing.plaf.InsetsUIResource;
+import javax.swing.plaf.basic.BasicLookAndFeel;
+import javax.swing.text.DefaultEditorKit;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
 
 
 /**

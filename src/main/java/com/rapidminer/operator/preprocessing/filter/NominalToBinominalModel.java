@@ -18,18 +18,7 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.SimpleAttributes;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.BinominalMapping;
 import com.rapidminer.example.table.NominalMapping;
@@ -39,6 +28,8 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
 
 
 /**

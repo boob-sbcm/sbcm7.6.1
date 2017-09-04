@@ -22,17 +22,11 @@ import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Observer;
 import com.rapidminer.tools.Tools;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.logging.Level;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

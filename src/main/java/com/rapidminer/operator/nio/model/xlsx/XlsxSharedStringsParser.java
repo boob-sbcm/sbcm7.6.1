@@ -18,6 +18,13 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.UserError;
+import org.xml.sax.Attributes;
+
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,15 +32,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-
-import org.xml.sax.Attributes;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.UserError;
 
 
 /**

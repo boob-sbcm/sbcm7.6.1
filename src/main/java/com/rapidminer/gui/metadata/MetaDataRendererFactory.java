@@ -21,7 +21,7 @@ package com.rapidminer.gui.metadata;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.repository.gui.ToolTipProviderHelper;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

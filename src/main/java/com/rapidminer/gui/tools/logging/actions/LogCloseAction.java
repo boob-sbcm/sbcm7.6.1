@@ -18,12 +18,12 @@
 */
 package com.rapidminer.gui.tools.logging.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.logging.LogModel;
 import com.rapidminer.gui.tools.logging.LogModelRegistry;
 import com.rapidminer.gui.tools.logging.LogViewer;
+
+import java.awt.event.ActionEvent;
 
 
 /**

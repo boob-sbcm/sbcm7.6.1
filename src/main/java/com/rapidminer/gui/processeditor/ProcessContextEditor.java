@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.GridLayout;
-
-import javax.swing.JPanel;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessContext;
 import com.rapidminer.operator.ports.InputPorts;
 import com.rapidminer.operator.ports.OutputPorts;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

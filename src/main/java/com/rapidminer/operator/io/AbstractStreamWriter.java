@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
@@ -34,6 +29,11 @@ import com.rapidminer.operator.ports.Port;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeFile;
 import com.rapidminer.parameter.PortProvider;
+
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 
 
 /**

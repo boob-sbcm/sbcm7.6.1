@@ -18,45 +18,20 @@
 */
 package com.rapidminer.operator;
 
-import java.security.AccessController;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.PriorityQueue;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.Vector;
-import java.util.logging.Level;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.execution.UnitExecutionFactory;
 import com.rapidminer.operator.execution.UnitExecutor;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.PortException;
-import com.rapidminer.operator.ports.PortOwner;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
 import com.rapidminer.operator.ports.metadata.OperatorLoopError;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.DelegatingObserver;
-import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.Tools;
+
+import java.security.AccessController;
+import java.security.PrivilegedActionException;
+import java.security.PrivilegedExceptionAction;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

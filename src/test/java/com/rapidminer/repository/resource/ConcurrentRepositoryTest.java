@@ -18,33 +18,21 @@
 */
 package com.rapidminer.repository.resource;
 
-import java.io.File;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Random;
-import java.util.concurrent.Callable;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
-
-import org.junit.Assert;
-import org.junit.Test;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.repository.Folder;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.local.LocalRepository;
 import com.rapidminer.repository.local.SimpleFolder;
 import com.rapidminer.tools.Tools;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.io.File;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.concurrent.*;
 
 
 /**

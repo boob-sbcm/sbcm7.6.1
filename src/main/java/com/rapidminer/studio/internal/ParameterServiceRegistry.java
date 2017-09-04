@@ -18,10 +18,10 @@
 */
 package com.rapidminer.studio.internal;
 
-import java.security.AccessController;
-
 import com.rapidminer.security.PluginSandboxPolicy;
 import com.rapidminer.tools.ParameterService;
+
+import java.security.AccessController;
 
 
 /**

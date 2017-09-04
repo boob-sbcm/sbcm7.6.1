@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator.nio.file;
 
+import com.rapidminer.operator.OperatorException;
+import com.rapidminer.tools.Tools;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.tools.Tools;
 
 
 /**

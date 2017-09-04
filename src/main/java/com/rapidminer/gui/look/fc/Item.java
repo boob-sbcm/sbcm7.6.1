@@ -18,35 +18,23 @@
  */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionAdapter;
-import java.io.File;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.UIManager;
-import javax.swing.border.Border;
-import javax.swing.filechooser.FileSystemView;
-import javax.swing.plaf.ColorUIResource;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.io.remote.RemoteFileSystemView;
 import com.rapidminer.tools.FontTools;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.filechooser.FileSystemView;
+import javax.swing.plaf.ColorUIResource;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionAdapter;
+import java.io.File;
 
 
 /**

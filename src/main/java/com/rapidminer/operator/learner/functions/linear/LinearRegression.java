@@ -18,50 +18,30 @@
  */
 package com.rapidminer.operator.learner.functions.linear;
 
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import org.apache.commons.math3.distribution.FDistribution;
-import org.apache.commons.math3.linear.LUDecomposition;
-import org.apache.commons.math3.linear.MatrixUtils;
-import org.apache.commons.math3.linear.RealMatrix;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import Jama.Matrix;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.functions.LinearRegressionModel;
 import com.rapidminer.operator.learner.functions.linear.LinearRegressionMethod.LinearRegressionResult;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.MathFunctions;
+import org.apache.commons.math3.distribution.FDistribution;
+import org.apache.commons.math3.linear.LUDecomposition;
+import org.apache.commons.math3.linear.MatrixUtils;
+import org.apache.commons.math3.linear.RealMatrix;
 
-import Jama.Matrix;
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

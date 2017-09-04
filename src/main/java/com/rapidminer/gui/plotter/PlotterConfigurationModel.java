@@ -18,51 +18,20 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
+import com.rapidminer.datatable.DataTable;
+import com.rapidminer.gui.plotter.charts.*;
+import com.rapidminer.gui.plotter.mathplot.*;
+import com.rapidminer.gui.plotter.som.SOMPlotter;
+import com.rapidminer.operator.visualization.SOMModelPlotter;
+import com.rapidminer.parameter.ParameterType;
+import com.rapidminer.parameter.ParameterTypeEnumeration;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.gui.plotter.charts.BarChartPlotter;
-import com.rapidminer.gui.plotter.charts.BlockChartPlotter;
-import com.rapidminer.gui.plotter.charts.BubbleChartPlotter;
-import com.rapidminer.gui.plotter.charts.DeviationChartPlotter;
-import com.rapidminer.gui.plotter.charts.DistributionPlotter;
-import com.rapidminer.gui.plotter.charts.HistogramChart;
-import com.rapidminer.gui.plotter.charts.HistogramColorChart;
-import com.rapidminer.gui.plotter.charts.MultipleScatterPlotter;
-import com.rapidminer.gui.plotter.charts.MultipleSeriesChartPlotter;
-import com.rapidminer.gui.plotter.charts.ParallelPlotter2;
-import com.rapidminer.gui.plotter.charts.ParetoChartPlotter;
-import com.rapidminer.gui.plotter.charts.PieChart2DPlotter;
-import com.rapidminer.gui.plotter.charts.PieChart3DPlotter;
-import com.rapidminer.gui.plotter.charts.RingChartPlotter;
-import com.rapidminer.gui.plotter.charts.ScatterPlotter2;
-import com.rapidminer.gui.plotter.charts.SeriesChartPlotter;
-import com.rapidminer.gui.plotter.charts.StackedBarChartPlotter;
-import com.rapidminer.gui.plotter.charts.WebPlotter;
-import com.rapidminer.gui.plotter.mathplot.BoxPlot2D;
-import com.rapidminer.gui.plotter.mathplot.BoxPlot3D;
-import com.rapidminer.gui.plotter.mathplot.ScatterPlot3D;
-import com.rapidminer.gui.plotter.mathplot.ScatterPlot3DColor;
-import com.rapidminer.gui.plotter.mathplot.SticksPlot2D;
-import com.rapidminer.gui.plotter.mathplot.SticksPlot3D;
-import com.rapidminer.gui.plotter.mathplot.SurfacePlot3D;
-import com.rapidminer.gui.plotter.som.SOMPlotter;
-import com.rapidminer.operator.visualization.SOMModelPlotter;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeEnumeration;
+import java.lang.reflect.InvocationTargetException;
+import java.util.*;
 
 
 /**

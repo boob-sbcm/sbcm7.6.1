@@ -18,9 +18,9 @@
 */
 package com.rapidminer.tools.expression.internal.function.text;
 
-import java.util.regex.PatternSyntaxException;
-
 import com.rapidminer.tools.expression.FunctionInputException;
+
+import java.util.regex.PatternSyntaxException;
 
 
 /**

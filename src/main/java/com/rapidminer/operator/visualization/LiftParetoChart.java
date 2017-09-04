@@ -27,7 +27,7 @@ import com.rapidminer.operator.ResultObjectAdapter;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.OperatorService;
 
-import java.awt.Graphics;
+import java.awt.*;
 import java.io.ObjectStreamException;
 import java.util.Collections;
 

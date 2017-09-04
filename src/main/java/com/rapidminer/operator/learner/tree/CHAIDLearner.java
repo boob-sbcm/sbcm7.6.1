@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.Example;
@@ -33,6 +30,9 @@ import com.rapidminer.operator.features.weighting.ChiSquaredWeighting;
 import com.rapidminer.operator.learner.tree.criterions.Criterion;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.OperatorService;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

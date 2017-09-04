@@ -18,23 +18,17 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.FontMetrics;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.RenderingHints;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.RoundRectangle2D;
-
-import javax.swing.JComponent;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicProgressBarUI;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookAndFeel;
 import com.rapidminer.gui.look.RapidLookTools;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicProgressBarUI;
+import java.awt.*;
+import java.awt.geom.Line2D;
+import java.awt.geom.Path2D;
+import java.awt.geom.RoundRectangle2D;
 
 
 /**

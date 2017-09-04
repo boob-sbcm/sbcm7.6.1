@@ -18,9 +18,9 @@
 */
 package com.rapidminer.parameter;
 
-import java.io.Serializable;
-
 import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
+
+import java.io.Serializable;
 
 
 /**

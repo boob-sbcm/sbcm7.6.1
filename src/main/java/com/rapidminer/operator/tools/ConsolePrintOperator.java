@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator.tools;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.DummyPortPairExtender;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

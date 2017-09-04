@@ -18,15 +18,13 @@
 */
 package com.rapidminer.gui.operatortree.actions;
 
-import java.awt.KeyboardFocusManager;
+import com.rapidminer.gui.tools.ResourceAction;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-
-import javax.swing.Action;
-import javax.swing.JComponent;
-
-import com.rapidminer.gui.tools.ResourceAction;
 
 
 /**

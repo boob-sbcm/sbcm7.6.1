@@ -3,14 +3,14 @@
  */
 package com.rapidminer.doc;
 
-import java.io.PrintWriter;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.LogService;
 import com.sun.javadoc.ClassDoc;
 import com.sun.javadoc.RootDoc;
+
+import java.io.PrintWriter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Formats operator documentation in HTML style.

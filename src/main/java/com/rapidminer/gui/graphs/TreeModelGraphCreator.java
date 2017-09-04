@@ -18,30 +18,19 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import org.apache.commons.collections15.Factory;
-
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.learner.tree.Edge;
-import com.rapidminer.operator.learner.tree.NominalSplitCondition;
-import com.rapidminer.operator.learner.tree.SplitCondition;
-import com.rapidminer.operator.learner.tree.Tree;
-import com.rapidminer.operator.learner.tree.TreeModel;
+import com.rapidminer.operator.learner.tree.*;
 import com.rapidminer.tools.Tools;
-
 import edu.uci.ics.jung.graph.DelegateForest;
 import edu.uci.ics.jung.graph.DirectedOrderedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.renderers.Renderer.EdgeLabel;
 import edu.uci.ics.jung.visualization.renderers.Renderer.Vertex;
 import edu.uci.ics.jung.visualization.renderers.Renderer.VertexLabel;
+import org.apache.commons.collections15.Factory;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

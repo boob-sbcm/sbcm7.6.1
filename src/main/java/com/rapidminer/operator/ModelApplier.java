@@ -18,23 +18,19 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ModelApplicationRule;
-import com.rapidminer.operator.ports.metadata.ModelMetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.preprocessing.PreprocessingOperator;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeString;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

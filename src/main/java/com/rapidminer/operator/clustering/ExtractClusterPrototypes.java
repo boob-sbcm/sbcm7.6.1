@@ -30,11 +30,7 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.ModelMetaData;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.tools.Ontology;
 
 

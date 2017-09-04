@@ -18,40 +18,16 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.tools.AttributeGuiTools;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.Observable;
-import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.SystemInfoUtilities;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
 import com.rapidminer.tools.expression.FunctionDescription;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 
 /**

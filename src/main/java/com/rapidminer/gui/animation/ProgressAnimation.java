@@ -18,17 +18,11 @@
  */
 package com.rapidminer.gui.animation;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Stroke;
+import com.rapidminer.tools.FontTools;
+
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-
-import com.rapidminer.tools.FontTools;
 
 
 /**

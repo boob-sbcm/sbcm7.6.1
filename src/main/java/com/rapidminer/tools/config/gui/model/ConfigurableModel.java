@@ -18,18 +18,6 @@
 */
 package com.rapidminer.tools.config.gui.model;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import javax.swing.event.EventListenerList;
-import javax.xml.ws.WebServiceException;
-
 import com.rapidminer.gui.security.UserCredential;
 import com.rapidminer.gui.security.Wallet;
 import com.rapidminer.gui.tools.VersionNumber;
@@ -47,6 +35,10 @@ import com.rapidminer.tools.config.gui.event.ConfigurableEvent;
 import com.rapidminer.tools.config.gui.event.ConfigurableEvent.EventType;
 import com.rapidminer.tools.config.gui.event.ConfigurableModelEventListener;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.event.EventListenerList;
+import javax.xml.ws.WebServiceException;
+import java.util.*;
 
 
 /**

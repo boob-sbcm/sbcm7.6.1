@@ -18,31 +18,6 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.BorderLayout;
-import java.awt.Cursor;
-import java.awt.FlowLayout;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseEvent;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.SwingConstants;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessLocation;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -55,6 +30,15 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

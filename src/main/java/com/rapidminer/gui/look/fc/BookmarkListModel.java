@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.look.fc;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.AbstractListModel;
 
 
 /**

@@ -18,6 +18,13 @@
 */
 package com.rapidminer.repository.local;
 
+import com.rapidminer.operator.IOObject;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.repository.*;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.ProgressListener;
+import com.rapidminer.tools.Tools;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,21 +32,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.DateEntry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryTools;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.Tools;
 
 
 /**

@@ -23,16 +23,7 @@ import com.rapidminer.tools.expression.ExpressionEvaluator;
 import com.rapidminer.tools.expression.ExpressionType;
 import com.rapidminer.tools.expression.Function;
 import com.rapidminer.tools.expression.internal.SimpleExpressionEvaluator;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.AttributeContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.FunctionContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.IndirectScopeConstantContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.IntegerContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.LowerExpContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.OperationExpContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.RealContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.ScopeConstantContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.StringContext;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.VariableContext;
+import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser.*;
 
 
 /**

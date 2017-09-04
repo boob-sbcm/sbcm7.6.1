@@ -21,12 +21,9 @@ package com.rapidminer.operator.nio;
 import com.rapidminer.gui.properties.DefaultRMCellEditor;
 import com.rapidminer.operator.Annotations;
 
-import java.awt.Color;
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Vector;
-
-import javax.swing.JComboBox;
-import javax.swing.JTable;
 
 
 /**

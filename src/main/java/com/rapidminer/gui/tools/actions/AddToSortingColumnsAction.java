@@ -23,10 +23,8 @@ import com.rapidminer.gui.tools.ExtendedJTableSorterModel;
 import com.rapidminer.gui.tools.IconSize;
 import com.rapidminer.gui.tools.SwingTools;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.AbstractAction;
-import javax.swing.Icon;
 
 
 /**

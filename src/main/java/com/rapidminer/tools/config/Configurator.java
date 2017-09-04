@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools.config;
 
-import java.util.List;
-
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.ParameterType;
+
+import java.util.List;
 
 
 /**

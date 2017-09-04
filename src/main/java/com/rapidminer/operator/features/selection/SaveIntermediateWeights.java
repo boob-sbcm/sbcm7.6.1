@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator.features.selection;
 
-import java.io.File;
-import java.io.IOException;
-
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.features.Individual;
 import com.rapidminer.operator.features.Population;
 import com.rapidminer.operator.features.PopulationOperator;
 import com.rapidminer.tools.io.Encoding;
+
+import java.io.File;
+import java.io.IOException;
 
 
 /**

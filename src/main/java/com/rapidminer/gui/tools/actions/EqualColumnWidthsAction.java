@@ -22,11 +22,9 @@ import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.IconSize;
 import com.rapidminer.gui.tools.SwingTools;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-
-import javax.swing.AbstractAction;
-import javax.swing.Icon;
 
 
 /**

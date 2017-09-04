@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree.criterions;
 
-import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERIA_CLASSES;
-import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERIA_NAMES;
-import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.PARAMETER_CRITERION;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -30,6 +26,8 @@ import com.rapidminer.operator.learner.tree.FrequencyCalculator;
 import com.rapidminer.operator.learner.tree.MinimalGainHandler;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.tools.Tools;
+
+import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.*;
 
 
 /**

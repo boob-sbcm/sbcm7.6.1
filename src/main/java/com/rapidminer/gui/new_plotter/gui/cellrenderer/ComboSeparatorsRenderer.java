@@ -18,13 +18,8 @@
 */
 package com.rapidminer.gui.new_plotter.gui.cellrenderer;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JSeparator;
-import javax.swing.ListCellRenderer;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

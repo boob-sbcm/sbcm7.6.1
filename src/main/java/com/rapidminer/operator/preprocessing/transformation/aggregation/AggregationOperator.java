@@ -18,23 +18,6 @@
  */
 package com.rapidminer.operator.preprocessing.transformation.aggregation;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
-
-import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.StringUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -44,36 +27,28 @@ import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.example.table.DoubleArrayDataRow;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.preprocessing.AbstractDataProcessing;
 import com.rapidminer.operator.preprocessing.filter.ExampleFilter;
 import com.rapidminer.operator.preprocessing.filter.NumericToNominal;
 import com.rapidminer.operator.preprocessing.filter.NumericToPolynominal;
 import com.rapidminer.operator.preprocessing.filter.attributes.RegexpAttributeFilter;
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeAttributes;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.OperatorService;
+import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang.StringUtils;
+
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
 
 
 /**

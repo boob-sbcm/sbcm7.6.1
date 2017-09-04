@@ -25,7 +25,6 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 
 

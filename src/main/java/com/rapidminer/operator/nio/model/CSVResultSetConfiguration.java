@@ -18,20 +18,19 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.io.File;
-import java.nio.charset.Charset;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.table.TableModel;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.CSVExampleSource;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.io.Encoding;
+
+import javax.swing.table.TableModel;
+import java.io.File;
+import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

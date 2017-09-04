@@ -26,13 +26,9 @@ package com.rapidminer.gui.tools.syntax;
  * package.
  */
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Toolkit;
-
 import com.rapidminer.tools.FontTools;
+
+import java.awt.*;
 
 
 /**

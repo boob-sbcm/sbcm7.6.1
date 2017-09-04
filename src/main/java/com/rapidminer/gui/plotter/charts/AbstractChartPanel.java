@@ -18,23 +18,32 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.AWTEvent;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.Paint;
-import java.awt.Point;
-import java.awt.Toolkit;
+import com.rapidminer.gui.actions.export.PrintableComponent;
+import com.rapidminer.gui.plotter.AxisNameResolver;
+import com.rapidminer.gui.plotter.CoordinateTransformation;
+import com.rapidminer.gui.plotter.NullCoordinateTransformation;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.container.Pair;
+import org.jfree.chart.*;
+import org.jfree.chart.axis.ValueAxis;
+import org.jfree.chart.editor.ChartEditor;
+import org.jfree.chart.editor.ChartEditorManager;
+import org.jfree.chart.entity.ChartEntity;
+import org.jfree.chart.entity.EntityCollection;
+import org.jfree.chart.event.ChartChangeEvent;
+import org.jfree.chart.event.ChartProgressEvent;
+import org.jfree.chart.event.OverlayChangeEvent;
+import org.jfree.chart.panel.Overlay;
+import org.jfree.chart.plot.*;
+import org.jfree.data.Range;
+import org.jfree.ui.ExtensionFileFilter;
+import org.jfree.util.ResourceBundleWrapper;
+
+import javax.swing.*;
+import javax.swing.event.EventListenerList;
+import java.awt.*;
 import java.awt.datatransfer.Clipboard;
-import java.awt.event.ActionEvent;
-import java.awt.event.InputEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
+import java.awt.event.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
@@ -47,51 +56,8 @@ import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.*;
 import java.util.List;
-import java.util.ResourceBundle;
-
-import javax.swing.JFileChooser;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
-import javax.swing.ToolTipManager;
-import javax.swing.event.EventListenerList;
-
-import org.jfree.chart.ChartMouseEvent;
-import org.jfree.chart.ChartMouseListener;
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.ChartRenderingInfo;
-import org.jfree.chart.ChartTransferable;
-import org.jfree.chart.ChartUtilities;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.editor.ChartEditor;
-import org.jfree.chart.editor.ChartEditorManager;
-import org.jfree.chart.entity.ChartEntity;
-import org.jfree.chart.entity.EntityCollection;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartProgressEvent;
-import org.jfree.chart.event.OverlayChangeEvent;
-import org.jfree.chart.panel.Overlay;
-import org.jfree.chart.plot.Pannable;
-import org.jfree.chart.plot.Plot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.PlotRenderingInfo;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.plot.Zoomable;
-import org.jfree.data.Range;
-import org.jfree.ui.ExtensionFileFilter;
-import org.jfree.util.ResourceBundleWrapper;
-
-import com.rapidminer.gui.actions.export.PrintableComponent;
-import com.rapidminer.gui.plotter.AxisNameResolver;
-import com.rapidminer.gui.plotter.CoordinateTransformation;
-import com.rapidminer.gui.plotter.NullCoordinateTransformation;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.container.Pair;
 
 
 /**

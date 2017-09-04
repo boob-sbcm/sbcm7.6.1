@@ -18,23 +18,17 @@
 */
 package com.rapidminer.gui.security;
 
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.util.ArrayList;
-import java.util.Collections;
-
-import javax.swing.Action;
-import javax.swing.DefaultRowSorter;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.tools.GlobalAuthenticator;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.ArrayList;
+import java.util.Collections;
 
 
 /**

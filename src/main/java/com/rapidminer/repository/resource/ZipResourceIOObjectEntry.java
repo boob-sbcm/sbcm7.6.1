@@ -18,11 +18,6 @@
 */
 package com.rapidminer.repository.resource;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
@@ -30,6 +25,11 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.tools.IOObjectSerializer;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tools.ProgressListener;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 
 /**

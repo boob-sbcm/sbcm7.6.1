@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.util.logging.Level;
-
 import javax.swing.text.SimpleAttributeSet;
+import java.util.logging.Level;
 
 
 /**

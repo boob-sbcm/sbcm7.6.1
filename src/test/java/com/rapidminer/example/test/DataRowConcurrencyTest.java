@@ -18,35 +18,23 @@
 */
 package com.rapidminer.example.test;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.Callable;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
-
+import com.rapidminer.RapidMiner;
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.Example;
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.table.*;
+import com.rapidminer.test_utils.RapidAssert;
+import com.rapidminer.tools.Ontology;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.rapidminer.RapidMiner;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.example.table.DataRow;
-import com.rapidminer.example.table.DataRowFactory;
-import com.rapidminer.example.table.DataRowReader;
-import com.rapidminer.example.table.ExampleTable;
-import com.rapidminer.example.table.MemoryExampleTable;
-import com.rapidminer.test_utils.RapidAssert;
-import com.rapidminer.tools.Ontology;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
+import java.util.concurrent.*;
 
 
 /**

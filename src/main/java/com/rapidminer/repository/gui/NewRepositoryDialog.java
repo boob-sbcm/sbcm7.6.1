@@ -18,16 +18,6 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.awt.Component;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.JRadioButton;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ResourceActionAdapter;
 import com.rapidminer.gui.tools.SwingTools;
@@ -36,6 +26,12 @@ import com.rapidminer.repository.CustomRepositoryFactory;
 import com.rapidminer.repository.CustomRepositoryRegistry;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 
 /**

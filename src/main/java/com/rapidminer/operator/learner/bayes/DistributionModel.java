@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.learner.bayes;
 
-import java.util.Collection;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.learner.UpdateablePredictionModel;
 import com.rapidminer.tools.math.distribution.Distribution;
+
+import java.util.Collection;
 
 
 /**

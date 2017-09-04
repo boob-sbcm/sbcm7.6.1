@@ -18,8 +18,6 @@
 */
 package com.rapidminer.gui.renderer.data;
 
-import java.util.LinkedHashMap;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.example.Attribute;
@@ -30,6 +28,8 @@ import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.gui.renderer.AbstractDataTablePlotterRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.MissingIOObjectException;
+
+import java.util.LinkedHashMap;
 
 
 /**

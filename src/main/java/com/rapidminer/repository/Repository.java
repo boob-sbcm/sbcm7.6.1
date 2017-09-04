@@ -19,7 +19,6 @@
 package com.rapidminer.repository;
 
 import com.rapidminer.repository.gui.RepositoryConfigurationPanel;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

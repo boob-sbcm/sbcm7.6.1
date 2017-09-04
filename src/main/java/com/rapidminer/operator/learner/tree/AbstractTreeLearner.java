@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
@@ -29,16 +27,13 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
-import com.rapidminer.operator.learner.tree.criterions.AbstractCriterion;
-import com.rapidminer.operator.learner.tree.criterions.AccuracyCriterion;
-import com.rapidminer.operator.learner.tree.criterions.Criterion;
-import com.rapidminer.operator.learner.tree.criterions.GainRatioCriterion;
-import com.rapidminer.operator.learner.tree.criterions.GiniIndexCriterion;
-import com.rapidminer.operator.learner.tree.criterions.InfoGainCriterion;
+import com.rapidminer.operator.learner.tree.criterions.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
+
+import java.util.List;
 
 
 /**

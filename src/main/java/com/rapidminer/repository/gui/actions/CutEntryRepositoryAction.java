@@ -18,12 +18,11 @@
 */
 package com.rapidminer.repository.gui.actions;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
-
 import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.gui.RepositoryTree;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 
 /**

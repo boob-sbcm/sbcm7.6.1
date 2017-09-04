@@ -18,12 +18,11 @@
 */
 package com.rapidminer.operator.features.transformation;
 
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
-
-import Jama.Matrix;
 
 
 /**

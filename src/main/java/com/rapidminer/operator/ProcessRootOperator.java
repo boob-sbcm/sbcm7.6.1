@@ -18,45 +18,27 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessContext;
 import com.rapidminer.ProcessListener;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.nio.file.FileObject;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPortExtender;
-import com.rapidminer.operator.ports.SinglePortExtender;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.MDTransformationRule;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.parameter.conditions.NonEqualTypeCondition;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.MailUtilities;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.RandomGenerator;
-import com.rapidminer.tools.Tools;
+import com.rapidminer.repository.*;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.io.Encoding;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,16 +18,9 @@
 */
 package com.rapidminer;
 
-import java.io.IOException;
-import java.util.logging.Level;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.UserData;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.internal.remote.RemoteContentManager;
 import com.rapidminer.repository.internal.remote.RemoteProcessEntry;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
@@ -35,6 +28,9 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.PasswordInputCanceledException;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.XMLException;
+
+import java.io.IOException;
+import java.util.logging.Level;
 
 
 /**

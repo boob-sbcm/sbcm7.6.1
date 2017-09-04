@@ -27,15 +27,10 @@ import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.LinkAndBrushSelectionListener;
 import com.rapidminer.gui.new_plotter.utility.ContinuousColorProvider;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.data.Range;
 
 import java.lang.ref.WeakReference;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import org.jfree.data.Range;
+import java.util.*;
 
 
 /**

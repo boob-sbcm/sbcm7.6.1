@@ -18,17 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.lang.reflect.InvocationTargetException;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.ImageIcon;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.io.process.XMLTools;
@@ -36,14 +25,19 @@ import com.rapidminer.license.License;
 import com.rapidminer.license.LicenseEvent;
 import com.rapidminer.license.LicenseEvent.LicenseEventType;
 import com.rapidminer.license.LicenseManagerListener;
-import com.rapidminer.tools.GenericOperatorFactory;
-import com.rapidminer.tools.GroupTree;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.XMLException;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.documentation.OperatorDocBundle;
 import com.rapidminer.tools.documentation.OperatorDocumentation;
 import com.rapidminer.tools.plugin.Plugin;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.swing.*;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

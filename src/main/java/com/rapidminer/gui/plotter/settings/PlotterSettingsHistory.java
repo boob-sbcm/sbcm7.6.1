@@ -18,11 +18,6 @@
 */
 package com.rapidminer.gui.plotter.settings;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.ListIterator;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.plotter.HeuristicPlotterConfigurator;
 import com.rapidminer.gui.plotter.Plotter;
@@ -30,6 +25,11 @@ import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.gui.plotter.PlotterConfigurationSettings;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.ports.ProcessingStep;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.ListIterator;
 
 
 /**

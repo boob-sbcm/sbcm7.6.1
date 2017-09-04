@@ -18,19 +18,15 @@
 */
 package com.rapidminer.studio.io.data.internal.file.binary;
 
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
-import java.io.IOException;
-
-import javax.swing.JLabel;
-import javax.swing.JTextArea;
-
-import org.apache.tika.Tika;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
+import org.apache.tika.Tika;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.IOException;
 
 
 /**

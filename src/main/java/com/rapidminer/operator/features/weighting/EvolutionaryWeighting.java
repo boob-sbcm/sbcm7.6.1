@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.Attributes;
@@ -35,12 +32,11 @@ import com.rapidminer.operator.features.selection.SelectionCrossover;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,11 +18,11 @@
 */
 package com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis;
 
-import java.util.Locale;
-import java.util.TimeZone;
-
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.data.Range;
+
+import java.util.Locale;
+import java.util.TimeZone;
 
 
 /**

@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.learner.local;
 
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.container.Tupel;
 import com.rapidminer.tools.math.container.GeometricDataCollection;
 

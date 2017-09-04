@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.features.construction;
 
-import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -32,21 +27,18 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
+
+import java.lang.reflect.InvocationTargetException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
 
 
 /**

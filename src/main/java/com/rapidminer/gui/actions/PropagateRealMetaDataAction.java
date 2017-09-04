@@ -18,10 +18,10 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.operator.DebugMode;
+
+import java.awt.event.ActionEvent;
 
 
 /**

@@ -18,14 +18,12 @@
 */
 package com.rapidminer.gui;
 
-import java.util.logging.Level;
-
-import javax.swing.JMenu;
-import javax.swing.JToolBar;
-
 import com.rapidminer.tools.LogService;
 import com.vlsolutions.swing.docking.Dockable;
 import com.vlsolutions.swing.docking.DockingContext;
+
+import javax.swing.*;
+import java.util.logging.Level;
 
 
 /**

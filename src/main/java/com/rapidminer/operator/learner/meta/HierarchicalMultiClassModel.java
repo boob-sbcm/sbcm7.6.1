@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -33,6 +26,9 @@ import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.PredictionModel;
+
+import java.io.Serializable;
+import java.util.*;
 
 
 /**

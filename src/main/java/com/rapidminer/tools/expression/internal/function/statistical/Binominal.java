@@ -18,12 +18,11 @@
 */
 package com.rapidminer.tools.expression.internal.function.statistical;
 
-import org.apache.commons.math3.util.CombinatoricsUtils;
-
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.expression.ExpressionType;
 import com.rapidminer.tools.expression.FunctionInputException;
 import com.rapidminer.tools.expression.internal.function.Abstract2DoubleInputFunction;
+import org.apache.commons.math3.util.CombinatoricsUtils;
 
 
 /**

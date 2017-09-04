@@ -18,21 +18,6 @@
  */
 package com.rapidminer.gui.new_plotter.configuration;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Paint;
-import java.lang.ref.WeakReference;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-
-import org.jfree.chart.plot.PlotOrientation;
-
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.new_plotter.PlotConfigurationError;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
@@ -43,22 +28,12 @@ import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationTy
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.LinkAndBrushListener;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.LinkAndBrushSelection;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.LinkAndBrushSelectionListener;
-import com.rapidminer.gui.new_plotter.listener.DimensionConfigListener;
-import com.rapidminer.gui.new_plotter.listener.LegendConfigurationListener;
-import com.rapidminer.gui.new_plotter.listener.PlotConfigurationListener;
-import com.rapidminer.gui.new_plotter.listener.PlotConfigurationProcessingListener;
-import com.rapidminer.gui.new_plotter.listener.RangeAxisConfigListener;
-import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent;
+import com.rapidminer.gui.new_plotter.listener.*;
+import com.rapidminer.gui.new_plotter.listener.events.*;
 import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent.DimensionConfigChangeType;
-import com.rapidminer.gui.new_plotter.listener.events.LegendConfigurationChangeEvent;
-import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent.PlotConfigurationChangeType;
-import com.rapidminer.gui.new_plotter.listener.events.RangeAxisConfigChangeEvent;
-import com.rapidminer.gui.new_plotter.listener.events.ValueGroupingChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.ValueGroupingChangeEvent.ValueGroupingChangeType;
-import com.rapidminer.gui.new_plotter.listener.events.ValueRangeChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.ValueRangeChangeEvent.ValueRangeChangeType;
-import com.rapidminer.gui.new_plotter.listener.events.ValueSourceChangeEvent;
 import com.rapidminer.gui.new_plotter.templates.style.ColorRGB;
 import com.rapidminer.gui.new_plotter.templates.style.ColorScheme;
 import com.rapidminer.gui.new_plotter.utility.CategoricalColorProvider;
@@ -68,6 +43,12 @@ import com.rapidminer.gui.new_plotter.utility.ListUtility;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
+import org.jfree.chart.plot.PlotOrientation;
+
+import java.awt.*;
+import java.lang.ref.WeakReference;
+import java.util.*;
+import java.util.List;
 
 
 /**

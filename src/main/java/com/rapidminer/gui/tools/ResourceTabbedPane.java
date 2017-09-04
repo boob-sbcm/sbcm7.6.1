@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-import java.text.MessageFormat;
-
-import javax.swing.JTabbedPane;
-
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.text.MessageFormat;
 
 
 /**

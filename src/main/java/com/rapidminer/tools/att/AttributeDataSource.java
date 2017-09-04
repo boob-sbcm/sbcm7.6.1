@@ -18,6 +18,16 @@
 */
 package com.rapidminer.tools.att;
 
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.Attributes;
+import com.rapidminer.example.table.AttributeFactory;
+import com.rapidminer.example.table.NominalMapping;
+import com.rapidminer.tools.*;
+import org.w3c.dom.*;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -27,26 +37,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.example.table.NominalMapping;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.LoggingHandler;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.XMLException;
 
 
 /**

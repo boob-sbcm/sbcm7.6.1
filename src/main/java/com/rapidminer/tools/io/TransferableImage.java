@@ -18,7 +18,7 @@
 */
 package com.rapidminer.tools.io;
 
-import java.awt.Image;
+import java.awt.*;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;

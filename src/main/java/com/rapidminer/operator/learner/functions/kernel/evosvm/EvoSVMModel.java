@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.functions.kernel.evosvm;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -33,6 +30,9 @@ import com.rapidminer.operator.learner.functions.kernel.SupportVector;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.kernels.DotKernel;
 import com.rapidminer.tools.math.kernels.Kernel;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

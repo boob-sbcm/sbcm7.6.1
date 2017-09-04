@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.renderer.associations;
 
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.gui.renderer.AbstractTableModelTableRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.learner.associations.gsp.GSPSet;
 import com.rapidminer.operator.learner.associations.gsp.Sequence;
+
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
 
 
 /**

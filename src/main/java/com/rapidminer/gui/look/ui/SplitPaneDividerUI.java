@@ -18,21 +18,15 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
+import com.rapidminer.gui.look.Colors;
 
-import javax.swing.JButton;
-import javax.swing.JSplitPane;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.basic.BasicButtonUI;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
-
-import com.rapidminer.gui.look.Colors;
+import java.awt.*;
 
 
 /**

@@ -27,29 +27,20 @@ import com.rapidminer.gui.properties.celleditors.value.PropertyValueCellEditor;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.Operator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeEnumeration;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeParameterValue;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.LogService;
-
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.EventObject;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
 
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

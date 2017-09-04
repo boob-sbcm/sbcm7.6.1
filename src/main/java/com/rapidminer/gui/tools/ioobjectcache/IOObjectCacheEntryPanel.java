@@ -18,27 +18,17 @@
 */
 package com.rapidminer.gui.tools.ioobjectcache;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.Action;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
 import com.rapidminer.operator.IOObjectMap;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 
 /**

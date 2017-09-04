@@ -18,58 +18,6 @@
 */
 package com.rapidminer.tools.plugin;
 
-import java.awt.Frame;
-import java.awt.Image;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FilenameFilter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.URLClassLoader;
-import java.security.AccessController;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.jar.Attributes;
-import java.util.jar.JarFile;
-import java.util.jar.Manifest;
-import java.util.logging.Level;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-import javax.xml.bind.DatatypeConverter;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.RapidMiner.ExecutionMode;
 import com.rapidminer.gui.MainFrame;
@@ -87,18 +35,36 @@ import com.rapidminer.io.process.XMLImporter;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.I18N.SettingsType;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.PlatformUtilities;
-import com.rapidminer.tools.ResourceSource;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.WebServiceTools;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import javax.xml.bind.DatatypeConverter;
+import javax.xml.parsers.ParserConfigurationException;
+import java.awt.*;
+import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.security.*;
+import java.util.*;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.jar.Attributes;
+import java.util.jar.JarFile;
+import java.util.jar.Manifest;
+import java.util.logging.Level;
 
 
 /**

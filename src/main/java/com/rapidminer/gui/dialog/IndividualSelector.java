@@ -18,29 +18,6 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.BorderLayout;
-import java.awt.Frame;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -51,6 +28,18 @@ import com.rapidminer.gui.viewer.MetaDataViewer;
 import com.rapidminer.operator.features.FeatureOperator;
 import com.rapidminer.operator.features.Individual;
 import com.rapidminer.operator.features.Population;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 
 /**

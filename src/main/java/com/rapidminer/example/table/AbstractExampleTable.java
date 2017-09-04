@@ -18,15 +18,6 @@
 */
 package com.rapidminer.example.table;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -36,6 +27,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.att.AttributeSet;
+
+import java.util.*;
 
 
 /**

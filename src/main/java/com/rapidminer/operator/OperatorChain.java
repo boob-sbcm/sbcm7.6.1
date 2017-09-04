@@ -18,18 +18,8 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.Process;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.PortOwner;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.impl.InputPortsImpl;
 import com.rapidminer.operator.ports.impl.OutputPortsImpl;
 import com.rapidminer.operator.ports.metadata.MDTransformer;
@@ -38,6 +28,11 @@ import com.rapidminer.tools.DelegatingObserver;
 import com.rapidminer.tools.Observer;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.patterns.Visitor;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

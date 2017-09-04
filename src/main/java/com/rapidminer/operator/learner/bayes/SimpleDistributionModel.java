@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.bayes;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -33,6 +30,9 @@ import com.rapidminer.tools.math.VectorMath;
 import com.rapidminer.tools.math.distribution.DiscreteDistribution;
 import com.rapidminer.tools.math.distribution.Distribution;
 import com.rapidminer.tools.math.distribution.NormalDistribution;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 /**

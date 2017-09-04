@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.BorderLayout;
-import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JEditorPane;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.StyleSheet;
-
 import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ResourceTabbedPane;
@@ -41,6 +29,12 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import javax.swing.text.html.HTMLEditorKit;
+import javax.swing.text.html.StyleSheet;
+import java.awt.*;
+import java.util.logging.Level;
 
 
 /**

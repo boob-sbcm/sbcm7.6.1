@@ -18,61 +18,9 @@
  */
 package com.rapidminer.gui.properties;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-
-import javax.swing.AbstractButton;
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.text.BadLocationException;
-
-import org.fife.ui.rsyntaxtextarea.AbstractTokenMakerFactory;
-import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
-import org.fife.ui.rsyntaxtextarea.Style;
-import org.fife.ui.rsyntaxtextarea.SyntaxScheme;
-import org.fife.ui.rsyntaxtextarea.Token;
-import org.fife.ui.rsyntaxtextarea.TokenMakerFactory;
-import org.fife.ui.rtextarea.Gutter;
-import org.fife.ui.rtextarea.RTextScrollPane;
-import org.jdesktop.swingx.JXTaskPane;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.FilterListener;
-import com.rapidminer.gui.tools.FilterTextField;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ScrollableJPopupMenu;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.TextFieldWithAction;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.syntax.ExpressionTokenMaker;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ports.InputPort;
@@ -83,15 +31,21 @@ import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.expression.ExampleResolver;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionRegistry;
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInput;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.FunctionInput.Category;
-import com.rapidminer.tools.expression.MacroResolver;
+import org.fife.ui.rsyntaxtextarea.*;
+import org.fife.ui.rtextarea.Gutter;
+import org.fife.ui.rtextarea.RTextScrollPane;
+import org.jdesktop.swingx.JXTaskPane;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import javax.swing.text.BadLocationException;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

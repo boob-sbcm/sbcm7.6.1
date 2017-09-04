@@ -18,20 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeTypeException;
 import com.rapidminer.example.Attributes;
@@ -39,31 +25,20 @@ import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.nio.ExcelExampleSource;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MDInteger;
 import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.Tools;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.math.container.Range;
+
+import java.io.IOException;
+import java.util.*;
 
 
 /**

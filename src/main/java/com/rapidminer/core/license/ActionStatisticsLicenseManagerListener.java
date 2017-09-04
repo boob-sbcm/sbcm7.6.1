@@ -18,8 +18,6 @@
 */
 package com.rapidminer.core.license;
 
-import java.util.List;
-
 import com.rapidminer.license.License;
 import com.rapidminer.license.LicenseEvent;
 import com.rapidminer.license.LicenseEvent.LicenseEventType;
@@ -31,6 +29,8 @@ import com.rapidminer.license.violation.LicenseLevelViolation;
 import com.rapidminer.license.violation.LicenseViolation;
 import com.rapidminer.license.violation.LicenseViolation.ViolationType;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import java.util.List;
 
 
 /**

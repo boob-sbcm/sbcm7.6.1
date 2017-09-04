@@ -25,22 +25,14 @@ import com.rapidminer.example.set.Partition;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.NominalMapping;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.meta.HierarchicalMultiClassModel.Node;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.RandomGenerator;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 

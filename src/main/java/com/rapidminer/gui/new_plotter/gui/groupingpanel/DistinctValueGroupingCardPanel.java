@@ -22,9 +22,8 @@ import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimensio
 import com.rapidminer.gui.new_plotter.configuration.DistinctValueGrouping;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 
-import java.awt.GridBagConstraints;
-
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

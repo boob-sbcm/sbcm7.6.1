@@ -18,30 +18,6 @@
  */
 package com.rapidminer.gui.flow;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Stroke;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
-import javax.swing.Action;
-import javax.swing.JPopupMenu;
-import javax.swing.JToggleButton;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.actions.ToggleAction;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawDecorator;
@@ -56,6 +32,18 @@ import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.tools.FontTools;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.*;
+import java.util.List;
 
 
 /**

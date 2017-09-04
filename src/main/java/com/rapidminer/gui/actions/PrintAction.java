@@ -24,7 +24,7 @@ import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 
-import java.awt.Component;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.print.PrinterException;
 

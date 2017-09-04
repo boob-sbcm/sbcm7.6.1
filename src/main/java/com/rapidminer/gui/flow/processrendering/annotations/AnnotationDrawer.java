@@ -18,15 +18,15 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations;
 
-import java.awt.AlphaComposite;
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GradientPaint;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.RenderingHints;
-import java.awt.Stroke;
+import com.rapidminer.gui.flow.processrendering.annotations.model.*;
+import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationResizeHelper.ResizeDirection;
+import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationColor;
+import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
+import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
+import com.rapidminer.operator.Operator;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
@@ -34,21 +34,6 @@ import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
-import javax.swing.JEditorPane;
-
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationDragHelper;
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationResizeHelper;
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationResizeHelper.ResizeDirection;
-import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationsModel;
-import com.rapidminer.gui.flow.processrendering.annotations.model.OperatorAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.ProcessAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotations;
-import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationColor;
-import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
-import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
-import com.rapidminer.operator.Operator;
 
 
 /**

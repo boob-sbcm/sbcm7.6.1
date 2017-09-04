@@ -18,15 +18,15 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

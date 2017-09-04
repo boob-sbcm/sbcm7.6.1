@@ -18,13 +18,7 @@
 */
 package com.rapidminer.operator.preprocessing;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.SimpleAttributes;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.ViewAttribute;
 import com.rapidminer.operator.OperatorException;
@@ -32,13 +26,7 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 
 /**

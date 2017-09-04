@@ -18,11 +18,7 @@
 */
 package com.rapidminer.example.set;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.SimpleAttributes;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.DoubleArrayDataRow;
 import com.rapidminer.example.table.ExampleTable;

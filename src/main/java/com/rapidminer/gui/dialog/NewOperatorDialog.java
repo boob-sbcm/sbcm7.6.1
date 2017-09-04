@@ -18,54 +18,26 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Vector;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextField;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingUtilities;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.actions.Actions;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.CamelCaseFilter;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.OperatorList;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.UpdateQueue;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.tools.GroupTree;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.OperatorService;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.util.*;
 
 
 /**

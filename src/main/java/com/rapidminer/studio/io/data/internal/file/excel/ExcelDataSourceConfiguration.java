@@ -18,12 +18,12 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
+import com.rapidminer.core.io.data.source.DataSourceConfiguration;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.rapidminer.core.io.data.source.DataSourceConfiguration;
 
 
 /**

@@ -18,15 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Example;
@@ -35,6 +26,10 @@ import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.example.table.NumericalAttribute;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+
+import javax.swing.table.AbstractTableModel;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

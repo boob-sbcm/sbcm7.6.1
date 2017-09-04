@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.util.Vector;
-
 import javax.swing.table.DefaultTableModel;
+import java.util.Vector;
 
 
 /**

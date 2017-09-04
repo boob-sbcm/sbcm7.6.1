@@ -18,45 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.view;
 
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.datatransfer.Transferable;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.logging.Level;
-
-import javax.swing.Action;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.Process;
 import com.rapidminer.ProcessLocation;
@@ -70,11 +31,7 @@ import com.rapidminer.gui.animation.OperatorAnimationProcessListener;
 import com.rapidminer.gui.dnd.AbstractPatchedTransferHandler;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.dnd.OperatorTransferHandler;
-import com.rapidminer.gui.flow.ExtensionButton;
-import com.rapidminer.gui.flow.OverviewPanel;
-import com.rapidminer.gui.flow.PanningManager;
-import com.rapidminer.gui.flow.ProcessInteractionListener;
-import com.rapidminer.gui.flow.ProcessPanel;
+import com.rapidminer.gui.flow.*;
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotations;
 import com.rapidminer.gui.flow.processrendering.draw.OperatorDrawDecorator;
@@ -88,11 +45,7 @@ import com.rapidminer.gui.flow.processrendering.event.ProcessRendererOperatorEve
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessEventDecorator.KeyEventType;
 import com.rapidminer.gui.flow.processrendering.view.ProcessEventDecorator.MouseEventType;
-import com.rapidminer.gui.flow.processrendering.view.actions.ArrangeOperatorsAction;
-import com.rapidminer.gui.flow.processrendering.view.actions.AutoFitAction;
-import com.rapidminer.gui.flow.processrendering.view.actions.DeleteSelectedConnectionAction;
-import com.rapidminer.gui.flow.processrendering.view.actions.RenameAction;
-import com.rapidminer.gui.flow.processrendering.view.actions.SelectAllAction;
+import com.rapidminer.gui.flow.processrendering.view.actions.*;
 import com.rapidminer.gui.flow.processrendering.view.components.ProcessRendererTooltipProvider;
 import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -103,12 +56,7 @@ import com.rapidminer.gui.tools.components.ToolTipWindow.TooltipLocation;
 import com.rapidminer.license.LicenseEvent;
 import com.rapidminer.license.LicenseEvent.LicenseEventType;
 import com.rapidminer.license.LicenseManagerListener;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.ResultObject;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.Port;
@@ -118,6 +66,17 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.Transferable;
+import java.awt.event.*;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.logging.Level;
 
 
 /**

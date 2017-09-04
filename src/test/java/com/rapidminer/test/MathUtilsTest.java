@@ -18,11 +18,10 @@
 */
 package com.rapidminer.test;
 
-import static junit.framework.Assert.assertEquals;
-
+import com.rapidminer.tools.math.MathFunctions;
 import org.junit.Test;
 
-import com.rapidminer.tools.math.MathFunctions;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * A test for the {@link MathFunctions}.

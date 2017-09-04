@@ -18,23 +18,6 @@
 */
 package com.rapidminer.gui.plotter.mathplot;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.geom.AffineTransform;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
-import org.math.plot.Plot3DPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
@@ -43,6 +26,14 @@ import com.rapidminer.gui.plotter.conditions.RowsPlotterCondition;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+import org.math.plot.Plot3DPanel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

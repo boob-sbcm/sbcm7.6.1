@@ -18,34 +18,20 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JPasswordField;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.text.JTextComponent;
-
 import com.rapidminer.gui.properties.DefaultRMCellEditor;
 import com.rapidminer.gui.properties.PropertyTable;
 import com.rapidminer.gui.tools.CharTextField;
 import com.rapidminer.gui.tools.ExtendedJComboBox;
 import com.rapidminer.gui.tools.autocomplete.AutoCompleteComboBoxAddition;
 import com.rapidminer.operator.Operator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeChar;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypePassword;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.text.JTextComponent;
+import java.awt.*;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 
 
 /**

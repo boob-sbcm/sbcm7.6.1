@@ -18,14 +18,10 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
 import com.rapidminer.operator.nio.model.ParsingError;
 import com.rapidminer.studio.io.gui.internal.steps.configuration.AbstractErrorWarningTableModel;
+
+import java.util.*;
 
 
 /**

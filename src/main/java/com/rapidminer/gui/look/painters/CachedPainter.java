@@ -18,8 +18,7 @@
 */
 package com.rapidminer.gui.look.painters;
 
-import java.awt.Component;
-import java.awt.Graphics;
+import java.awt.*;
 
 
 /**

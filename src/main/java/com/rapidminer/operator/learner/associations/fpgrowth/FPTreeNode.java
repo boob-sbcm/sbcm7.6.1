@@ -21,11 +21,7 @@ package com.rapidminer.operator.learner.associations.fpgrowth;
 import com.rapidminer.operator.learner.associations.Item;
 import com.rapidminer.tools.Tools;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 
 /**

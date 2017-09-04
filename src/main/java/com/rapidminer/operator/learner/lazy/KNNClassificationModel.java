@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.lazy;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -33,6 +30,9 @@ import com.rapidminer.operator.learner.UpdateablePredictionModel;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Tupel;
 import com.rapidminer.tools.math.container.GeometricDataCollection;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 /**

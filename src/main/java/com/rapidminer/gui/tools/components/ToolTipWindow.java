@@ -18,48 +18,6 @@
  */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.AWTEvent;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dialog;
-import java.awt.Dialog.ModalExclusionType;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GraphicsDevice;
-import java.awt.GraphicsEnvironment;
-import java.awt.Insets;
-import java.awt.MouseInfo;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
-import java.awt.event.AWTEventListener;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowFocusListener;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkListener;
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.StyleSheet;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
@@ -71,6 +29,16 @@ import com.rapidminer.repository.IOObjectEntry;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.RMUrlHandler;
+
+import javax.swing.*;
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkListener;
+import javax.swing.text.html.HTMLEditorKit;
+import javax.swing.text.html.StyleSheet;
+import java.awt.*;
+import java.awt.Dialog.ModalExclusionType;
+import java.awt.event.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 /**

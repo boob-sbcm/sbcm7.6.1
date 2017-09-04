@@ -18,20 +18,17 @@
 */
 package com.rapidminer.tools.config.gui;
 
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.components.DropDownPopupButton;
+import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-
-import javax.swing.Action;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.components.DropDownPopupButton;
-import com.rapidminer.tools.I18N;
 
 
 /**

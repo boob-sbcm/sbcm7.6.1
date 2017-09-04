@@ -18,17 +18,15 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Graphics;
-import java.awt.Point;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.JComponent;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicEditorPaneUI;
-
 import com.rapidminer.gui.look.ClipboardActionsPopup;
 import com.rapidminer.gui.tools.components.LinkButton;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicEditorPaneUI;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 
 /**

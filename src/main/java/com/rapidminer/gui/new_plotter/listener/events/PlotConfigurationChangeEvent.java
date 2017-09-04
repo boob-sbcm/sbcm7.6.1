@@ -25,13 +25,11 @@ import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
 import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.listener.LinkAndBrushSelection;
 import com.rapidminer.gui.new_plotter.templates.style.ColorScheme;
+import org.jfree.chart.plot.PlotOrientation;
 
-import java.awt.Color;
-import java.awt.Font;
+import java.awt.*;
 import java.util.LinkedList;
 import java.util.List;
-
-import org.jfree.chart.plot.PlotOrientation;
 
 
 /**

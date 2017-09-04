@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.flow.processrendering.draw;
 
-import java.awt.Graphics2D;
-
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessEventDecorator;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.flow.processrendering.view.RenderPhase;
 import com.rapidminer.operator.ExecutionUnit;
+
+import java.awt.*;
 
 
 /**

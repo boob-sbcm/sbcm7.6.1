@@ -18,15 +18,15 @@
  */
 package com.rapidminer.tools.usagestats;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.RapidMiner.ExecutionMode;
+import com.rapidminer.tools.usagestats.ActionStatisticsCollector.Key;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RapidMiner.ExecutionMode;
-import com.rapidminer.tools.usagestats.ActionStatisticsCollector.Key;
 
 
 /**

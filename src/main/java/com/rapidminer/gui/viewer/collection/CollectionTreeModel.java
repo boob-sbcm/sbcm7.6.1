@@ -18,14 +18,14 @@
 */
 package com.rapidminer.gui.viewer.collection;
 
-import javax.swing.event.TreeModelListener;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.operator.GroupedModel;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.IOObjectCollection;
 import com.rapidminer.operator.learner.meta.MetaModel;
+
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
 
 
 /**

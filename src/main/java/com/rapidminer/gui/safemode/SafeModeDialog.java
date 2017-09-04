@@ -18,17 +18,14 @@
 */
 package com.rapidminer.gui.safemode;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.KeyStroke;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.SwingTools.ResultRunnable;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
 
 
 /**

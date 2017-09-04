@@ -18,23 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.processeditor.results.ResultDisplayTools;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -42,6 +25,13 @@ import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.performance.PerformanceCriterion;
 import com.rapidminer.operator.performance.PerformanceVector;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

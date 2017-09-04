@@ -18,8 +18,7 @@
 */
 package com.rapidminer.gui.look.painters;
 
-import java.awt.GraphicsConfiguration;
-import java.awt.Image;
+import java.awt.*;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;

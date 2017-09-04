@@ -18,37 +18,19 @@
  */
 package com.rapidminer.tools;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.security.AccessControlException;
-import java.security.AccessController;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Properties;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.ExecutionMode;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.security.PluginSandboxPolicy;
-import com.rapidminer.tools.parameter.Parameter;
-import com.rapidminer.tools.parameter.ParameterChangeListener;
-import com.rapidminer.tools.parameter.ParameterScope;
-import com.rapidminer.tools.parameter.ParameterWriter;
-import com.rapidminer.tools.parameter.WindowsBatParameterWriter;
-import com.rapidminer.tools.parameter.WindowsExeParameterWriter;
+import com.rapidminer.tools.parameter.*;
+
+import java.io.*;
+import java.security.AccessControlException;
+import java.security.AccessController;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**

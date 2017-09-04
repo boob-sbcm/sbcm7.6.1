@@ -18,18 +18,16 @@
 */
 package com.rapidminer.gui.flow.processrendering.connections;
 
-import java.awt.Graphics2D;
-import java.awt.Shape;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawDecorator;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessEventDecorator;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.ports.OutputPort;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
 
 
 /**

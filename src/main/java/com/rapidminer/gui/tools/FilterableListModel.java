@@ -18,12 +18,11 @@
 */
 package com.rapidminer.gui.tools;
 
+import javax.swing.*;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
-
-import javax.swing.AbstractListModel;
 
 
 /**

@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.List;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
@@ -27,6 +25,8 @@ import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.List;
 
 
 /**

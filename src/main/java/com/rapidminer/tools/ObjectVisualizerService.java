@@ -18,14 +18,14 @@
 */
 package com.rapidminer.tools;
 
-import java.lang.ref.WeakReference;
-import java.util.Map;
-import java.util.WeakHashMap;
-
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.DummyObjectVisualizer;
 import com.rapidminer.gui.ExampleVisualizer;
+
+import java.lang.ref.WeakReference;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 
 /**

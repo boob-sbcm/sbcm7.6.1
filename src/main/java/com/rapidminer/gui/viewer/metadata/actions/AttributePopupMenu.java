@@ -21,9 +21,8 @@ package com.rapidminer.gui.viewer.metadata.actions;
 import com.rapidminer.gui.viewer.metadata.AttributeStatisticsPanel;
 import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel;
 
-import java.awt.Component;
-
-import javax.swing.JPopupMenu;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

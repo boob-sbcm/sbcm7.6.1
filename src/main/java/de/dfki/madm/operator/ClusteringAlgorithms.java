@@ -18,12 +18,12 @@
  */
 package de.dfki.madm.operator;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 public class ClusteringAlgorithms {

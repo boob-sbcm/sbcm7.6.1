@@ -18,10 +18,8 @@
 */
 package com.rapidminer.tools;
 
-import java.awt.Color;
-import java.awt.GradientPaint;
-import java.awt.Graphics2D;
-import java.awt.LinearGradientPaint;
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -33,8 +31,6 @@ import java.net.URLStreamHandler;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
-
-import javax.imageio.ImageIO;
 
 
 /**

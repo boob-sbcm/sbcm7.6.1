@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.learner.functions.neuralnet;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -35,6 +30,11 @@ import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

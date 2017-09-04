@@ -19,7 +19,6 @@
 package com.rapidminer.tools.math.similarity.divergences;
 
 import Jama.Matrix;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
 import com.rapidminer.operator.OperatorException;

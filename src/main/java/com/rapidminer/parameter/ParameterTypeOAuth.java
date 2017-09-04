@@ -19,7 +19,6 @@
 package com.rapidminer.parameter;
 
 import com.rapidminer.gui.properties.celleditors.value.OAuthValueCellEditor;
-
 import org.w3c.dom.Element;
 
 

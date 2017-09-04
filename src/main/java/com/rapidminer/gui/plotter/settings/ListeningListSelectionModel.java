@@ -18,12 +18,10 @@
 */
 package com.rapidminer.gui.plotter.settings;
 
-import javax.swing.DefaultListSelectionModel;
-import javax.swing.JList;
-import javax.swing.ListModel;
-
 import com.rapidminer.gui.plotter.PlotterConfigurationModel.PlotterSettingsChangedListener;
 import com.rapidminer.parameter.ParameterTypeEnumeration;
+
+import javax.swing.*;
 
 
 /**

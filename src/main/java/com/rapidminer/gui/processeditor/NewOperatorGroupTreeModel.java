@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.io.Serializable;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.event.TreeModelEvent;
-import javax.swing.event.TreeModelListener;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.tools.CamelCaseFilter;
 import com.rapidminer.operator.OperatorDescription;
@@ -39,6 +27,13 @@ import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.OperatorService.OperatorServiceListener;
 import com.rapidminer.tools.documentation.OperatorDocBundle;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
+import java.io.Serializable;
+import java.util.*;
 
 
 /**

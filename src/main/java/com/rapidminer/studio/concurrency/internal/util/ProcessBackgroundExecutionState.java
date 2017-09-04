@@ -18,15 +18,6 @@
  */
 package com.rapidminer.studio.concurrency.internal.util;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
-
 import com.rapidminer.LoggingListener;
 import com.rapidminer.Process;
 import com.rapidminer.ProcessListener;
@@ -37,6 +28,15 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.SimpleObservable;
 import com.rapidminer.tools.Tools;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 
 /**

@@ -18,27 +18,8 @@
 */
 package com.rapidminer.operator.preprocessing.discretization;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.SimpleAttributes;
-import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.example.table.ExampleTable;
-import com.rapidminer.example.table.NominalMapping;
-import com.rapidminer.example.table.PolynominalMapping;
-import com.rapidminer.example.table.ViewAttribute;
+import com.rapidminer.example.*;
+import com.rapidminer.example.table.*;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.UserError;
@@ -46,6 +27,9 @@ import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Tupel;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

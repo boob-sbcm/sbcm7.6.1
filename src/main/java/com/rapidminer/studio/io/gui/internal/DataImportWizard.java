@@ -18,28 +18,6 @@
 */
 package com.rapidminer.studio.io.gui.internal;
 
-import java.awt.CardLayout;
-import java.awt.Dimension;
-import java.awt.GraphicsConfiguration;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.core.io.data.source.DataSourceFactory;
@@ -53,6 +31,17 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,15 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter.attributes;
 
-import java.text.Collator;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.PatternSyntaxException;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -38,19 +29,14 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.features.selection.AbstractFeatureSelection;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDTransformationRule;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttributeOrderingRules;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Tools;
+
+import java.text.Collator;
+import java.util.*;
+import java.util.regex.PatternSyntaxException;
 
 
 /**

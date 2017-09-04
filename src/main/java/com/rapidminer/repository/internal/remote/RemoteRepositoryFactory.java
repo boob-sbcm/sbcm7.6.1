@@ -18,11 +18,11 @@
 */
 package com.rapidminer.repository.internal.remote;
 
-import java.net.URL;
-
 import com.rapidminer.repository.CustomRepositoryFactory;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.RepositoryManager;
+
+import java.net.URL;
 
 
 /**

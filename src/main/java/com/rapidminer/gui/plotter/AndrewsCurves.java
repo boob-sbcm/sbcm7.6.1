@@ -24,10 +24,7 @@ import com.rapidminer.gui.plotter.conditions.ColumnsPlotterCondition;
 import com.rapidminer.gui.plotter.conditions.PlotterCondition;
 import com.rapidminer.tools.math.MathFunctions;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
+import java.awt.*;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 import java.util.Iterator;

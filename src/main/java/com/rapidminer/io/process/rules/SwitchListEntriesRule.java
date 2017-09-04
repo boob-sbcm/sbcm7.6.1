@@ -22,12 +22,11 @@ import com.rapidminer.io.process.XMLImporter;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.tools.XMLException;
-
-import java.util.List;
-
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import java.util.List;
 
 
 /**

@@ -18,18 +18,7 @@
 */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.DataRow;
 import com.rapidminer.example.table.DoubleArrayDataRow;
@@ -38,6 +27,9 @@ import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.operator.AbstractModel;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.Ontology;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

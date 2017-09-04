@@ -18,21 +18,12 @@
 */
 package com.rapidminer.gui.new_plotter.gui.popup;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.Popup;
-import javax.swing.SwingUtilities;
 
 
 /**

@@ -18,14 +18,11 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Component;
-
-import javax.swing.JMenuItem;
-import javax.swing.JPasswordField;
-import javax.swing.JPopupMenu;
-import javax.swing.text.JTextComponent;
-
 import com.rapidminer.gui.tools.ResourceActionTransmitter;
+
+import javax.swing.*;
+import javax.swing.text.JTextComponent;
+import java.awt.*;
 
 
 /**

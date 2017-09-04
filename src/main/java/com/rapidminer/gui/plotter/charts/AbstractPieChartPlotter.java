@@ -18,41 +18,6 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeSet;
-import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.block.BlockBorder;
-import org.jfree.chart.plot.PiePlot;
-import org.jfree.chart.title.LegendTitle;
-import org.jfree.data.general.DefaultPieDataset;
-import org.jfree.data.general.PieDataset;
-import org.jfree.ui.HorizontalAlignment;
-import org.jfree.ui.RectangleEdge;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.MainFrame;
@@ -70,18 +35,34 @@ import com.rapidminer.gui.tools.ExtendedJList;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ExtendedListModel;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeEnumeration;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AverageFunction;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.block.BlockBorder;
+import org.jfree.chart.plot.PiePlot;
+import org.jfree.chart.title.LegendTitle;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.general.PieDataset;
+import org.jfree.ui.HorizontalAlignment;
+import org.jfree.ui.RectangleEdge;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

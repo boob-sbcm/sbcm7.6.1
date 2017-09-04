@@ -18,15 +18,15 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.model;
 
-import java.awt.geom.Rectangle2D;
-import java.util.UUID;
-
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationsVisualizer;
 import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationStyle;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
+
+import java.awt.geom.Rectangle2D;
+import java.util.UUID;
 
 
 /**

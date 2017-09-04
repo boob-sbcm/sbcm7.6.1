@@ -26,17 +26,6 @@ import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.math.MathFunctions;
-
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Stroke;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.JComponent;
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -53,6 +42,13 @@ import org.jfree.data.xy.YIntervalSeriesCollection;
 import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 import org.jfree.ui.RectangleInsets;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

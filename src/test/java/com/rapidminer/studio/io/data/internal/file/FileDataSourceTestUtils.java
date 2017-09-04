@@ -18,10 +18,10 @@
 */
 package com.rapidminer.studio.io.data.internal.file;
 
+import com.rapidminer.core.io.data.source.DataSource;
+
 import java.io.IOException;
 import java.util.Properties;
-
-import com.rapidminer.core.io.data.source.DataSource;
 
 
 /**

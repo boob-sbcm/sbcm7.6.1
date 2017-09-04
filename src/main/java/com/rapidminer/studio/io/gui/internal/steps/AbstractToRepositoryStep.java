@@ -18,49 +18,29 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps;
 
-import java.awt.CardLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.nio.file.Path;
-import java.util.concurrent.ExecutionException;
-
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-import javax.swing.SwingWorker;
-import javax.swing.WindowConstants;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.data.source.FileDataSource;
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.core.io.gui.WizardDirection;
 import com.rapidminer.core.io.gui.WizardStep;
 import com.rapidminer.gui.RapidMinerGUI;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ProgressThreadDialog;
-import com.rapidminer.gui.tools.ProgressThreadListener;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.SwingTools.ResultRunnable;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
 import com.rapidminer.repository.gui.RepositoryTree;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.nio.file.Path;
+import java.util.concurrent.ExecutionException;
 
 
 /**

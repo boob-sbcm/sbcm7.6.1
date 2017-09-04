@@ -21,7 +21,7 @@ package com.rapidminer.gui.new_plotter.utility;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.ItemShape;
 
-import java.awt.Shape;
+import java.awt.*;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;

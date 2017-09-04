@@ -18,22 +18,6 @@
  */
 package com.rapidminer.gui.plotter;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JProgressBar;
-import javax.swing.filechooser.FileFilter;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.plotter.conditions.ColumnsPlotterCondition;
@@ -41,6 +25,15 @@ import com.rapidminer.gui.plotter.conditions.PlotterCondition;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.logging.Level;
 
 
 /**

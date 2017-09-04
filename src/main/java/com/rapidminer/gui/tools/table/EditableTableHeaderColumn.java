@@ -18,8 +18,7 @@
 */
 package com.rapidminer.gui.tools.table;
 
-import javax.swing.DefaultCellEditor;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableColumn;
 

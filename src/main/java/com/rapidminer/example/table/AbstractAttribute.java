@@ -18,21 +18,16 @@
 */
 package com.rapidminer.example.table;
 
+import com.rapidminer.example.*;
+import com.rapidminer.operator.Annotations;
+import com.rapidminer.tools.Ontology;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeDescription;
-import com.rapidminer.example.AttributeTransformation;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.tools.Ontology;
 
 
 /**

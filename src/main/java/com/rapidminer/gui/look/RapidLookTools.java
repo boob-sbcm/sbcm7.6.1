@@ -18,29 +18,14 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.geom.RoundRectangle2D;
-
-import javax.swing.AbstractButton;
-import javax.swing.ButtonModel;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JProgressBar;
-import javax.swing.JToolBar;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.table.JTableHeader;
-
 import com.rapidminer.gui.look.painters.CachedPainter;
 import com.vlsolutions.swing.toolbars.VLToolBar;
+
+import javax.swing.*;
+import javax.swing.plaf.ColorUIResource;
+import javax.swing.table.JTableHeader;
+import java.awt.*;
+import java.awt.geom.RoundRectangle2D;
 
 
 /**

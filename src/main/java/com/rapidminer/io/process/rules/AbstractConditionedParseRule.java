@@ -25,14 +25,13 @@ import com.rapidminer.io.process.conditions.ParseRuleCondition;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 
 /**

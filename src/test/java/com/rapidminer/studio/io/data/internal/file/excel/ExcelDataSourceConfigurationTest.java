@@ -18,20 +18,16 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import com.rapidminer.core.io.data.DataSetException;
+import com.rapidminer.core.io.data.source.DataSourceConfiguration;
+import org.junit.Test;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import org.junit.Test;
-
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.source.DataSourceConfiguration;
-import com.rapidminer.studio.io.data.internal.file.excel.ExcelDataSource;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.not;
+import static org.junit.Assert.*;
 
 
 /**

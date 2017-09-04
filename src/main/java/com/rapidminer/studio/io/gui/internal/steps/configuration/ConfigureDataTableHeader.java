@@ -18,49 +18,13 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetMetaData;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.Ionicon;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.DropDownPopupButton;
 import com.rapidminer.gui.tools.components.DropDownPopupButton.DropDownPopupButtonBuilder;
 import com.rapidminer.gui.tools.dialogs.InputValidator;
@@ -69,6 +33,17 @@ import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 
 /**

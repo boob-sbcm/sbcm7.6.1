@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.metadata.MDTransformationRule;
@@ -30,6 +25,11 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimplePrecondition;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

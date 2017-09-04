@@ -18,17 +18,11 @@
  */
 package com.rapidminer.core.license;
 
+import com.rapidminer.license.*;
+
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.Set;
-
-import com.rapidminer.license.Constraints;
-import com.rapidminer.license.DefaultConstraints;
-import com.rapidminer.license.License;
-import com.rapidminer.license.LicenseConstants;
-import com.rapidminer.license.LicenseStatus;
-import com.rapidminer.license.LicenseUser;
-import com.rapidminer.license.StudioLicenseConstants;
 
 
 /**

@@ -18,9 +18,6 @@
  */
 package com.rapidminer.gui.renderer;
 
-import java.awt.Component;
-import java.util.List;
-
 import com.rapidminer.gui.graphs.GraphCreator;
 import com.rapidminer.gui.graphs.GraphViewer;
 import com.rapidminer.gui.graphs.LayoutSelection;
@@ -32,6 +29,9 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.report.Reportable;
+
+import java.awt.*;
+import java.util.List;
 
 
 /**

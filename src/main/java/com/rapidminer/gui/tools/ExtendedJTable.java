@@ -18,49 +18,28 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.util.Arrays;
-import java.util.Date;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JPopupMenu;
-import javax.swing.JTable;
-import javax.swing.JViewport;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.TableColumnModelEvent;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.actions.EqualColumnWidthsAction;
-import com.rapidminer.gui.tools.actions.FitAllColumnWidthsAction;
-import com.rapidminer.gui.tools.actions.FitColumnWidthAction;
-import com.rapidminer.gui.tools.actions.RestoreOriginalColumnOrderAction;
-import com.rapidminer.gui.tools.actions.SelectColumnAction;
-import com.rapidminer.gui.tools.actions.SelectRowAction;
-import com.rapidminer.gui.tools.actions.SortByColumnAction;
-import com.rapidminer.gui.tools.actions.SortColumnsAccordingToNameAction;
+import com.rapidminer.gui.tools.actions.*;
 import com.rapidminer.gui.tools.components.ToolTipWindow;
 import com.rapidminer.gui.tools.components.ToolTipWindow.TipProvider;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.TableColumnModelEvent;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.util.Arrays;
+import java.util.Date;
 
 
 /**

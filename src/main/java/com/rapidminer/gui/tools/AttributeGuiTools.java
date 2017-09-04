@@ -18,16 +18,15 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.swing.ImageIcon;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.gui.viewer.metadata.MetaDataStatisticsViewer;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

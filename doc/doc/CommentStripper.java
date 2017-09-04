@@ -3,15 +3,6 @@
  */
 package com.rapidminer.doc;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
-import com.rapidminer.tools.Tools;
-
-
 /**
  * Delivers the class comments of the Javadoc comments of an operator class.
  * 

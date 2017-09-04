@@ -18,9 +18,8 @@
 */
 package com.rapidminer.tools.expression;
 
-import org.antlr.v4.runtime.ParserRuleContext;
-
 import com.rapidminer.tools.I18N;
+import org.antlr.v4.runtime.ParserRuleContext;
 
 
 /**

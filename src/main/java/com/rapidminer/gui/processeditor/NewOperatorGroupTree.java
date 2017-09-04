@@ -18,37 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.Collections;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.JTree;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
-
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -58,13 +27,7 @@ import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.operatortree.actions.InfoOperatorAction;
 import com.rapidminer.gui.properties.PropertyPanel;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.FilterListener;
-import com.rapidminer.gui.tools.FilterTextField;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.SelectionNavigationListener;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.TextFieldWithAction;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.ToolTipWindow;
 import com.rapidminer.gui.tools.components.ToolTipWindow.TipProvider;
 import com.rapidminer.gui.tools.components.ToolTipWindow.TooltipLocation;
@@ -78,6 +41,18 @@ import com.rapidminer.tools.GroupTree;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.TreePath;
+import javax.swing.tree.TreeSelectionModel;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

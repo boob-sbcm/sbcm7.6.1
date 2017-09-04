@@ -18,32 +18,23 @@
  */
 package com.rapidminer.gui.flow.processrendering.background;
 
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
-
-import javax.imageio.ImageIO;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ProgressThreadListener;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.UserData;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.logging.Level;
 
 
 /**

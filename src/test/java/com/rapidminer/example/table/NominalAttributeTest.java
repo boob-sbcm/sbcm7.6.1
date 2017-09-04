@@ -18,12 +18,11 @@
 */
 package com.rapidminer.example.table;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.tools.Ontology;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

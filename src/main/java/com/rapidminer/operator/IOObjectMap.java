@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
 import com.rapidminer.operator.IOObjectMapEvent.IOObjectMapEventType;
 import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 
 /**

@@ -20,7 +20,6 @@ package com.rapidminer.gui.plotter.mathplot;
 
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-
 import org.math.plot.Plot2DPanel;
 import org.math.plot.PlotPanel;
 

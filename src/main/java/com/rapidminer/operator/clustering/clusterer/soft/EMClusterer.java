@@ -18,34 +18,16 @@
 */
 package com.rapidminer.operator.clustering.clusterer.soft;
 
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
-import java.util.Vector;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.example.Tools;
+import Jama.Matrix;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.clustering.ClusterModel;
 import com.rapidminer.operator.clustering.FlatFuzzyClusterModel;
 import com.rapidminer.operator.clustering.clusterer.KMeans;
 import com.rapidminer.operator.clustering.clusterer.RMAbstractClusterer;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
@@ -54,7 +36,7 @@ import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.VectorMath;
 import com.rapidminer.tools.math.similarity.DistanceMeasures;
 
-import Jama.Matrix;
+import java.util.*;
 
 
 /**

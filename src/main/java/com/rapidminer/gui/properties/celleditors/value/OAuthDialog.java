@@ -18,31 +18,6 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.KeyEvent;
-import java.util.LinkedList;
-
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
-import javax.swing.SwingUtilities;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.look.borders.RoundTitledBorder;
 import com.rapidminer.gui.tools.ProgressThread;
@@ -53,6 +28,17 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.parameter.OAuthMechanism;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.RMUrlHandler;
+
+import javax.swing.*;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+import java.awt.event.KeyEvent;
+import java.util.LinkedList;
 
 
 /**

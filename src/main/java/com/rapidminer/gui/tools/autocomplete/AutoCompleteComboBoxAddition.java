@@ -18,23 +18,15 @@
 */
 package com.rapidminer.gui.tools.autocomplete;
 
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Locale;
-import java.util.Vector;
-
-import javax.swing.ComboBoxModel;
-import javax.swing.JComboBox;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
+import java.util.*;
 
 
 /**

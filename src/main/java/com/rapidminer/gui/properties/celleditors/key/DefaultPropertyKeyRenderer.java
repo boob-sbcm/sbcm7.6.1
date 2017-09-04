@@ -24,14 +24,8 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Font;
-
-import javax.swing.BorderFactory;
-import javax.swing.JComponent;
-import javax.swing.JTable;
-import javax.swing.JTextField;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

@@ -18,16 +18,9 @@
 */
 package com.rapidminer.operator.validation;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.performance.PerformanceCriterion;
@@ -35,20 +28,13 @@ import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.PortPairExtender;
-import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.Precondition;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.math.AverageVector;
+
+import java.util.List;
 
 
 /**

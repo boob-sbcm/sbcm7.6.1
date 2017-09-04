@@ -18,13 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JToolBar;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

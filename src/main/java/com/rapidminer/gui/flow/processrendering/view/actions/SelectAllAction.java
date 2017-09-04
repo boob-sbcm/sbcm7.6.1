@@ -18,14 +18,14 @@
 */
 package com.rapidminer.gui.flow.processrendering.view.actions;
 
-import java.awt.event.ActionEvent;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
+
+import java.awt.event.ActionEvent;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

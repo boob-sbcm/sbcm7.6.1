@@ -22,20 +22,14 @@ import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.tools.I18N;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.HeadlessException;
+import javax.swing.*;
+import javax.swing.colorchooser.AbstractColorChooserPanel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.colorchooser.AbstractColorChooserPanel;
 
 
 /**

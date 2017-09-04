@@ -18,11 +18,6 @@
  */
 package com.rapidminer.studio.concurrency.internal;
 
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Callable;
-import java.util.concurrent.Future;
-
 import com.rapidminer.Process;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.IOContainer;
@@ -33,6 +28,11 @@ import com.rapidminer.studio.concurrency.internal.util.BackgroundExecution;
 import com.rapidminer.studio.concurrency.internal.util.BackgroundExecutionServiceListener;
 import com.rapidminer.studio.concurrency.internal.util.ProcessBackgroundExecution;
 import com.rapidminer.studio.internal.ParameterServiceRegistry;
+
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Future;
 
 
 /**

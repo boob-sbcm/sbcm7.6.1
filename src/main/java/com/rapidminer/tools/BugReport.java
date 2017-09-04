@@ -22,26 +22,13 @@ import com.rapidminer.Process;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.tools.plugin.Plugin;
+import org.apache.xmlrpc.client.XmlRpcClient;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
-
-import org.apache.xmlrpc.client.XmlRpcClient;
 
 
 /**

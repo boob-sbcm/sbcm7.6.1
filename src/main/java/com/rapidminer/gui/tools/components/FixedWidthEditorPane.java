@@ -18,15 +18,12 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
+import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
+import com.rapidminer.tools.RMUrlHandler;
 
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
-
-import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
-import com.rapidminer.tools.RMUrlHandler;
+import java.awt.*;
 
 
 /**

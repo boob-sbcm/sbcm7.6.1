@@ -18,6 +18,12 @@
 */
 package com.rapidminer.tools.cipher;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -25,13 +31,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.Key;
 import java.util.logging.Level;
-
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
 
 
 /**

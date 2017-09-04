@@ -18,30 +18,10 @@
  */
 package com.rapidminer.gui.flow.processrendering.draw;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GradientPaint;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Shape;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.io.IOException;
-import java.util.logging.Level;
-
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.UIManager;
-
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.IOObjectCollection;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.IncompatibleMDClassException;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
@@ -53,6 +33,14 @@ import com.rapidminer.tools.ClassColorMap;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParentResolvingMap;
 import com.rapidminer.tools.plugin.Plugin;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.GeneralPath;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.io.IOException;
+import java.util.logging.Level;
 
 
 /**

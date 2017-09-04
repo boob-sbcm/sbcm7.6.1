@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.meta;
 
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.PortPairExtender;

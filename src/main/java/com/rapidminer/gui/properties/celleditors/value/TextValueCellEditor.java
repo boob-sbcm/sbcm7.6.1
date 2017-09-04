@@ -18,18 +18,15 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JButton;
-import javax.swing.JTable;
-
 import com.rapidminer.gui.properties.TextPropertyDialog;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.syntax.JEditTextArea;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeText;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

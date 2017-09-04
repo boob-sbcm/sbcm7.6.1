@@ -18,14 +18,6 @@
  */
 package com.rapidminer.example.set;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotSame;
-
-import java.util.Arrays;
-
-import org.junit.AfterClass;
-import org.junit.Test;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
@@ -40,6 +32,13 @@ import com.rapidminer.operator.preprocessing.filter.NominalToNumericModel;
 import com.rapidminer.operator.tools.ExpressionEvaluationException;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.math.similarity.numerical.EuclideanDistance;
+import org.junit.AfterClass;
+import org.junit.Test;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotSame;
 
 
 /**

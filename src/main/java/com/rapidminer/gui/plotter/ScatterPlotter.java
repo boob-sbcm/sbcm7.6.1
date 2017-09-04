@@ -18,40 +18,25 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
-import java.util.logging.Level;
-
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileFilter;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.MathFunctions;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.geom.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

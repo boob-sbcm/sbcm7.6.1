@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Color;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.CellColorProvider;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.visualization.dependencies.ANOVAMatrix;
+
+import java.awt.*;
 
 
 /**

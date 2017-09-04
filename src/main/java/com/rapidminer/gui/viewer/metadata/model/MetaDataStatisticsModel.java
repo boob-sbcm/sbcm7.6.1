@@ -26,14 +26,13 @@ import com.rapidminer.gui.viewer.metadata.event.MetaDataStatisticsEvent.EventTyp
 import com.rapidminer.gui.viewer.metadata.event.MetaDataStatisticsEventListener;
 import com.rapidminer.tools.Ontology;
 
+import javax.swing.*;
+import javax.swing.event.EventListenerList;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.swing.SwingWorker;
-import javax.swing.event.EventListenerList;
 
 
 /**

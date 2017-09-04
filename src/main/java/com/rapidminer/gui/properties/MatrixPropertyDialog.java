@@ -23,13 +23,10 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeMatrix;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.util.Collection;
 import java.util.LinkedList;
-
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-import javax.swing.JScrollPane;
 
 
 /**

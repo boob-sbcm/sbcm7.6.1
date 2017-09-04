@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -38,6 +32,11 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 
 /**

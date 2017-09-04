@@ -18,11 +18,11 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps;
 
-import javax.swing.JComponent;
-
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.core.io.gui.WizardDirection;
+
+import javax.swing.*;
 
 
 /**

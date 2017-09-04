@@ -18,22 +18,17 @@
 */
 package com.rapidminer.gui;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.Action;
-import javax.swing.ButtonGroup;
-import javax.swing.ImageIcon;
-import javax.swing.JMenuItem;
-import javax.swing.JRadioButtonMenuItem;
-
 import com.rapidminer.gui.actions.WorkspaceAction;
 import com.rapidminer.gui.tools.ResourceMenu;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

@@ -18,13 +18,11 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.Paint;
-
-import org.jfree.chart.renderer.category.BarRenderer;
-
 import com.rapidminer.gui.plotter.ColorProvider;
 import com.rapidminer.tools.math.MathFunctions;
+import org.jfree.chart.renderer.category.BarRenderer;
+
+import java.awt.*;
 
 
 /**

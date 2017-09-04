@@ -18,11 +18,6 @@
  */
 package com.rapidminer.operator.preprocessing.normalization;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -30,11 +25,7 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDReal;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.parameter.ParameterHandler;
@@ -45,6 +36,11 @@ import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.math.container.Range;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
 
 
 /**

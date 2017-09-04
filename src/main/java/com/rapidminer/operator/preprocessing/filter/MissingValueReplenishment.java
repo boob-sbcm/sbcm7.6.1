@@ -18,16 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
@@ -46,6 +36,10 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.ParameterCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 /**

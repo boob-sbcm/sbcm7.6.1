@@ -18,13 +18,8 @@
 */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.Arrays;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import Jama.Matrix;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.operator.AbstractModel;
 import com.rapidminer.operator.OperatorException;
@@ -33,7 +28,7 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 
-import Jama.Matrix;
+import java.util.Arrays;
 
 
 /**

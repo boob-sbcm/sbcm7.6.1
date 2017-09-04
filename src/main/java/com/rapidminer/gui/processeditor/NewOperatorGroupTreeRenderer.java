@@ -18,16 +18,13 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JTree;
-import javax.swing.border.Border;
-import javax.swing.tree.DefaultTreeCellRenderer;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.tools.GroupTree;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
 
 
 /**

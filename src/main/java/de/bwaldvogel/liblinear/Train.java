@@ -26,9 +26,6 @@
  */
 package de.bwaldvogel.liblinear;
 
-import static de.bwaldvogel.liblinear.Linear.atof;
-import static de.bwaldvogel.liblinear.Linear.atoi;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -37,6 +34,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
+
+import static de.bwaldvogel.liblinear.Linear.atof;
+import static de.bwaldvogel.liblinear.Linear.atoi;
 
 
 public class Train {

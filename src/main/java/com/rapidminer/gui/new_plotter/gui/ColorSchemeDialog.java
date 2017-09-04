@@ -18,68 +18,15 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.LinearGradientPaint;
-import java.awt.MultipleGradientPaint.CycleMethod;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.text.DateFormat;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.AbstractButton;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-
-import org.jfree.chart.ChartPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.new_plotter.ChartConfigurationException;
-import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
-import com.rapidminer.gui.new_plotter.configuration.DefaultDimensionConfig;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.EqualDataFractionGrouping;
 import com.rapidminer.gui.new_plotter.configuration.LegendConfiguration.LegendPosition;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.StackingMode;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationType;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.JFreeChartPlotEngine;
 import com.rapidminer.gui.new_plotter.gui.cellrenderer.ColorListCellRenderer;
@@ -103,6 +50,17 @@ import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction.AggregationFunctionType;
+import org.jfree.chart.ChartPanel;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import java.awt.*;
+import java.awt.MultipleGradientPaint.CycleMethod;
+import java.awt.event.*;
+import java.text.DateFormat;
+import java.util.*;
+import java.util.List;
 
 
 /**

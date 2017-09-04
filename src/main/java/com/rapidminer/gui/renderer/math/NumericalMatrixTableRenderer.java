@@ -18,9 +18,6 @@
 */
 package com.rapidminer.gui.renderer.math;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.renderer.AbstractDataTableTableRenderer;
 import com.rapidminer.gui.tools.CellColorProvider;
@@ -28,6 +25,9 @@ import com.rapidminer.gui.tools.CellColorProviderScaled;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.visualization.dependencies.NumericalMatrix;
+
+import java.util.HashSet;
+import java.util.Set;
 
 
 /**

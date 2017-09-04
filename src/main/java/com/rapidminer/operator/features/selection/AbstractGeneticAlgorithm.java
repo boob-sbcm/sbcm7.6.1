@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.features.selection;
 
-import java.io.File;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
 import com.rapidminer.operator.OperatorDescription;
@@ -29,15 +25,13 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.features.FeatureOperator;
 import com.rapidminer.operator.features.Population;
 import com.rapidminer.operator.features.PopulationOperator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.io.File;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

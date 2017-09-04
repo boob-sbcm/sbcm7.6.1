@@ -18,30 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.JToggleButton;
-import javax.swing.JTree;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.gui.new_plotter.ChartConfigurationException;
 import com.rapidminer.gui.new_plotter.PlotConfigurationError;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
@@ -63,6 +39,13 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction.AggregationFunctionType;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import javax.swing.tree.TreePath;
+import java.awt.*;
+import java.awt.event.*;
 
 
 /**

@@ -18,18 +18,13 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseListener;
-
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-import javax.swing.JComponent;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.UIResource;
 import javax.swing.plaf.basic.BasicSpinnerUI;
+import java.awt.*;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseListener;
 
 
 /**

@@ -18,11 +18,6 @@
 */
 package com.rapidminer.tools.math.similarity;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.Operator;
@@ -33,35 +28,15 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.math.kernels.Kernel;
-import com.rapidminer.tools.math.similarity.divergences.GeneralizedIDivergence;
-import com.rapidminer.tools.math.similarity.divergences.ItakuraSaitoDistance;
-import com.rapidminer.tools.math.similarity.divergences.KLDivergence;
-import com.rapidminer.tools.math.similarity.divergences.LogarithmicLoss;
-import com.rapidminer.tools.math.similarity.divergences.LogisticLoss;
-import com.rapidminer.tools.math.similarity.divergences.MahalanobisDistance;
-import com.rapidminer.tools.math.similarity.divergences.SquaredEuclideanDistance;
-import com.rapidminer.tools.math.similarity.divergences.SquaredLoss;
+import com.rapidminer.tools.math.similarity.divergences.*;
 import com.rapidminer.tools.math.similarity.mixed.MixedEuclideanDistance;
-import com.rapidminer.tools.math.similarity.nominal.DiceNominalSimilarity;
-import com.rapidminer.tools.math.similarity.nominal.JaccardNominalSimilarity;
-import com.rapidminer.tools.math.similarity.nominal.KulczynskiNominalSimilarity;
-import com.rapidminer.tools.math.similarity.nominal.NominalDistance;
-import com.rapidminer.tools.math.similarity.nominal.RogersTanimotoNominalSimilarity;
-import com.rapidminer.tools.math.similarity.nominal.RussellRaoNominalSimilarity;
-import com.rapidminer.tools.math.similarity.nominal.SimpleMatchingNominalSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.CamberraNumericalDistance;
-import com.rapidminer.tools.math.similarity.numerical.ChebychevNumericalDistance;
-import com.rapidminer.tools.math.similarity.numerical.CorrelationSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.CosineSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.DTWDistance;
-import com.rapidminer.tools.math.similarity.numerical.DiceNumericalSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.EuclideanDistance;
-import com.rapidminer.tools.math.similarity.numerical.InnerProductSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.JaccardNumericalSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.KernelEuclideanDistance;
-import com.rapidminer.tools.math.similarity.numerical.ManhattanDistance;
-import com.rapidminer.tools.math.similarity.numerical.MaxProductSimilarity;
-import com.rapidminer.tools.math.similarity.numerical.OverlapNumericalSimilarity;
+import com.rapidminer.tools.math.similarity.nominal.*;
+import com.rapidminer.tools.math.similarity.numerical.*;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

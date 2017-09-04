@@ -25,7 +25,7 @@ import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.Parameters;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

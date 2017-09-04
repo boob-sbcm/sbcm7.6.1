@@ -18,23 +18,8 @@
  */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.GroupedModel;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.meta.AbstractMetaLearner;
 import com.rapidminer.operator.preprocessing.PreprocessingOperator;
 import com.rapidminer.operator.preprocessing.discretization.UserBasedDiscretization;
@@ -44,6 +29,9 @@ import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

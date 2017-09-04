@@ -18,30 +18,20 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.atomic.AtomicBoolean;
-
+import com.rapidminer.core.io.data.ColumnMetaData;
+import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
+import com.rapidminer.core.io.data.DataSetException;
+import com.rapidminer.studio.io.data.DefaultColumnMetaData;
+import com.rapidminer.tools.Observable;
+import com.rapidminer.tools.Observer;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.rapidminer.core.io.data.ColumnMetaData;
-import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
-import com.rapidminer.studio.io.data.DefaultColumnMetaData;
-import com.rapidminer.studio.io.gui.internal.steps.configuration.ColumnError;
-import com.rapidminer.studio.io.gui.internal.steps.configuration.ConfigureDataValidator;
-import com.rapidminer.studio.io.gui.internal.steps.configuration.ParsingError;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.tools.Observable;
-import com.rapidminer.tools.Observer;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import static org.junit.Assert.*;
 
 
 /**

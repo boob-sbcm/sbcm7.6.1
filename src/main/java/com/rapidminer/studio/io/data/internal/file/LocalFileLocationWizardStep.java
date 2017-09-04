@@ -18,18 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file;
 
-import java.io.File;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.filechooser.FileFilter;
-
 import com.rapidminer.core.io.data.source.FileDataSource;
 import com.rapidminer.core.io.data.source.FileDataSourceFactory;
 import com.rapidminer.core.io.gui.ImportWizard;
@@ -42,6 +30,17 @@ import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
 import com.rapidminer.studio.io.gui.internal.steps.AbstractWizardStep;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.filechooser.FileFilter;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.UUID;
 
 
 /**

@@ -27,17 +27,12 @@ import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.io.AbstractDataReader;
 
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 
 
 /**

@@ -18,19 +18,13 @@
 */
 package com.rapidminer.gui.new_plotter.engine.jfreechart.legend;
 
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.geom.Rectangle2D;
-import java.util.List;
-
-import org.jfree.chart.block.Arrangement;
-import org.jfree.chart.block.Block;
-import org.jfree.chart.block.BlockContainer;
-import org.jfree.chart.block.BlockResult;
-import org.jfree.chart.block.EntityBlockParams;
-import org.jfree.chart.block.EntityBlockResult;
+import org.jfree.chart.block.*;
 import org.jfree.chart.entity.EntityCollection;
 import org.jfree.chart.entity.StandardEntityCollection;
+
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.util.List;
 
 
 /**

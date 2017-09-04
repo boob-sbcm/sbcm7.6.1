@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.Icon;
-import javax.swing.JPanel;
-import javax.swing.SwingConstants;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.tools.ResourceLabel;
@@ -32,6 +25,9 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.viewer.DataTableViewer;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

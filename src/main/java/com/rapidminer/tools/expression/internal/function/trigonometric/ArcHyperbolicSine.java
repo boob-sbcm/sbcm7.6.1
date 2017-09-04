@@ -18,10 +18,9 @@
 */
 package com.rapidminer.tools.expression.internal.function.trigonometric;
 
-import org.apache.commons.math3.util.FastMath;
-
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.expression.internal.function.Abstract1DoubleInputFunction;
+import org.apache.commons.math3.util.FastMath;
 
 
 /**

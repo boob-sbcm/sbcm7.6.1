@@ -18,19 +18,6 @@
 */
 package com.rapidminer.tutorial;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Properties;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.resource.ZipStreamResource;
@@ -38,6 +25,14 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.NonClosingZipInputStream;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 
 /**

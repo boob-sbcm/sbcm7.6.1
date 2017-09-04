@@ -25,22 +25,13 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.parameter.ParameterTypeAttributes;
 import com.rapidminer.tools.I18N;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Collection;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
 
 
 /**

@@ -18,59 +18,14 @@
 */
 package com.rapidminer.gui.attributeeditor;
 
-import java.awt.Component;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
-import java.util.logging.Level;
-
-import javax.swing.Action;
-import javax.swing.DefaultCellEditor;
-import javax.swing.JComboBox;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.event.TableColumnModelEvent;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.TableCellEditor;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
-import com.rapidminer.example.table.AttributeFactory;
-import com.rapidminer.example.table.DataRowFactory;
-import com.rapidminer.example.table.DataRowReader;
-import com.rapidminer.example.table.FileDataRowReader;
-import com.rapidminer.example.table.RapidMinerLineReader;
+import com.rapidminer.example.table.*;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.gui.EditorCellRenderer;
-import com.rapidminer.gui.attributeeditor.actions.GuessAllTypesAction;
-import com.rapidminer.gui.attributeeditor.actions.GuessTypeAction;
-import com.rapidminer.gui.attributeeditor.actions.RemoveColumnAction;
-import com.rapidminer.gui.attributeeditor.actions.RemoveRowAction;
-import com.rapidminer.gui.attributeeditor.actions.UseRowAsNamesAction;
+import com.rapidminer.gui.attributeeditor.actions.*;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.io.process.XMLTools;
@@ -78,16 +33,27 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.io.ExampleSource;
 import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.RandomGenerator;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.XMLException;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.att.AttributeDataSource;
 import com.rapidminer.tools.att.AttributeDataSources;
 import com.rapidminer.tools.att.AttributeSet;
 import com.rapidminer.tools.io.Encoding;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.swing.*;
+import javax.swing.event.TableColumnModelEvent;
+import javax.swing.table.*;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.io.*;
+import java.nio.charset.Charset;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

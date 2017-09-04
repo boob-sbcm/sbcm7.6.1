@@ -24,7 +24,7 @@ import com.rapidminer.gui.new_plotter.listener.events.SeriesFormatChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.SeriesFormatChangeEvent.SeriesFormatChangeType;
 import com.rapidminer.gui.new_plotter.templates.style.ColorRGB;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

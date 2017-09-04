@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Window;
-
-import javax.swing.JButton;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.RepositoryEntryTextField;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

@@ -18,12 +18,11 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.util.List;
-
-import javax.swing.Action;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
+
+import javax.swing.*;
+import java.util.List;
 
 
 /**

@@ -18,17 +18,12 @@
 */
 package com.rapidminer.example.table;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.sql.Clob;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.sql.Types;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.tools.Ontology;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.sql.*;
 
 
 /**

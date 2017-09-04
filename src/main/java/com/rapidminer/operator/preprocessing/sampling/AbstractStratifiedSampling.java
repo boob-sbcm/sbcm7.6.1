@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.sampling;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Example;
@@ -37,6 +32,11 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,12 +18,11 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Component;
+import javax.swing.*;
+import javax.swing.plaf.basic.BasicButtonListener;
+import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.MouseEvent;
-
-import javax.swing.AbstractButton;
-import javax.swing.plaf.basic.BasicButtonListener;
 
 
 /**

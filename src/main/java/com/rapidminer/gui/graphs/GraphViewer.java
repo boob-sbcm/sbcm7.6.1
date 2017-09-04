@@ -18,41 +18,6 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.BasicStroke;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.HeadlessException;
-import java.awt.Insets;
-import java.awt.Paint;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JToolBar;
-import javax.swing.text.StyleContext;
-
-import org.apache.commons.collections15.Transformer;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.graphs.actions.ZoomInAction;
@@ -68,7 +33,6 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
-
 import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.StaticLayout;
@@ -90,6 +54,15 @@ import edu.uci.ics.jung.visualization.renderers.Renderer;
 import edu.uci.ics.jung.visualization.renderers.VertexLabelRenderer;
 import edu.uci.ics.jung.visualization.util.Animator;
 import edu.uci.ics.jung.visualization.util.ArrowFactory;
+import org.apache.commons.collections15.Transformer;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

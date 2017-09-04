@@ -18,33 +18,24 @@
 */
 package com.rapidminer.operator.validation;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.AttributeWeightedExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
 import com.rapidminer.operator.ports.metadata.Precondition;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

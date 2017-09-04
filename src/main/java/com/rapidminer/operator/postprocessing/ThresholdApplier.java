@@ -18,11 +18,7 @@
  */
 package com.rapidminer.operator.postprocessing;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeTypeException;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;

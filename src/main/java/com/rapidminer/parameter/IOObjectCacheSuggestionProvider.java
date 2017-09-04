@@ -18,14 +18,14 @@
 */
 package com.rapidminer.parameter;
 
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.tools.ProgressListener;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.tools.ProgressListener;
 
 
 /**

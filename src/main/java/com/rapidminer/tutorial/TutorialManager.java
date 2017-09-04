@@ -18,15 +18,15 @@
 */
 package com.rapidminer.tutorial;
 
+import com.rapidminer.tools.FileSystemService;
+import com.rapidminer.tools.LogService;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.logging.Level;
-
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.LogService;
 
 
 /**

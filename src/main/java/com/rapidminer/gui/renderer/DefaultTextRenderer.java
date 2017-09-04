@@ -18,17 +18,15 @@
 */
 package com.rapidminer.gui.renderer;
 
-import java.awt.Component;
-
-import javax.swing.JEditorPane;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.ResultObject;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

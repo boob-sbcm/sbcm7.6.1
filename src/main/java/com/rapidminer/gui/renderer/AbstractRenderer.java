@@ -20,17 +20,11 @@ package com.rapidminer.gui.renderer;
 
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeColor;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.Parameters;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.WebServiceTools;
 import com.rapidminer.tools.math.StringToMatrixConverter;
 
-import java.awt.Color;
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

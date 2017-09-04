@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import java.util.List;
-
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Model;
@@ -31,6 +29,8 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
+
+import java.util.List;
 
 
 /**

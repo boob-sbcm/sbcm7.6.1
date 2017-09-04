@@ -18,9 +18,9 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import javax.swing.Icon;
-
 import com.rapidminer.tools.ProgressListener;
+
+import javax.swing.*;
 
 
 /**

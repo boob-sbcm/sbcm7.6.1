@@ -18,23 +18,15 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
+import com.rapidminer.gui.ApplicationFrame;
+import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.SwingUtilities;
-
-import com.rapidminer.gui.ApplicationFrame;
-import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 
 
 /**

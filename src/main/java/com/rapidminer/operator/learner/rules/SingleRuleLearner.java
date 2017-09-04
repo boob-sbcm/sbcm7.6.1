@@ -18,14 +18,7 @@
 */
 package com.rapidminer.operator.learner.rules;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorCapability;
@@ -36,6 +29,9 @@ import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.tree.LessEqualsSplitCondition;
 import com.rapidminer.operator.learner.tree.NominalSplitCondition;
 import com.rapidminer.operator.learner.tree.SplitCondition;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 /**

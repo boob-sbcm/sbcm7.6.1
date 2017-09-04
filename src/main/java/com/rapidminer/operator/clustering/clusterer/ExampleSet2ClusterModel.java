@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.HashMap;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -33,15 +30,14 @@ import com.rapidminer.operator.clustering.ClusterModel;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.SetRelation;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.tools.metadata.MetaDataTools;
+
+import java.util.HashMap;
+import java.util.List;
 
 
 /**

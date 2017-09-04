@@ -22,13 +22,10 @@ import com.rapidminer.gui.wizards.PreviewCreator;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypePreview;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JButton;
-import javax.swing.JTable;
 
 
 /**

@@ -18,16 +18,6 @@
 */
 package com.rapidminer.repository.local;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.lang.ref.WeakReference;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
@@ -41,6 +31,9 @@ import com.rapidminer.repository.IOObjectEntry;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.plugin.Plugin;
+
+import java.io.*;
+import java.lang.ref.WeakReference;
 
 
 /**

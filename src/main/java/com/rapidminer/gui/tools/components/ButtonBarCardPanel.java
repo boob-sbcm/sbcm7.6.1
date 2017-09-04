@@ -18,34 +18,18 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.ComponentOrientation;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.tools.ExtendedJScrollPane;
+import com.rapidminer.gui.tools.ListHoverHelper;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListModel;
-import javax.swing.DefaultListSelectionModel;
-import javax.swing.JComponent;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ListHoverHelper;
 
 
 /**

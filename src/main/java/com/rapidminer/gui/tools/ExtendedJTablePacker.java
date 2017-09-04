@@ -18,12 +18,10 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-
-import javax.swing.JViewport;
+import javax.swing.*;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
+import java.awt.*;
 
 
 /**

@@ -18,24 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -44,6 +26,15 @@ import com.rapidminer.gui.tools.FilterableListModel;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 
 /**

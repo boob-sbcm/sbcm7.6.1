@@ -18,41 +18,21 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.GraphicsEnvironment;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.ResourceLabel;
+import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+import com.rapidminer.tools.FontTools;
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Locale;
-
-import javax.swing.AbstractListModel;
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.border.TitledBorder;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.dialogs.ButtonDialog;
-import com.rapidminer.tools.FontTools;
 
 
 /**

@@ -18,22 +18,10 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.properties.ConfigureParameterOptimizationDialogCreator;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.PortPairExtender;
@@ -41,21 +29,18 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimplePrecondition;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeConfiguration;
-import com.rapidminer.parameter.ParameterTypeInnerOperator;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeParameterValue;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
 import com.rapidminer.parameter.value.ParameterValueGrid;
 import com.rapidminer.parameter.value.ParameterValueList;
 import com.rapidminer.parameter.value.ParameterValueRange;
 import com.rapidminer.parameter.value.ParameterValues;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

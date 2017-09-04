@@ -18,14 +18,9 @@
 */
 package com.rapid_i.repository.wsimport;
 
+import javax.xml.namespace.QName;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.xml.namespace.QName;
-import javax.xml.ws.Service;
-import javax.xml.ws.WebEndpoint;
-import javax.xml.ws.WebServiceClient;
-import javax.xml.ws.WebServiceException;
-import javax.xml.ws.WebServiceFeature;
 
 
 /**
@@ -89,13 +84,6 @@ public class ProcessService_Service
         return super.getPort(new QName("http://service.web.rapidanalytics.de/", "ProcessServicePort"), ProcessService.class);
     }
 
-    /**
-     * 
-     * @param features
-     *     A list of {@link javax.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
-     * @return
-     *     returns ProcessService
-     */
     @WebEndpoint(name = "ProcessServicePort")
     public ProcessService getProcessServicePort(WebServiceFeature... features) {
         return super.getPort(new QName("http://service.web.rapidanalytics.de/", "ProcessServicePort"), ProcessService.class, features);

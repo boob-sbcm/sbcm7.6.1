@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.postprocessing;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.operator.AbstractExampleSetProcessing;
 import com.rapidminer.operator.OperatorDescription;
@@ -34,12 +30,7 @@ import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.container.Tupel;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 /**

@@ -18,22 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
-
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
 import com.rapidminer.gui.actions.export.PrintableComponent;
@@ -42,6 +26,11 @@ import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

@@ -18,10 +18,10 @@
 */
 package com.rapidminer.parameter;
 
-import javax.swing.JFileChooser;
-
 import com.rapidminer.gui.properties.celleditors.value.RemoteFileValueCellEditor;
 import com.rapidminer.io.remote.RemoteFileSystemView;
+
+import javax.swing.*;
 
 
 /**

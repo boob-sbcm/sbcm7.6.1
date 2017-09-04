@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dialog.ModalityType;
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.DefaultRowSorter;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.ProcessContext;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -41,6 +26,12 @@ import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.gui.tools.ViewToolBar;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import java.awt.*;
+import java.awt.Dialog.ModalityType;
+import java.awt.event.ActionEvent;
 
 
 /**

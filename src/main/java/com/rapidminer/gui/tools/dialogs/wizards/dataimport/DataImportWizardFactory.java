@@ -18,9 +18,9 @@
 */
 package com.rapidminer.gui.tools.dialogs.wizards.dataimport;
 
-import javax.swing.Action;
-
 import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
+
+import javax.swing.*;
 
 
 /**

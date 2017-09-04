@@ -18,14 +18,6 @@
 */
 package com.rapidminer.gui.operatortree;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessLocation;
 import com.rapidminer.gui.MainFrame;
@@ -38,6 +30,10 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.I18N;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.List;
 
 
 /**

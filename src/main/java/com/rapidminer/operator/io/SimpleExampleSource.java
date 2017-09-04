@@ -18,14 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.text.NumberFormat;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.DataRowFactory;
@@ -37,14 +29,7 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeChar;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.LineParser;
 import com.rapidminer.tools.RandomGenerator;
@@ -54,6 +39,14 @@ import com.rapidminer.tools.att.AttributeDataSourceCreator;
 import com.rapidminer.tools.att.AttributeDataSources;
 import com.rapidminer.tools.att.AttributeSet;
 import com.rapidminer.tools.io.Encoding;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.text.NumberFormat;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

@@ -18,17 +18,16 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-
-import javax.swing.JButton;
-
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.look.ui.ExtensionButtonUI;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

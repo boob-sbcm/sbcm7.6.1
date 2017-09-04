@@ -18,10 +18,6 @@
 */
 package com.rapidminer.repository.gui.actions;
 
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.tools.ProgressThreadDialog;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.repository.Entry;
@@ -30,6 +26,9 @@ import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.repository.gui.RepositoryTree;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.PasswordInputCanceledException;
+
+import javax.swing.*;
+import java.util.logging.Level;
 
 
 /**

@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.learner.associations;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
@@ -47,6 +42,11 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.math.container.Range;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 
 /**

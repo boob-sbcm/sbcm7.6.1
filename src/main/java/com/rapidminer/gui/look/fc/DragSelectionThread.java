@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 
 /**

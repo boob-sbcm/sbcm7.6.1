@@ -18,11 +18,11 @@
 */
 package com.rapidminer.repository.resource;
 
-import java.io.IOException;
-import java.util.zip.ZipInputStream;
-
 import com.rapidminer.repository.Repository;
 import com.rapidminer.repository.RepositoryException;
+
+import java.io.IOException;
+import java.util.zip.ZipInputStream;
 
 
 /**

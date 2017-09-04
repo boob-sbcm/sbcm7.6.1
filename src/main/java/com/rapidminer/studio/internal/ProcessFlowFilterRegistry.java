@@ -18,10 +18,10 @@
 */
 package com.rapidminer.studio.internal;
 
-import java.security.AccessController;
-
 import com.rapidminer.operator.execution.ProcessFlowFilter;
 import com.rapidminer.security.PluginSandboxPolicy;
+
+import java.security.AccessController;
 
 
 /**

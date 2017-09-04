@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.learner.igss.hypothesis;
 
-import java.util.Iterator;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
 
 
 /**

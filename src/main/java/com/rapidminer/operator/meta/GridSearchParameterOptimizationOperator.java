@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
@@ -28,6 +25,9 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.parameter.value.ParameterValueRange;
 import com.rapidminer.parameter.value.ParameterValues;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

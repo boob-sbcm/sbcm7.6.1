@@ -23,7 +23,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.math.AverageVector;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

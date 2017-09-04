@@ -18,22 +18,18 @@
  */
 package com.rapidminer.operator.preprocessing.join;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorProgress;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
 import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
 import com.rapidminer.studio.internal.ProcessStoppedRuntimeException;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

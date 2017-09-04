@@ -22,9 +22,8 @@ import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationTy
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
 
-import java.awt.CardLayout;
-
-import javax.swing.JTree;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

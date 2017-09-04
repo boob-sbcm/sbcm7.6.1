@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.ImportWizardUtils;
 import com.rapidminer.operator.nio.model.DefaultPreview;
@@ -31,6 +26,10 @@ import com.rapidminer.operator.nio.model.ParseException;
 import com.rapidminer.operator.nio.model.xlsx.XlsxResultSet.XlsxReadMode;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.table.AbstractTableModel;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

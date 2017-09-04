@@ -20,7 +20,7 @@ package com.rapidminer.gui.plotter.settings;
 
 import com.rapidminer.gui.plotter.PlotterConfigurationModel.PlotterSettingsChangedListener;
 
-import javax.swing.JCheckBox;
+import javax.swing.*;
 
 
 /**

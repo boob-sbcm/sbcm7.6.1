@@ -18,6 +18,8 @@
 */
 package com.rapidminer.tools.plugin;
 
+import com.rapidminer.RapidMiner;
+
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.security.AccessController;
@@ -25,8 +27,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
-import com.rapidminer.RapidMiner;
 
 
 /**

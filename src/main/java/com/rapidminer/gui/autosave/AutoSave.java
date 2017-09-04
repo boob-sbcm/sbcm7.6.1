@@ -18,28 +18,8 @@
 */
 package com.rapidminer.gui.autosave;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.List;
-import java.util.Properties;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-
-import com.rapidminer.FileProcessLocation;
+import com.rapidminer.*;
 import com.rapidminer.Process;
-import com.rapidminer.ProcessLocation;
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RepositoryProcessLocation;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.processeditor.ExtendedProcessEditor;
 import com.rapidminer.gui.tools.UpdateQueue;
@@ -49,6 +29,16 @@ import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
+
+import javax.swing.*;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Properties;
+import java.util.logging.Level;
 
 
 /**

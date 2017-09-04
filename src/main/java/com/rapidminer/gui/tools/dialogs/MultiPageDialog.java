@@ -18,18 +18,13 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.CardLayout;
-import java.awt.Component;
-import java.awt.Dialog;
-import java.awt.Frame;
-import java.util.Map;
+import com.rapidminer.gui.tools.ResourceAction;
 
-import javax.swing.JButton;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
-import com.rapidminer.gui.tools.ResourceAction;
+import java.awt.*;
+import java.util.Map;
 
 
 /**

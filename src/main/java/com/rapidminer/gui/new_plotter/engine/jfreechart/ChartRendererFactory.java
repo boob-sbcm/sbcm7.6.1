@@ -28,43 +28,18 @@ import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.ItemShape;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.data.ValueSourceData;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedAreaRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedBarRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedClusteredXYBarRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedDeviationRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedLineAndShapeRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedScatterRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStackedAreaRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStackedBarRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStackedXYAreaRenderer2;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStackedXYBarRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStatisticalBarRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedStatisticalLineAndShapeRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedXYAreaRenderer2;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedXYDifferenceRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedXYErrorRenderer;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.FormattedXYLineAndShapeRenderer;
+import com.rapidminer.gui.new_plotter.engine.jfreechart.renderer.*;
 import com.rapidminer.gui.new_plotter.utility.DataStructureUtils;
 import com.rapidminer.tools.LogService;
+import org.jfree.chart.labels.StandardXYToolTipGenerator;
+import org.jfree.chart.renderer.category.*;
+import org.jfree.chart.renderer.xy.*;
+import org.jfree.data.xy.XYDataset;
 
-import java.awt.Color;
+import java.awt.*;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.renderer.category.AreaRenderer;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.chart.renderer.category.ScatterRenderer;
-import org.jfree.chart.renderer.category.StandardBarPainter;
-import org.jfree.chart.renderer.xy.StandardXYBarPainter;
-import org.jfree.chart.renderer.xy.XYAreaRenderer2;
-import org.jfree.chart.renderer.xy.XYBarRenderer;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
-import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.data.xy.XYDataset;
 
 
 /**

@@ -18,19 +18,6 @@
 */
 package com.rapidminer.gui.actions.export;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.print.PageFormat;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.actions.PrintAction;
 import com.rapidminer.gui.tools.PrintingTools;
@@ -38,6 +25,13 @@ import com.rapidminer.gui.tools.ResourceActionAdapter;
 import com.rapidminer.gui.tools.components.ButtonBarCardPanel;
 import com.rapidminer.gui.tools.components.PrintableComponentCard;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.print.PageFormat;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

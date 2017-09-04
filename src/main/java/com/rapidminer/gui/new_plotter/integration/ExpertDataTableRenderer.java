@@ -30,7 +30,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.I18N;
 
-import java.awt.Component;
+import java.awt.*;
 import java.util.Map;
 
 

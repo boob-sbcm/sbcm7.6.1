@@ -41,11 +41,7 @@ import com.rapidminer.tools.math.optimization.ec.es.Individual;
 import com.rapidminer.tools.math.optimization.ec.es.NonDominatedSortingSelection;
 import com.rapidminer.tools.math.optimization.ec.es.Population;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 
 /**

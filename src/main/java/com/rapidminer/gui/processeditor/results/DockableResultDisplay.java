@@ -18,23 +18,6 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.LoggingListener;
 import com.rapidminer.Process;
@@ -45,11 +28,7 @@ import com.rapidminer.gui.PerspectiveModel;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.actions.CloseAllResultsAction;
 import com.rapidminer.gui.processeditor.ProcessLogTab;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceDockKey;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.UpdateQueue;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.gui.tools.dialogs.DecisionRememberingConfirmDialog;
 import com.rapidminer.gui.viewer.DataTableViewer;
@@ -59,17 +38,15 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ResultObject;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
-import com.vlsolutions.swing.docking.DockKey;
-import com.vlsolutions.swing.docking.Dockable;
-import com.vlsolutions.swing.docking.DockableActionCustomizer;
-import com.vlsolutions.swing.docking.DockableState;
-import com.vlsolutions.swing.docking.DockingDesktop;
-import com.vlsolutions.swing.docking.event.DockableStateChangeEvent;
-import com.vlsolutions.swing.docking.event.DockableStateChangeListener;
-import com.vlsolutions.swing.docking.event.DockingActionCloseEvent;
-import com.vlsolutions.swing.docking.event.DockingActionDockableEvent;
-import com.vlsolutions.swing.docking.event.DockingActionEvent;
-import com.vlsolutions.swing.docking.event.DockingActionListener;
+import com.vlsolutions.swing.docking.*;
+import com.vlsolutions.swing.docking.event.*;
+
+import javax.swing.*;
+import java.awt.*;
+import java.lang.reflect.InvocationTargetException;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

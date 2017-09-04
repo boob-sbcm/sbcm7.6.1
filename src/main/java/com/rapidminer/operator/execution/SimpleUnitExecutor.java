@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.execution;
 
-import java.util.Enumeration;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.IOObject;
@@ -31,6 +25,12 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
+
+import java.util.Enumeration;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**

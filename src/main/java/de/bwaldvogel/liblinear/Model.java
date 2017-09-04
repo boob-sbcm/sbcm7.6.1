@@ -26,14 +26,10 @@
  */
 package de.bwaldvogel.liblinear;
 
-import static de.bwaldvogel.liblinear.Linear.copyOf;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.Reader;
-import java.io.Serializable;
-import java.io.Writer;
+import java.io.*;
 import java.util.Arrays;
+
+import static de.bwaldvogel.liblinear.Linear.copyOf;
 
 
 /**

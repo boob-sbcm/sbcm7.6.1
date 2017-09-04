@@ -18,9 +18,9 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import javax.swing.Action;
-
 import com.rapidminer.gui.look.Colors;
+
+import javax.swing.*;
 
 
 /**

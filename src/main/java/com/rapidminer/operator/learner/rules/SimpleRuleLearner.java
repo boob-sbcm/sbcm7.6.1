@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.rules;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
@@ -32,6 +30,8 @@ import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.tree.SplitCondition;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
+
+import java.util.List;
 
 
 /**

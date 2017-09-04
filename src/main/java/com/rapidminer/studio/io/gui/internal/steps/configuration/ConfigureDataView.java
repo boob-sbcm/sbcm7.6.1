@@ -18,14 +18,27 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
+import com.rapidminer.core.io.data.ColumnMetaData;
+import com.rapidminer.core.io.data.DataSetException;
+import com.rapidminer.core.io.data.DataSetMetaData;
+import com.rapidminer.core.io.data.source.DataSource;
+import com.rapidminer.core.io.gui.InvalidConfigurationException;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.tools.*;
+import com.rapidminer.parameter.ParameterTypeDateFormat;
+import com.rapidminer.studio.io.gui.internal.DataImportWizardUtils;
+import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DateFormat;
@@ -33,49 +46,6 @@ import java.text.SimpleDateFormat;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.OverlayLayout;
-import javax.swing.SwingConstants;
-import javax.swing.border.Border;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-
-import com.rapidminer.core.io.data.ColumnMetaData;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetMetaData;
-import com.rapidminer.core.io.data.source.DataSource;
-import com.rapidminer.core.io.gui.InvalidConfigurationException;
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.AttributeGuiTools;
-import com.rapidminer.gui.tools.ColoredTableCellRenderer;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.RowNumberTable;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.parameter.ParameterTypeDateFormat;
-import com.rapidminer.studio.io.gui.internal.DataImportWizardUtils;
-import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
 
 
 /**

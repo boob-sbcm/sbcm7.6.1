@@ -18,18 +18,16 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
+import com.rapidminer.operator.UserError;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParserFactory;
-
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
-
-import com.rapidminer.operator.UserError;
 
 
 /**

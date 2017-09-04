@@ -18,24 +18,21 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.geom.Rectangle2D;
-import java.text.NumberFormat;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-
+import com.rapidminer.datatable.DataTable;
+import com.rapidminer.datatable.DataTableRow;
+import com.rapidminer.gui.plotter.LabelRotatingPlotterAdapter;
+import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.gui.plotter.PlotterConfigurationModel.PlotterSettingsChangedListener;
+import com.rapidminer.gui.plotter.settings.ListeningJCheckBox;
+import com.rapidminer.gui.plotter.settings.ListeningJComboBox;
+import com.rapidminer.gui.properties.PropertyPanel;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.operator.ports.InputPort;
+import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
+import com.rapidminer.operator.ports.metadata.MetaData;
+import com.rapidminer.operator.ports.metadata.ModelMetaData;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.Tools;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.CategoryAxis;
@@ -62,25 +59,15 @@ import org.jfree.ui.RectangleEdge;
 import org.jfree.ui.TextAnchor;
 import org.jfree.util.SortOrder;
 
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.datatable.DataTableRow;
-import com.rapidminer.gui.plotter.LabelRotatingPlotterAdapter;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel.PlotterSettingsChangedListener;
-import com.rapidminer.gui.plotter.settings.ListeningJCheckBox;
-import com.rapidminer.gui.plotter.settings.ListeningJComboBox;
-import com.rapidminer.gui.properties.PropertyPanel;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.ModelMetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.tools.Tools;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.geom.Rectangle2D;
+import java.text.NumberFormat;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**

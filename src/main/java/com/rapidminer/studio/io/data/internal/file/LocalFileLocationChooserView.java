@@ -18,33 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.io.File;
-import java.nio.file.Path;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.ComboBoxModel;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JComboBox;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.SwingConstants;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.filechooser.FileSystemView;
-
 import com.lowagie.text.Font;
 import com.rapidminer.core.io.data.source.DataSourceFactory;
 import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
@@ -57,6 +30,18 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
 import com.rapidminer.studio.io.gui.internal.DataImportWizardUtils;
 import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileSystemView;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.io.File;
+import java.nio.file.Path;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

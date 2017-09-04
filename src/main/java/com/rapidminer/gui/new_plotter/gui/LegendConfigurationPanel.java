@@ -18,18 +18,6 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JColorChooser;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-
 import com.rapidminer.gui.new_plotter.configuration.LegendConfiguration;
 import com.rapidminer.gui.new_plotter.configuration.LegendConfiguration.LegendPosition;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
@@ -40,6 +28,13 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

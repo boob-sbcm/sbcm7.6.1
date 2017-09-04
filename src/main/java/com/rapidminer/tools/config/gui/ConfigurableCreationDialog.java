@@ -18,51 +18,8 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyEvent;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-
-import javax.swing.Box;
-import javax.swing.ButtonGroup;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JLayer;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
 import com.rapidminer.gui.ApplicationFrame;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.TransparentGlassPanePanel;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.RepositoryManager;
@@ -75,6 +32,14 @@ import com.rapidminer.tools.config.gui.event.ConfigurableEvent;
 import com.rapidminer.tools.config.gui.event.ConfigurableModelEventListener;
 import com.rapidminer.tools.config.gui.renderer.ConfigurationRenderer;
 import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

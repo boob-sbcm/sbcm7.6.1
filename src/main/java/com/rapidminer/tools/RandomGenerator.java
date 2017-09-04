@@ -18,16 +18,6 @@
  */
 package com.rapidminer.tools;
 
-import java.lang.ref.WeakReference;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-import java.util.WeakHashMap;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessRootOperator;
@@ -36,6 +26,9 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+
+import java.lang.ref.WeakReference;
+import java.util.*;
 
 
 /**

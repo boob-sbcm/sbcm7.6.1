@@ -18,6 +18,12 @@
 */
 package com.rapidminer.tools.config;
 
+import com.rapidminer.parameter.ParameterType;
+import com.rapidminer.repository.internal.remote.RemoteRepository;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.cipher.KeyGeneratorTool;
+import com.rapidminer.tools.config.actions.ConfigurableAction;
+
 import java.io.IOException;
 import java.security.Key;
 import java.util.Collection;
@@ -25,12 +31,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
-
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.repository.internal.remote.RemoteRepository;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.cipher.KeyGeneratorTool;
-import com.rapidminer.tools.config.actions.ConfigurableAction;
 
 
 /**

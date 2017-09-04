@@ -18,20 +18,14 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-
-import javax.swing.JComboBox;
-import javax.swing.JTable;
-import javax.swing.text.JTextComponent;
-
 import com.rapidminer.gui.properties.DefaultRMCellEditor;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeAttribute;
+
+import javax.swing.*;
+import javax.swing.text.JTextComponent;
+import java.awt.*;
+import java.awt.event.*;
 
 
 /**

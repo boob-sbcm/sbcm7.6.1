@@ -18,59 +18,9 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSpinner;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.OverlayLayout;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.CharTextField;
-import com.rapidminer.gui.tools.ColoredTableCellRenderer;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.RowNumberTable;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.UpdateQueue;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.bubble.BubbleWindow;
 import com.rapidminer.gui.tools.bubble.BubbleWindow.AlignedSide;
 import com.rapidminer.gui.tools.bubble.BubbleWindow.BubbleStyle;
@@ -88,6 +38,18 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LineParser;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.io.Encoding;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
 
 
 /**

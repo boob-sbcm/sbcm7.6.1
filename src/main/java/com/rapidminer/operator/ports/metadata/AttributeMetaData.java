@@ -18,6 +18,14 @@
 */
 package com.rapidminer.operator.ports.metadata;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.Annotations;
+import com.rapidminer.tools.Ontology;
+import com.rapidminer.tools.ParameterService;
+import com.rapidminer.tools.Tools;
+import com.rapidminer.tools.math.container.Range;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
@@ -25,18 +33,6 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.math.container.Range;
 
 
 /**

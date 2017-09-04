@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.postprocessing;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
@@ -41,6 +39,8 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.ROCBias;
 import com.rapidminer.tools.math.ROCData;
 import com.rapidminer.tools.math.ROCDataGenerator;
+
+import java.util.List;
 
 
 /**

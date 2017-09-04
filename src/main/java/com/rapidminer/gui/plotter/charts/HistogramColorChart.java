@@ -18,16 +18,13 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
-
+import com.rapidminer.datatable.DataTable;
+import com.rapidminer.datatable.DataTableRow;
+import com.rapidminer.gui.MainFrame;
+import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.ParameterService;
+import com.rapidminer.tools.Tools;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.CategoryLabelPositions;
@@ -46,13 +43,12 @@ import org.jfree.data.statistics.HistogramDataset;
 import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.datatable.DataTableRow;
-import com.rapidminer.gui.MainFrame;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.Tools;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.Level;
 
 
 /**

@@ -18,12 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import java.util.Map;
-
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
@@ -34,6 +28,11 @@ import com.rapidminer.studio.io.data.HeaderRowBehindStartRowException;
 import com.rapidminer.studio.io.data.HeaderRowNotFoundException;
 import com.rapidminer.studio.io.data.StartRowNotFoundException;
 import com.rapidminer.studio.io.gui.internal.steps.AbstractWizardStep;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.util.Map;
 
 
 /**

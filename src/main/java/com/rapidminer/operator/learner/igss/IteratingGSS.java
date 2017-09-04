@@ -18,41 +18,28 @@
 */
 package com.rapidminer.operator.learner.igss;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.igss.hypothesis.GSSModel;
 import com.rapidminer.operator.learner.igss.hypothesis.Hypothesis;
 import com.rapidminer.operator.learner.igss.hypothesis.Rule;
-import com.rapidminer.operator.learner.igss.utility.Accuracy;
-import com.rapidminer.operator.learner.igss.utility.Binomial;
-import com.rapidminer.operator.learner.igss.utility.Linear;
-import com.rapidminer.operator.learner.igss.utility.Squared;
-import com.rapidminer.operator.learner.igss.utility.Utility;
-import com.rapidminer.operator.learner.igss.utility.WRAcc;
+import com.rapidminer.operator.learner.igss.utility.*;
 import com.rapidminer.operator.learner.meta.BayBoostBaseModelInfo;
 import com.rapidminer.operator.learner.meta.BayBoostModel;
 import com.rapidminer.operator.learner.meta.ContingencyMatrix;
 import com.rapidminer.operator.learner.meta.WeightedPerformanceMeasures;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 
 
 /**

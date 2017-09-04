@@ -18,20 +18,6 @@
 */
 package com.rapidminer.gui.viewer.metadata.model;
 
-import java.awt.Color;
-import java.text.DateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Locale;
-
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.xy.StandardXYBarPainter;
-import org.jfree.chart.renderer.xy.XYBarRenderer;
-import org.jfree.data.statistics.HistogramDataset;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -40,6 +26,19 @@ import com.rapidminer.gui.tools.AttributeGuiTools;
 import com.rapidminer.gui.viewer.metadata.AttributeStatisticsPanel;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.StandardXYBarPainter;
+import org.jfree.chart.renderer.xy.XYBarRenderer;
+import org.jfree.data.statistics.HistogramDataset;
+
+import java.awt.*;
+import java.text.DateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Locale;
 
 
 /**

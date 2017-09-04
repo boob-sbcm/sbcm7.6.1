@@ -24,19 +24,16 @@ import com.rapidminer.gui.tools.CellColorProvider;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.ui.DateCellRenderer;
 
-import java.awt.Color;
-import java.awt.event.MouseEvent;
-import java.util.List;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
-
-import org.jfree.ui.DateCellRenderer;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.util.List;
 
 
 /**

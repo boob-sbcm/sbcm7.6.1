@@ -18,11 +18,11 @@
 */
 package com.rapidminer.test;
 
-import static junit.framework.Assert.*;
-
+import com.rapidminer.operator.OperatorVersion;
 import org.junit.Test;
 
-import com.rapidminer.operator.OperatorVersion;
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 
 /**
  * 

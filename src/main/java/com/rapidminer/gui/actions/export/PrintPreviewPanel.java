@@ -18,18 +18,12 @@
 */
 package com.rapidminer.gui.actions.export;
 
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
+import org.jdesktop.swingx.border.DropShadowBorder;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.print.PageFormat;
 import java.beans.Transient;
-
-import javax.swing.JPanel;
-
-import org.jdesktop.swingx.border.DropShadowBorder;
 
 
 /**

@@ -18,12 +18,12 @@
 */
 package com.rapidminer.operator.io;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeFile;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

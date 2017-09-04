@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.normalization;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessSetupError;
 import com.rapidminer.operator.ProcessSetupError.Severity;
@@ -29,6 +25,10 @@ import com.rapidminer.operator.SimpleProcessSetupError;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.LogService;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

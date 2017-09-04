@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.ports.metadata;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -32,6 +25,8 @@ import com.rapidminer.example.ExampleSet;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
 
 
 /**

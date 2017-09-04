@@ -18,14 +18,13 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.ImportWizardUtils;
 import com.rapidminer.tools.ProgressListener;
+
+import javax.swing.table.AbstractTableModel;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

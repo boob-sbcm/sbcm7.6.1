@@ -18,14 +18,14 @@
 */
 package com.rapidminer.studio.io.data;
 
-import java.text.DateFormat;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.core.io.data.ColumnMetaData;
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
 import com.rapidminer.core.io.data.DataSetMetaData;
 import com.rapidminer.tools.Tools;
+
+import java.text.DateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

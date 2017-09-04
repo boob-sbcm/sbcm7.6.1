@@ -18,18 +18,6 @@
 */
 package com.rapidminer.tools.expression.internal.antlr;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
-
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import org.junit.BeforeClass;
-import org.junit.Test;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
@@ -39,13 +27,16 @@ import com.rapidminer.example.table.PolynominalMapping;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.expression.ExampleResolver;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.MacroResolver;
+import com.rapidminer.tools.expression.*;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import static org.junit.Assert.*;
 
 
 /**

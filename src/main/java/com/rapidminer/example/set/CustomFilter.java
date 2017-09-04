@@ -18,15 +18,6 @@
 */
 package com.rapidminer.example.set;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeTypeException;
@@ -37,6 +28,11 @@ import com.rapidminer.parameter.ParameterTypeTupel;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 /**

@@ -18,10 +18,6 @@
  */
 package com.rapidminer.tools.parameter.internal;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
@@ -32,6 +28,10 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.ParameterCondition;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

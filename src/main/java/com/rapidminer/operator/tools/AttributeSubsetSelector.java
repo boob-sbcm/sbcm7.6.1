@@ -18,20 +18,7 @@
 */
 package com.rapidminer.operator.tools;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.Condition;
 import com.rapidminer.example.set.ConditionCreationException;
 import com.rapidminer.operator.Operator;
@@ -40,32 +27,16 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.error.AttributeWrongTypeError;
 import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.Precondition;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.AbstractQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
-import com.rapidminer.operator.preprocessing.filter.attributes.AttributeFilterCondition;
+import com.rapidminer.operator.preprocessing.filter.attributes.*;
 import com.rapidminer.operator.preprocessing.filter.attributes.AttributeFilterCondition.ScanResult;
-import com.rapidminer.operator.preprocessing.filter.attributes.BlockTypeAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.NoMissingValuesAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.NumericValueAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.RegexpAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.SingleAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.SubsetAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.TransparentAttributeFilter;
-import com.rapidminer.operator.preprocessing.filter.attributes.ValueTypeAttributeFilter;
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
+
+import java.util.*;
 
 
 /**

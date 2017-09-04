@@ -18,13 +18,13 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import javax.swing.JDialog;
-
 import com.rapidminer.gui.properties.GenericParameterPanel;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.Parameters;
 import com.rapidminer.tools.parameter.Parameter;
+
+import javax.swing.*;
 
 
 /**

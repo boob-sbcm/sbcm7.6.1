@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -32,6 +25,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.Averagable;
+
+import java.util.*;
 
 
 /**

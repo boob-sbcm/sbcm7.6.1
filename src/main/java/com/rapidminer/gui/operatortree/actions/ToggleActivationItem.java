@@ -29,13 +29,12 @@ import com.rapidminer.operator.ports.Port;
 import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
 import com.rapidminer.tools.ParameterService;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.JMenuItem;
 
 
 /**

@@ -18,16 +18,16 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.logging.Level;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Locale;
+import java.util.logging.Level;
 
 
 /**

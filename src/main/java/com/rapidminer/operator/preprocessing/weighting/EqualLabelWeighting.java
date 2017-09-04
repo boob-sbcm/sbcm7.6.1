@@ -18,17 +18,7 @@
 */
 package com.rapidminer.operator.preprocessing.weighting;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.lang.ArrayUtils;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.NominalMapping;
 import com.rapidminer.operator.OperatorDescription;
@@ -42,6 +32,11 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.math.container.Range;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

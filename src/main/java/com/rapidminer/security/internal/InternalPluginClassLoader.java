@@ -18,9 +18,9 @@
 */
 package com.rapidminer.security.internal;
 
-import java.net.URL;
-
 import com.rapidminer.tools.plugin.PluginClassLoader;
+
+import java.net.URL;
 
 
 /**

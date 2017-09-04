@@ -18,46 +18,21 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.FastExample2SparseTransform;
-import com.rapidminer.example.Tools;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.CategorySelectionQuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+import libsvm.*;
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import libsvm.Svm;
-import libsvm.svm_model;
-import libsvm.svm_node;
-import libsvm.svm_parameter;
-import libsvm.svm_problem;
 
 
 /**

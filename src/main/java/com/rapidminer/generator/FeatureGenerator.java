@@ -18,15 +18,6 @@
 */
 package com.rapidminer.generator;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
@@ -35,6 +26,9 @@ import com.rapidminer.example.table.DataRowReader;
 import com.rapidminer.example.table.ExampleTable;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

@@ -18,11 +18,11 @@
 */
 package com.rapidminer.tools.expression.internal.function.date;
 
-import java.util.Date;
-
 import com.rapidminer.tools.expression.ExpressionType;
 import com.rapidminer.tools.expression.FunctionDescription;
 import com.rapidminer.tools.expression.FunctionInputException;
+
+import java.util.Date;
 
 
 /**

@@ -18,6 +18,11 @@
  */
 package com.rapidminer.tutorial;
 
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.tools.FileSystemService;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.io.GlobFilenameFilter;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -26,11 +31,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
-
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.io.GlobFilenameFilter;
 
 
 /**

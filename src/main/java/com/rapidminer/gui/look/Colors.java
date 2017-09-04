@@ -18,7 +18,7 @@
  */
 package com.rapidminer.gui.look;
 
-import javax.swing.UIDefaults;
+import javax.swing.*;
 import javax.swing.plaf.ColorUIResource;
 
 

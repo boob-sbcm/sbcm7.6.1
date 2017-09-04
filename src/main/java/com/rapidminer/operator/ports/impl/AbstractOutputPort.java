@@ -18,12 +18,7 @@
 */
 package com.rapidminer.operator.ports.impl;
 
-import com.rapidminer.operator.ports.IncompatibleMDClassException;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.PortException;
-import com.rapidminer.operator.ports.Ports;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.MetaData;
 
 

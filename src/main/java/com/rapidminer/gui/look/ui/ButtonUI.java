@@ -18,21 +18,14 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
+import com.rapidminer.gui.look.ButtonListener;
+import com.rapidminer.gui.look.RapidLookTools;
 
-import javax.swing.AbstractButton;
-import javax.swing.JComponent;
-import javax.swing.JToolBar;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicButtonListener;
 import javax.swing.plaf.basic.BasicButtonUI;
-
-import com.rapidminer.gui.look.ButtonListener;
-import com.rapidminer.gui.look.RapidLookTools;
+import java.awt.*;
 
 
 /**

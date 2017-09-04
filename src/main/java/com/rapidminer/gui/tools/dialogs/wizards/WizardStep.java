@@ -18,17 +18,15 @@
 */
 package com.rapidminer.gui.tools.dialogs.wizards;
 
+import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
+import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
-
-import javax.swing.AbstractButton;
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
-import com.rapidminer.tools.I18N;
 
 
 /**

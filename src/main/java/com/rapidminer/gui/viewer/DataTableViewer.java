@@ -18,16 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.datatable.DataTableListener;
@@ -45,6 +35,11 @@ import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.components.ButtonBarCardPanel;
 import com.rapidminer.gui.tools.components.ResourceCard;
 import com.rapidminer.report.Tableable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 
 /**

@@ -18,10 +18,10 @@
 */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Shape;
-import java.awt.geom.Ellipse2D;
-
 import org.apache.commons.collections15.Transformer;
+
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
 
 
 /**

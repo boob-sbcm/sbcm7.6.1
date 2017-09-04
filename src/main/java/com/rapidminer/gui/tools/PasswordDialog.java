@@ -18,20 +18,6 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
-import java.net.PasswordAuthentication;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
-
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -41,6 +27,12 @@ import com.rapidminer.gui.tools.SwingTools.ResultRunnable;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.PasswordInputCanceledException;
+
+import javax.swing.*;
+import java.awt.*;
+import java.net.PasswordAuthentication;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.Level;
 
 
 /**

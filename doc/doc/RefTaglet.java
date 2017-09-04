@@ -3,10 +3,10 @@
  */
 package com.rapidminer.doc;
 
-import java.util.Map;
-
 import com.sun.javadoc.Tag;
 import com.sun.tools.doclets.Taglet;
+
+import java.util.Map;
 
 /**
  * A taglet with name &quot;@rapidminer.ref&quot; can be used in the Javadoc comments of an operator to produce textual

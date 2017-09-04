@@ -21,9 +21,8 @@ package com.rapidminer.gui.viewer;
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 
-import java.util.Date;
-
 import javax.swing.table.AbstractTableModel;
+import java.util.Date;
 
 
 /**

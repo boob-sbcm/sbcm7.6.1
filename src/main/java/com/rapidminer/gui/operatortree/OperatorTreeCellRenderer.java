@@ -18,33 +18,18 @@
 */
 package com.rapidminer.gui.operatortree;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTree;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.border.Border;
-import javax.swing.tree.DefaultTreeCellRenderer;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.ProcessSetupError;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
+import java.util.List;
 
 
 /**

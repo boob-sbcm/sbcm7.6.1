@@ -18,9 +18,6 @@
 */
 package com.rapidminer.tools.expression.internal.function.date;
 
-import java.util.Date;
-import java.util.concurrent.Callable;
-
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.expression.ExpressionEvaluator;
 import com.rapidminer.tools.expression.ExpressionParsingException;
@@ -29,13 +26,11 @@ import com.rapidminer.tools.expression.FunctionInputException;
 import com.rapidminer.tools.expression.internal.SimpleExpressionEvaluator;
 import com.rapidminer.tools.expression.internal.function.AbstractFunction;
 
+import java.util.Date;
+import java.util.concurrent.Callable;
 
-/**
- * Abstract class for a {@link Function} that has two date arguments and returns a boolean.
- *
- * @author David Arnu
- *
- */
+
+
 public abstract class Abstract2DateInputBooleanOutput extends AbstractFunction {
 
 	public Abstract2DateInputBooleanOutput(String i18nKey) {

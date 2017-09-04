@@ -18,14 +18,6 @@
 */
 package com.rapidminer.example.set;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -35,6 +27,8 @@ import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.tools.Ontology;
+
+import java.util.*;
 
 
 /**

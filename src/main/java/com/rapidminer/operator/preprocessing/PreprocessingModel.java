@@ -18,11 +18,6 @@
  */
 package com.rapidminer.operator.preprocessing;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -35,6 +30,11 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ViewModel;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

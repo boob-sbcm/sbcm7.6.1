@@ -18,13 +18,10 @@
 */
 package com.rapidminer.gui.look.painters;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.GraphicsConfiguration;
-import java.awt.Image;
-import java.awt.image.BufferedImage;
-
 import com.rapidminer.gui.look.Colors;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
 
 
 /**

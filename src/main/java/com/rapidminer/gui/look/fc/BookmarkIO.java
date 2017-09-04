@@ -18,18 +18,12 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import javax.swing.filechooser.FileSystemView;
+import java.io.*;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.filechooser.FileSystemView;
 
 
 /**

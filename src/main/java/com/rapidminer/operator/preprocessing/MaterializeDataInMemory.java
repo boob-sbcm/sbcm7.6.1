@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
@@ -43,6 +40,9 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

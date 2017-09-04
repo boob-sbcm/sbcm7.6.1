@@ -18,10 +18,7 @@
  */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -32,12 +29,7 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.GenerateModelTransformationRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.ParameterTypeInt;
@@ -46,7 +38,9 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.matrix.CovarianceMatrix;
 
-import Jama.Matrix;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 
 
 /**

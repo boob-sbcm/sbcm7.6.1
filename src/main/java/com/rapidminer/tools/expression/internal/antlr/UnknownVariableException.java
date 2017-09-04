@@ -18,10 +18,9 @@
 */
 package com.rapidminer.tools.expression.internal.antlr;
 
-import org.antlr.v4.runtime.ParserRuleContext;
-
 import com.rapidminer.tools.expression.ExpressionParsingException;
 import com.rapidminer.tools.expression.internal.UnknownResolverVariableException;
+import org.antlr.v4.runtime.ParserRuleContext;
 
 
 /**

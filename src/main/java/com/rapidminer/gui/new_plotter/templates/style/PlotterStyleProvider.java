@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.new_plotter.templates.style;
 
-import java.awt.Font;
-import java.util.Observable;
-
-import javax.swing.JPanel;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Observable;
 
 
 /**

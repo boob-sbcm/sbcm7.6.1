@@ -18,17 +18,6 @@
 */
 package com.rapidminer.tools.expression.internal.function;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.util.LinkedList;
-import java.util.List;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
@@ -39,6 +28,12 @@ import com.rapidminer.tools.expression.ExampleResolver;
 import com.rapidminer.tools.expression.Expression;
 import com.rapidminer.tools.expression.ExpressionException;
 import com.rapidminer.tools.expression.ExpressionType;
+import org.junit.Test;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 
 /**

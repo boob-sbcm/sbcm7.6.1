@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Pattern;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
@@ -31,11 +27,11 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeRegexp;
+import com.rapidminer.parameter.*;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 
 /**

@@ -18,14 +18,9 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.border.Border;
+import java.awt.*;
 
 
 /**

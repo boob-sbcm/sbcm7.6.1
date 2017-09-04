@@ -18,10 +18,12 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import com.michaelbaranov.microba.calendar.DatePicker;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.parameter.ParameterTypeDate;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
@@ -31,15 +33,6 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-
-import com.michaelbaranov.microba.calendar.DatePicker;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.parameter.ParameterTypeDate;
 
 
 /**

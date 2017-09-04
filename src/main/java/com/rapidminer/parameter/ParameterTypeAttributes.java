@@ -21,7 +21,6 @@ package com.rapidminer.parameter;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 
 

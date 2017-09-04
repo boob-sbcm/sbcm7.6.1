@@ -18,11 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal;
 
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
@@ -30,17 +25,18 @@ import com.rapidminer.core.io.data.DataSetMetaData;
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.nio.model.ColumnMetaData;
-import com.rapidminer.operator.nio.model.DataResultSet;
-import com.rapidminer.operator.nio.model.DataResultSetTranslationConfiguration;
-import com.rapidminer.operator.nio.model.DataResultSetTranslator;
-import com.rapidminer.operator.nio.model.ParseException;
+import com.rapidminer.operator.nio.model.*;
 import com.rapidminer.studio.io.data.DefaultDataSetMetaData;
 import com.rapidminer.studio.io.data.HeaderRowBehindStartRowException;
 import com.rapidminer.studio.io.data.HeaderRowNotFoundException;
 import com.rapidminer.studio.io.data.StartRowNotFoundException;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ProgressListener;
+
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 
 /**

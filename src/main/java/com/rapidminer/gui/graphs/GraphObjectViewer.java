@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.graphs;
 
-import javax.swing.JComponent;
+import javax.swing.*;
 
 
 /**

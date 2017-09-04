@@ -18,73 +18,13 @@
  */
 package com.rapidminer.gui.viewer.metadata;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-import java.util.logging.Level;
-
-import javax.swing.AbstractAction;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollBar;
-import javax.swing.JScrollPane;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.SwingWorker;
-import javax.swing.Timer;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
-import org.jdesktop.swingx.prompt.PromptSupport;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ScrollableJPopupMenu;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.TextFieldWithAction;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.DropDownPopupButton;
 import com.rapidminer.gui.tools.components.DropDownPopupButton.PopupMenuProvider;
 import com.rapidminer.gui.viewer.metadata.actions.CopyAllMetaDataToClipboardAction;
@@ -94,17 +34,24 @@ import com.rapidminer.gui.viewer.metadata.event.AttributeStatisticsEvent.EventTy
 import com.rapidminer.gui.viewer.metadata.event.AttributeStatisticsEventListener;
 import com.rapidminer.gui.viewer.metadata.event.MetaDataStatisticsEvent;
 import com.rapidminer.gui.viewer.metadata.event.MetaDataStatisticsEventListener;
-import com.rapidminer.gui.viewer.metadata.model.AbstractAttributeStatisticsModel;
-import com.rapidminer.gui.viewer.metadata.model.DateTimeAttributeStatisticsModel;
-import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel;
+import com.rapidminer.gui.viewer.metadata.model.*;
 import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel.SortingDirection;
 import com.rapidminer.gui.viewer.metadata.model.MetaDataStatisticsModel.SortingType;
-import com.rapidminer.gui.viewer.metadata.model.NominalAttributeStatisticsModel;
-import com.rapidminer.gui.viewer.metadata.model.NumericalAttributeStatisticsModel;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+import org.jdesktop.swingx.prompt.PromptSupport;
+
+import javax.swing.*;
+import javax.swing.Timer;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

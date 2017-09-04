@@ -18,11 +18,8 @@
 */
 package com.rapidminer.gui;
 
+import javax.swing.*;
 import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
 
 
 /**

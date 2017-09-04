@@ -18,21 +18,12 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Vector;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.Condition;
 import com.rapidminer.example.set.ConditionedExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.EstimatedPerformance;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.OutputPort;
@@ -44,6 +35,10 @@ import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.RunVector;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Vector;
 
 
 /**

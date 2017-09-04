@@ -18,22 +18,18 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.text.MessageFormat;
-import java.util.logging.Level;
-
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.KeyStroke;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.ConditionalAction;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
+import javax.swing.*;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+import java.text.MessageFormat;
+import java.util.logging.Level;
 
 
 /**

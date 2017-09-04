@@ -18,22 +18,6 @@
 */
 package com.rapidminer.operator.visualization;
 
-import java.awt.AlphaComposite;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JSlider;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -48,6 +32,16 @@ import com.rapidminer.gui.plotter.som.SOMPlotter;
 import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

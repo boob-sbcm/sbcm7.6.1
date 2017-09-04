@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.util.List;
-import java.util.Random;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.MappedExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
@@ -28,12 +25,11 @@ import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorCapability;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeMatrix;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.List;
+import java.util.Random;
 
 
 /**

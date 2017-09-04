@@ -18,29 +18,19 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.awt.Component;
+import com.rapidminer.gui.renderer.RendererService;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.repository.*;
+import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JTree;
-import javax.swing.border.Border;
-import javax.swing.tree.DefaultTreeCellRenderer;
-
-import com.rapidminer.gui.renderer.RendererService;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.Repository;
-import com.rapidminer.tools.Tools;
 
 
 /**

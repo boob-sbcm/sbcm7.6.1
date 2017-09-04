@@ -25,11 +25,7 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeRepositoryLocation;
 import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 
 import java.util.List;
 

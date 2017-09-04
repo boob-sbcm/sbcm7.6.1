@@ -18,17 +18,13 @@
 */
 package com.rapidminer.gui.new_plotter.engine.jfreechart.legend;
 
-import java.awt.GradientPaint;
-import java.awt.Graphics2D;
-import java.awt.LinearGradientPaint;
-import java.awt.Paint;
-import java.awt.Shape;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-
 import org.jfree.chart.title.LegendGraphic;
 import org.jfree.ui.RectangleAnchor;
 import org.jfree.util.ShapeUtilities;
+
+import java.awt.*;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 
 /**

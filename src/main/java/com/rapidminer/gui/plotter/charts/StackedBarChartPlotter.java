@@ -18,43 +18,6 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Paint;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeSet;
-import java.util.logging.Level;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JScrollBar;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.CategoryLabelPositions;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.block.BlockBorder;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.StackedBarRenderer;
-import org.jfree.chart.title.LegendTitle;
-import org.jfree.data.category.DefaultCategoryDataset;
-import org.jfree.data.category.SlidingCategoryDataset;
-import org.jfree.ui.HorizontalAlignment;
-import org.jfree.ui.RectangleEdge;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.plotter.ColorProvider;
@@ -75,6 +38,32 @@ import com.rapidminer.tools.math.MathFunctions;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AverageFunction;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.CategoryAxis;
+import org.jfree.chart.axis.CategoryLabelPositions;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.block.BlockBorder;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.category.BarRenderer;
+import org.jfree.chart.renderer.category.StackedBarRenderer;
+import org.jfree.chart.title.LegendTitle;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.category.SlidingCategoryDataset;
+import org.jfree.ui.HorizontalAlignment;
+import org.jfree.ui.RectangleEdge;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

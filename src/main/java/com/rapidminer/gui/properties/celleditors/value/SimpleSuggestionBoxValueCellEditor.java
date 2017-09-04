@@ -22,9 +22,8 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeSuggestion;
 import com.rapidminer.tools.ProgressListener;
 
+import javax.swing.*;
 import java.util.List;
-
-import javax.swing.JButton;
 
 
 /**

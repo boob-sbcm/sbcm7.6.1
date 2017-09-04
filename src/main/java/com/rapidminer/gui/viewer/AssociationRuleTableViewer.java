@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.table.TableColumn;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookTools;
 import com.rapidminer.gui.processeditor.results.ResultDisplayTools;
@@ -36,6 +25,10 @@ import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.operator.learner.associations.AssociationRules;
+
+import javax.swing.*;
+import javax.swing.table.TableColumn;
+import java.awt.*;
 
 
 /**

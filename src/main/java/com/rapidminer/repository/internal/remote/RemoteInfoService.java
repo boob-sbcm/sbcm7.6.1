@@ -18,11 +18,10 @@
 */
 package com.rapidminer.repository.internal.remote;
 
-import java.util.List;
+import com.rapid_i.repository.wsimport.PluginInfo;
 
 import javax.xml.datatype.XMLGregorianCalendar;
-
-import com.rapid_i.repository.wsimport.PluginInfo;
+import java.util.List;
 
 
 /**

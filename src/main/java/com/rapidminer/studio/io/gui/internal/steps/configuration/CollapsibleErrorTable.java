@@ -18,30 +18,19 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.TableCellRenderer;
-
-import org.jdesktop.swingx.JXCollapsiblePane;
-import org.jdesktop.swingx.JXCollapsiblePane.Direction;
-
 import com.rapidminer.gui.tools.Ionicon;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
+import org.jdesktop.swingx.JXCollapsiblePane;
+import org.jdesktop.swingx.JXCollapsiblePane.Direction;
+
+import javax.swing.*;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 
 /**

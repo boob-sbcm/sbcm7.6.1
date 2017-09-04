@@ -18,11 +18,10 @@
 */
 package com.rapidminer.gui.tools;
 
-import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
-
 import com.rapidminer.gui.tools.syntax.JEditTextArea;
 import com.rapidminer.gui.tools.syntax.TextAreaDefaults;
 import com.rapidminer.gui.tools.syntax.XMLTokenMarker;
+import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 
 
 /**

@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
@@ -34,6 +27,9 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.SimplePredictionModel;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**

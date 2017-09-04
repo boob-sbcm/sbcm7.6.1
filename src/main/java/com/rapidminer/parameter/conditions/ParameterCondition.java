@@ -20,7 +20,6 @@ package com.rapidminer.parameter.conditions;
 
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterHandler;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

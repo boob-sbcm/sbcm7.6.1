@@ -20,49 +20,23 @@ package com.rapidminer.gui.new_plotter.engine.jfreechart;
 
 import com.rapidminer.gui.new_plotter.ChartPlottimeException;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn.ValueType;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.DomainConfigManager;
-import com.rapidminer.gui.new_plotter.configuration.LinkAndBrushMaster;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
-import com.rapidminer.gui.new_plotter.configuration.SeriesFormat;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.StackingMode;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationType;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
-import com.rapidminer.gui.new_plotter.data.DomainConfigManagerData;
-import com.rapidminer.gui.new_plotter.data.GroupCellData;
-import com.rapidminer.gui.new_plotter.data.GroupCellKeyAndData;
-import com.rapidminer.gui.new_plotter.data.GroupCellSeriesData;
-import com.rapidminer.gui.new_plotter.data.PlotInstance;
-import com.rapidminer.gui.new_plotter.data.RangeAxisData;
-import com.rapidminer.gui.new_plotter.data.ValueSourceData;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.CustomDateAxis;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.CustomLogarithmicAxis;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.CustomNumberAxis;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.CustomSymbolAxis;
-import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.LinkAndBrushAxis;
+import com.rapidminer.gui.new_plotter.data.*;
+import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.axis.*;
 import com.rapidminer.gui.new_plotter.utility.ValueRange;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.container.Pair;
-
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.TimeZone;
-import java.util.Vector;
-
-import org.jfree.chart.axis.Axis;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.CategoryLabelPositions;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.ValueAxis;
+import org.jfree.chart.axis.*;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.Range;
+
+import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

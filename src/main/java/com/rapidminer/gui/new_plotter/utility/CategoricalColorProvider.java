@@ -24,7 +24,7 @@ import com.rapidminer.gui.new_plotter.listener.events.SeriesFormatChangeEvent.Se
 import com.rapidminer.gui.new_plotter.templates.style.ColorRGB;
 import com.rapidminer.gui.new_plotter.templates.style.ColorScheme;
 
-import java.awt.Color;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

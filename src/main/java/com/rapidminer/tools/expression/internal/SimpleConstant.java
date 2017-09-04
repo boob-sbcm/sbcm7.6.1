@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import java.util.Date;
-
 import com.rapidminer.tools.expression.Constant;
 import com.rapidminer.tools.expression.ExpressionType;
+
+import java.util.Date;
 
 
 /**

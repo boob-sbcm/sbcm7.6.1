@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-
 import com.rapidminer.gui.flow.ProcessPanel;
 import com.rapidminer.gui.processeditor.NewOperatorEditor;
 import com.rapidminer.gui.processeditor.results.ResultDisplay;
@@ -34,6 +27,8 @@ import com.rapidminer.tools.AbstractObservable;
 import com.vlsolutions.swing.docking.DockingConstants;
 import com.vlsolutions.swing.docking.ws.WSDesktop;
 import com.vlsolutions.swing.docking.ws.WSDockKey;
+
+import java.util.*;
 
 
 /**

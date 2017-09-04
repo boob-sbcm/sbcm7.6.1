@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.Iterator;
-import java.util.Map.Entry;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.SimplePredictionModel;
+
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 
 /**

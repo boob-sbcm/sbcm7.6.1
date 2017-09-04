@@ -21,11 +21,7 @@ package com.rapidminer.operator.features.construction;
 import com.rapidminer.example.set.AttributeWeightedExampleSet;
 import com.rapidminer.operator.performance.PerformanceVector;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 
 /**

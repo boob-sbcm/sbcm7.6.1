@@ -18,30 +18,17 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookAndFeel;
 import com.rapidminer.gui.look.borders.TextFieldBorder;
 import com.rapidminer.gui.tools.ResourceAction.IconType;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
+import java.awt.event.*;
 
 
 /**

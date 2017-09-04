@@ -18,10 +18,10 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.learner.meta.SimpleVoteModel;
+
+import java.util.List;
 
 
 /**

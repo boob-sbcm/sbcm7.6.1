@@ -18,18 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Random;
-
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
@@ -41,6 +29,17 @@ import com.rapidminer.example.test.ExampleTestTools;
 import com.rapidminer.test_utils.RapidAssert;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Random;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

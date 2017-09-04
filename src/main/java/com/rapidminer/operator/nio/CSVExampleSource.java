@@ -18,25 +18,21 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.text.NumberFormat;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.io.AbstractReader;
 import com.rapidminer.operator.nio.model.AbstractDataResultSetReader;
 import com.rapidminer.operator.nio.model.CSVResultSetConfiguration;
 import com.rapidminer.operator.nio.model.DataResultSetFactory;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeChar;
-import com.rapidminer.parameter.ParameterTypeConfiguration;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.DateParser;
 import com.rapidminer.tools.LineParser;
 import com.rapidminer.tools.StrictDecimalFormat;
+
+import java.text.NumberFormat;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

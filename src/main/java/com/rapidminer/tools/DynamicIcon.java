@@ -18,7 +18,7 @@
 */
 package com.rapidminer.tools;
 
-import java.awt.Graphics2D;
+import java.awt.*;
 
 
 /**

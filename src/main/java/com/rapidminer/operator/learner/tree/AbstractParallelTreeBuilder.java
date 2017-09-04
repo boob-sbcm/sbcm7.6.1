@@ -18,18 +18,14 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.tree.criterions.ColumnCriterion;
 import com.rapidminer.studio.internal.Resources;
+
+import java.util.*;
 
 
 /**

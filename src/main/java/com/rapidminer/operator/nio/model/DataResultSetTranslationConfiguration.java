@@ -18,28 +18,6 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.ANNOTATION_NAME;
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.PARAMETER_ANNOTATIONS;
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.PARAMETER_DATE_FORMAT;
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.PARAMETER_FIRST_ROW_AS_NAMES;
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.PARAMETER_LOCALE;
-import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.PARAMETER_META_DATA;
-
-import java.text.DateFormat;
-import java.text.NumberFormat;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.SortedMap;
-import java.util.SortedSet;
-import java.util.TreeMap;
-import java.util.TreeSet;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.table.DataRowFactory;
 import com.rapidminer.operator.Annotations;
@@ -52,6 +30,14 @@ import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeTupel;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
+
+import java.text.DateFormat;
+import java.text.NumberFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.Map.Entry;
+
+import static com.rapidminer.operator.nio.model.AbstractDataResultSetReader.*;
 
 
 /**

@@ -18,22 +18,13 @@
 */
 package com.rapidminer.gui.look.icons;
 
-import java.awt.BasicStroke;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.Stroke;
+import com.rapidminer.gui.look.Colors;
+
+import javax.swing.*;
+import javax.swing.plaf.UIResource;
+import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.io.Serializable;
-
-import javax.swing.ButtonModel;
-import javax.swing.Icon;
-import javax.swing.JRadioButton;
-import javax.swing.plaf.UIResource;
-
-import com.rapidminer.gui.look.Colors;
 
 
 /**

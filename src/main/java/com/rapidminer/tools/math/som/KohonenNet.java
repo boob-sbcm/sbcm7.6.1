@@ -18,14 +18,14 @@
 */
 package com.rapidminer.tools.math.som;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.ProcessStoppedException;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.ProcessStoppedException;
 
 
 /**

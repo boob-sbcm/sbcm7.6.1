@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.preprocessing.sampling;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.Partition;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.OperatorDescription;
@@ -34,24 +30,14 @@ import com.rapidminer.operator.ports.metadata.MDInteger;
 import com.rapidminer.operator.ports.metadata.MetaDataInfo;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
 import com.rapidminer.tools.math.similarity.numerical.EuclideanDistance;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.TreeSet;
+import java.util.*;
 
 
 /**

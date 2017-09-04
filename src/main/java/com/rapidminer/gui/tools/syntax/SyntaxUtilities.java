@@ -27,13 +27,10 @@ package com.rapidminer.gui.tools.syntax;
  * package.
  */
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-
 import javax.swing.text.Segment;
 import javax.swing.text.TabExpander;
 import javax.swing.text.Utilities;
+import java.awt.*;
 
 
 /**

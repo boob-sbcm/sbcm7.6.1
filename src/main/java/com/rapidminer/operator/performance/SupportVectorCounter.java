@@ -18,12 +18,7 @@
 */
 package com.rapidminer.operator.performance;
 
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.functions.kernel.KernelModel;
 import com.rapidminer.operator.learner.functions.kernel.SupportVector;
 import com.rapidminer.operator.ports.InputPort;

@@ -18,19 +18,6 @@
 */
 package com.rapidminer.gui;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
-import javax.xml.transform.Source;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.stream.StreamSource;
-
 import com.rapidminer.gui.renderer.RendererService;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.IOObject;
@@ -48,6 +35,18 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.WebServiceTools;
 import com.rapidminer.tools.documentation.ExampleProcess;
+
+import javax.xml.transform.Source;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.stream.StreamSource;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.logging.Level;
 
 
 /**

@@ -18,16 +18,15 @@
 */
 package com.rapidminer.gui.flow.processrendering.view.components;
 
-import java.awt.Component;
+import com.rapidminer.operator.Operator;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import javax.swing.Timer;
-
-import com.rapidminer.operator.Operator;
 
 
 /**

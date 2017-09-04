@@ -18,6 +18,16 @@
 */
 package com.rapidminer.tutorial;
 
+import com.rapidminer.Process;
+import com.rapidminer.RapidMiner;
+import com.rapidminer.RepositoryProcessLocation;
+import com.rapidminer.operator.FlagUserData;
+import com.rapidminer.repository.MalformedRepositoryLocationException;
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.resource.ZipStreamResource;
+import com.rapidminer.tools.*;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -29,20 +39,6 @@ import java.util.Locale;
 import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-
-import com.rapidminer.Process;
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RepositoryProcessLocation;
-import com.rapidminer.operator.FlagUserData;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.resource.ZipStreamResource;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.NonClosingZipInputStream;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.XMLException;
 
 
 /**

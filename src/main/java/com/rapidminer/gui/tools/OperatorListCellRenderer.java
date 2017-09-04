@@ -18,18 +18,14 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.util.logging.Level;
-
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JLabel;
-import javax.swing.JList;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorCreationException;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.logging.Level;
 
 
 /**

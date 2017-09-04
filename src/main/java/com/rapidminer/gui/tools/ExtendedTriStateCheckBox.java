@@ -18,22 +18,10 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.AbstractAction;
-import javax.swing.ActionMap;
-import javax.swing.ButtonGroup;
-import javax.swing.ButtonModel;
-import javax.swing.Icon;
-import javax.swing.JCheckBox;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 import javax.swing.event.ChangeListener;
 import javax.swing.plaf.ActionMapUIResource;
+import java.awt.event.*;
 
 
 /**

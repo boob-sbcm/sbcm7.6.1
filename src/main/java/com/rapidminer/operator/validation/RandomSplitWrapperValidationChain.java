@@ -18,17 +18,11 @@
  */
 package com.rapidminer.operator.validation;
 
-import java.util.List;
-
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.AttributeWeightedExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
@@ -41,6 +35,8 @@ import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.NonEqualTypeCondition;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.List;
 
 
 /**

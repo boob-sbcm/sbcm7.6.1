@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.collections;
 
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.IOObjectCollection;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.InputPortExtender;

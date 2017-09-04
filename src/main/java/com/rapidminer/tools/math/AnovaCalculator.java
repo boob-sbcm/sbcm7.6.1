@@ -18,13 +18,12 @@
 */
 package com.rapidminer.tools.math;
 
+import com.rapidminer.tools.Tools;
+import org.apache.commons.math3.distribution.FDistribution;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import org.apache.commons.math3.distribution.FDistribution;
-
-import com.rapidminer.tools.Tools;
 
 
 /**

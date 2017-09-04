@@ -18,13 +18,12 @@
 */
 package com.rapidminer.example.set;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.ExampleSetFactory;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

@@ -18,11 +18,11 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-import java.net.URI;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.tools.RMUrlHandler;
+
+import java.awt.event.ActionEvent;
+import java.net.URI;
 
 
 /**

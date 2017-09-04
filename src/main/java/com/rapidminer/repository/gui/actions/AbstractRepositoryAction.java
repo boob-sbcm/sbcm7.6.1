@@ -18,11 +18,6 @@
 */
 package com.rapidminer.repository.gui.actions;
 
-import java.awt.event.ActionEvent;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.gui.operatortree.actions.CutCopyPasteDeleteAction;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -31,6 +26,11 @@ import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.repository.gui.RepositoryTree;
+
+import java.awt.event.ActionEvent;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,13 +18,12 @@
 */
 package com.rapidminer.io.process;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.gui.flow.processrendering.background.ProcessBackgroundImage;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 
 /**

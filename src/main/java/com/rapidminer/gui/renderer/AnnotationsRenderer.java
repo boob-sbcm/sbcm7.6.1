@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.renderer;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -40,6 +29,11 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.report.Tableable;
+
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

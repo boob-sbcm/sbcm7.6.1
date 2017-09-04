@@ -18,10 +18,6 @@
 */
 package com.rapidminer.gui.renderer.data;
 
-import java.awt.Component;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.example.Attribute;
@@ -39,6 +35,10 @@ import com.rapidminer.operator.tools.AttributeSubsetSelector;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import java.awt.*;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

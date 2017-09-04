@@ -18,17 +18,16 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.event.ActionEvent;
-import java.net.URL;
-
-import javax.swing.Action;
-import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkEvent.EventType;
-import javax.swing.event.HyperlinkListener;
-
 import com.rapidminer.gui.tools.ExtendedHTMLJEditorPane;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkEvent.EventType;
+import javax.swing.event.HyperlinkListener;
+import java.awt.event.ActionEvent;
+import java.net.URL;
 
 
 /**

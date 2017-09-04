@@ -18,54 +18,17 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.ComponentOrientation;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Graphics;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Enumeration;
-import java.util.LinkedList;
-import java.util.Locale;
-import java.util.Vector;
+import com.rapidminer.gui.look.RapidLookAndFeel;
+import com.rapidminer.gui.look.borders.Borders;
+import com.rapidminer.gui.tools.*;
+import com.rapidminer.gui.tools.components.DropDownPopupButton;
+import com.rapidminer.gui.tools.components.DropDownPopupButton.PopupMenuProvider;
+import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+import com.rapidminer.io.remote.RemoteFileSystemView;
+import com.rapidminer.tools.I18N;
+import sun.awt.shell.ShellFolder;
 
-import javax.swing.AbstractAction;
-import javax.swing.AbstractButton;
-import javax.swing.AbstractListModel;
-import javax.swing.Action;
-import javax.swing.ActionMap;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.ComboBoxModel;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JTextField;
-import javax.swing.JToolBar;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -76,21 +39,17 @@ import javax.swing.filechooser.FileView;
 import javax.swing.plaf.ActionMapUIResource;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicFileChooserUI;
-
-import com.rapidminer.gui.look.RapidLookAndFeel;
-import com.rapidminer.gui.look.borders.Borders;
-import com.rapidminer.gui.tools.ExtendedJToolBar;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.ResourceActionTransmitter;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.components.DropDownPopupButton;
-import com.rapidminer.gui.tools.components.DropDownPopupButton.PopupMenuProvider;
-import com.rapidminer.gui.tools.dialogs.ButtonDialog;
-import com.rapidminer.io.remote.RemoteFileSystemView;
-import com.rapidminer.tools.I18N;
-
-import sun.awt.shell.ShellFolder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.*;
 
 
 /**

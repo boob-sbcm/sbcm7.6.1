@@ -23,9 +23,8 @@ import com.rapidminer.gui.viewer.metadata.AttributeStatisticsPanel;
 import com.rapidminer.gui.viewer.metadata.model.NumericalAttributeStatisticsModel;
 import com.rapidminer.tools.Tools;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.JComponent;
 
 
 /**

@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.Example;
@@ -30,6 +28,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
+
+import java.util.List;
 
 
 /**

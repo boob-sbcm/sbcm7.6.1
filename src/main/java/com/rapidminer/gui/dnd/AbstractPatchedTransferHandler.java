@@ -18,23 +18,10 @@
 */
 package com.rapidminer.gui.dnd;
 
-import java.awt.Cursor;
-import java.awt.Graphics;
-import java.awt.GraphicsEnvironment;
-import java.awt.Image;
-import java.awt.MouseInfo;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.datatransfer.Transferable;
-import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureListener;
-import java.awt.dnd.DragGestureRecognizer;
-import java.awt.dnd.DragSource;
-import java.awt.dnd.DragSourceContext;
-import java.awt.dnd.DragSourceDragEvent;
-import java.awt.dnd.DragSourceDropEvent;
-import java.awt.dnd.DragSourceEvent;
-import java.awt.dnd.DragSourceListener;
-import java.awt.dnd.DropTargetListener;
+import java.awt.dnd.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -46,16 +33,6 @@ import java.lang.reflect.Method;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.TooManyListenersException;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JToolTip;
-import javax.swing.Popup;
-import javax.swing.PopupFactory;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.TransferHandler;
 
 
 /**

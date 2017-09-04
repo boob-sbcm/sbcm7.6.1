@@ -18,12 +18,12 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.model;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserData;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

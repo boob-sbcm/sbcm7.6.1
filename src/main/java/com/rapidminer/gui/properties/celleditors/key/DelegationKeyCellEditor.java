@@ -25,11 +25,10 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeEnumeration;
 import com.rapidminer.parameter.ParameterTypeList;
 
-import java.awt.Component;
-import java.util.EventObject;
-
-import javax.swing.JTable;
+import javax.swing.*;
 import javax.swing.event.CellEditorListener;
+import java.awt.*;
+import java.util.EventObject;
 
 
 /**

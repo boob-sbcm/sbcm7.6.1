@@ -18,15 +18,10 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Polygon;
-import java.awt.RenderingHints;
-
-import javax.swing.JButton;
-
 import com.rapidminer.gui.look.Colors;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

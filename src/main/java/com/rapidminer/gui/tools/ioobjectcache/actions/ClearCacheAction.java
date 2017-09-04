@@ -18,11 +18,11 @@
 */
 package com.rapidminer.gui.tools.ioobjectcache.actions;
 
-import java.awt.event.ActionEvent;
-import java.util.Objects;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.IOObjectMap;
+
+import java.awt.event.ActionEvent;
+import java.util.Objects;
 
 
 /**

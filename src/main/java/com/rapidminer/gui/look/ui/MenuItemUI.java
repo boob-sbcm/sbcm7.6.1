@@ -18,16 +18,12 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import com.rapidminer.gui.look.RapidLookTools;
 
-import javax.swing.JComponent;
-import javax.swing.JMenuItem;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicMenuItemUI;
-
-import com.rapidminer.gui.look.RapidLookTools;
+import java.awt.*;
 
 
 /**

@@ -18,20 +18,6 @@
  */
 package com.rapidminer.gui.flow.processrendering.model;
 
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Point;
-import java.awt.geom.Rectangle2D;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.WeakHashMap;
-
-import javax.swing.event.EventListenerList;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessLocation;
 import com.rapidminer.ProcessStorageListener;
@@ -54,11 +40,7 @@ import com.rapidminer.gui.flow.processrendering.event.ProcessRendererOperatorEve
 import com.rapidminer.gui.flow.processrendering.event.ProcessRendererOperatorEvent.OperatorEvent;
 import com.rapidminer.gui.processeditor.ExtendedProcessEditor;
 import com.rapidminer.gui.processeditor.ProcessEditor;
-import com.rapidminer.io.process.AnnotationProcessXMLFilter;
-import com.rapidminer.io.process.BackgroundImageProcessXMLFilter;
-import com.rapidminer.io.process.GUIProcessXMLFilter;
-import com.rapidminer.io.process.ProcessLayoutXMLFilter;
-import com.rapidminer.io.process.ProcessXMLFilterRegistry;
+import com.rapidminer.io.process.*;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.FlagUserData;
 import com.rapidminer.operator.Operator;
@@ -69,6 +51,12 @@ import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.parameter.ParameterChangeListener;
+
+import javax.swing.event.EventListenerList;
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.util.*;
+import java.util.List;
 
 
 /**

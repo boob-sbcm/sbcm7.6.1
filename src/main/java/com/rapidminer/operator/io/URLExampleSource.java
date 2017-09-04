@@ -18,15 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Pattern;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
@@ -44,6 +35,15 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.io.Encoding;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 
 /**

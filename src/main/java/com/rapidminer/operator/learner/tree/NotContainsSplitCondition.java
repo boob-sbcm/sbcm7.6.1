@@ -18,10 +18,10 @@
 */
 package com.rapidminer.operator.learner.tree;
 
+import com.rapidminer.example.Example;
+
 import java.util.HashSet;
 import java.util.Set;
-
-import com.rapidminer.example.Example;
 
 
 /**

@@ -18,19 +18,15 @@
 */
 package com.rapidminer.tools;
 
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.text.ParsePosition;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeChar;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 
 
 /**

@@ -18,12 +18,6 @@
 */
 package com.rapidminer.tools.math.optimization.ec.es;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
@@ -32,16 +26,18 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.meta.ParameterOptimizationOperator;
 import com.rapidminer.operator.performance.PerformanceVector;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.LoggingHandler;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.optimization.Optimization;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**

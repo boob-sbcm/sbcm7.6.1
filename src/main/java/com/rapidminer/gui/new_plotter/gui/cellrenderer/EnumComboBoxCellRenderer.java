@@ -21,15 +21,10 @@ package com.rapidminer.gui.new_plotter.gui.cellrenderer;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 
-import java.awt.Component;
+import javax.swing.*;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.ListCellRenderer;
 
 
 /**

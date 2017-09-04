@@ -18,9 +18,9 @@
  */
 package com.rapidminer.example.table.internal;
 
-import java.util.Arrays;
-
 import com.rapidminer.tools.Ontology;
+
+import java.util.Arrays;
 
 
 /**

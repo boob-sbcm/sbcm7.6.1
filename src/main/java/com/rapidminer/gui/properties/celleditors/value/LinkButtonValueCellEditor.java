@@ -18,21 +18,15 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-
 import com.rapidminer.gui.properties.DefaultRMCellEditor;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
 import com.rapidminer.gui.tools.components.LinkRemoteButton;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeLinkButton;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

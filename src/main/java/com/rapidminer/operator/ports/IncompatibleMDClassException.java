@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.util.Collections;
-import java.util.List;
-
 import com.rapidminer.operator.ports.metadata.MetaDataError;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
+
+import java.util.Collections;
+import java.util.List;
 
 
 /**

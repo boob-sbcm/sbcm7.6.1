@@ -18,10 +18,6 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashSet;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Example;
@@ -36,14 +32,11 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.SetRelation;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
-import com.rapidminer.tools.expression.ExampleResolver;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionRegistry;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.MacroResolver;
+import com.rapidminer.tools.expression.*;
+
+import java.util.Arrays;
+import java.util.Date;
+import java.util.HashSet;
 
 
 /**

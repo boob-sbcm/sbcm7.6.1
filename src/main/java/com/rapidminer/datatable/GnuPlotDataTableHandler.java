@@ -20,11 +20,7 @@ package com.rapidminer.datatable;
 
 import java.io.PrintStream;
 import java.text.DateFormat;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.*;
 
 
 /**

@@ -18,43 +18,21 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.MetaDataUnderspecifiedError;
-import com.rapidminer.operator.ports.metadata.PassThroughOrGenerateRule;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

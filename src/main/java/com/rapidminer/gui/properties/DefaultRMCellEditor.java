@@ -18,14 +18,8 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.Component;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JTable;
-import javax.swing.JTextField;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

@@ -18,38 +18,6 @@
  */
 package com.rapidminer;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.StringReader;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.charset.IllegalCharsetNameException;
-import java.nio.charset.UnsupportedCharsetException;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
-
-import javax.swing.event.EventListenerList;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-
 import com.rapidminer.core.license.LicenseViolationException;
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.datatable.DataTable;
@@ -59,21 +27,7 @@ import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ProgressThreadStoppedException;
 import com.rapidminer.io.process.XMLImporter;
 import com.rapidminer.license.violation.LicenseViolation;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.DebugMode;
-import com.rapidminer.operator.DummyOperator;
-import com.rapidminer.operator.ExecutionMode;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.IOObjectMap;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.PortUserError;
-import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UnknownParameterInformation;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.execution.FlowData;
 import com.rapidminer.operator.execution.ProcessFlowFilter;
 import com.rapidminer.operator.nio.file.RepositoryBlobObject;
@@ -81,31 +35,26 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.Port;
 import com.rapidminer.report.ReportStream;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryAccessor;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryManager;
+import com.rapidminer.repository.*;
 import com.rapidminer.studio.internal.ProcessFlowFilterRegistry;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.LoggingHandler;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.RandomGenerator;
-import com.rapidminer.tools.ResultService;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.WebServiceTools;
-import com.rapidminer.tools.WrapperLoggingHandler;
-import com.rapidminer.tools.XMLException;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+import org.w3c.dom.Document;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+
+import javax.swing.event.EventListenerList;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.*;
+import java.net.URL;
+import java.nio.charset.Charset;
+import java.nio.charset.IllegalCharsetNameException;
+import java.nio.charset.UnsupportedCharsetException;
+import java.util.*;
+import java.util.logging.*;
 
 
 /**

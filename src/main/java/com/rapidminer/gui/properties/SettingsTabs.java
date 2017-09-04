@@ -18,31 +18,6 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Point;
-import java.io.IOException;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTabbedPane;
-import javax.swing.ScrollPaneConstants;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.properties.SettingsItem.Type;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -53,6 +28,13 @@ import com.rapidminer.gui.tools.components.ToolTipWindow.TipProvider;
 import com.rapidminer.gui.tools.components.ToolTipWindow.TooltipLocation;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.IOException;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

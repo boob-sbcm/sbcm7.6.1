@@ -18,13 +18,23 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
+import com.rapidminer.Process;
+import com.rapidminer.gui.tools.*;
+import com.rapidminer.gui.wizards.ConfigurationListener;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorChain;
+import com.rapidminer.operator.meta.ParameterIteratingOperatorChain;
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.value.ParameterValueGrid;
+import com.rapidminer.parameter.value.ParameterValueList;
+import com.rapidminer.parameter.value.ParameterValueRange;
+import com.rapidminer.parameter.value.ParameterValues;
+import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
@@ -33,48 +43,6 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.DefaultListModel;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFormattedTextField;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTextField;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import com.rapidminer.Process;
-import com.rapidminer.gui.tools.ExtendedJList;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ExtendedListModel;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.wizards.ConfigurationListener;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.meta.ParameterIteratingOperatorChain;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeNumber;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.ParameterTypeValue;
-import com.rapidminer.parameter.Parameters;
-import com.rapidminer.parameter.value.ParameterValueGrid;
-import com.rapidminer.parameter.value.ParameterValueList;
-import com.rapidminer.parameter.value.ParameterValueRange;
-import com.rapidminer.parameter.value.ParameterValues;
-import com.rapidminer.tools.Tools;
 
 
 /**

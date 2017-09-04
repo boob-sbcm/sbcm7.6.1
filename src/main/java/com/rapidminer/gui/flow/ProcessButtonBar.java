@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.tools.ParentButtonPanel;
 import com.rapidminer.operator.Operator;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

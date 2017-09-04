@@ -18,16 +18,12 @@
 */
 package com.rapidminer.operator.nio.file;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectStreamException;
-import java.io.WriteAbortedException;
-
 import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ResultObjectAdapter;
 import com.rapidminer.tools.Tools;
+
+import java.io.*;
 
 
 /**

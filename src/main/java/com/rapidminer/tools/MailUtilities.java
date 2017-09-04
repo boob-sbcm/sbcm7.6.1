@@ -18,13 +18,12 @@
  */
 package com.rapidminer.tools;
 
-import java.util.Map;
-import java.util.logging.Level;
-
-import javax.mail.Session;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.MailNotSentException;
+
+import javax.mail.Session;
+import java.util.Map;
+import java.util.logging.Level;
 
 
 /**

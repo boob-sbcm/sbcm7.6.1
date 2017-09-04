@@ -18,18 +18,14 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.util.Collection;
-import java.util.HashSet;
-
 import com.rapidminer.operator.IOPublishToAppOperator;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.io.CSVExampleSetWriter;
-import com.rapidminer.operator.io.ExcelExampleSetWriter;
-import com.rapidminer.operator.io.RepositoryStorer;
-import com.rapidminer.operator.io.ResultWriter;
-import com.rapidminer.operator.io.SpecialFormatExampleSetWriter;
+import com.rapidminer.operator.io.*;
 import com.rapidminer.operator.nio.file.WriteFileOperator;
+
+import java.util.Collection;
+import java.util.HashSet;
 
 
 /**

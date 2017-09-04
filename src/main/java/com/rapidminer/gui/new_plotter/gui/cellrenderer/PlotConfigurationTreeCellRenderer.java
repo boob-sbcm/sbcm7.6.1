@@ -18,38 +18,15 @@
  */
 package com.rapidminer.gui.new_plotter.gui.cellrenderer;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.datatransfer.Transferable;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTree;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.border.Border;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeCellRenderer;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.RapidMinerGUI.DragHighlightMode;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn.ValueType;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.VisualizationType;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.gui.dnd.DataTableColumnListTransferHandler;
 import com.rapidminer.gui.new_plotter.gui.treenodes.DimensionConfigTreeNode;
 import com.rapidminer.gui.new_plotter.gui.treenodes.PlotConfigurationTreeNode;
@@ -58,6 +35,13 @@ import com.rapidminer.gui.new_plotter.gui.treenodes.ValueSourceTreeNode;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
+import java.awt.datatransfer.Transferable;
 
 
 /**

@@ -18,23 +18,19 @@
 */
 package com.rapidminer.gui;
 
-import java.awt.Component;
-import java.awt.Container;
+import com.vlsolutions.swing.docking.Dockable;
+import com.vlsolutions.swing.docking.DockableState;
+import com.vlsolutions.swing.docking.DockingUtilities;
+import com.vlsolutions.swing.docking.TabbedDockableContainer;
+
+import javax.swing.*;
+import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import javax.swing.JScrollBar;
-import javax.swing.JScrollPane;
-import javax.swing.SwingUtilities;
-
-import com.vlsolutions.swing.docking.Dockable;
-import com.vlsolutions.swing.docking.DockableState;
-import com.vlsolutions.swing.docking.DockingUtilities;
-import com.vlsolutions.swing.docking.TabbedDockableContainer;
 
 
 /**

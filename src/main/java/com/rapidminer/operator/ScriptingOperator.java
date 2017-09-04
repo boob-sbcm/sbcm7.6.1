@@ -18,30 +18,19 @@
  */
 package com.rapidminer.operator;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.lang.exception.ExceptionUtils;
-import org.codehaus.groovy.GroovyBugError;
-
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.ports.InputPortExtender;
 import com.rapidminer.operator.ports.OutputPortExtender;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeText;
-import com.rapidminer.parameter.TextType;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.plugin.Plugin;
-
 import groovy.lang.Binding;
 import groovy.lang.GroovyCodeSource;
 import groovy.lang.GroovyShell;
 import groovy.lang.Script;
+import org.apache.commons.lang.exception.ExceptionUtils;
+import org.codehaus.groovy.GroovyBugError;
+
+import java.util.*;
 
 
 /**

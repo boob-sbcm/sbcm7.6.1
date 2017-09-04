@@ -19,21 +19,18 @@
 package com.rapidminer.gui.tools;
 
 import com.rapidminer.tools.I18N;
+import org.jdesktop.swingx.prompt.PromptSupport;
+import org.jdesktop.swingx.prompt.PromptSupport.FocusBehavior;
 
-import java.awt.Color;
-import java.awt.Font;
+import javax.swing.*;
+import javax.swing.text.Document;
+import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Collection;
 import java.util.LinkedList;
-
-import javax.swing.JTextField;
-import javax.swing.text.Document;
-
-import org.jdesktop.swingx.prompt.PromptSupport;
-import org.jdesktop.swingx.prompt.PromptSupport.FocusBehavior;
 
 
 /**

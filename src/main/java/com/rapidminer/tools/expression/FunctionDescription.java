@@ -18,11 +18,11 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.Objects;
-
 import com.rapidminer.gui.properties.ExpressionPropertyDialog;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Objects;
 
 
 /**

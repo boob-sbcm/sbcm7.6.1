@@ -18,11 +18,8 @@
 */
 package com.rapidminer.gui.tools.components.composite;
 
-import java.awt.Graphics;
-
-import javax.swing.Action;
-import javax.swing.JToggleButton;
-import javax.swing.SwingConstants;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

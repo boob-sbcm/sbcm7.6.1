@@ -20,13 +20,9 @@ package com.rapidminer.gui.plotter.charts;
 
 import com.rapidminer.gui.plotter.ColorProvider;
 import com.rapidminer.tools.math.MathFunctions;
-
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Paint;
-import java.awt.Stroke;
-
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+
+import java.awt.*;
 
 
 /**

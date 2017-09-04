@@ -18,31 +18,25 @@
 */
 package com.rapidminer.io.process;
 
+import com.rapidminer.BreakpointListener;
+import com.rapidminer.Process;
+import com.rapidminer.ProcessContext;
+import com.rapidminer.RapidMiner;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.ports.InputPort;
+import com.rapidminer.operator.ports.OutputPort;
+import com.rapidminer.operator.ports.OutputPorts;
+import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import com.rapidminer.BreakpointListener;
-import com.rapidminer.Process;
-import com.rapidminer.ProcessContext;
-import com.rapidminer.RapidMiner;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.tools.container.Pair;
 
 
 /**

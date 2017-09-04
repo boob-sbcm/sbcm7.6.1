@@ -18,30 +18,23 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.GridLayout;
+import com.rapidminer.example.Attributes;
+import com.rapidminer.operator.nio.model.ColumnMetaData;
+import com.rapidminer.tools.Ontology;
+
+import javax.swing.*;
+import javax.swing.event.CellEditorListener;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.EventListenerList;
+import javax.swing.table.TableCellEditor;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.util.EventObject;
 import java.util.Objects;
-
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.event.CellEditorListener;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.EventListenerList;
-import javax.swing.table.TableCellEditor;
-import javax.swing.table.TableCellRenderer;
-
-import com.rapidminer.example.Attributes;
-import com.rapidminer.operator.nio.model.ColumnMetaData;
-import com.rapidminer.tools.Ontology;
 
 
 /**

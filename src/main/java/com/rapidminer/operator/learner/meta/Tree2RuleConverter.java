@@ -19,11 +19,7 @@
 package com.rapidminer.operator.learner.meta;
 
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.rules.Rule;
 import com.rapidminer.operator.learner.rules.RuleModel;
 import com.rapidminer.operator.learner.tree.Edge;

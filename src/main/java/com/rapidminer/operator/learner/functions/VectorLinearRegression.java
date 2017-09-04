@@ -18,10 +18,7 @@
 */
 package com.rapidminer.operator.learner.functions;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Example;
@@ -38,7 +35,9 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 
-import Jama.Matrix;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

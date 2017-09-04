@@ -18,23 +18,6 @@
  */
 package com.rapidminer;
 
-import java.awt.Frame;
-import java.awt.Image;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.Vector;
-import java.util.logging.Level;
-
 import com.rapidminer.core.license.ActionStatisticsLicenseManagerListener;
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -54,36 +37,24 @@ import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.IOObjectMap;
 import com.rapidminer.operator.ProcessRootOperator;
 import com.rapidminer.operator.learner.CapabilityProvider;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDirectory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypePassword;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.repository.RepositoryManager;
 import com.rapidminer.test.asserter.AsserterFactoryRapidMiner;
 import com.rapidminer.test_utils.RapidAssert;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.GlobalAuthenticator;
-import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.I18N.SettingsType;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.PlatformUtilities;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.ProxySettings;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.WebServiceTools;
-import com.rapidminer.tools.XMLException;
-import com.rapidminer.tools.XMLSerialization;
 import com.rapidminer.tools.cipher.CipherTools;
 import com.rapidminer.tools.cipher.KeyGenerationException;
 import com.rapidminer.tools.cipher.KeyGeneratorTool;
 import com.rapidminer.tools.config.ConfigurationManager;
 import com.rapidminer.tools.plugin.Plugin;
 import com.rapidminer.tools.usagestats.UsageStatistics;
+
+import java.awt.*;
+import java.io.*;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

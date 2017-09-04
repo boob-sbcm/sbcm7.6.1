@@ -18,13 +18,12 @@
 */
 package com.rapidminer.parameter;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.rapidminer.tools.XMLException;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import com.rapidminer.tools.XMLException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

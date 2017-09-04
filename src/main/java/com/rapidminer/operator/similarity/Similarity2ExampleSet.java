@@ -18,14 +18,7 @@
 */
 package com.rapidminer.operator.similarity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
@@ -47,6 +40,9 @@ import com.rapidminer.tools.math.container.Range;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
 import com.rapidminer.tools.math.similarity.DistanceMeasures;
 import com.rapidminer.tools.metadata.MetaDataTools;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

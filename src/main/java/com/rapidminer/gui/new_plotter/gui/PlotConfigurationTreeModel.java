@@ -35,13 +35,8 @@ import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEve
 import com.rapidminer.gui.new_plotter.listener.events.RangeAxisConfigChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.RangeAxisConfigChangeEvent.RangeAxisConfigChangeType;
 
+import javax.swing.tree.*;
 import java.util.List;
-
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.MutableTreeNode;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
 
 
 /**

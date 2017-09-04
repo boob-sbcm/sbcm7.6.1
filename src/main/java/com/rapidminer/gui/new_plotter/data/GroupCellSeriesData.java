@@ -21,11 +21,7 @@ package com.rapidminer.gui.new_plotter.data;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 
 /**

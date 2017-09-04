@@ -18,17 +18,14 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.util.Vector;
-
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JComboBox;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.tools.autocomplete.AutoCompleteComboBoxAddition;
 import com.rapidminer.operator.ports.MetaDataChangeListener;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.parameter.MetaDataProvider;
 import com.rapidminer.parameter.ParameterTypeAttribute;
+
+import javax.swing.*;
+import java.util.Vector;
 
 
 /**

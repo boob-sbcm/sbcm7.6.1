@@ -18,18 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import java.io.File;
-import java.net.URISyntaxException;
-import java.text.SimpleDateFormat;
-import java.util.NoSuchElementException;
-
-import org.junit.BeforeClass;
-import org.junit.Test;
-
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetRow;
 import com.rapidminer.core.io.data.ParseException;
@@ -38,7 +26,15 @@ import com.rapidminer.operator.nio.model.DataResultSet;
 import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
 import com.rapidminer.studio.io.data.internal.file.FileDataSourceTestUtils;
-import com.rapidminer.studio.io.data.internal.file.excel.ExcelResultSetAdapter;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import java.io.File;
+import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
+import java.util.NoSuchElementException;
+
+import static org.junit.Assert.*;
 
 
 /**

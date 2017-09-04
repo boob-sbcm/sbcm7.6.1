@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
-
 import com.rapidminer.gui.processeditor.ProcessLogTab;
 import com.rapidminer.gui.processeditor.results.ResultDisplay;
 import com.rapidminer.gui.processeditor.results.ResultTab;
@@ -41,6 +29,13 @@ import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.DockableState;
 import com.vlsolutions.swing.docking.DockingContext;
 import com.vlsolutions.swing.docking.DummyDockable;
+
+import javax.swing.*;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
 
 
 /**

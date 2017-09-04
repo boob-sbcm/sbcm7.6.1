@@ -18,20 +18,6 @@
  */
 package com.rapidminer.gui.properties.tablepanel.cells.implementations;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.util.Collection;
-import java.util.LinkedList;
-
-import javax.swing.AbstractAction;
-import javax.swing.JButton;
-import javax.swing.JFormattedTextField;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
-
 import com.rapidminer.gui.properties.RegexpPropertyDialog;
 import com.rapidminer.gui.properties.tablepanel.TablePanel;
 import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellType;
@@ -39,6 +25,13 @@ import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeRegex;
 import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.util.Collection;
+import java.util.LinkedList;
 
 
 /**

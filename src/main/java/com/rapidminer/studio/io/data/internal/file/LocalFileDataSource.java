@@ -18,16 +18,12 @@
 */
 package com.rapidminer.studio.io.data.internal.file;
 
-import java.nio.file.Path;
-
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetMetaData;
-import com.rapidminer.core.io.data.source.DataSource;
-import com.rapidminer.core.io.data.source.DataSourceConfiguration;
-import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
-import com.rapidminer.core.io.data.source.FileDataSource;
-import com.rapidminer.core.io.data.source.FileDataSourceFactory;
+import com.rapidminer.core.io.data.source.*;
+
+import java.nio.file.Path;
 
 
 /**

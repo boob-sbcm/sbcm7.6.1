@@ -18,12 +18,12 @@
  */
 package com.rapidminer.tools;
 
-import static com.rapidminer.tools.ParameterService.PROPERTY_RAPIDMINER_SRC_ROOT;
-import static com.rapidminer.tools.ParameterService.RAPIDMINER_CONFIG_FILE_NAME;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
+
+import static com.rapidminer.tools.ParameterService.PROPERTY_RAPIDMINER_SRC_ROOT;
+import static com.rapidminer.tools.ParameterService.RAPIDMINER_CONFIG_FILE_NAME;
 
 
 /**

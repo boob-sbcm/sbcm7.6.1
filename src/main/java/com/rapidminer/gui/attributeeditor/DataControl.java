@@ -18,23 +18,17 @@
 */
 package com.rapidminer.gui.attributeeditor;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import com.rapidminer.RapidMiner;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ParameterService;
 
 
 /**

@@ -23,23 +23,13 @@ import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimensio
 import com.rapidminer.gui.new_plotter.configuration.GroupCellKey;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
-import com.rapidminer.gui.new_plotter.data.GroupCellData;
-import com.rapidminer.gui.new_plotter.data.GroupCellKeyAndData;
-import com.rapidminer.gui.new_plotter.data.GroupCellSeriesData;
-import com.rapidminer.gui.new_plotter.data.PlotInstance;
-import com.rapidminer.gui.new_plotter.data.ValueSourceData;
+import com.rapidminer.gui.new_plotter.data.*;
 import com.rapidminer.gui.new_plotter.listener.RenderFormatDelegateChangeListener;
 import com.rapidminer.gui.new_plotter.listener.SeriesFormatListener;
 import com.rapidminer.gui.new_plotter.listener.events.SeriesFormatChangeEvent;
-import com.rapidminer.gui.new_plotter.utility.ColorProvider;
-import com.rapidminer.gui.new_plotter.utility.DataStructureUtils;
-import com.rapidminer.gui.new_plotter.utility.ShapeProvider;
-import com.rapidminer.gui.new_plotter.utility.SizeProvider;
-import com.rapidminer.gui.new_plotter.utility.ValueRange;
+import com.rapidminer.gui.new_plotter.utility.*;
 
-import java.awt.Color;
-import java.awt.Paint;
-import java.awt.Shape;
+import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.util.LinkedList;
 import java.util.List;

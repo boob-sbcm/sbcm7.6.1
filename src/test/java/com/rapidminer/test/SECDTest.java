@@ -18,13 +18,10 @@
 */
 package com.rapidminer.test;
 
-import junit.framework.TestCase;
-
-import org.junit.Test;
-
 import Jama.Matrix;
-
 import com.rapidminer.operator.learner.functions.kernel.rvm.util.SECholeskyDecomposition;
+import junit.framework.TestCase;
+import org.junit.Test;
 
 /**
  * Test our SE99-based cholesky decomposition.

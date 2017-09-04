@@ -18,16 +18,15 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.core.io.gui.WizardStep;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

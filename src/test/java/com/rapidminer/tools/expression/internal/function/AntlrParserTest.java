@@ -18,23 +18,17 @@
 */
 package com.rapidminer.tools.expression.internal.function;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.expression.ExampleResolver;
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionRegistry;
-import com.rapidminer.tools.expression.MacroResolver;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.internal.antlr.AntlrParser;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

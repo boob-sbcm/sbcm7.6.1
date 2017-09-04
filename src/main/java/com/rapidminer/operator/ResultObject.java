@@ -18,10 +18,8 @@
 */
 package com.rapidminer.operator;
 
+import javax.swing.*;
 import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.Icon;
 
 
 /**

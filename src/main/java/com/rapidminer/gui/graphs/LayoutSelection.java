@@ -18,30 +18,19 @@
  */
 package com.rapidminer.gui.graphs;
 
+import com.rapidminer.tools.LogService;
+import edu.uci.ics.jung.algorithms.layout.*;
+import edu.uci.ics.jung.graph.Forest;
+import edu.uci.ics.jung.graph.Graph;
+import org.apache.commons.collections15.Transformer;
+
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.lang.reflect.Constructor;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.logging.Level;
-
-import javax.swing.JComboBox;
-
-import org.apache.commons.collections15.Transformer;
-
-import com.rapidminer.tools.LogService;
-
-import edu.uci.ics.jung.algorithms.layout.BalloonLayout;
-import edu.uci.ics.jung.algorithms.layout.CircleLayout;
-import edu.uci.ics.jung.algorithms.layout.FRLayout2;
-import edu.uci.ics.jung.algorithms.layout.ISOMLayout;
-import edu.uci.ics.jung.algorithms.layout.KKLayout;
-import edu.uci.ics.jung.algorithms.layout.Layout;
-import edu.uci.ics.jung.algorithms.layout.RadialTreeLayout;
-import edu.uci.ics.jung.algorithms.layout.SpringLayout2;
-import edu.uci.ics.jung.algorithms.layout.TreeLayout;
-import edu.uci.ics.jung.graph.Forest;
-import edu.uci.ics.jung.graph.Graph;
 
 
 /**

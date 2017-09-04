@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.flow.processrendering.view.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.Operator;
+
+import java.awt.event.ActionEvent;
 
 
 /**

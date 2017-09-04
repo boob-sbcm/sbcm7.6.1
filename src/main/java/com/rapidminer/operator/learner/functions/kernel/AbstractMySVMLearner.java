@@ -18,29 +18,10 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import java.util.Collections;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.Kernel;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelAnova;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelDot;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelEpanechnikov;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelGaussianCombination;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelMultiquadric;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelNeural;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelPolynomial;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelRadial;
+import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.*;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.svm.SVMInterface;
 import com.rapidminer.operator.performance.EstimatedPerformance;
 import com.rapidminer.operator.performance.PerformanceVector;
@@ -48,13 +29,11 @@ import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.metadata.MetaDataError;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.util.Collections;
+import java.util.List;
 
 
 /**

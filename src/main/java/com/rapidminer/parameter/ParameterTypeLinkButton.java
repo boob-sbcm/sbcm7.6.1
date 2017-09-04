@@ -18,11 +18,10 @@
 */
 package com.rapidminer.parameter;
 
-import org.w3c.dom.Element;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
 import com.rapidminer.gui.tools.components.LinkRemoteButton;
+import org.w3c.dom.Element;
 
 
 /**

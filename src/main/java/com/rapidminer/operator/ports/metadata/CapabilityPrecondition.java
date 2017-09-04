@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.ports.metadata;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorCapability;
@@ -42,6 +37,11 @@ import com.rapidminer.operator.preprocessing.filter.attributes.SingleAttributeFi
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

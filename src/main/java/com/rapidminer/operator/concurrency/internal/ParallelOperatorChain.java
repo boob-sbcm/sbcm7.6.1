@@ -18,19 +18,15 @@
  */
 package com.rapidminer.operator.concurrency.internal;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
+import com.rapidminer.operator.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

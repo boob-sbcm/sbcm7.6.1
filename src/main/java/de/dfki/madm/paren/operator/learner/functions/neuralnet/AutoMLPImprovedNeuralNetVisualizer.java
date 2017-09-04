@@ -18,24 +18,6 @@
  */
 package de.dfki.madm.paren.operator.learner.functions.neuralnet;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Rectangle2D;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.gui.actions.export.AbstractPrintableIOObjectPanel;
 import com.rapidminer.gui.graphs.GraphViewer;
 import com.rapidminer.gui.tools.SwingTools;
@@ -44,6 +26,16 @@ import com.rapidminer.operator.learner.functions.neuralnet.InputNode;
 import com.rapidminer.operator.learner.functions.neuralnet.Node;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.Tools;
+
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

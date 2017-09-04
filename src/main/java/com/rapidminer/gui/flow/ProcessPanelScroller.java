@@ -18,17 +18,14 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.Container;
+import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.AdjustmentEvent;
 import java.awt.event.AdjustmentListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
-
-import javax.swing.JScrollPane;
-import javax.swing.RepaintManager;
-import javax.swing.SwingUtilities;
-
-import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 
 
 /**

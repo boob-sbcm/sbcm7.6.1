@@ -18,10 +18,10 @@
 */
 package com.rapidminer.core.license;
 
+import com.rapidminer.license.LicenseUser;
+
 import java.util.Collections;
 import java.util.Map;
-
-import com.rapidminer.license.LicenseUser;
 
 
 /**

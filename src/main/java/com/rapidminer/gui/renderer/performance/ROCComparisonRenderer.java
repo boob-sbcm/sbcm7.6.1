@@ -18,15 +18,6 @@
 */
 package com.rapidminer.gui.renderer.performance;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.gui.viewer.ROCChartPlotter;
@@ -34,6 +25,12 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.visualization.ROCComparison;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.math.ROCData;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 
 /**

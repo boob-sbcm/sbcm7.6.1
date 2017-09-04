@@ -18,15 +18,10 @@
 */
 package com.rapidminer.repository.resource;
 
+import com.rapidminer.repository.*;
+
+import javax.swing.*;
 import java.util.Collection;
-
-import javax.swing.Action;
-
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
 
 
 /**

@@ -18,29 +18,15 @@
 */
 package com.rapidminer.operator.ports.impl;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.PortException;
-import com.rapidminer.operator.ports.PortExtender;
-import com.rapidminer.operator.ports.PortOwner;
-import com.rapidminer.operator.ports.Ports;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
+import com.rapidminer.operator.ports.*;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

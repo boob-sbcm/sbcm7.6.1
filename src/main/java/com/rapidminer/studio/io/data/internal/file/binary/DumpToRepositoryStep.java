@@ -18,22 +18,17 @@
 */
 package com.rapidminer.studio.io.data.internal.file.binary;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-
-import javax.swing.JPanel;
-
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.WizardStep;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.studio.io.gui.internal.steps.AbstractToRepositoryStep;
+
+import javax.swing.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 
 
 /**

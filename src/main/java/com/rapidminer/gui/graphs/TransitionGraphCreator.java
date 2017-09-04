@@ -18,36 +18,6 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Dimension;
-import java.awt.Paint;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
-
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JSlider;
-import javax.swing.JSpinner;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.SwingConstants;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import org.apache.commons.collections15.Factory;
-import org.apache.commons.collections15.Transformer;
-
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
@@ -60,12 +30,23 @@ import com.rapidminer.operator.visualization.dependencies.TransitionGraph;
 import com.rapidminer.tools.ObjectVisualizerService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
-
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.util.EdgeType;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.renderers.Renderer.EdgeLabel;
+import org.apache.commons.collections15.Factory;
+import org.apache.commons.collections15.Transformer;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import java.util.List;
+import java.util.Map.Entry;
 
 
 /**

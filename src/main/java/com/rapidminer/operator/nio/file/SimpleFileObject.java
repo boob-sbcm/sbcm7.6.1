@@ -18,12 +18,12 @@
 */
 package com.rapidminer.operator.nio.file;
 
+import com.rapidminer.operator.OperatorException;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-
-import com.rapidminer.operator.OperatorException;
 
 
 /**

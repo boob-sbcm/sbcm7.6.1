@@ -18,9 +18,6 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.tools.expression.internal.ConstantResolver;
@@ -31,6 +28,9 @@ import com.rapidminer.tools.expression.internal.function.eval.TypeConstants;
 import com.rapidminer.tools.expression.internal.function.process.MacroValue;
 import com.rapidminer.tools.expression.internal.function.process.ParameterValue;
 import com.rapidminer.tools.expression.internal.function.statistical.Random;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

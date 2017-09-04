@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.look.icons;
 
-import java.awt.Dimension;
-
-import javax.swing.Icon;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

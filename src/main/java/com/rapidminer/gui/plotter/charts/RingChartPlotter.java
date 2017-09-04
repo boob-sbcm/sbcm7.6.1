@@ -18,15 +18,14 @@
  */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Font;
-
+import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.tools.FontTools;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PiePlot;
 import org.jfree.data.general.PieDataset;
 
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.tools.FontTools;
+import java.awt.*;
 
 
 /**

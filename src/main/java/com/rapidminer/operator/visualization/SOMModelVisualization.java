@@ -19,11 +19,7 @@
 package com.rapidminer.operator.visualization;
 
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ResultObjectAdapter;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 

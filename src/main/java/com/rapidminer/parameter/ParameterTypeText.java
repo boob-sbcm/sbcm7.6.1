@@ -18,10 +18,9 @@
 */
 package com.rapidminer.parameter;
 
-import org.w3c.dom.Element;
-
 import com.rapidminer.gui.properties.TextPropertyDialog;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
 
 
 /**

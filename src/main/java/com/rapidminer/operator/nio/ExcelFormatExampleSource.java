@@ -18,26 +18,12 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.charset.Charset;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.io.AbstractExampleSource;
 import com.rapidminer.operator.nio.file.FileInputPortHandler;
 import com.rapidminer.operator.nio.file.FileObject;
@@ -51,17 +37,16 @@ import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.io.Encoding;
-
-import jxl.Cell;
-import jxl.CellType;
-import jxl.DateCell;
-import jxl.NumberCell;
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.WorkbookSettings;
+import jxl.*;
 import jxl.biff.EmptyCell;
 import jxl.format.CellFormat;
 import jxl.read.biff.BiffException;
+
+import java.io.*;
+import java.nio.charset.Charset;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
 
 
 /**

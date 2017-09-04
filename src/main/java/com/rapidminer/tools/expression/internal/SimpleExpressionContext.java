@@ -18,22 +18,10 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Callable;
+import com.rapidminer.tools.expression.*;
 
-import com.rapidminer.tools.expression.DoubleCallable;
-import com.rapidminer.tools.expression.ExpressionContext;
-import com.rapidminer.tools.expression.ExpressionEvaluator;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.Function;
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInput;
-import com.rapidminer.tools.expression.Resolver;
+import java.util.*;
+import java.util.concurrent.Callable;
 
 
 /**

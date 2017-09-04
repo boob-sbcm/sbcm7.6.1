@@ -27,6 +27,8 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.att.AttributeDataSource;
 
+import javax.swing.*;
+import javax.swing.table.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -34,14 +36,6 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JComboBox;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.TableCellEditor;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
 
 
 /**

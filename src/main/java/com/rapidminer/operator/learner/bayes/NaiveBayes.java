@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.bayes;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorCapability;
@@ -31,6 +29,8 @@ import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+
+import java.util.List;
 
 
 /**

@@ -23,7 +23,6 @@ import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 
 

@@ -18,19 +18,6 @@
 */
 package com.rapidminer.gui.renderer.performance;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.gui.renderer.AbstractRenderer;
@@ -43,6 +30,11 @@ import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.validation.significance.TTestSignificanceTestOperator.TTestSignificanceTestResult;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import java.awt.*;
 
 
 /**

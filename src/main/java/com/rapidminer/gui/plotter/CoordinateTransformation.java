@@ -18,12 +18,9 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.awt.Graphics2D;
-import java.awt.Point;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
-
-import javax.swing.JComponent;
-import javax.swing.JPopupMenu;
 
 
 /**

@@ -19,7 +19,6 @@
 package com.rapidminer.operator.visualization.dependencies;
 
 import Jama.Matrix;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Operator;

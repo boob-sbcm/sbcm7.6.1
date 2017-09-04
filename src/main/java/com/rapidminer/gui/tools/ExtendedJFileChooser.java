@@ -18,30 +18,17 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dialog;
+import com.rapidminer.gui.look.fc.FileChooserUI;
+import com.rapidminer.gui.tools.dialogs.ButtonDialog;
+
+import javax.accessibility.AccessibleContext;
+import javax.swing.*;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
 import java.awt.Dialog.ModalityType;
-import java.awt.Frame;
-import java.awt.HeadlessException;
-import java.awt.Window;
 import java.io.File;
 import java.util.Collection;
 import java.util.LinkedList;
-
-import javax.accessibility.AccessibleContext;
-import javax.swing.AbstractButton;
-import javax.swing.BorderFactory;
-import javax.swing.JDialog;
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
-import javax.swing.JRootPane;
-import javax.swing.UIManager;
-import javax.swing.event.ChangeListener;
-
-import com.rapidminer.gui.look.fc.FileChooserUI;
-import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 
 
 /**

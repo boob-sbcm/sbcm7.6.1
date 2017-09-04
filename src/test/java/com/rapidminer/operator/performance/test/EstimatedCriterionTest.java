@@ -18,14 +18,13 @@
 */
 package com.rapidminer.operator.performance.test;
 
-import static junit.framework.Assert.assertEquals;
-
+import com.rapidminer.operator.performance.EstimatedPerformance;
+import com.rapidminer.operator.performance.PerformanceCriterion;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.rapidminer.operator.performance.EstimatedPerformance;
-import com.rapidminer.operator.performance.PerformanceCriterion;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * Tests {@link EstimatedPerformance}.

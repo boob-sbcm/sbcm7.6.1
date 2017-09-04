@@ -18,17 +18,8 @@
 */
 package com.rapidminer.tutorial.gui;
 
-import java.awt.event.ActionEvent;
-import java.util.List;
-
-import javax.swing.JButton;
-
 import com.rapidminer.Process;
-import com.rapidminer.gui.MainFrame;
-import com.rapidminer.gui.Perspective;
-import com.rapidminer.gui.PerspectiveChangeListener;
-import com.rapidminer.gui.PerspectiveModel;
-import com.rapidminer.gui.RapidMinerGUI;
+import com.rapidminer.gui.*;
 import com.rapidminer.gui.processeditor.ExtendedProcessEditor;
 import com.rapidminer.gui.tools.DockingTools;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -42,6 +33,10 @@ import com.vlsolutions.swing.docking.Dockable;
 import com.vlsolutions.swing.docking.DockableState;
 import com.vlsolutions.swing.docking.event.DockableStateWillChangeEvent;
 import com.vlsolutions.swing.docking.event.DockableStateWillChangeListener;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.util.List;
 
 
 /**

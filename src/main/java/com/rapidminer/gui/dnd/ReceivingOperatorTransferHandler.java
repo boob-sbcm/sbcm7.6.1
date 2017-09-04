@@ -18,26 +18,6 @@
 */
 package com.rapidminer.gui.dnd;
 
-import java.awt.Point;
-import java.awt.datatransfer.DataFlavor;
-import java.io.File;
-import java.io.StringReader;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXParseException;
-
 import com.rapidminer.Process;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -50,16 +30,30 @@ import com.rapidminer.operator.UnknownParameterInformation;
 import com.rapidminer.operator.internal.ProcessEmbeddingOperator;
 import com.rapidminer.operator.io.RepositorySource;
 import com.rapidminer.operator.nio.file.LoadFileOperator;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.studio.io.gui.internal.DataImportWizardBuilder;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.Tools;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXParseException;
+
+import javax.swing.*;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.awt.*;
+import java.awt.datatransfer.DataFlavor;
+import java.io.File;
+import java.io.StringReader;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

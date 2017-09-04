@@ -18,12 +18,6 @@
 */
 package com.rapidminer.gui.renderer.visualization;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.plotter.Plotter;
 import com.rapidminer.gui.plotter.PlotterAdapter;
@@ -33,6 +27,9 @@ import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.visualization.LiftParetoChart;
 import com.rapidminer.report.Reportable;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

@@ -18,23 +18,17 @@
 */
 package com.rapidminer.tools;
 
+import com.rapidminer.gui.tools.PasswordDialog;
+import com.rapidminer.tools.cipher.CipherException;
+import com.rapidminer.tools.cipher.CipherTools;
+
 import java.io.BufferedOutputStream;
 import java.io.IOException;
-import java.net.Authenticator;
-import java.net.InetSocketAddress;
-import java.net.PasswordAuthentication;
-import java.net.Proxy;
-import java.net.SocketAddress;
-import java.net.SocketException;
-import java.net.URL;
+import java.net.*;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import com.rapidminer.gui.tools.PasswordDialog;
-import com.rapidminer.tools.cipher.CipherException;
-import com.rapidminer.tools.cipher.CipherTools;
 
 
 /**

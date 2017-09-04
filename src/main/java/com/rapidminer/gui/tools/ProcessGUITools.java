@@ -18,20 +18,6 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.lang.ref.WeakReference;
-
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.flow.QuickFixDialog;
@@ -46,13 +32,8 @@ import com.rapidminer.gui.tools.bubble.ParameterErrorInfoBubble.ParameterErrorBu
 import com.rapidminer.gui.tools.bubble.PortInfoBubble;
 import com.rapidminer.gui.tools.bubble.PortInfoBubble.PortBubbleBuilder;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.PortUserError;
-import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.ProcessSetupError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.error.ParameterError;
 import com.rapidminer.operator.error.ProcessExecutionUserErrorError;
@@ -65,6 +46,13 @@ import com.rapidminer.parameter.ParameterTypeAttributes;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.lang.ref.WeakReference;
 
 
 /**

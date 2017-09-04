@@ -18,22 +18,17 @@
 */
 package com.rapidminer.operator.ports.impl;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.logging.Level;
-
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.ports.IncompatibleMDClassException;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.MetaDataChangeListener;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.Ports;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.Precondition;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.logging.Level;
 
 
 /**

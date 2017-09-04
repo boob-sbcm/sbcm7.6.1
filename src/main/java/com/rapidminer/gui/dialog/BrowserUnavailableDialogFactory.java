@@ -19,25 +19,17 @@
 
 package com.rapidminer.gui.dialog;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.KeyboardFocusManager;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.ActionEvent;
-import java.awt.event.FocusAdapter;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder.DefaultButtons;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.ActionEvent;
+import java.awt.event.FocusAdapter;
 
 
 /**

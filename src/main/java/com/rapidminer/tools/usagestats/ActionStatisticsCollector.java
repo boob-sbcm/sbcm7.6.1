@@ -18,26 +18,6 @@
  */
 package com.rapidminer.tools.usagestats;
 
-import java.awt.AWTEvent;
-import java.awt.Component;
-import java.awt.Toolkit;
-import java.awt.event.AWTEventListener;
-import java.awt.event.MouseEvent;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.swing.AbstractButton;
-import javax.swing.Action;
-import javax.swing.JCheckBox;
-import javax.swing.JToggleButton;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessListener;
 import com.rapidminer.RapidMiner;
@@ -55,6 +35,19 @@ import com.rapidminer.operator.ports.Port;
 import com.rapidminer.tools.XMLException;
 import com.vlsolutions.swing.docking.event.DockableStateChangeEvent;
 import com.vlsolutions.swing.docking.event.DockableStateChangeListener;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.AWTEventListener;
+import java.awt.event.MouseEvent;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 
 /**

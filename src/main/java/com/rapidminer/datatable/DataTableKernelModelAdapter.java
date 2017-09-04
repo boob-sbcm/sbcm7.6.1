@@ -18,15 +18,10 @@
 */
 package com.rapidminer.datatable;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.operator.learner.functions.kernel.KernelModel;
+
+import java.util.*;
 
 
 /**

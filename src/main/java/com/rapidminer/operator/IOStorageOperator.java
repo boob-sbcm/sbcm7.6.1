@@ -18,26 +18,17 @@
 */
 package com.rapidminer.operator;
 
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.operator.ports.InputPort;
+import com.rapidminer.operator.ports.OutputPort;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.OperatorService;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
-import com.rapidminer.operator.ports.metadata.InputMissingMetaDataError;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.Precondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.tools.OperatorService;
 
 
 /**

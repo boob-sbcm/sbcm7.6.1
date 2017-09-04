@@ -18,12 +18,16 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import com.rapidminer.example.Example;
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.plotter.PlotterAdapter;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.math.similarity.DistanceMeasure;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.AffineTransform;
@@ -35,21 +39,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.plotter.PlotterAdapter;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.math.similarity.DistanceMeasure;
 
 
 /**

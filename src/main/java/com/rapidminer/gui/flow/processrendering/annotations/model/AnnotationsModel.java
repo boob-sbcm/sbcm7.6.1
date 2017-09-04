@@ -18,12 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.model;
 
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Rectangle2D;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationDrawUtils;
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationsDecorator;
 import com.rapidminer.gui.flow.processrendering.annotations.model.AnnotationResizeHelper.ResizeDirection;
@@ -32,6 +26,11 @@ import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationColo
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.geom.Rectangle2D;
 
 
 /**

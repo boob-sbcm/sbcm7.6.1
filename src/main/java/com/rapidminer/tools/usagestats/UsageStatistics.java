@@ -18,6 +18,20 @@
 */
 package com.rapidminer.tools.usagestats;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.RapidMinerVersion;
+import com.rapidminer.core.license.ProductConstraintManager;
+import com.rapidminer.gui.RapidMinerGUI;
+import com.rapidminer.gui.dialog.EULADialog;
+import com.rapidminer.io.process.XMLTools;
+import com.rapidminer.license.License;
+import com.rapidminer.tools.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.swing.table.TableModel;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -31,28 +45,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 import java.util.logging.Level;
-
-import javax.swing.table.TableModel;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RapidMinerVersion;
-import com.rapidminer.core.license.ProductConstraintManager;
-import com.rapidminer.gui.RapidMinerGUI;
-import com.rapidminer.gui.dialog.EULADialog;
-import com.rapidminer.io.process.XMLTools;
-import com.rapidminer.license.License;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.SystemInfoUtilities;
-import com.rapidminer.tools.WebServiceTools;
 
 
 /**

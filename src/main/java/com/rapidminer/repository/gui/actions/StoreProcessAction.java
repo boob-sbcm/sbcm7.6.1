@@ -24,12 +24,7 @@ import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.gui.RepositoryTree;
 
 

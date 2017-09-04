@@ -18,17 +18,12 @@
 */
 package com.rapidminer.example.table;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import java.util.logging.Level;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.tools.LogService;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

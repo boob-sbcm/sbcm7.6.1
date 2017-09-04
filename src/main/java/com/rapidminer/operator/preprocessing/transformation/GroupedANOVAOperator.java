@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.transformation;
 
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.TreeSet;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -50,6 +45,11 @@ import com.rapidminer.tools.math.SignificanceTestResult;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AverageFunction;
 import com.rapidminer.tools.math.function.aggregation.VarianceFunction;
+
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.TreeSet;
 
 
 /**

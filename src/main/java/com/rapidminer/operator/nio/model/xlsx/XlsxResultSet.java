@@ -18,6 +18,23 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.ProcessStoppedException;
+import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.nio.model.*;
+import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCell;
+import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookParser.XlsxWorkbook;
+import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookRelationParser.XlsxWorkbookRel;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.ProgressListener;
+import org.apache.poi.ss.usermodel.DateUtil;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -26,37 +43,9 @@ import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.util.Collections;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.TimeZone;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.zip.ZipFile;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-
-import org.apache.poi.ss.usermodel.DateUtil;
-import org.xml.sax.SAXException;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.nio.model.ColumnMetaData;
-import com.rapidminer.operator.nio.model.DataResultSet;
-import com.rapidminer.operator.nio.model.DateFormatProvider;
-import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
-import com.rapidminer.operator.nio.model.ParseException;
-import com.rapidminer.operator.nio.model.ParsingError;
-import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCell;
-import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookParser.XlsxWorkbook;
-import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookRelationParser.XlsxWorkbookRel;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ProgressListener;
 
 
 /**

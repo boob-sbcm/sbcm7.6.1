@@ -26,16 +26,12 @@
  */
 package libsvm;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.StringTokenizer;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.io.*;
+import java.util.StringTokenizer;
 
 
 //

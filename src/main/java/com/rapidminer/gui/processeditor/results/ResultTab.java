@@ -18,20 +18,6 @@
  */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -42,12 +28,8 @@ import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.viewer.metadata.MetaDataStatisticsViewer;
-import com.rapidminer.license.ConstraintNotRestrictedException;
-import com.rapidminer.license.LicenseConstants;
-import com.rapidminer.license.LicenseEvent;
+import com.rapidminer.license.*;
 import com.rapidminer.license.LicenseEvent.LicenseEventType;
-import com.rapidminer.license.LicenseManagerListener;
-import com.rapidminer.license.LicenseManagerRegistry;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.ResultObject;
@@ -55,6 +37,9 @@ import com.rapidminer.tools.Tools;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
 import com.vlsolutions.swing.docking.DockableActionCustomizer;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

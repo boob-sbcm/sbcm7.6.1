@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.Objects;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Objects;
 
 
 /**

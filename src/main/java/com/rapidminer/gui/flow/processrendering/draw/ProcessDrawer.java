@@ -18,32 +18,6 @@
  */
 package com.rapidminer.gui.flow.processrendering.draw;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Arc2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.geom.RoundRectangle2D;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.logging.Level;
-
-import javax.swing.ImageIcon;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
@@ -62,18 +36,21 @@ import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.Port;
-import com.rapidminer.operator.ports.Ports;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.CollectionMetaData;
 import com.rapidminer.operator.ports.metadata.Precondition;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tutorial.Tutorial;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.logging.Level;
 
 
 /**

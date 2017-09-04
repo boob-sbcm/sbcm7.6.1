@@ -18,11 +18,10 @@
 */
 package com.rapidminer.repository;
 
-import java.util.Collection;
-
-import javax.swing.Action;
-
 import com.rapidminer.operator.io.RepositorySource;
+
+import javax.swing.*;
+import java.util.Collection;
 
 
 /**

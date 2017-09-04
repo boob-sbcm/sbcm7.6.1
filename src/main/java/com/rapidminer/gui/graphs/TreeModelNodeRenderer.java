@@ -18,24 +18,9 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.Stroke;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.Map;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-
 import com.rapidminer.gui.plotter.ColorProvider;
 import com.rapidminer.operator.learner.tree.Tree;
 import com.rapidminer.operator.learner.tree.TreeModel;
-
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.util.Context;
@@ -45,6 +30,13 @@ import edu.uci.ics.jung.visualization.renderers.Renderer;
 import edu.uci.ics.jung.visualization.transform.MutableTransformer;
 import edu.uci.ics.jung.visualization.transform.MutableTransformerDecorator;
 import edu.uci.ics.jung.visualization.transform.shape.GraphicsDecorator;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.Map;
 
 
 /**

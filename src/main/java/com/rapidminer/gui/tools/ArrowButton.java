@@ -18,14 +18,9 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.geom.GeneralPath;
-
-import javax.swing.Action;
-import javax.swing.JButton;
-import javax.swing.SwingConstants;
 
 
 /**

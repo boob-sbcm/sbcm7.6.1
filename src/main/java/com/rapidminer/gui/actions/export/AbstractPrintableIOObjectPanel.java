@@ -22,7 +22,7 @@ import com.rapidminer.gui.tools.components.ButtonBarCardPanel;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.tools.I18N;
 
-import javax.swing.JPanel;
+import javax.swing.*;
 
 
 /**

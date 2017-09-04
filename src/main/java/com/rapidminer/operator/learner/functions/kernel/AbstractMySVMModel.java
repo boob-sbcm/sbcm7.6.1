@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import java.util.Iterator;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -35,6 +32,9 @@ import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.Kernel;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelDot;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.svm.SVMInterface;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
+import java.util.Map;
 
 
 /**

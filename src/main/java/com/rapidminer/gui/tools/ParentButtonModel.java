@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.tools;
 
-import javax.swing.Icon;
+import javax.swing.*;
 
 
 /**

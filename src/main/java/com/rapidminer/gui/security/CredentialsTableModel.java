@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.security;
 
-import java.util.LinkedList;
-
 import javax.swing.table.AbstractTableModel;
+import java.util.LinkedList;
 
 
 /**

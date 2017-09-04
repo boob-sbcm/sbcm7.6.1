@@ -18,16 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Enumeration;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Pattern;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipException;
-import java.util.zip.ZipFile;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
@@ -42,6 +32,16 @@ import com.rapidminer.parameter.ParameterTypeFile;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.parameter.conditions.PortConnectedCondition;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Enumeration;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipException;
+import java.util.zip.ZipFile;
 
 
 /**

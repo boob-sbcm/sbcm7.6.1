@@ -18,24 +18,20 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.Collections;
-import java.util.List;
-import java.util.Vector;
-
-import javax.swing.Action;
-import javax.swing.JList;
-import javax.swing.JPopupMenu;
-import javax.swing.ListSelectionModel;
-
 import com.rapidminer.gui.dnd.OperatorTransferHandler;
 import com.rapidminer.gui.operatortree.actions.InfoOperatorAction;
 import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorCreationException;
 import com.rapidminer.operator.OperatorDescription;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.Collections;
+import java.util.List;
+import java.util.Vector;
 
 
 /**

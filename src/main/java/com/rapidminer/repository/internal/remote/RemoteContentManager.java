@@ -18,18 +18,13 @@
 */
 package com.rapidminer.repository.internal.remote;
 
-import java.util.List;
+import com.rapid_i.repository.wsimport.*;
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.tools.PasswordInputCanceledException;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.ws.BindingProvider;
-
-import com.rapid_i.repository.wsimport.AccessRights;
-import com.rapid_i.repository.wsimport.EntryResponse;
-import com.rapid_i.repository.wsimport.FolderContentsResponse;
-import com.rapid_i.repository.wsimport.ProcessContentsResponse;
-import com.rapid_i.repository.wsimport.Response;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.tools.PasswordInputCanceledException;
+import java.util.List;
 
 
 /**

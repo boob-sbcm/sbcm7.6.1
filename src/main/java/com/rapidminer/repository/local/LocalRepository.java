@@ -18,27 +18,18 @@
 */
 package com.rapidminer.repository.local;
 
-import java.io.File;
-
-import javax.swing.event.EventListenerList;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.io.process.XMLTools;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.Repository;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryListener;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryManager;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.gui.LocalRepositoryPanel;
 import com.rapidminer.repository.gui.RepositoryConfigurationPanel;
 import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.swing.event.EventListenerList;
+import java.io.File;
 
 
 /**

@@ -18,7 +18,12 @@
 */
 package com.rapidminer.tools.config;
 
-import java.awt.Color;
+import com.rapidminer.operator.OperatorException;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.WebServiceTools;
+import com.rapidminer.tools.math.StringToMatrixConverter;
+
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -28,18 +33,6 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.parameter.ParameterHandler;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeColor;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.Parameters;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.tools.WebServiceTools;
-import com.rapidminer.tools.math.StringToMatrixConverter;
 
 
 /**

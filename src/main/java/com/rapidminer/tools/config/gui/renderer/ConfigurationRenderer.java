@@ -18,17 +18,13 @@
 */
 package com.rapidminer.tools.config.gui.renderer;
 
-import java.awt.Component;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JList;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.config.AbstractConfigurator;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

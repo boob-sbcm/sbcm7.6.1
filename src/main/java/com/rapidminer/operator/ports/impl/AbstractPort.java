@@ -18,11 +18,6 @@
  */
 package com.rapidminer.operator.ports.impl;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.renderer.RendererService;
@@ -37,6 +32,11 @@ import com.rapidminer.operator.ports.metadata.MetaDataError;
 import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.ReferenceCache;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

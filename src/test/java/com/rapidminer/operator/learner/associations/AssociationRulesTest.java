@@ -19,12 +19,11 @@
 
 package com.rapidminer.operator.learner.associations;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
+import junit.framework.TestCase;
 import org.junit.Test;
 
-import junit.framework.TestCase;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 
 /**

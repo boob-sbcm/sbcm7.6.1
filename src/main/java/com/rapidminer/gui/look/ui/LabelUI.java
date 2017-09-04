@@ -18,12 +18,10 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Graphics;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicLabelUI;
+import java.awt.*;
 
 
 /**

@@ -18,10 +18,6 @@
  */
 package com.rapidminer.operator.features.selection;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Vector;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -36,6 +32,10 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Vector;
 
 
 /**

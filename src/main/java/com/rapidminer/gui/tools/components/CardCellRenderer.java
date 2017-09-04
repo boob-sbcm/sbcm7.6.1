@@ -18,23 +18,12 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JLayer;
-import javax.swing.JList;
-import javax.swing.SwingConstants;
-import javax.swing.plaf.LayerUI;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ListHoverHelper;
+
+import javax.swing.*;
+import javax.swing.plaf.LayerUI;
+import java.awt.*;
 
 
 /**

@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -33,6 +27,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.tools.Ontology;
+
+import java.util.*;
 
 
 /**

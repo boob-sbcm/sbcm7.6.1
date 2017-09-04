@@ -18,25 +18,6 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.BorderLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.border.EtchedBorder;
-
 import com.rapidminer.gui.properties.tablepanel.TablePanel;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceActionAdapter;
@@ -47,6 +28,14 @@ import com.rapidminer.parameter.ParameterTypeFilter;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeTupel;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.border.EtchedBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

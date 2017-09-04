@@ -18,76 +18,33 @@
 */
 package com.rapidminer.io.process;
 
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.logging.Level;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.BreakpointListener;
 import com.rapidminer.Process;
 import com.rapidminer.ProcessContext;
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.tools.VersionNumber;
 import com.rapidminer.gui.tools.VersionNumber.VersionNumberExcpetion;
-import com.rapidminer.io.process.rules.AbstractGenericParseRule;
-import com.rapidminer.io.process.rules.ChangeParameterValueRule;
-import com.rapidminer.io.process.rules.DeleteAfterAutoWireRule;
-import com.rapidminer.io.process.rules.DeleteUnnecessaryOperatorChainRule;
-import com.rapidminer.io.process.rules.ExcelCellAddressParseRule;
-import com.rapidminer.io.process.rules.ExchangeSubprocessesRule;
-import com.rapidminer.io.process.rules.OperatorEnablerRepairRule;
-import com.rapidminer.io.process.rules.ParseRule;
-import com.rapidminer.io.process.rules.PassthroughShortcutRule;
-import com.rapidminer.io.process.rules.RenamePlotterParametersRule;
-import com.rapidminer.io.process.rules.ReplaceIOMultiplierRule;
-import com.rapidminer.io.process.rules.ReplaceOperatorRule;
-import com.rapidminer.io.process.rules.ReplaceParameterRule;
-import com.rapidminer.io.process.rules.SetParameterRule;
-import com.rapidminer.io.process.rules.SetRoleByNameRule;
-import com.rapidminer.io.process.rules.SwitchListEntriesRule;
-import com.rapidminer.io.process.rules.WireAllOperators;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.DummyOperator;
-import com.rapidminer.operator.ExecutionUnit;
-import com.rapidminer.operator.ListDescription;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.ProcessRootOperator;
-import com.rapidminer.operator.UnknownParameterInformation;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.InputPorts;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.OutputPorts;
-import com.rapidminer.operator.ports.PortException;
+import com.rapidminer.io.process.rules.*;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.ports.*;
 import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeEnumeration;
 import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.XMLException;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.plugin.Plugin;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.net.URL;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

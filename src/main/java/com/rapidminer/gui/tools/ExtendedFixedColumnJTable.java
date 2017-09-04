@@ -18,15 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
-import javax.swing.JScrollPane;
-import javax.swing.JViewport;
-import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.table.DefaultTableColumnModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
+import javax.swing.*;
+import javax.swing.table.*;
 
 
 /**

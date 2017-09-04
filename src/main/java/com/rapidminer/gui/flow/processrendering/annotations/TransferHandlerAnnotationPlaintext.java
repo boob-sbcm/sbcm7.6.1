@@ -18,19 +18,16 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations;
 
+import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
+
+import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Document;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
-
-import javax.swing.JComponent;
-import javax.swing.JEditorPane;
-import javax.swing.TransferHandler;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Document;
-
-import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 
 
 /**

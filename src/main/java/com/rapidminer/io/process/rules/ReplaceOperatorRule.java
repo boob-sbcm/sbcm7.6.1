@@ -18,13 +18,6 @@
 */
 package com.rapidminer.io.process.rules;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.io.process.XMLImporter;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
@@ -33,6 +26,12 @@ import com.rapidminer.operator.OperatorCreationException;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.XMLException;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

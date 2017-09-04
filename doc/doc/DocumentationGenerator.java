@@ -3,22 +3,12 @@
  */
 package com.rapidminer.doc;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Collection;
-import java.util.Iterator;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.tools.GroupTree;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.Tools;
 import com.sun.javadoc.RootDoc;
+
+import java.util.Collection;
+import java.util.Iterator;
 
 
 /**

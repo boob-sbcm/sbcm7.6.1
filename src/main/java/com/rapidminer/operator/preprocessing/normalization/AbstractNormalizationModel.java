@@ -18,7 +18,6 @@
  */
 package com.rapidminer.operator.preprocessing.normalization;
 
-import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -29,7 +28,6 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.preprocessing.PreprocessingModel;
 import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.ParameterService;
 
 
 /**

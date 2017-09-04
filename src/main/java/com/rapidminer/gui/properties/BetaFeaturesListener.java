@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.Dialog.ModalityType;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.look.Colors;
@@ -41,6 +30,14 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import java.awt.Dialog.ModalityType;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.logging.Level;
 
 
 /**

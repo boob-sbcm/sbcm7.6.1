@@ -18,15 +18,11 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.core.io.data.source.FileDataSourceFactory;
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.WizardStep;
+
+import java.util.*;
 
 
 /**

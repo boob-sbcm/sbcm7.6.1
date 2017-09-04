@@ -18,21 +18,14 @@
 */
 package com.rapidminer.example.set;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.logging.Level;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

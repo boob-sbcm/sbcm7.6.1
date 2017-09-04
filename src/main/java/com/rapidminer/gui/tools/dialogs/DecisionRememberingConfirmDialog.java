@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.BorderLayout;
-
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JPanel;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.properties.SettingsDialog;
@@ -33,6 +26,9 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

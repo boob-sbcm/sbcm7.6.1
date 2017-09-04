@@ -1,16 +1,16 @@
 package com.rapidminer.gui.graphs.plugins;
 
-import java.awt.Point;
+import edu.uci.ics.jung.algorithms.layout.Layout;
+import edu.uci.ics.jung.visualization.VisualizationViewer;
+import edu.uci.ics.jung.visualization.control.PickingGraphMousePlugin;
+import edu.uci.ics.jung.visualization.picking.PickedState;
+
+import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.geom.Point2D;
-
-import edu.uci.ics.jung.algorithms.layout.Layout;
-import edu.uci.ics.jung.visualization.VisualizationViewer;
-import edu.uci.ics.jung.visualization.control.PickingGraphMousePlugin;
-import edu.uci.ics.jung.visualization.picking.PickedState;
 
 
 /**

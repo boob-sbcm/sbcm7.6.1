@@ -20,7 +20,7 @@ package com.rapidminer.operator.ports.quickfix;
 
 import com.rapidminer.operator.ports.PortException;
 
-import javax.swing.Action;
+import javax.swing.*;
 
 
 /**

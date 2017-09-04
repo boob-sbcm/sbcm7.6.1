@@ -34,7 +34,7 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.EqualStringCondition;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;

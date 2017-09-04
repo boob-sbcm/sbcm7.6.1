@@ -28,14 +28,11 @@ import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.OperatorService.OperatorServiceListener;
 import com.rapidminer.tools.documentation.OperatorDocBundle;
 
-import java.awt.Color;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Iterator;
-
-import javax.swing.Icon;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 
 
 /**

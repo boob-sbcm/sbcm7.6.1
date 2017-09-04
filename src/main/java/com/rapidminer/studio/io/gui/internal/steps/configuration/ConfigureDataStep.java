@@ -18,10 +18,6 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.core.io.gui.ImportWizard;
@@ -29,6 +25,10 @@ import com.rapidminer.core.io.gui.InvalidConfigurationException;
 import com.rapidminer.core.io.gui.WizardDirection;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.studio.io.gui.internal.steps.AbstractWizardStep;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 
 /**

@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.learner.rules;
 
-import java.io.Serializable;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -30,6 +25,11 @@ import com.rapidminer.example.Statistics;
 import com.rapidminer.example.set.Partition;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.learner.tree.SplitCondition;
+
+import java.io.Serializable;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

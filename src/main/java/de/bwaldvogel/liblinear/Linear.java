@@ -26,19 +26,7 @@
  */
 package de.bwaldvogel.liblinear;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.Closeable;
-import java.io.EOFException;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintStream;
-import java.io.Reader;
-import java.io.Writer;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.util.Formatter;
 import java.util.Locale;

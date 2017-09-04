@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.operatortree;
 
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.JPopupMenu;
-import javax.swing.JTree;
-import javax.swing.event.TreeExpansionEvent;
-import javax.swing.event.TreeExpansionListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
@@ -44,6 +29,18 @@ import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
+
+import javax.swing.*;
+import javax.swing.event.TreeExpansionEvent;
+import javax.swing.event.TreeExpansionListener;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.TreePath;
+import javax.swing.tree.TreeSelectionModel;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

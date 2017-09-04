@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.performance.cost;
 
-import java.util.HashMap;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.performance.MeasuredPerformance;
 import com.rapidminer.tools.math.Averagable;
+
+import java.util.HashMap;
 
 
 /**

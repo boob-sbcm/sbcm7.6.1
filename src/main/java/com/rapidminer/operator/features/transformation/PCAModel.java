@@ -18,17 +18,7 @@
 */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.example.set.ExampleSetUtilities.SetsCompareOption;
 import com.rapidminer.example.set.ExampleSetUtilities.TypesCompareOption;
@@ -40,6 +30,11 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

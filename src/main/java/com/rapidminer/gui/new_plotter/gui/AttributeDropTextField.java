@@ -18,21 +18,18 @@
 */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Color;
-import java.awt.datatransfer.Transferable;
-
-import javax.swing.BorderFactory;
-import javax.swing.JTextField;
-import javax.swing.JTree;
-import javax.swing.TransferHandler.TransferSupport;
-import javax.swing.border.Border;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
 import com.rapidminer.gui.new_plotter.gui.dnd.DataTableColumnDropTextFieldTransferHandler;
 import com.rapidminer.gui.new_plotter.gui.dnd.DataTableColumnListTransferHandler;
+
+import javax.swing.*;
+import javax.swing.TransferHandler.TransferSupport;
+import javax.swing.border.Border;
+import java.awt.*;
+import java.awt.datatransfer.Transferable;
 
 
 /**

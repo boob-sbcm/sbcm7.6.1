@@ -18,23 +18,9 @@
  */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.gui.ExampleVisualizer;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.clustering.DendogramHierarchicalClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterLeafNode;
 import com.rapidminer.operator.clustering.HierarchicalClusterModel;
@@ -42,14 +28,7 @@ import com.rapidminer.operator.clustering.HierarchicalClusterNode;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.CapabilityPrecondition;
-import com.rapidminer.operator.ports.metadata.DistanceMeasurePrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SetRelation;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 import com.rapidminer.tools.ObjectVisualizerService;
@@ -57,6 +36,11 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
 import com.rapidminer.tools.math.similarity.DistanceMeasureHelper;
 import com.rapidminer.tools.math.similarity.DistanceMeasures;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

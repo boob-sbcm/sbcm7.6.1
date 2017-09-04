@@ -18,11 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import java.nio.file.Path;
-import java.text.NumberFormat;
-import java.util.Collections;
-import java.util.Map;
-
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetMetaData;
@@ -36,6 +31,11 @@ import com.rapidminer.studio.io.data.DefaultDataSetMetaData;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapterUtils;
 import com.rapidminer.tools.StrictDecimalFormat;
+
+import java.nio.file.Path;
+import java.text.NumberFormat;
+import java.util.Collections;
+import java.util.Map;
 
 
 /**

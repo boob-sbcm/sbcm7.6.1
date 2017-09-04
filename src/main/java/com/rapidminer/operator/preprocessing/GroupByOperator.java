@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
@@ -34,6 +32,8 @@ import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.tools.Ontology;
+
+import java.util.List;
 
 
 /**

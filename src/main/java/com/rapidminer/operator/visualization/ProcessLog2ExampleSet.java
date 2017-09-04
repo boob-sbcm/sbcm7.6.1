@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.visualization;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.example.Attribute;
@@ -39,6 +36,9 @@ import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.Ontology;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

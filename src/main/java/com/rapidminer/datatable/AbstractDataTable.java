@@ -18,22 +18,16 @@
 */
 package com.rapidminer.datatable;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.lang.ref.WeakReference;
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.jfree.data.Range;
-
 import com.rapidminer.gui.plotter.charts.AbstractChartPanel.Selection;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.data.Range;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.lang.ref.WeakReference;
+import java.util.*;
 
 
 /**

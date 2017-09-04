@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.awt.event.MouseEvent;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.JComponent;
-
-import org.jfree.chart.JFreeChart;
-import org.jfree.data.Range;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.plotter.charts.AbstractChartPanel;
 import com.rapidminer.gui.plotter.charts.AbstractChartPanel.Selection;
@@ -38,13 +27,17 @@ import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.ModelMetaData;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeTupel;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.Range;
+
+import javax.swing.*;
+import java.awt.event.MouseEvent;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

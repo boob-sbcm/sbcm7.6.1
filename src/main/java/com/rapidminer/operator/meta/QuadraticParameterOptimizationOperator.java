@@ -18,16 +18,15 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.List;
-
 import Jama.Matrix;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
+
+import java.util.List;
 
 
 /**

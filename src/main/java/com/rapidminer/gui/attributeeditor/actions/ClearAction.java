@@ -23,9 +23,8 @@ import com.rapidminer.gui.tools.IconSize;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.Icon;
 
 
 /**

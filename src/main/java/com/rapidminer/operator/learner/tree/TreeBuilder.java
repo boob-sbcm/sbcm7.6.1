@@ -18,15 +18,15 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Vector;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.tree.criterions.Criterion;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Vector;
 
 
 /**

@@ -18,18 +18,17 @@
 */
 package com.rapidminer.test;
 
-import static com.rapidminer.test_utils.RapidAssert.assertArrayEquals;
-import static junit.framework.Assert.assertEquals;
-
-import java.util.LinkedList;
-import java.util.List;
-
-import org.junit.Test;
-
 import com.rapidminer.parameter.ParameterTypeEnumeration;
 import com.rapidminer.parameter.ParameterTypeTupel;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+import org.junit.Test;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import static com.rapidminer.test_utils.RapidAssert.assertArrayEquals;
+import static junit.framework.Assert.assertEquals;
 
 /** Tests {@link Tools#escape(String, char, char[])} and {@link Tools#unescape(String, char, char[], char)}.
  * 

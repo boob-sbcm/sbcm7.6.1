@@ -18,26 +18,18 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import javax.swing.AbstractButton;
-import javax.swing.ButtonModel;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicMenuUI;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.InternalFrameTitlePane;
 import com.rapidminer.gui.look.RapidLookTools;
 import com.rapidminer.gui.look.painters.CachedPainter;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicMenuUI;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 
 /**

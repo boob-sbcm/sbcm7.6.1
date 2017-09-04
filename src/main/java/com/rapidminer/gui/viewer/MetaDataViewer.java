@@ -18,30 +18,18 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.ViewToolBar;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.DropDownPopupButton;
 import com.rapidminer.gui.tools.components.DropDownPopupButton.PopupMenuProvider;
 import com.rapidminer.gui.viewer.metadata.MetaDataStatisticsViewer;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.ProgressListener;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

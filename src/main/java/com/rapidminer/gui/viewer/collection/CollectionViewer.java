@@ -18,24 +18,6 @@
 */
 package com.rapidminer.gui.viewer.collection;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.Collections;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.JTree;
-import javax.swing.SwingConstants;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-
 import com.rapidminer.gui.actions.StoreInRepositoryAction;
 import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.actions.export.PrintableComponentContainer;
@@ -45,12 +27,17 @@ import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.GroupedModel;
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.IOObjectCollection;
-import com.rapidminer.operator.ResultObject;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.meta.MetaModel;
+
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

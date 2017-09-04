@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
@@ -32,6 +28,10 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

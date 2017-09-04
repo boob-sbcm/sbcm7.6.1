@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.Cursor;
-
-import javax.swing.JButton;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

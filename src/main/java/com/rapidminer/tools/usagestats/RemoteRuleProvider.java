@@ -18,17 +18,17 @@
  */
 package com.rapidminer.tools.usagestats;
 
+import com.rapidminer.studio.internal.RuleProvider;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.WebServiceTools;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.util.logging.Level;
-
-import com.rapidminer.studio.internal.RuleProvider;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.WebServiceTools;
 
 
 /**

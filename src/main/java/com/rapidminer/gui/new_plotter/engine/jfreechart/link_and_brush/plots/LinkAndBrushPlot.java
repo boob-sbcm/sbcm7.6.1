@@ -19,12 +19,11 @@
 package com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.plots;
 
 import com.rapidminer.tools.container.Pair;
+import org.jfree.chart.plot.PlotRenderingInfo;
+import org.jfree.data.Range;
 
 import java.awt.geom.Point2D;
 import java.util.List;
-
-import org.jfree.chart.plot.PlotRenderingInfo;
-import org.jfree.data.Range;
 
 
 /**

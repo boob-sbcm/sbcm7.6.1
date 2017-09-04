@@ -18,18 +18,16 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.repository.Repository;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
+
+import javax.swing.*;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

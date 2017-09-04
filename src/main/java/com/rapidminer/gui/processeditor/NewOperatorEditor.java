@@ -18,18 +18,16 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.JPanel;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.tools.ResourceDockKey;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import java.awt.*;
 
 
 /**

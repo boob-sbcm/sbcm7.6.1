@@ -24,16 +24,11 @@ import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
 import com.rapidminer.gui.tools.ResourceLabel;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JSpinner;
-import javax.swing.JTree;
-import javax.swing.SpinnerNumberModel;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**

@@ -18,35 +18,6 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-
-import javax.swing.AbstractAction;
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
-import javax.swing.event.UndoableEditEvent;
-import javax.swing.event.UndoableEditListener;
-
-import org.jdesktop.swingx.JXTextField;
-
 import com.rapidminer.core.io.data.source.DataSource;
 import com.rapidminer.core.io.data.source.DataSourceFactory;
 import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
@@ -59,6 +30,19 @@ import com.rapidminer.studio.io.gui.internal.DataImportWizardUtils;
 import com.rapidminer.studio.io.gui.internal.DataWizardEventType;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.update.internal.UpdateManagerRegistry;
+import org.jdesktop.swingx.JXTextField;
+
+import javax.swing.*;
+import javax.swing.Timer;
+import javax.swing.event.UndoableEditEvent;
+import javax.swing.event.UndoableEditListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.util.*;
+import java.util.List;
 
 
 /**

@@ -18,10 +18,10 @@
 */
 package com.rapidminer.repository.resource;
 
-import java.io.Serializable;
-
 import com.rapidminer.operator.AbstractIOObject;
 import com.rapidminer.operator.Annotations;
+
+import java.io.Serializable;
 
 
 /**

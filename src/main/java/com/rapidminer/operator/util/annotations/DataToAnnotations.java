@@ -18,17 +18,10 @@
 */
 package com.rapidminer.operator.util.annotations;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
@@ -37,6 +30,8 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 import com.rapidminer.tools.Ontology;
+
+import java.util.List;
 
 
 /**

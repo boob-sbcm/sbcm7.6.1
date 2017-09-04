@@ -18,6 +18,23 @@
 */
 package com.rapidminer.operator.features;
 
+import com.rapidminer.datatable.SimpleDataTable;
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.AttributeWeights;
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.set.AttributeWeightedExampleSet;
+import com.rapidminer.gui.dialog.IndividualSelector;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.performance.PerformanceVector;
+import com.rapidminer.operator.ports.InputPort;
+import com.rapidminer.operator.ports.OutputPort;
+import com.rapidminer.operator.ports.PortPairExtender;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
+import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+import com.rapidminer.tools.RandomGenerator;
+import com.rapidminer.tools.Tools;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -25,40 +42,6 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-
-import com.rapidminer.datatable.SimpleDataTable;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.set.AttributeWeightedExampleSet;
-import com.rapidminer.gui.dialog.IndividualSelector;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
-import com.rapidminer.operator.ValueString;
-import com.rapidminer.operator.performance.PerformanceVector;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.PortPairExtender;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.GenerateNewMDRule;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.parameter.conditions.BooleanParameterCondition;
-import com.rapidminer.tools.RandomGenerator;
-import com.rapidminer.tools.Tools;
 
 
 /**

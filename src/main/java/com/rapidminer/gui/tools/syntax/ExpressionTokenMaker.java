@@ -18,19 +18,17 @@
 */
 package com.rapidminer.gui.tools.syntax;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.text.Segment;
-
+import com.rapidminer.tools.expression.FunctionDescription;
+import com.rapidminer.tools.expression.FunctionInput;
+import com.rapidminer.tools.expression.FunctionInput.Category;
 import org.fife.ui.rsyntaxtextarea.AbstractTokenMaker;
 import org.fife.ui.rsyntaxtextarea.RSyntaxUtilities;
 import org.fife.ui.rsyntaxtextarea.Token;
 import org.fife.ui.rsyntaxtextarea.TokenMap;
 
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInput;
-import com.rapidminer.tools.expression.FunctionInput.Category;
+import javax.swing.text.Segment;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

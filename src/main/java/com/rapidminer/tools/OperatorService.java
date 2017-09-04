@@ -18,38 +18,9 @@
 */
 package com.rapidminer.tools;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.ref.WeakReference;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.logging.Level;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.io.process.XMLTools;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.ProcessRootOperator;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.IncompatibleMDClassException;
 import com.rapidminer.operator.ports.Port;
 import com.rapidminer.operator.ports.Ports;
@@ -59,6 +30,20 @@ import com.rapidminer.tools.documentation.OperatorDocBundle;
 import com.rapidminer.tools.documentation.OperatorDocumentation;
 import com.rapidminer.tools.documentation.XMLOperatorDocBundle;
 import com.rapidminer.tools.plugin.Plugin;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.ref.WeakReference;
+import java.net.URL;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

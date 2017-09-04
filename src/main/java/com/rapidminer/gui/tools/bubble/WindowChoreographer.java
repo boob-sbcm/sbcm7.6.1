@@ -18,27 +18,14 @@
  */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.Component;
-import java.awt.Frame;
-import java.awt.GraphicsEnvironment;
-import java.awt.Rectangle;
-import java.awt.Window;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.NavigableSet;
-import java.util.TreeSet;
-import java.util.concurrent.ConcurrentHashMap;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.RapidMinerGUI;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 
 /**

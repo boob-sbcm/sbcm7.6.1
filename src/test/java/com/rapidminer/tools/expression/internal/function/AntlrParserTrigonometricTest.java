@@ -18,17 +18,14 @@
 */
 package com.rapidminer.tools.expression.internal.function;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.fail;
-
-import org.apache.commons.math3.util.FastMath;
-import org.junit.Test;
-
 import com.rapidminer.tools.expression.Expression;
 import com.rapidminer.tools.expression.ExpressionException;
 import com.rapidminer.tools.expression.ExpressionType;
 import com.rapidminer.tools.expression.internal.antlr.AntlrParser;
+import org.apache.commons.math3.util.FastMath;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 
 /**

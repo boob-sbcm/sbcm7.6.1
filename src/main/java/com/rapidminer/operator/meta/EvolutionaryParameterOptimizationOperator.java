@@ -18,14 +18,7 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.Iterator;
-import java.util.List;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.ValueDouble;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
@@ -37,6 +30,9 @@ import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.optimization.ec.es.ESOptimization;
 import com.rapidminer.tools.math.optimization.ec.es.Individual;
 import com.rapidminer.tools.math.optimization.ec.es.OptimizationValueType;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

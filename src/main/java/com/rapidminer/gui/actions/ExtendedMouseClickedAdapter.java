@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.Point;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 

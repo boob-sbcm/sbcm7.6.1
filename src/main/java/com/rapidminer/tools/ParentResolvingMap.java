@@ -18,16 +18,12 @@
 */
 package com.rapidminer.tools;
 
+import com.rapidminer.tools.plugin.Plugin;
+
 import java.io.IOException;
 import java.net.URL;
-import java.util.AbstractMap;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
+import java.util.*;
 import java.util.logging.Level;
-
-import com.rapidminer.tools.plugin.Plugin;
 
 
 /**

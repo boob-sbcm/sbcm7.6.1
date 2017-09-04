@@ -24,7 +24,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.performance.AreaUnderCurve;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

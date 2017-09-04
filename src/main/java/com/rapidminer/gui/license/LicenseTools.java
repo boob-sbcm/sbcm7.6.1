@@ -18,6 +18,16 @@
  */
 package com.rapidminer.gui.license;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.RapidMiner.ExecutionMode;
+import com.rapidminer.core.license.ProductConstraintManager;
+import com.rapidminer.license.ConstraintNotRestrictedException;
+import com.rapidminer.license.License;
+import com.rapidminer.license.LicenseConstants;
+import com.rapidminer.tools.FileSystemService;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,16 +39,6 @@ import java.time.format.FormatStyle;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.logging.Level;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RapidMiner.ExecutionMode;
-import com.rapidminer.core.license.ProductConstraintManager;
-import com.rapidminer.license.ConstraintNotRestrictedException;
-import com.rapidminer.license.License;
-import com.rapidminer.license.LicenseConstants;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
 
 
 /**

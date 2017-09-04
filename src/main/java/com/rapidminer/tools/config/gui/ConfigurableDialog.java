@@ -18,66 +18,10 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.logging.Level;
-
-import javax.swing.AbstractButton;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.DefaultListModel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JLayer;
-import javax.swing.JList;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-import javax.xml.ws.WebServiceException;
-
-import org.jdesktop.swingx.JXTaskPane;
-import org.jdesktop.swingx.JXTaskPaneContainer;
-import org.jdesktop.swingx.painter.MattePainter;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.RapidMinerGUI;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.ScrollableJPopupMenu;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.UpdateQueue;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.TransparentGlassPanePanel;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.parameter.Parameters;
@@ -99,6 +43,21 @@ import com.rapidminer.tools.config.gui.model.ConfigurableModel;
 import com.rapidminer.tools.config.gui.renderer.ConfigurableInfoLabelRenderer;
 import com.rapidminer.tools.config.gui.renderer.ConfigurableInfoLabelRenderer.ConfigurableInfoLabelType;
 import com.rapidminer.tools.config.gui.renderer.ConfigurableRenderer;
+import org.jdesktop.swingx.JXTaskPane;
+import org.jdesktop.swingx.JXTaskPaneContainer;
+import org.jdesktop.swingx.painter.MattePainter;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.xml.ws.WebServiceException;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.logging.Level;
 
 
 /**

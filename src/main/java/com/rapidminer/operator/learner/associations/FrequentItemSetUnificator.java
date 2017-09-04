@@ -25,14 +25,7 @@ import com.rapidminer.operator.ports.PortPairExtender;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.tools.container.Tupel;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 
 /**

@@ -18,18 +18,15 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.BasicStroke;
-import java.awt.Graphics2D;
-import java.awt.Stroke;
-import java.awt.geom.Rectangle2D;
-import java.util.List;
-
+import com.rapidminer.gui.plotter.PlotterAdapter;
+import com.rapidminer.tools.math.MathFunctions;
 import org.jfree.chart.axis.SymbolAxis;
 import org.jfree.chart.axis.ValueTick;
 import org.jfree.ui.RectangleEdge;
 
-import com.rapidminer.gui.plotter.PlotterAdapter;
-import com.rapidminer.tools.math.MathFunctions;
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.util.List;
 
 
 /**

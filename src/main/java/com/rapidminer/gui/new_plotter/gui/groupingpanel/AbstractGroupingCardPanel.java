@@ -31,10 +31,9 @@ import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEve
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent.PlotConfigurationChangeType;
 import com.rapidminer.gui.tools.ResourceLabel;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JCheckBox;
 
 
 /**

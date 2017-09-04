@@ -18,18 +18,11 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Observable;
-import java.util.Observer;
-import java.util.Set;
-
 import com.rapidminer.operator.nio.model.ColumnMetaData;
 import com.rapidminer.operator.nio.model.ParsingError;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

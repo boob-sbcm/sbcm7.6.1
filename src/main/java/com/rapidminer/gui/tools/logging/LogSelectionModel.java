@@ -18,13 +18,13 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.util.List;
-
 import com.rapidminer.gui.tools.RegistryEvent;
-import com.rapidminer.gui.tools.RegistryListener;
 import com.rapidminer.gui.tools.RegistryEvent.RegistryEventType;
+import com.rapidminer.gui.tools.RegistryListener;
 import com.rapidminer.tools.AbstractObservable;
 import com.rapidminer.tools.Observer;
+
+import java.util.List;
 
 
 /**

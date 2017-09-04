@@ -18,9 +18,6 @@
 */
 package com.rapidminer.gui;
 
-import java.util.List;
-import java.util.logging.Level;
-
 import com.rapidminer.NoBugError;
 import com.rapidminer.Process;
 import com.rapidminer.RapidMiner;
@@ -28,17 +25,16 @@ import com.rapidminer.core.license.DatabaseConstraintViolationException;
 import com.rapidminer.core.license.LicenseViolationException;
 import com.rapidminer.gui.tools.ProcessGUITools;
 import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.IOContainer;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

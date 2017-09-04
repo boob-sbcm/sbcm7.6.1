@@ -18,6 +18,9 @@
 */
 package com.rapidminer.operator.learner.functions.kernel.jmysvm.examples;
 
+import com.rapidminer.example.Attribute;
+import com.rapidminer.tools.Tools;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -27,9 +30,6 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.tools.Tools;
 
 
 /**

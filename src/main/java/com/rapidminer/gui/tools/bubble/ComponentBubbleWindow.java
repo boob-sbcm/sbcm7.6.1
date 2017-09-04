@@ -18,16 +18,12 @@
 */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.Font;
-import java.awt.Point;
-import java.awt.Window;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
+import javax.swing.*;
 import javax.swing.event.AncestorEvent;
 import javax.swing.event.AncestorListener;
+import java.awt.*;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
 
 
 /**

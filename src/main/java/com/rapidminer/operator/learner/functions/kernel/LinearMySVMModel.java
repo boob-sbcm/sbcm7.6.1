@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -29,6 +27,8 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.examples.SVMExamples.MeanVariance;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.Kernel;
+
+import java.util.Map;
 
 
 /**

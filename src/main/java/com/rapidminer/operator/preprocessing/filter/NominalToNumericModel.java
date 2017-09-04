@@ -18,21 +18,7 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.SimpleAttributes;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.ViewAttribute;
 import com.rapidminer.operator.OperatorException;
@@ -43,6 +29,9 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
+
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

@@ -18,6 +18,9 @@
  */
 package com.rapidminer.tools;
 
+import com.rapidminer.tools.parameter.ParameterChangeListener;
+
+import javax.xml.ws.BindingProvider;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Constructor;
@@ -26,10 +29,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Map;
 import java.util.logging.Level;
-
-import javax.xml.ws.BindingProvider;
-
-import com.rapidminer.tools.parameter.ParameterChangeListener;
 
 
 /**

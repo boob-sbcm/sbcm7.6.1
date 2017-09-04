@@ -18,24 +18,17 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.look.RapidLookAndFeel;
+
+import javax.swing.*;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicSliderUI;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.geom.Rectangle2D;
-
-import javax.swing.JComponent;
-import javax.swing.JSlider;
-import javax.swing.SwingConstants;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicSliderUI;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.look.RapidLookAndFeel;
 
 
 /**

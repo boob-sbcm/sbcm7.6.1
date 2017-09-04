@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.performance;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
@@ -35,6 +32,9 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.GenerateNewExampleSetMDRule;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.tools.Ontology;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

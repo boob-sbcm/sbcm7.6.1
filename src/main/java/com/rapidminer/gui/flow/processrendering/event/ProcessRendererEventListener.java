@@ -18,12 +18,12 @@
 */
 package com.rapidminer.gui.flow.processrendering.event;
 
-import java.util.Collection;
-import java.util.EventListener;
-
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.operator.Operator;
+
+import java.util.Collection;
+import java.util.EventListener;
 
 
 /**

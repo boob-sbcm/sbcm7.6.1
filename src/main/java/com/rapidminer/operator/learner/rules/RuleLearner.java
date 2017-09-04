@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.rules;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -32,10 +29,7 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
-import com.rapidminer.operator.learner.tree.AbstractTreeLearner;
-import com.rapidminer.operator.learner.tree.EmptyTermination;
-import com.rapidminer.operator.learner.tree.NoAttributeLeftTermination;
-import com.rapidminer.operator.learner.tree.SplitCondition;
+import com.rapidminer.operator.learner.tree.*;
 import com.rapidminer.operator.learner.tree.Terminator;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
@@ -43,6 +37,9 @@ import com.rapidminer.parameter.ParameterTypeStringCategory;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

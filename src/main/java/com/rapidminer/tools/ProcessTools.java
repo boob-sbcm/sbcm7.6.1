@@ -18,8 +18,6 @@
 */
 package com.rapidminer.tools;
 
-import java.util.List;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
@@ -30,6 +28,8 @@ import com.rapidminer.operator.ports.metadata.InputMissingMetaDataError;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeAttribute;
 import com.rapidminer.tools.container.Pair;
+
+import java.util.List;
 
 
 /**

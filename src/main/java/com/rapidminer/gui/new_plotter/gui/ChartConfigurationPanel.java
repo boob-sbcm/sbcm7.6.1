@@ -18,60 +18,6 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Rectangle;
-import java.awt.datatransfer.Transferable;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
-
-import javax.management.RuntimeErrorException;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.JTree;
-import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.TransferHandler.TransferSupport;
-import javax.swing.border.Border;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.event.TreeExpansionEvent;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.event.TreeWillExpandListener;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.ExpandVetoException;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
 import com.rapidminer.example.ExampleSet;
@@ -81,13 +27,9 @@ import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.dnd.DragListener;
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawer;
 import com.rapidminer.gui.new_plotter.MasterOfDesaster;
-import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn.ValueType;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.JFreeChartPlotEngine;
 import com.rapidminer.gui.new_plotter.engine.jfreechart.link_and_brush.LinkAndBrushChartPanel;
@@ -111,6 +53,21 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
+
+import javax.management.RuntimeErrorException;
+import javax.swing.*;
+import javax.swing.TransferHandler.TransferSupport;
+import javax.swing.border.Border;
+import javax.swing.event.*;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.ExpandVetoException;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
+import java.awt.*;
+import java.awt.datatransfer.Transferable;
+import java.awt.event.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

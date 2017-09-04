@@ -18,14 +18,12 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Font;
-import java.awt.FontFormatException;
-import java.awt.GraphicsEnvironment;
+import com.rapidminer.tools.LogService;
+
+import java.awt.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Level;
-
-import com.rapidminer.tools.LogService;
 
 
 /**

@@ -23,7 +23,7 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.operator.ports.Port;
 
-import javax.swing.JPopupMenu;
+import javax.swing.*;
 
 
 /**

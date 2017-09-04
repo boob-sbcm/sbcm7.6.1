@@ -18,10 +18,6 @@
  */
 package com.rapidminer.operator.learner.associations;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
@@ -33,6 +29,10 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
 
 
 /**

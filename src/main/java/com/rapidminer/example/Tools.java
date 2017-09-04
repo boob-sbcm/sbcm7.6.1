@@ -18,14 +18,6 @@
 */
 package com.rapidminer.example;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
 import com.rapidminer.example.set.AttributeWeightedExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.DoubleArrayDataRow;
@@ -33,11 +25,7 @@ import com.rapidminer.example.table.NominalMapping;
 import com.rapidminer.example.utils.ExampleSetBuilder;
 import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.generator.FeatureGenerator;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.preprocessing.IdTagging;
@@ -45,6 +33,8 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.sampling.OrderedSamplingWithoutReplacement;
+
+import java.util.*;
 
 
 /**

@@ -24,10 +24,9 @@ import com.rapidminer.gui.tools.UpdateQueue;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 
+import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
 import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
 
 
 /**

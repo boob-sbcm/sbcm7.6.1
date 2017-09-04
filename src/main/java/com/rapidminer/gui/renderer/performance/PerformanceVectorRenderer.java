@@ -29,7 +29,7 @@ import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 import java.util.List;
 
 

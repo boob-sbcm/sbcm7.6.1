@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.properties.PropertyPanel;
@@ -44,6 +29,12 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.container.Pair;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 
 /**

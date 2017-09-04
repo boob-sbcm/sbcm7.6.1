@@ -18,15 +18,6 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.JLabel;
-import javax.swing.JSeparator;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -38,6 +29,11 @@ import com.rapidminer.gui.tools.bubble.ComponentBubbleWindow;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.parameter.ParameterChangeListener;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 
 /**

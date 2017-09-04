@@ -18,10 +18,6 @@
  */
 package com.rapidminer.gui.tools.ioobjectcache.actions;
 
-import java.awt.event.ActionEvent;
-import java.util.Objects;
-import java.util.logging.Level;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.processeditor.results.ResultDisplay;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -29,6 +25,10 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.IOObjectMap;
 import com.rapidminer.tools.LogService;
+
+import java.awt.event.ActionEvent;
+import java.util.Objects;
+import java.util.logging.Level;
 
 
 /**

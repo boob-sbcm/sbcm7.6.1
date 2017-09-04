@@ -26,26 +26,11 @@
  */
 package de.bwaldvogel.liblinear;
 
-import static de.bwaldvogel.liblinear.Linear.atof;
-import static de.bwaldvogel.liblinear.Linear.atoi;
-import static de.bwaldvogel.liblinear.Linear.info;
-import static de.bwaldvogel.liblinear.Linear.printf;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import java.util.ArrayList;
-import java.util.Formatter;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 import java.util.regex.Pattern;
+
+import static de.bwaldvogel.liblinear.Linear.*;
 
 
 public class Predict {

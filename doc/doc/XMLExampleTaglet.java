@@ -3,14 +3,14 @@
  */
 package com.rapidminer.doc;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Map;
-
 import com.rapidminer.tools.Tools;
 import com.sun.javadoc.SourcePosition;
 import com.sun.javadoc.Tag;
 import com.sun.tools.doclets.Taglet;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Map;
 
 
 /**

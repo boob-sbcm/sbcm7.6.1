@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-
 import com.rapidminer.core.concurrency.ConcurrencyContext;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
@@ -33,6 +28,11 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.studio.internal.Resources;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 
 
 /**

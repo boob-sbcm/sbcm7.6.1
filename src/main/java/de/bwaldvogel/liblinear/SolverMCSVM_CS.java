@@ -26,9 +26,7 @@
  */
 package de.bwaldvogel.liblinear;
 
-import static de.bwaldvogel.liblinear.Linear.copyOf;
-import static de.bwaldvogel.liblinear.Linear.info;
-import static de.bwaldvogel.liblinear.Linear.swap;
+import static de.bwaldvogel.liblinear.Linear.*;
 
 
 /**

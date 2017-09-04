@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.generator;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.table.AttributeFactory;
@@ -30,6 +27,9 @@ import com.rapidminer.operator.ports.metadata.SetRelation;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.container.Range;
+
+import java.util.HashSet;
+import java.util.Set;
 
 
 /**

@@ -18,23 +18,14 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Dialog;
-import java.awt.Dimension;
+import com.rapidminer.gui.ApplicationFrame;
+import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.AbstractButton;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.JCheckBox;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-
-import com.rapidminer.gui.ApplicationFrame;
-import com.rapidminer.tools.I18N;
 
 
 /**

@@ -19,12 +19,7 @@
 package com.rapidminer.tools.expression.internal.function.basic;
 
 import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.expression.DoubleCallable;
-import com.rapidminer.tools.expression.ExpressionEvaluator;
-import com.rapidminer.tools.expression.ExpressionParsingException;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.FunctionDescription;
-import com.rapidminer.tools.expression.FunctionInputException;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.internal.SimpleExpressionEvaluator;
 import com.rapidminer.tools.expression.internal.function.Abstract2DoubleInputFunction;
 

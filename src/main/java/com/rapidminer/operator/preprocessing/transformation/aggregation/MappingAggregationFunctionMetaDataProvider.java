@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.preprocessing.transformation.aggregation;
 
-import java.util.Map;
-import java.util.Set;
-
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Map;
+import java.util.Set;
 
 
 /**

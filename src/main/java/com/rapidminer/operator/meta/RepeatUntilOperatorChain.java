@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.List;
-
-import org.jfree.util.Log;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.OperatorDescription;
@@ -32,13 +28,11 @@ import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
+import org.jfree.util.Log;
+
+import java.util.List;
 
 
 /**

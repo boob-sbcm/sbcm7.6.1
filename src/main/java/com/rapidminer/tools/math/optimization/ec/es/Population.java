@@ -18,14 +18,10 @@
 */
 package com.rapidminer.tools.math.optimization.ec.es;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
 
 
 /**

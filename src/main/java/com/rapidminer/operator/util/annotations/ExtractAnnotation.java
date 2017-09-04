@@ -19,12 +19,7 @@
 package com.rapidminer.operator.util.annotations;
 
 import com.rapidminer.MacroHandler;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.parameter.ParameterType;

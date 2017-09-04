@@ -25,17 +25,13 @@ import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 
-import java.awt.Component;
-import java.util.LinkedList;
-
-import javax.swing.DefaultCellEditor;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JTable;
+import javax.swing.*;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.util.LinkedList;
 
 
 /**

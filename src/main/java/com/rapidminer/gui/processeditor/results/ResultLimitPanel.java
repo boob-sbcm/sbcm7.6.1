@@ -18,18 +18,6 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.text.NumberFormat;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -39,6 +27,11 @@ import com.rapidminer.gui.tools.components.LinkRemoteButton;
 import com.rapidminer.license.violation.LicenseConstraintViolation;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.RMUrlHandler;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.text.NumberFormat;
 
 
 /**

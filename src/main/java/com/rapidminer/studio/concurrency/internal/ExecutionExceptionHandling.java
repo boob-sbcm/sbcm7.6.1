@@ -18,9 +18,6 @@
 */
 package com.rapidminer.studio.concurrency.internal;
 
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-
 import com.rapidminer.Process;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
@@ -29,6 +26,9 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.Port;
+
+import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 
 /**

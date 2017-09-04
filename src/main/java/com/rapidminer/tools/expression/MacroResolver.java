@@ -18,17 +18,13 @@
 */
 package com.rapidminer.tools.expression;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.expression.FunctionInput.Category;
+
+import java.util.*;
 
 
 /**

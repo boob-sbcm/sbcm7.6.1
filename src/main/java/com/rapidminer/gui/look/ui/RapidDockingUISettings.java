@@ -18,13 +18,11 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import javax.swing.BorderFactory;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-
 import com.lowagie.text.Font;
 import com.rapidminer.gui.look.Colors;
 import com.vlsolutions.swing.docking.ui.DockingUISettings;
+
+import javax.swing.*;
 
 
 /**

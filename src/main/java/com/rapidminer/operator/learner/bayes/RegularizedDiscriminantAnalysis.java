@@ -18,21 +18,13 @@
  */
 package com.rapidminer.operator.learner.bayes;
 
-import java.util.Arrays;
-import java.util.List;
-
+import Jama.Matrix;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.example.table.NominalMapping;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.AbstractLearner;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.parameter.ParameterType;
@@ -41,7 +33,8 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.math.MathFunctions;
 import com.rapidminer.tools.math.matrix.CovarianceMatrix;
 
-import Jama.Matrix;
+import java.util.Arrays;
+import java.util.List;
 
 
 /**

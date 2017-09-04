@@ -18,10 +18,8 @@
 */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.Point;
-import java.awt.Window;
-
-import javax.swing.JButton;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

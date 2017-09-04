@@ -18,11 +18,10 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
+import javax.swing.*;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.TextAction;
+import java.awt.event.ActionEvent;
 
 
 /**

@@ -18,10 +18,9 @@
 */
 package com.rapidminer.tools.documentation;
 
-import org.w3c.dom.Element;
-
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.tools.GroupTree;
+import org.w3c.dom.Element;
 
 
 /**

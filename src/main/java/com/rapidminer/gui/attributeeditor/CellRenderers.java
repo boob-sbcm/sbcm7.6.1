@@ -18,10 +18,9 @@
 */
 package com.rapidminer.gui.attributeeditor;
 
+import javax.swing.table.TableCellRenderer;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.table.TableCellRenderer;
 
 
 /**

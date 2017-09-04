@@ -18,20 +18,12 @@
 */
 package com.rapidminer.operator.nio.file.compression;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Set;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.file.FileObject;
 import com.rapidminer.tools.Tools;
+
+import java.io.*;
+import java.util.Set;
 
 
 /**

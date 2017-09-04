@@ -18,27 +18,19 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Dialog;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
-import java.util.Collection;
-import java.util.LinkedList;
-
-import javax.swing.AbstractButton;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JOptionPane;
-import javax.swing.KeyStroke;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceActionAdapter;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.util.Collection;
+import java.util.LinkedList;
 
 
 /**

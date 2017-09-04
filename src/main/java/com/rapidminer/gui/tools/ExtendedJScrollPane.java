@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-
-import javax.swing.JScrollPane;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

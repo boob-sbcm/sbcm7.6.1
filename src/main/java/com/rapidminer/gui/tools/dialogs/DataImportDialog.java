@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Dialog;
+import java.awt.*;
 
 
 /**

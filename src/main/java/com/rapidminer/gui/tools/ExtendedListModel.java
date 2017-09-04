@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
+import javax.swing.*;
 import java.util.LinkedHashMap;
-
-import javax.swing.DefaultListModel;
 
 
 /**

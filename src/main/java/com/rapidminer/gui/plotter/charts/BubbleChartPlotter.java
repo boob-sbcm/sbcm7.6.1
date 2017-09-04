@@ -18,19 +18,12 @@
 */
 package com.rapidminer.gui.plotter.charts;
 
-import java.awt.Color;
-import java.awt.geom.Ellipse2D;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-
-import javax.swing.JComponent;
-
+import com.rapidminer.datatable.DataTable;
+import com.rapidminer.datatable.DataTableRow;
+import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.gui.plotter.RangeablePlotterAdapter;
+import com.rapidminer.tools.Tools;
+import com.rapidminer.tools.math.MathFunctions;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
@@ -48,12 +41,11 @@ import org.jfree.data.xy.DefaultXYZDataset;
 import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.datatable.DataTableRow;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-import com.rapidminer.gui.plotter.RangeablePlotterAdapter;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.math.MathFunctions;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.util.*;
+import java.util.List;
 
 
 /**

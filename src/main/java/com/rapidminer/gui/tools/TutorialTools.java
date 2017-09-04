@@ -18,8 +18,6 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.io.IOException;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -28,6 +26,8 @@ import com.rapidminer.tools.XMLException;
 import com.rapidminer.tutorial.Tutorial;
 import com.rapidminer.tutorial.TutorialManager;
 import com.rapidminer.tutorial.gui.TutorialBrowser;
+
+import java.io.IOException;
 
 
 /**

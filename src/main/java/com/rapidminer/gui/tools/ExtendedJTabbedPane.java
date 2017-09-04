@@ -18,8 +18,7 @@
 */
 package com.rapidminer.gui.tools;
 
-import javax.swing.JTabbedPane;
-import javax.swing.SwingConstants;
+import javax.swing.*;
 
 
 /**

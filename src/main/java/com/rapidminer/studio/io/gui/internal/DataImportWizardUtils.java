@@ -18,17 +18,16 @@
 */
 package com.rapidminer.studio.io.gui.internal;
 
-import java.awt.Color;
-import java.util.Locale;
-
-import javax.swing.Icon;
-
 import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
 import com.rapidminer.core.io.data.source.DataSourceFactory;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Locale;
 
 
 /**

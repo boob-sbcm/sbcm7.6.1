@@ -18,18 +18,8 @@
 */
 package com.rapidminer.studio.io.data;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.Process;
-import com.rapidminer.core.io.data.ColumnMetaData;
-import com.rapidminer.core.io.data.DataSet;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetRow;
-import com.rapidminer.core.io.data.ParseException;
+import com.rapidminer.core.io.data.*;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeTypeException;
 import com.rapidminer.example.Attributes;
@@ -48,6 +38,8 @@ import com.rapidminer.studio.io.data.internal.ResultSetAdapterUtils;
 import com.rapidminer.studio.io.gui.internal.steps.StoreToRepositoryStep;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ProgressListener;
+
+import java.util.*;
 
 
 /**

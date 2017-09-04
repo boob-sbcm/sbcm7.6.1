@@ -21,11 +21,7 @@ package com.rapidminer.datatable;
 import com.rapidminer.gui.new_plotter.utility.DataStructureUtils;
 import com.rapidminer.tools.container.Pair;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 /**

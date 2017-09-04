@@ -18,9 +18,8 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import org.antlr.v4.runtime.ParserRuleContext;
-
 import com.rapidminer.tools.expression.ExpressionParsingException;
+import org.antlr.v4.runtime.ParserRuleContext;
 
 
 /**

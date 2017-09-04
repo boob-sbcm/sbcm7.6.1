@@ -22,11 +22,7 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.OperatorService;
 
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.ResourceBundle;
+import java.util.*;
 import java.util.logging.Level;
 
 

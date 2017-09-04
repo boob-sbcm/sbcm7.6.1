@@ -18,23 +18,9 @@
 */
 package com.rapidminer.operator.features.construction;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.generator.AbsoluteValueGenerator;
-import com.rapidminer.generator.BasicArithmeticOperationGenerator;
-import com.rapidminer.generator.ExponentialFunctionGenerator;
-import com.rapidminer.generator.FeatureGenerator;
-import com.rapidminer.generator.FloorCeilGenerator;
-import com.rapidminer.generator.MinMaxGenerator;
-import com.rapidminer.generator.PowerGenerator;
-import com.rapidminer.generator.ReciprocalValueGenerator;
-import com.rapidminer.generator.SquareRootGenerator;
-import com.rapidminer.generator.TrigonometricFunctionGenerator;
+import com.rapidminer.generator.*;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
@@ -45,6 +31,11 @@ import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.MathFunctions;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

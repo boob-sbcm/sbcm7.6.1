@@ -18,19 +18,13 @@
 */
 package com.rapidminer.tools.expression.internal.antlr;
 
+import com.rapidminer.tools.expression.*;
+import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionLexer;
+import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
-
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionContext;
-import com.rapidminer.tools.expression.ExpressionEvaluator;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParsingException;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionLexer;
-import com.rapidminer.tools.expression.internal.antlr.FunctionExpressionParser;
 
 
 /**

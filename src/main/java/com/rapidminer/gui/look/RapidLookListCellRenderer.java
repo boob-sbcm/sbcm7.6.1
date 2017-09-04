@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Component;
+import com.rapidminer.gui.look.borders.Borders;
 
-import javax.swing.JList;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
-
-import com.rapidminer.gui.look.borders.Borders;
+import java.awt.*;
 
 
 /**

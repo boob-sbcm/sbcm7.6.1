@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.transformation;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Vector;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
@@ -38,17 +34,8 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.generator.ExampleSetGenerator;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
@@ -56,6 +43,10 @@ import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Vector;
 
 
 /**

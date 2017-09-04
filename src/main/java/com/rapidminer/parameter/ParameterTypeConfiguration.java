@@ -18,19 +18,18 @@
 */
 package com.rapidminer.parameter;
 
+import com.rapidminer.MacroHandler;
+import com.rapidminer.gui.wizards.ConfigurationListener;
+import com.rapidminer.gui.wizards.ConfigurationWizardCreator;
+import com.rapidminer.tools.LogService;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 import java.util.Objects;
 import java.util.logging.Level;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import com.rapidminer.MacroHandler;
-import com.rapidminer.gui.wizards.ConfigurationListener;
-import com.rapidminer.gui.wizards.ConfigurationWizardCreator;
-import com.rapidminer.tools.LogService;
 
 
 /**

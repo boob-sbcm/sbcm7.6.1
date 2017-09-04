@@ -18,28 +18,22 @@
  */
 package com.rapidminer.example.utils;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.SimpleAttributes;
 import com.rapidminer.example.set.SimpleExampleSet;
-import com.rapidminer.example.table.BinominalAttribute;
-import com.rapidminer.example.table.DateAttribute;
-import com.rapidminer.example.table.ExampleTable;
-import com.rapidminer.example.table.GrowingExampleTable;
-import com.rapidminer.example.table.MemoryExampleTable;
-import com.rapidminer.example.table.NumericalAttribute;
-import com.rapidminer.example.table.PolynominalAttribute;
+import com.rapidminer.example.table.*;
 import com.rapidminer.example.table.internal.ColumnarExampleTable;
 import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
 import com.rapidminer.operator.preprocessing.MaterializeDataInMemory;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 
 /**

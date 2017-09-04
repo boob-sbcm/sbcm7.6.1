@@ -18,21 +18,14 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.Graphics;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JTextPane;
-
 import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.operator.performance.AreaUnderCurve;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

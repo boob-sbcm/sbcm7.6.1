@@ -18,42 +18,6 @@
 */
 package com.rapidminer.gui.new_plotter.gui.dialog;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.util.LinkedList;
-import java.util.Vector;
-
-import javax.swing.ButtonGroup;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.InputVerifier;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JSeparator;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-import javax.swing.WindowConstants;
-
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.Plot;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.data.Range;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
 import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
@@ -67,6 +31,17 @@ import com.rapidminer.gui.new_plotter.utility.NumericalValueRange;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.container.Pair;
+import org.jfree.chart.axis.ValueAxis;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.Plot;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.data.Range;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.LinkedList;
+import java.util.Vector;
 
 
 /**

@@ -18,18 +18,17 @@
 */
 package com.rapidminer.tools.config;
 
-import java.io.File;
-import java.util.Collections;
-import java.util.Map;
-import java.util.logging.Level;
-
-import org.w3c.dom.Document;
-
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Document;
+
+import java.io.File;
+import java.util.Collections;
+import java.util.Map;
+import java.util.logging.Level;
 
 
 /**

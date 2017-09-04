@@ -18,18 +18,6 @@
 */
 package com.rapidminer.repository;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.tools.RepositoryGuiTools;
 import com.rapidminer.operator.IOObject;
@@ -38,13 +26,16 @@ import com.rapidminer.repository.internal.db.DBRepository;
 import com.rapidminer.repository.internal.remote.RemoteRepository;
 import com.rapidminer.repository.local.LocalRepository;
 import com.rapidminer.repository.resource.ResourceRepository;
-import com.rapidminer.tools.AbstractObservable;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.plugin.Plugin;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**

@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.operator.OperatorDescription;
@@ -34,6 +32,8 @@ import com.rapidminer.operator.ports.metadata.PassThroughRule;
 import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
+
+import java.util.List;
 
 
 /**

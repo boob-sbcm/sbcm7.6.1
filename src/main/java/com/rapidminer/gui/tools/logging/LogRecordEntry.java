@@ -18,18 +18,17 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.awt.Color;
+import com.rapidminer.gui.tools.SwingTools;
+
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import java.awt.*;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.logging.Formatter;
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.SimpleFormatter;
-
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-
-import com.rapidminer.gui.tools.SwingTools;
 
 
 /**

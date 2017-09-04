@@ -18,14 +18,13 @@
 */
 package com.rapidminer.operator.validation.significance;
 
-import org.apache.commons.math3.distribution.FDistribution;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.performance.PerformanceCriterion;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.report.Readable;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.SignificanceTestResult;
+import org.apache.commons.math3.distribution.FDistribution;
 
 
 /**

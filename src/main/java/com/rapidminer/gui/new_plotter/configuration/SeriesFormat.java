@@ -25,19 +25,8 @@ import com.rapidminer.gui.new_plotter.listener.events.SeriesFormatChangeEvent.Se
 import com.rapidminer.gui.new_plotter.utility.DataStructureUtils;
 import com.rapidminer.tools.I18N;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.Polygon;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.TexturePaint;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Area;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Rectangle2D;
+import java.awt.*;
+import java.awt.geom.*;
 import java.awt.image.BufferedImage;
 import java.lang.ref.WeakReference;
 import java.util.Iterator;

@@ -18,32 +18,6 @@
  */
 package com.rapidminer.security;
 
-import java.awt.AWTPermission;
-import java.io.FilePermission;
-import java.lang.reflect.ReflectPermission;
-import java.net.NetPermission;
-import java.net.SocketPermission;
-import java.net.URLPermission;
-import java.security.AccessController;
-import java.security.AllPermission;
-import java.security.CodeSource;
-import java.security.GeneralSecurityException;
-import java.security.KeyFactory;
-import java.security.PermissionCollection;
-import java.security.Permissions;
-import java.security.Policy;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
-import java.security.PublicKey;
-import java.security.cert.Certificate;
-import java.security.spec.X509EncodedKeySpec;
-import java.util.PropertyPermission;
-import java.util.logging.Level;
-import java.util.logging.LoggingPermission;
-
-import javax.sound.sampled.AudioPermission;
-import javax.xml.bind.DatatypeConverter;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.license.StudioLicenseConstants;
@@ -53,6 +27,21 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.plugin.Plugin;
 import com.rapidminer.tools.plugin.PluginClassLoader;
+
+import javax.sound.sampled.AudioPermission;
+import javax.xml.bind.DatatypeConverter;
+import java.awt.*;
+import java.io.FilePermission;
+import java.lang.reflect.ReflectPermission;
+import java.net.NetPermission;
+import java.net.SocketPermission;
+import java.net.URLPermission;
+import java.security.*;
+import java.security.cert.Certificate;
+import java.security.spec.X509EncodedKeySpec;
+import java.util.PropertyPermission;
+import java.util.logging.Level;
+import java.util.logging.LoggingPermission;
 
 
 /**

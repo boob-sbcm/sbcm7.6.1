@@ -18,12 +18,7 @@
 */
 package com.rapidminer.example.table;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.MinMaxStatistics;
-import com.rapidminer.example.NominalStatistics;
-import com.rapidminer.example.NumericalStatistics;
-import com.rapidminer.example.UnknownStatistics;
-import com.rapidminer.example.WeightedNumericalStatistics;
+import com.rapidminer.example.*;
 import com.rapidminer.operator.ViewModel;
 import com.rapidminer.tools.Ontology;
 

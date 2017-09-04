@@ -18,19 +18,20 @@
  */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
+import com.rapidminer.gui.ApplicationFrame;
+import com.rapidminer.gui.license.LicenseTools;
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.VersionNumber;
+import com.rapidminer.gui.tools.VersionNumber.VersionNumberExcpetion;
+import com.rapidminer.gui.tools.components.LinkRemoteButton;
+import com.rapidminer.license.License;
+import com.rapidminer.license.StudioLicenseConstants;
+import com.rapidminer.tools.*;
+import com.rapidminer.tools.plugin.Plugin;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.font.FontRenderContext;
@@ -44,28 +45,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
-
-import javax.imageio.ImageIO;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
-
-import com.rapidminer.gui.ApplicationFrame;
-import com.rapidminer.gui.license.LicenseTools;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.VersionNumber;
-import com.rapidminer.gui.tools.VersionNumber.VersionNumberExcpetion;
-import com.rapidminer.gui.tools.components.LinkRemoteButton;
-import com.rapidminer.license.License;
-import com.rapidminer.license.StudioLicenseConstants;
-import com.rapidminer.tools.FontTools;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.PlatformUtilities;
-import com.rapidminer.tools.RMUrlHandler;
-import com.rapidminer.tools.Tools;
-import com.rapidminer.tools.plugin.Plugin;
 
 
 /**

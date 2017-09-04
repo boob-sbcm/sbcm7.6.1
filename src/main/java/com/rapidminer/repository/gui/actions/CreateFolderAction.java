@@ -25,7 +25,7 @@ import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.repository.gui.RepositoryTree;
 
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 
 /**

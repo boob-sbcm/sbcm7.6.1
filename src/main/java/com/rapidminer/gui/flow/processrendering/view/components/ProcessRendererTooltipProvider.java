@@ -18,10 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.view.components;
 
-import java.awt.Component;
-import java.awt.Point;
-import java.util.List;
-
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
 import com.rapidminer.gui.metadata.MetaDataRendererFactoryRegistry;
@@ -33,6 +29,9 @@ import com.rapidminer.operator.ports.Port;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.MetaDataError;
+
+import java.awt.*;
+import java.util.List;
 
 
 /**

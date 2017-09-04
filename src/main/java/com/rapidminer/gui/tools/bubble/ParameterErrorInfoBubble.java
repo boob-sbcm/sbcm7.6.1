@@ -18,17 +18,6 @@
 */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.properties.PropertyPanel.PropertyEditorDecorator;
 import com.rapidminer.gui.tools.SwingTools;
@@ -38,6 +27,10 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 
 
 /**

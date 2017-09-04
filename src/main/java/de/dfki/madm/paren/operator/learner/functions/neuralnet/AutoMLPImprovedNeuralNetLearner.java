@@ -18,9 +18,6 @@
  */
 package de.dfki.madm.paren.operator.learner.functions.neuralnet;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -37,6 +34,9 @@ import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

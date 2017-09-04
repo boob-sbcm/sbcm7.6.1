@@ -18,32 +18,19 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.concurrent.CopyOnWriteArraySet;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-import javax.swing.event.EventListenerList;
-
 import com.rapidminer.gui.processeditor.results.ResultDisplay;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import javax.swing.event.EventListenerList;
+import java.util.*;
+import java.util.Timer;
+import java.util.concurrent.*;
+import java.util.logging.Level;
 
 
 /**

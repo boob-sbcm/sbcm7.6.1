@@ -18,17 +18,8 @@
 */
 package com.rapidminer.tools;
 
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.NominalStatistics;
-import com.rapidminer.example.NumericalStatistics;
-import com.rapidminer.example.SimpleAttributes;
-import com.rapidminer.example.UnknownStatistics;
-import com.rapidminer.example.WeightedNumericalStatistics;
-import com.rapidminer.example.table.BinominalAttribute;
-import com.rapidminer.example.table.BinominalMapping;
-import com.rapidminer.example.table.NumericalAttribute;
-import com.rapidminer.example.table.PolynominalAttribute;
-import com.rapidminer.example.table.PolynominalMapping;
+import com.rapidminer.example.*;
+import com.rapidminer.example.table.*;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorCreationException;
@@ -36,13 +27,7 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.performance.AbstractPerformanceEvaluator;
 import com.rapidminer.operator.performance.PerformanceCriterion;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.lang.reflect.Constructor;
 import java.util.List;
 import java.util.logging.Level;

@@ -18,26 +18,15 @@
 */
 package com.rapidminer.gui.plotter.mathplot;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.FlowLayout;
-import java.awt.Graphics;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-
-import javax.swing.AbstractButton;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-
-import org.math.plot.PlotPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.plotter.Plotter;
 import com.rapidminer.gui.plotter.PlotterAdapter;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
 import com.rapidminer.gui.plotter.PlotterLegend;
+import org.math.plot.PlotPanel;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

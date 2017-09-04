@@ -21,20 +21,15 @@ package com.rapidminer.tools.math;
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeTypeException;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
+import com.rapidminer.example.*;
 import com.rapidminer.gui.plotter.ScatterPlotter;
 import com.rapidminer.gui.plotter.SimplePlotterDialog;
 import com.rapidminer.gui.viewer.ROCChartPlotter;
 
+import javax.swing.*;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Iterator;
-
-import javax.swing.JDialog;
 
 
 /**

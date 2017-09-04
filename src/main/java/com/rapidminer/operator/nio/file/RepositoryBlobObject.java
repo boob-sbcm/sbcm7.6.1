@@ -18,17 +18,17 @@
 */
 package com.rapidminer.operator.nio.file;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.repository.BlobEntry;
 import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.RepositoryException;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.Tools;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 
 /**

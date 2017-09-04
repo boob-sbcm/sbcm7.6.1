@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.Point;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.geom.Rectangle2D;
-import java.util.Collection;
-import java.util.List;
-
-import javax.swing.JComponent;
-import javax.swing.JViewport;
-import javax.swing.KeyStroke;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessStateListener;
 import com.rapidminer.gui.PerspectiveModel;
@@ -51,6 +36,17 @@ import com.rapidminer.gui.tools.DockingTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.vlsolutions.swing.docking.RelativeDockablePosition;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.geom.Rectangle2D;
+import java.util.Collection;
+import java.util.List;
 
 
 /**

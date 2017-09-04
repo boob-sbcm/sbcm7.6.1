@@ -18,38 +18,16 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.Iterator;
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Statistics;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.Condition;
 import com.rapidminer.example.set.ConditionCreationException;
 import com.rapidminer.example.set.ConditionedExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
 import com.rapidminer.operator.features.weighting.InfoGainWeighting;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPassThroughRule;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.preprocessing.MaterializeDataInMemory;
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
 import com.rapidminer.parameter.ParameterType;
@@ -58,6 +36,10 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.RandomGenerator;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

@@ -18,14 +18,14 @@
 */
 package com.rapidminer.studio.io.data.internal;
 
-import java.util.NoSuchElementException;
-
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetRow;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.model.DataResultSet;
 import com.rapidminer.studio.io.data.StartRowNotFoundException;
+
+import java.util.NoSuchElementException;
 
 
 /**

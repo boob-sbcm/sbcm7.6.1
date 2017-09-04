@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.meta;
 
-import java.io.File;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Pattern;
-
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorVersion;
@@ -32,6 +26,12 @@ import com.rapidminer.operator.nio.file.FileObject;
 import com.rapidminer.operator.nio.file.SimpleFileObject;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDirectory;
+
+import java.io.File;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 
 /**

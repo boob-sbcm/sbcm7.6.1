@@ -18,18 +18,17 @@
  */
 package com.rapidminer.tools.usagestats;
 
+import com.rapidminer.tools.FileSystemService;
+import com.rapidminer.tools.LogService;
+import org.h2.api.ErrorCode;
+import org.h2.tools.DeleteDbFiles;
+
 import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Level;
-
-import org.h2.api.ErrorCode;
-import org.h2.tools.DeleteDbFiles;
-
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.LogService;
 
 
 /**

@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Image;
+import java.awt.*;
 import java.util.List;
 
 

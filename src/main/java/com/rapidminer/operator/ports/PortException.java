@@ -18,10 +18,8 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.awt.Component;
-import java.awt.Point;
-
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

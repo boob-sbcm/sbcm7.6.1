@@ -18,44 +18,13 @@
  */
 package com.rapidminer.gui.new_plotter.gui.dnd;
 
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.MouseInfo;
-import java.awt.Point;
-import java.awt.PointerInfo;
-import java.awt.datatransfer.Transferable;
-import java.awt.datatransfer.UnsupportedFlavorException;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import javax.swing.JTree;
-import javax.swing.SwingUtilities;
-import javax.swing.TransferHandler;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.gui.dnd.AbstractPatchedTransferHandler;
 import com.rapidminer.gui.new_plotter.ChartConfigurationException;
-import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn.ValueType;
-import com.rapidminer.gui.new_plotter.configuration.DefaultDimensionConfig;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.DomainConfigManager;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
-import com.rapidminer.gui.new_plotter.configuration.SeriesFormat;
 import com.rapidminer.gui.new_plotter.configuration.ValueGrouping.GroupingType;
 import com.rapidminer.gui.new_plotter.configuration.ValueGrouping.ValueGroupingFactory;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
 import com.rapidminer.gui.new_plotter.gui.PlotConfigurationTree;
 import com.rapidminer.gui.new_plotter.gui.PlotConfigurationTreeModel;
@@ -67,6 +36,19 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.math.function.aggregation.AbstractAggregationFunction.AggregationFunctionType;
+
+import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
+import java.awt.*;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,38 +18,22 @@
 */
 package com.rapidminer.operator.learner.functions.kernel;
 
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorCapability;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.learner.functions.kernel.rvm.ClassificationProblem;
-import com.rapidminer.operator.learner.functions.kernel.rvm.ConstructiveRegression;
-import com.rapidminer.operator.learner.functions.kernel.rvm.Parameter;
-import com.rapidminer.operator.learner.functions.kernel.rvm.RVMClassification;
-import com.rapidminer.operator.learner.functions.kernel.rvm.RVMRegression;
-import com.rapidminer.operator.learner.functions.kernel.rvm.RegressionProblem;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelBasisFunction;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelCauchy;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelEpanechnikov;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelGaussianCombination;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelLaplace;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelMultiquadric;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelPoly;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelRadial;
-import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.KernelSigmoid;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.learner.functions.kernel.rvm.*;
+import com.rapidminer.operator.learner.functions.kernel.rvm.kernel.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

@@ -3,35 +3,23 @@
  */
 package com.rapidminer.doc;
 
-import java.io.PrintWriter;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-//
-//import weka.core.TechnicalInformation;
-//import weka.core.TechnicalInformationHandler;
-
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.Value;
-import com.rapidminer.operator.condition.InnerOperatorCondition;
 import com.rapidminer.operator.learner.Learner;
-import com.rapidminer.operator.OperatorCapability;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.Tools;
 import com.sun.javadoc.ClassDoc;
 import com.sun.javadoc.RootDoc;
 import com.sun.javadoc.SeeTag;
 import com.sun.javadoc.Tag;
 import com.sun.tools.doclets.Taglet;
+
+import java.io.PrintWriter;
+
+//
+//import weka.core.TechnicalInformation;
+//import weka.core.TechnicalInformationHandler;
 
 
 /**

@@ -18,14 +18,10 @@
 */
 package com.rapidminer.gui.animation;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorProgress;
+
+import java.util.*;
 
 
 /**

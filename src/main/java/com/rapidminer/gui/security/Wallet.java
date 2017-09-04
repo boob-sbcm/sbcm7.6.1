@@ -18,6 +18,13 @@
 */
 package com.rapidminer.gui.security;
 
+import com.rapidminer.io.Base64;
+import com.rapidminer.io.process.XMLTools;
+import com.rapidminer.tools.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -26,18 +33,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-
-import com.rapidminer.io.Base64;
-import com.rapidminer.io.process.XMLTools;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.GlobalAuthenticator;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.XMLException;
 
 
 /**

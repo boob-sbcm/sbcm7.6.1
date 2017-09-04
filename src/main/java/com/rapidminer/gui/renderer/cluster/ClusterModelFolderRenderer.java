@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui.renderer.cluster;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.processeditor.results.ResultDisplayTools;
 import com.rapidminer.gui.renderer.AbstractRenderer;
@@ -35,6 +28,9 @@ import com.rapidminer.operator.clustering.CentroidClusterModel;
 import com.rapidminer.operator.clustering.ClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterModel;
 import com.rapidminer.report.Reportable;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

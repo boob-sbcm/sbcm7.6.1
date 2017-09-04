@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.learner.tree;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.learner.tree.criterions.ColumnCriterion;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
 import java.util.Map;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.learner.tree.criterions.ColumnCriterion;
 
 
 /**

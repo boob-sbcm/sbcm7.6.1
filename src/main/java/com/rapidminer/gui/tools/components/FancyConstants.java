@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

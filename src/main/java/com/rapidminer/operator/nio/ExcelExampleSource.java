@@ -18,28 +18,24 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorVersion;
 import com.rapidminer.operator.io.AbstractReader;
-import com.rapidminer.operator.nio.model.AbstractDataResultSetReader;
-import com.rapidminer.operator.nio.model.DataResultSet;
-import com.rapidminer.operator.nio.model.DataResultSetFactory;
-import com.rapidminer.operator.nio.model.DataResultSetTranslationConfiguration;
-import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
+import com.rapidminer.operator.nio.model.*;
 import com.rapidminer.operator.nio.model.xlsx.XlsxResultSet;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeConfiguration;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.io.Encoding;
+
+import java.text.NumberFormat;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,28 +18,15 @@
 */
 package com.rapidminer.operator.features.construction;
 
-import java.util.List;
-
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.generator.AbsoluteValueGenerator;
-import com.rapidminer.generator.ExponentialFunctionGenerator;
-import com.rapidminer.generator.FeatureGenerator;
-import com.rapidminer.generator.FloorCeilGenerator;
-import com.rapidminer.generator.MinMaxGenerator;
-import com.rapidminer.generator.PowerGenerator;
-import com.rapidminer.generator.SignumGenerator;
-import com.rapidminer.generator.SinusFactory;
-import com.rapidminer.generator.SquareRootGenerator;
-import com.rapidminer.generator.TrigonometricFunctionGenerator;
+import com.rapidminer.generator.*;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorVersion;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
+import com.rapidminer.parameter.*;
 import com.rapidminer.tools.expression.internal.ExpressionParserUtils;
+
+import java.util.List;
 
 
 /**

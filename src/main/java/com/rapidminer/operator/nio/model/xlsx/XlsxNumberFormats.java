@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.apache.poi.ss.usermodel.BuiltinFormats;
 import org.apache.poi.ss.usermodel.DateUtil;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

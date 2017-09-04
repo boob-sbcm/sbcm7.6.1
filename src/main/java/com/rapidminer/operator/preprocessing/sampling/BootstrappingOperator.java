@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.sampling;
 
-import java.util.List;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
 import com.rapidminer.example.set.MappedExampleSet;
@@ -34,15 +30,13 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MDInteger;
 import com.rapidminer.operator.preprocessing.MaterializeDataInMemory;
 import com.rapidminer.operator.validation.IteratingPerformanceAverage;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.RandomGenerator;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.List;
 
 
 /**

@@ -18,12 +18,11 @@
 */
 package com.rapidminer.tools.expression.internal.antlr;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
+import com.rapidminer.tools.expression.ExpressionException;
 import org.junit.Test;
 
-import com.rapidminer.tools.expression.ExpressionException;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 
 /**

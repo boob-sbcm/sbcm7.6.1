@@ -18,14 +18,14 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.io.File;
-
 import com.rapidminer.gui.wizards.ConfigurationListener;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.model.AbstractDataResultSetReader;
 import com.rapidminer.operator.nio.model.DataResultSetFactory;
 import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
 import com.rapidminer.repository.RepositoryLocation;
+
+import java.io.File;
 
 
 /**

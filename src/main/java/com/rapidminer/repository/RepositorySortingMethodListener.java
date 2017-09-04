@@ -18,10 +18,10 @@
 */
 package com.rapidminer.repository;
 
-import java.util.EventListener;
-
 import com.rapidminer.repository.gui.RepositoryTree;
 import com.rapidminer.repository.gui.actions.SortByAction;
+
+import java.util.EventListener;
 
 
 /**

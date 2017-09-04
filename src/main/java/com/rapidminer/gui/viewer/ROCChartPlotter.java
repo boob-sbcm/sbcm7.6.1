@@ -24,22 +24,6 @@ import com.rapidminer.gui.plotter.PlotterAdapter;
 import com.rapidminer.report.Renderable;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.math.ROCData;
-
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Stroke;
-import java.awt.geom.Rectangle2D;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.JPanel;
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.ValueAxis;
@@ -54,6 +38,12 @@ import org.jfree.data.xy.YIntervalSeriesCollection;
 import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 import org.jfree.ui.RectangleInsets;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+import java.util.*;
+import java.util.List;
 
 
 /**

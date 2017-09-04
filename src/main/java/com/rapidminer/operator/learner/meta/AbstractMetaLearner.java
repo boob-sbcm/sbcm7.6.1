@@ -20,11 +20,7 @@ package com.rapidminer.operator.learner.meta;
 
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.CapabilityCheck;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.learner.Learner;
@@ -32,13 +28,7 @@ import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.performance.PerformanceVector;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.LearnerPrecondition;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.operator.ports.metadata.PredictionModelMetaData;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.operator.ports.metadata.SubprocessTransformRule;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.Tools;
 

@@ -21,18 +21,10 @@ package com.rapidminer.gui.dialog;
 import com.rapidminer.gui.properties.celleditors.value.PropertyValueCellEditor;
 import com.rapidminer.operator.Operator;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
 
 
 /**

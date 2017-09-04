@@ -18,21 +18,17 @@
  */
 package com.rapidminer.example.table.internal;
 
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.Attributes;
+import com.rapidminer.example.table.*;
+import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
+import com.rapidminer.example.utils.ExampleSets;
+import com.rapidminer.tools.Ontology;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.IntToDoubleFunction;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.table.AbstractExampleTable;
-import com.rapidminer.example.table.DataRow;
-import com.rapidminer.example.table.DataRowFactory;
-import com.rapidminer.example.table.DataRowReader;
-import com.rapidminer.example.table.GrowingExampleTable;
-import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
-import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.tools.Ontology;
 
 
 /**

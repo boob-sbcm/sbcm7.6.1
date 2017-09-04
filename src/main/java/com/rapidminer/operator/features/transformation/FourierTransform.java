@@ -18,11 +18,6 @@
 */
 package com.rapidminer.operator.features.transformation;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
@@ -37,23 +32,19 @@ import com.rapidminer.operator.OperatorCreationException;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.SetRelation;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.OperatorInsertionQuickFix;
 import com.rapidminer.operator.preprocessing.filter.MissingValueReplenishment;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.math.Complex;
-import com.rapidminer.tools.math.FastFourierTransform;
-import com.rapidminer.tools.math.Peak;
-import com.rapidminer.tools.math.SpectrumFilter;
-import com.rapidminer.tools.math.WindowFunction;
+import com.rapidminer.tools.math.*;
 import com.rapidminer.tools.math.container.Range;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

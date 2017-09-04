@@ -18,11 +18,11 @@
 */
 package com.rapidminer.operator.preprocessing.outlier;
 
+import com.rapidminer.tools.Tools;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
-
-import com.rapidminer.tools.Tools;
 
 
 /**

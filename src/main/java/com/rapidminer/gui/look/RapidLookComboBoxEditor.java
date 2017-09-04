@@ -18,16 +18,13 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Color;
-import java.awt.Font;
-
-import javax.swing.JTextField;
-import javax.swing.plaf.basic.BasicComboBoxEditor;
-
+import com.rapidminer.tools.I18N;
 import org.jdesktop.swingx.prompt.PromptSupport;
 import org.jdesktop.swingx.prompt.PromptSupport.FocusBehavior;
 
-import com.rapidminer.tools.I18N;
+import javax.swing.*;
+import javax.swing.plaf.basic.BasicComboBoxEditor;
+import java.awt.*;
 
 
 /**

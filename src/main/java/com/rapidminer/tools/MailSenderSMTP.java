@@ -18,15 +18,14 @@
  */
 package com.rapidminer.tools;
 
-import java.util.Date;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.logging.Level;
-
 import javax.mail.Message;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.MimeMessage;
+import java.util.Date;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.logging.Level;
 
 
 /**

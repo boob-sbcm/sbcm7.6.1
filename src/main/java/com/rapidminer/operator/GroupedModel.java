@@ -18,20 +18,16 @@
  */
 package com.rapidminer.operator;
 
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.operator.learner.meta.MetaModel;
+import com.rapidminer.studio.internal.ProcessStoppedRuntimeException;
+import com.rapidminer.tools.*;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.learner.meta.MetaModel;
-import com.rapidminer.studio.internal.ProcessStoppedRuntimeException;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.Observable;
-import com.rapidminer.tools.Observer;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.Tools;
 
 
 /**

@@ -18,34 +18,21 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import com.rapidminer.gui.tools.dialogs.wizards.dataimport.csv.LineReader;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.nio.model.ParsingError.ErrorCode;
-import com.rapidminer.tools.CSVParseException;
-import com.rapidminer.tools.LineParser;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.Ontology;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.WebServiceTools;
+import com.rapidminer.tools.*;
+
+import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**

@@ -24,24 +24,15 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.text.BadLocationException;
+import java.awt.*;
 import java.awt.event.KeyListener;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.text.BadLocationException;
 
 
 /**

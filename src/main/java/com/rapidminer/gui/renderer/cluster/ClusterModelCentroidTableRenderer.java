@@ -18,12 +18,12 @@
 */
 package com.rapidminer.gui.renderer.cluster;
 
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.gui.renderer.AbstractTableModelTableRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.clustering.CentroidClusterModel;
+
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
 
 
 /**

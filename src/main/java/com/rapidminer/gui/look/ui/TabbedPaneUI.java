@@ -18,41 +18,26 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.LayoutManager;
-import java.awt.Point;
-import java.awt.Polygon;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.QuadCurve2D;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JTabbedPane;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicTabbedPaneUI;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.GenericArrowButton;
 import com.rapidminer.gui.look.RapidLookAndFeel;
 import com.rapidminer.gui.look.RapidLookTools;
 import com.vlsolutions.swing.docking.DockTabbedPane;
 import com.vlsolutions.swing.docking.DockViewAsTab.TabHeader;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.plaf.ColorUIResource;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicTabbedPaneUI;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.geom.Line2D;
+import java.awt.geom.Path2D;
+import java.awt.geom.QuadCurve2D;
 
 
 /**

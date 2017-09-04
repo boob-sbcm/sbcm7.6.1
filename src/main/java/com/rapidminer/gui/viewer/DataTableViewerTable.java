@@ -18,15 +18,14 @@
  */
 package com.rapidminer.gui.viewer;
 
-import java.awt.event.MouseEvent;
-
-import javax.swing.table.JTableHeader;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableListener;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.look.RapidLookTools;
 import com.rapidminer.gui.tools.ExtendedJTable;
+
+import javax.swing.table.JTableHeader;
+import java.awt.event.MouseEvent;
 
 
 /**

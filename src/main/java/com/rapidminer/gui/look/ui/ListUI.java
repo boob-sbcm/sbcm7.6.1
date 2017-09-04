@@ -18,15 +18,10 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Graphics;
-import java.awt.Rectangle;
-
-import javax.swing.JComponent;
-import javax.swing.ListCellRenderer;
-import javax.swing.ListModel;
-import javax.swing.ListSelectionModel;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicListUI;
+import java.awt.*;
 
 
 /**

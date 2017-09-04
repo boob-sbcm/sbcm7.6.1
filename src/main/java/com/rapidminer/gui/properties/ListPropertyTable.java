@@ -25,12 +25,11 @@ import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeList;
 import com.rapidminer.parameter.ParameterTypeStringCategory;
 
-import java.awt.Point;
+import javax.swing.event.ChangeEvent;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.util.Iterator;
 import java.util.List;
-
-import javax.swing.event.ChangeEvent;
 
 
 /**

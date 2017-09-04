@@ -18,15 +18,15 @@
 */
 package com.rapidminer.tools;
 
+import com.rapidminer.RapidMiner;
+import com.rapidminer.gui.properties.ProxyParameterSaver;
+import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.logging.Level;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.gui.properties.ProxyParameterSaver;
-import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
 
 
 /**

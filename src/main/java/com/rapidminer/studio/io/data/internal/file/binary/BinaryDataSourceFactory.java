@@ -18,13 +18,13 @@
 */
 package com.rapidminer.studio.io.data.internal.file.binary;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.core.io.data.source.FileDataSourceFactory;
 import com.rapidminer.core.io.gui.ImportWizard;
 import com.rapidminer.core.io.gui.WizardStep;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
 
 
 /**

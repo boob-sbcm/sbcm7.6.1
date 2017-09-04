@@ -25,11 +25,7 @@ import com.rapidminer.operator.libraries.LibraryOperatorDescription;
 import com.rapidminer.operator.libraries.OperatorLibrary;
 import com.rapidminer.tools.OperatorService;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
 
 

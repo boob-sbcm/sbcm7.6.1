@@ -18,18 +18,12 @@
 */
 package com.rapidminer.operator.generator;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.utils.ExampleSets;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.error.AttributeNotFoundError;
 import com.rapidminer.operator.io.AbstractExampleSource;
 import com.rapidminer.operator.ports.OutputPort;
@@ -37,13 +31,8 @@ import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeExpression;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.ParameterTypeExpression.OperatorVersionCallable;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.expression.ExampleResolver;
 import com.rapidminer.tools.expression.Expression;
@@ -51,6 +40,8 @@ import com.rapidminer.tools.expression.ExpressionException;
 import com.rapidminer.tools.expression.ExpressionParser;
 import com.rapidminer.tools.expression.internal.ExpressionParserUtils;
 import com.rapidminer.tools.expression.internal.UnknownResolverVariableException;
+
+import java.util.List;
 
 
 /**

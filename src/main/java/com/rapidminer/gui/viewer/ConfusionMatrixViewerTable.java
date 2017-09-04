@@ -18,15 +18,14 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Color;
-
-import javax.swing.table.JTableHeader;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.properties.PropertyPanel;
 import com.rapidminer.gui.tools.CellColorProvider;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.gui.tools.SwingTools;
+
+import javax.swing.table.JTableHeader;
+import java.awt.*;
 
 
 /**

@@ -18,23 +18,21 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-
-import org.xml.sax.Attributes;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
 import com.rapidminer.operator.nio.model.xlsx.XlsxResultSet.XlsxReadMode;
 import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
+import org.xml.sax.Attributes;
+
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
 
 /**

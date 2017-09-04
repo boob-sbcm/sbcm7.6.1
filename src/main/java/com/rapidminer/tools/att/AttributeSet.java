@@ -22,20 +22,12 @@ import com.rapidminer.example.Attribute;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.LoggingHandler;
 import com.rapidminer.tools.XMLException;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
-
-import org.xml.sax.SAXException;
+import java.io.File;
+import java.io.IOException;
+import java.util.*;
 
 
 /**

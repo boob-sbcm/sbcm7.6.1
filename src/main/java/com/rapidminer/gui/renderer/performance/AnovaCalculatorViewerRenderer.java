@@ -24,7 +24,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Reportable;
 import com.rapidminer.tools.math.AnovaCalculator.AnovaSignificanceTestResult;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

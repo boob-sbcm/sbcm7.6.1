@@ -18,11 +18,10 @@
 */
 package com.rapidminer.gui.look;
 
-import java.awt.Image;
-import java.net.URL;
-
-import javax.swing.ImageIcon;
+import javax.swing.*;
 import javax.swing.plaf.UIResource;
+import java.awt.*;
+import java.net.URL;
 
 
 /**

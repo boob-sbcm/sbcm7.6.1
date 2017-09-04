@@ -22,10 +22,9 @@ import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.LogService;
 
+import javax.swing.*;
 import java.util.UUID;
 import java.util.logging.Level;
-
-import javax.swing.Icon;
 
 
 /**

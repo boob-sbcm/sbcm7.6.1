@@ -18,9 +18,9 @@
 */
 package com.rapidminer.gui.viewer.collection;
 
-import java.util.UUID;
-
 import com.rapidminer.operator.IOObject;
+
+import java.util.UUID;
 
 
 /**

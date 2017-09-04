@@ -19,12 +19,12 @@
 
 package com.rapidminer.repository.gui.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.gui.actions.ToggleAction;
 import com.rapidminer.repository.RepositorySortingMethod;
 import com.rapidminer.repository.RepositorySortingMethodListener;
 import com.rapidminer.repository.gui.RepositoryTree;
+
+import java.awt.event.ActionEvent;
 
 
 /**

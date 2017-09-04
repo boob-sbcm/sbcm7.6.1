@@ -21,7 +21,6 @@ package com.rapidminer.parameter.conditions;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 
 

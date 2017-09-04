@@ -18,9 +18,9 @@
 */
 package com.rapidminer.tools;
 
-import java.awt.Color;
-
 import com.rapidminer.tools.plugin.Plugin;
+
+import java.awt.*;
 
 
 /**

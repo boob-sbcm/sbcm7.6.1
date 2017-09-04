@@ -18,10 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.background;
 
-import java.awt.AlphaComposite;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawDecorator;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
@@ -29,6 +25,8 @@ import com.rapidminer.gui.flow.processrendering.view.RenderPhase;
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ProgressThreadListener;
 import com.rapidminer.operator.ExecutionUnit;
+
+import java.awt.*;
 
 
 /**

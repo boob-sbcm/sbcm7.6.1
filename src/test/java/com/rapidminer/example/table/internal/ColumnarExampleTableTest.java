@@ -18,14 +18,6 @@
  */
 package com.rapidminer.example.table.internal;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.table.DataRow;
@@ -34,6 +26,13 @@ import com.rapidminer.example.table.IntArrayDataRow;
 import com.rapidminer.example.test.ExampleTestTools;
 import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
 import com.rapidminer.tools.Ontology;
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

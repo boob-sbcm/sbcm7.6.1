@@ -18,32 +18,6 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JEditorPane;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.SwingWorker;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.StyleSheet;
-
 import com.rapidminer.Process;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -68,6 +42,18 @@ import com.rapidminer.repository.Entry;
 import com.rapidminer.repository.IOObjectEntry;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.ReferenceCache;
+
+import javax.swing.*;
+import javax.swing.event.AncestorEvent;
+import javax.swing.event.AncestorListener;
+import javax.swing.text.html.HTMLEditorKit;
+import javax.swing.text.html.StyleSheet;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.util.List;
 
 
 /**

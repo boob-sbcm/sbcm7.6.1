@@ -19,7 +19,6 @@
 package com.rapidminer.gui.new_plotter.listener;
 
 import com.rapidminer.gui.new_plotter.engine.jfreechart.JFreeChartPlotEngine;
-
 import org.jfree.chart.JFreeChart;
 
 

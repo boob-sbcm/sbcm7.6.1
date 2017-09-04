@@ -18,16 +18,16 @@
 */
 package com.rapidminer.operator.learner.rules;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
 import com.rapidminer.operator.learner.SimplePredictionModel;
 import com.rapidminer.report.Readable;
 import com.rapidminer.tools.Tools;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 
 /**

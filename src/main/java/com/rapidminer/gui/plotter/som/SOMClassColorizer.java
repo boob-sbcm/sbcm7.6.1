@@ -20,7 +20,7 @@ package com.rapidminer.gui.plotter.som;
 
 import com.rapidminer.gui.plotter.ColorProvider;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

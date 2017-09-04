@@ -18,16 +18,15 @@
  */
 package com.rapidminer.operator.learner.functions.linear;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import org.apache.commons.math3.distribution.FDistribution;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.UndefinedParameterError;
+import org.apache.commons.math3.distribution.FDistribution;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

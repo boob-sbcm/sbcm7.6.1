@@ -21,11 +21,10 @@ package com.rapidminer.gui.plotter.mathplot;
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
-
-import java.awt.Color;
-import java.util.Iterator;
-
 import org.math.plot.Plot3DPanel;
+
+import java.awt.*;
+import java.util.Iterator;
 
 
 /**

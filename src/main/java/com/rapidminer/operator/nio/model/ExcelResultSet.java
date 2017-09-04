@@ -18,32 +18,20 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.TimeZone;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.Tools;
-
-import jxl.Cell;
-import jxl.CellType;
-import jxl.DateCell;
-import jxl.NumberCell;
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.WorkbookSettings;
+import jxl.*;
 import jxl.read.biff.BiffException;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 
 /**

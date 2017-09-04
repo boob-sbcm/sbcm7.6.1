@@ -18,28 +18,17 @@
 */
 package com.rapidminer.repository.local;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import com.rapidminer.repository.*;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import java.io.*;
 import java.util.Collection;
 import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
-
-import javax.swing.Action;
-
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.container.Pair;
 
 
 /**

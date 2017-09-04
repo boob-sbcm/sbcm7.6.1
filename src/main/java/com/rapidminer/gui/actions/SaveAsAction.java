@@ -18,20 +18,16 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.Process;
 import com.rapidminer.RepositoryProcessLocation;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.MalformedRepositoryLocationException;
-import com.rapidminer.repository.ProcessEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
+
+import java.awt.event.ActionEvent;
 
 
 /**

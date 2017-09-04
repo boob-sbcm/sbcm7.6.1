@@ -1,12 +1,5 @@
 package com.rapidminer.gui.properties;
 
-import java.awt.Dialog.ModalityType;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.util.function.BooleanSupplier;
-
-import javax.swing.JPanel;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.gui.ApplicationFrame;
@@ -15,6 +8,12 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog.ButtonDialogBuilder.DefaultButtons;
 import com.rapidminer.license.StudioLicenseConstants;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.Dialog.ModalityType;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.function.BooleanSupplier;
 
 
 /**

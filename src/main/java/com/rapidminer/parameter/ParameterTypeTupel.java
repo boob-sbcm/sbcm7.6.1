@@ -18,18 +18,17 @@
 */
 package com.rapidminer.parameter;
 
-import java.util.Collection;
-import java.util.List;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.XMLException;
 import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.util.Collection;
+import java.util.List;
 
 
 /**

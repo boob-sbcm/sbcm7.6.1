@@ -18,12 +18,6 @@
 */
 package com.rapidminer.example.set;
 
-import java.lang.reflect.Constructor;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -33,6 +27,12 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.ProcessStoppedException;
 import com.rapidminer.operator.tools.ExpressionEvaluationException;
 import com.rapidminer.tools.Tools;
+
+import java.lang.reflect.Constructor;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

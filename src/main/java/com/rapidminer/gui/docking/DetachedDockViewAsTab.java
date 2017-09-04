@@ -18,28 +18,20 @@
 */
 package com.rapidminer.gui.docking;
 
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Rectangle2D;
-import java.util.ArrayList;
-
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.UIManager;
-
-import com.vlsolutions.swing.docking.DockGroup;
-import com.vlsolutions.swing.docking.DockKey;
-import com.vlsolutions.swing.docking.DockViewAsTab;
-import com.vlsolutions.swing.docking.Dockable;
-import com.vlsolutions.swing.docking.DockableState;
-import com.vlsolutions.swing.docking.TabbedDockableContainer;
+import com.vlsolutions.swing.docking.*;
 import com.vlsolutions.swing.docking.event.DockDragEvent;
 import com.vlsolutions.swing.docking.event.DockDropEvent;
 import com.vlsolutions.swing.docking.event.DockEvent;
 import com.vlsolutions.swing.docking.event.DockingActionCreateTabEvent;
 import com.vlsolutions.swing.tabbedpane.JTabbedPaneSmartIcon;
 import com.vlsolutions.swing.tabbedpane.SmartIconJButton;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.geom.GeneralPath;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
 
 
 /**

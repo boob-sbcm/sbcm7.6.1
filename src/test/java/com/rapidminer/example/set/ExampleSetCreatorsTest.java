@@ -18,12 +18,6 @@
  */
 package com.rapidminer.example.set;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Iterator;
-
-import org.junit.Test;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -35,6 +29,11 @@ import com.rapidminer.operator.ViewModel;
 import com.rapidminer.operator.preprocessing.filter.NominalToNumeric;
 import com.rapidminer.operator.preprocessing.filter.NominalToNumericModel;
 import com.rapidminer.tools.Ontology;
+import org.junit.Test;
+
+import java.util.Iterator;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

@@ -18,36 +18,22 @@
 */
 package com.rapidminer.studio.io.gui.internal.steps.configuration;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
-import java.text.DateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.atomic.AtomicBoolean;
-
+import com.rapidminer.core.io.data.*;
+import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
+import com.rapidminer.core.io.data.source.DataSource;
+import com.rapidminer.core.io.data.source.DataSourceConfiguration;
+import com.rapidminer.studio.io.data.DefaultColumnMetaData;
+import com.rapidminer.tools.ProgressListener;
+import com.rapidminer.tools.Tools;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.rapidminer.core.io.data.ColumnMetaData;
-import com.rapidminer.core.io.data.ColumnMetaData.ColumnType;
-import com.rapidminer.core.io.data.DataSet;
-import com.rapidminer.core.io.data.DataSetException;
-import com.rapidminer.core.io.data.DataSetMetaData;
-import com.rapidminer.core.io.data.DataSetRow;
-import com.rapidminer.core.io.data.ParseException;
-import com.rapidminer.core.io.data.source.DataSource;
-import com.rapidminer.core.io.data.source.DataSourceConfiguration;
-import com.rapidminer.studio.io.data.DefaultColumnMetaData;
-import com.rapidminer.studio.io.gui.internal.steps.configuration.ConfigureDataTableModel;
-import com.rapidminer.studio.io.gui.internal.steps.configuration.ParsingError;
-import com.rapidminer.tools.ProgressListener;
-import com.rapidminer.tools.Tools;
+import java.text.DateFormat;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import static org.junit.Assert.*;
 
 
 /**

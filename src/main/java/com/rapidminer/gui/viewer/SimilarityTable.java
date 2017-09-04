@@ -18,17 +18,14 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

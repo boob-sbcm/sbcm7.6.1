@@ -18,46 +18,20 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
-
-import javax.swing.Action;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-import javax.swing.table.TableModel;
-
-import com.rapidminer.gui.tools.CharTextField;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.UpdateQueue;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirection;
 import com.rapidminer.gui.tools.dialogs.wizards.WizardStep;
 import com.rapidminer.operator.nio.model.CSVResultSetConfiguration;
 import com.rapidminer.tools.LineParser;
 import com.rapidminer.tools.io.Encoding;
+
+import javax.swing.*;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
 
 
 /**

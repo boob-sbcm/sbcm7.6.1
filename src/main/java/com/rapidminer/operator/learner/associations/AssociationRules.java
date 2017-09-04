@@ -18,15 +18,10 @@
 */
 package com.rapidminer.operator.learner.associations;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.SortedSet;
-import java.util.TreeSet;
-
 import com.rapidminer.operator.ResultObjectAdapter;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
 
 
 /**

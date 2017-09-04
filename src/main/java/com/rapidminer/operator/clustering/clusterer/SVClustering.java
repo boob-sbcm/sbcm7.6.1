@@ -18,10 +18,6 @@
  */
 package com.rapidminer.operator.clustering.clusterer;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -32,16 +28,16 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.clustering.ClusterModel;
 import com.rapidminer.operator.learner.functions.kernel.jmysvm.examples.SVMExample;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.Kernel;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelDot;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelNeural;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelPolynomial;
-import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.KernelRadial;
+import com.rapidminer.operator.learner.functions.kernel.jmysvm.kernel.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeCategory;
 import com.rapidminer.parameter.ParameterTypeDouble;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

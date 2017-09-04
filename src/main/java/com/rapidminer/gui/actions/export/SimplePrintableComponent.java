@@ -18,7 +18,7 @@
 */
 package com.rapidminer.gui.actions.export;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

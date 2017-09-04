@@ -18,16 +18,14 @@
 */
 package com.rapidminer.operator.learner.tree.criterions;
 
-import static com.rapidminer.operator.learner.tree.AbstractParallelTreeLearner.CRITERIA_CLASSES;
-import static com.rapidminer.operator.learner.tree.AbstractParallelTreeLearner.CRITERIA_NAMES;
-import static com.rapidminer.operator.learner.tree.AbstractParallelTreeLearner.PARAMETER_CRITERION;
-
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.tree.ColumnExampleTable;
 import com.rapidminer.operator.learner.tree.ColumnFrequencyCalculator;
 import com.rapidminer.operator.learner.tree.MinimalGainHandler;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.tools.Tools;
+
+import static com.rapidminer.operator.learner.tree.AbstractParallelTreeLearner.*;
 
 
 /**

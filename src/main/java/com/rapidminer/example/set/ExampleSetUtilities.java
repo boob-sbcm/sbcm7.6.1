@@ -18,10 +18,6 @@
 */
 package com.rapidminer.example.set;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.AttributeRole;
 import com.rapidminer.example.Attributes;
@@ -29,6 +25,10 @@ import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.Ontology;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 
 /**

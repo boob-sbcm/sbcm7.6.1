@@ -18,47 +18,26 @@
 */
 package com.rapidminer.operator.visualization;
 
-import java.util.List;
-
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.example.*;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.preprocessing.NoiseOperator;
 import com.rapidminer.operator.preprocessing.PreprocessingOperator;
-import com.rapidminer.operator.preprocessing.discretization.AbsoluteDiscretization;
-import com.rapidminer.operator.preprocessing.discretization.AbstractDiscretizationOperator;
-import com.rapidminer.operator.preprocessing.discretization.BinDiscretization;
-import com.rapidminer.operator.preprocessing.discretization.DiscretizationModel;
-import com.rapidminer.operator.preprocessing.discretization.FrequencyDiscretization;
+import com.rapidminer.operator.preprocessing.discretization.*;
 import com.rapidminer.operator.preprocessing.filter.attributes.RegexpAttributeFilter;
 import com.rapidminer.operator.tools.AttributeSubsetSelector;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeString;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorService;
+
+import java.util.List;
 
 
 /**

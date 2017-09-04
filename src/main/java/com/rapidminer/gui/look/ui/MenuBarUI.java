@@ -18,14 +18,12 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import com.rapidminer.gui.look.painters.CachedPainter;
 
-import javax.swing.JComponent;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicMenuBarUI;
-
-import com.rapidminer.gui.look.painters.CachedPainter;
+import java.awt.*;
 
 
 /**

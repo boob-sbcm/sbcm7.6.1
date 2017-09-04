@@ -18,26 +18,16 @@
  */
 package com.rapidminer.operator.meta;
 
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.nio.file.RepositoryBlobObject;
+import com.rapidminer.parameter.ParameterType;
+import com.rapidminer.parameter.ParameterTypeRepositoryLocation;
+import com.rapidminer.repository.*;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
-
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.nio.file.RepositoryBlobObject;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeRepositoryLocation;
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.DataEntry;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
 
 
 /**

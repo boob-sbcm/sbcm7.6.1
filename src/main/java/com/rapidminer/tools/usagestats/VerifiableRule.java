@@ -18,13 +18,13 @@
  */
 package com.rapidminer.tools.usagestats;
 
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+
 import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.logging.Level;
-
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
 
 
 /**

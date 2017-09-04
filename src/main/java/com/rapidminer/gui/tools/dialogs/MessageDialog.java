@@ -18,14 +18,12 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.Window;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

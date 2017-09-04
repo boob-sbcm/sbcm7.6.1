@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.actions.OpenAction;
@@ -33,13 +29,12 @@ import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirecti
 import com.rapidminer.gui.tools.dialogs.wizards.dataimport.RepositoryLocationSelectionWizardStep;
 import com.rapidminer.operator.nio.model.DataResultSet;
 import com.rapidminer.operator.nio.model.WizardState;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.IOObjectEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryManager;
+import com.rapidminer.repository.*;
 import com.rapidminer.repository.local.SimpleIOObjectEntry;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import java.util.logging.Level;
 
 
 /**

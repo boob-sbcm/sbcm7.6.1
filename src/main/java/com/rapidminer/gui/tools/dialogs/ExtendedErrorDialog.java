@@ -18,33 +18,6 @@
 */
 package com.rapidminer.gui.tools.dialogs;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.Locale;
-
-import javax.swing.AbstractButton;
-import javax.swing.DefaultListModel;
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JToggleButton;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingUtilities;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import org.apache.xmlrpc.client.XmlRpcClient;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.RapidMiner.ExecutionMode;
 import com.rapidminer.gui.ApplicationFrame;
@@ -64,6 +37,17 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.RMUrlHandler;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.XmlRpcHandler;
+import org.apache.xmlrpc.client.XmlRpcClient;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.Locale;
 
 
 /**

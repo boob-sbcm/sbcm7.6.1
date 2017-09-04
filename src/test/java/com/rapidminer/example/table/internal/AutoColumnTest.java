@@ -18,11 +18,10 @@
  */
 package com.rapidminer.example.table.internal;
 
-import static org.junit.Assert.assertEquals;
-
+import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
 import org.junit.Test;
 
-import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
+import static org.junit.Assert.assertEquals;
 
 
 /**

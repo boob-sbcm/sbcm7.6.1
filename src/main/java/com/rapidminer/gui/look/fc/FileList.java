@@ -18,20 +18,18 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.BorderLayout;
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Cursor;
-import java.awt.Dialog;
-import java.awt.Dimension;
-import java.awt.Frame;
-import java.awt.GradientPaint;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Paint;
-import java.awt.Point;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.look.ui.TableHeaderUI;
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.ResourceActionAdapter;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.io.remote.RemoteFileSystemView;
+import com.rapidminer.tools.I18N;
+import sun.awt.shell.ShellFolder;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileSystemView;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
@@ -40,40 +38,7 @@ import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Collection;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.TreeMap;
-import java.util.Vector;
-
-import javax.swing.AbstractButton;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.ImageIcon;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.SwingConstants;
-import javax.swing.filechooser.FileSystemView;
-
-import sun.awt.shell.ShellFolder;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.look.ui.TableHeaderUI;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceActionAdapter;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.io.remote.RemoteFileSystemView;
-import com.rapidminer.tools.I18N;
+import java.util.*;
 
 
 /**

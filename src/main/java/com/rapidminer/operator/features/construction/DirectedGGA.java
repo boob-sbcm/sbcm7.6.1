@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.features.construction;
 
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.generator.FeatureGenerator;
@@ -28,6 +26,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.parameter.ParameterTypeString;
+
+import java.util.List;
 
 
 /**

@@ -18,11 +18,10 @@
 */
 package com.rapidminer.operator.annotation.test;
 
-import static junit.framework.Assert.assertEquals;
-
+import com.rapidminer.operator.annotation.PolynomialFunction;
 import org.junit.Test;
 
-import com.rapidminer.operator.annotation.PolynomialFunction;
+import static junit.framework.Assert.assertEquals;
 
 /**
  * @author Simon Fischer

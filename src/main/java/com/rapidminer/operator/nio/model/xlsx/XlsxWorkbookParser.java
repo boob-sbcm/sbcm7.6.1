@@ -18,13 +18,12 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.util.LinkedList;
-import java.util.List;
-
+import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookParser.XlsxWorkbook;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 
-import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookParser.XlsxWorkbook;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

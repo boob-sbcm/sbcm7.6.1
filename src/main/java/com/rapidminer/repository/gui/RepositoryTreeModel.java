@@ -18,35 +18,22 @@
 */
 package com.rapidminer.repository.gui;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.logging.Level;
-import javax.swing.JTree;
-import javax.swing.SwingUtilities;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.repository.*;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.Observable;
+import com.rapidminer.tools.Observer;
+
+import javax.swing.*;
 import javax.swing.event.EventListenerList;
 import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
-
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.repository.Entry;
-import com.rapidminer.repository.Folder;
-import com.rapidminer.repository.Repository;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.repository.RepositoryListener;
-import com.rapidminer.repository.RepositoryLocation;
-import com.rapidminer.repository.RepositoryManager;
-import com.rapidminer.repository.RepositorySortingMethod;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.Observable;
-import com.rapidminer.tools.Observer;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.logging.Level;
 
 
 /**

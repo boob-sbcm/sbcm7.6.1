@@ -20,21 +20,14 @@ package com.rapidminer.gui.look.ui;
 
 import com.rapidminer.gui.look.RapidLookTools;
 
-import java.awt.Graphics;
-import java.awt.GraphicsEnvironment;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.MouseEvent;
-
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JToolBar;
-import javax.swing.SwingConstants;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.MouseInputListener;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicToolBarUI;
+import java.awt.*;
+import java.awt.event.MouseEvent;
 
 
 /**

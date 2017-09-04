@@ -18,30 +18,19 @@
 */
 package com.rapidminer.operator.tools;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.RapidMiner;
-import com.rapidminer.operator.MailNotSentException;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.ProcessSetupError.Severity;
-import com.rapidminer.operator.SimpleProcessSetupError;
-import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.ports.DummyPortPairExtender;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeText;
-import com.rapidminer.parameter.TextType;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.AboveOperatorVersionCondition;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.MailUtilities;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

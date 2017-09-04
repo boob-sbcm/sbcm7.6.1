@@ -19,7 +19,6 @@
 package com.rapidminer.parameter;
 
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 
 

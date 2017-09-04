@@ -18,15 +18,6 @@
  */
 package com.rapidminer.tools.usagestats;
 
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
-import java.util.logging.Level;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rapidminer.RapidMiner;
@@ -35,6 +26,10 @@ import com.rapidminer.studio.internal.RuleProvider;
 import com.rapidminer.studio.internal.RuleProviderRegistry;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import java.io.InputStream;
+import java.util.*;
+import java.util.logging.Level;
 
 
 /**

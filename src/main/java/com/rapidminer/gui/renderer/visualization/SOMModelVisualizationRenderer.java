@@ -29,7 +29,7 @@ import com.rapidminer.operator.visualization.SOMModelPlotter;
 import com.rapidminer.operator.visualization.SOMModelVisualization.SOMModelVisualizationResult;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

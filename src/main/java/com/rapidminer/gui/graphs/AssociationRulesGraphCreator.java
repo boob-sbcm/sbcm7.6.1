@@ -18,18 +18,6 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.JComponent;
-
-import org.apache.commons.collections15.Factory;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.viewer.AssociationRuleFilter;
 import com.rapidminer.gui.viewer.AssociationRuleFilterListener;
@@ -37,9 +25,12 @@ import com.rapidminer.operator.learner.associations.AssociationRule;
 import com.rapidminer.operator.learner.associations.AssociationRules;
 import com.rapidminer.operator.learner.associations.Item;
 import com.rapidminer.tools.Tools;
-
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.Graph;
+import org.apache.commons.collections15.Factory;
+
+import javax.swing.*;
+import java.util.*;
 
 
 /**

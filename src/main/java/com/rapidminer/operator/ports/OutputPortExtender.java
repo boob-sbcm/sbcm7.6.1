@@ -18,13 +18,13 @@
 */
 package com.rapidminer.operator.ports;
 
-import java.util.List;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.ResultObject;
 import com.rapidminer.operator.ports.metadata.MDTransformationRule;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.OneToManyPassThroughRule;
+
+import java.util.List;
 
 
 /**

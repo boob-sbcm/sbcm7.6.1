@@ -18,15 +18,14 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.io.IOException;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.tools.Tools;
 
-import javax.swing.JEditorPane;
+import javax.swing.*;
 import javax.swing.text.EditorKit;
 import javax.swing.text.html.HTMLEditorKit;
 import javax.swing.text.html.StyleSheet;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.tools.Tools;
+import java.io.IOException;
 
 
 /**

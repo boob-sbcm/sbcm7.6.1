@@ -18,15 +18,7 @@
  */
 package com.rapidminer.operator.preprocessing.sampling;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.logging.Level;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.MappedExampleSet;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.operator.OperatorDescription;
@@ -34,31 +26,23 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ProcessSetupError.Severity;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.annotation.ResourceConsumptionEstimator;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetPrecondition;
-import com.rapidminer.operator.ports.metadata.MDInteger;
-import com.rapidminer.operator.ports.metadata.MetaDataInfo;
-import com.rapidminer.operator.ports.metadata.ParameterConditionedPrecondition;
-import com.rapidminer.operator.ports.metadata.SimpleMetaDataError;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.operator.ports.quickfix.ParameterSettingQuickFix;
 import com.rapidminer.operator.preprocessing.sampling.sequences.AbsoluteSamplingSequenceGenerator;
 import com.rapidminer.operator.preprocessing.sampling.sequences.ProbabilitySamplingSequenceGenerator;
 import com.rapidminer.operator.preprocessing.sampling.sequences.RelativeSamplingSequenceGenerator;
 import com.rapidminer.operator.preprocessing.sampling.sequences.SamplingSequenceGenerator;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

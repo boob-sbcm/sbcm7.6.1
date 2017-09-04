@@ -26,23 +26,14 @@ package com.rapidminer.gui.tools.syntax;
  * package.
  */
 
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
-import java.awt.event.MouseEvent;
+import com.rapidminer.tools.FontTools;
 
-import javax.swing.JComponent;
-import javax.swing.ToolTipManager;
+import javax.swing.*;
 import javax.swing.text.Segment;
 import javax.swing.text.TabExpander;
 import javax.swing.text.Utilities;
-
-import com.rapidminer.tools.FontTools;
+import java.awt.*;
+import java.awt.event.MouseEvent;
 
 
 /**

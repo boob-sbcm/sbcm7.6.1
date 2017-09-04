@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Tools;
@@ -38,6 +34,10 @@ import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
 
 
 /**

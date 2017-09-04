@@ -18,26 +18,6 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-import java.util.LinkedList;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTabbedPane;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingConstants;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.OperatorDocumentationBrowser;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
@@ -52,6 +32,12 @@ import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.operator.learner.CapabilityProvider;
 import com.rapidminer.operator.ports.Port;
 import com.rapidminer.operator.ports.Ports;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
+import java.util.LinkedList;
 
 
 /**

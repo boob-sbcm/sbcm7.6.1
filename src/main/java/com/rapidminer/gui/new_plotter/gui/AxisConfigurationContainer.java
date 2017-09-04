@@ -18,18 +18,6 @@
  */
 package com.rapidminer.gui.new_plotter.gui;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-
-import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JLabel;
-import javax.swing.JSpinner;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
 import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
 import com.rapidminer.gui.new_plotter.data.PlotInstance;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
@@ -38,6 +26,12 @@ import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.tools.FontTools;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

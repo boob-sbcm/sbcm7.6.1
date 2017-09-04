@@ -18,15 +18,14 @@
  */
 package de.dfki.madm.paren.gui.renderer.models;
 
-import java.awt.Component;
-
 import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Reportable;
-
 import de.dfki.madm.paren.operator.learner.functions.neuralnet.AutoMLPImprovedNeuralNetModel;
 import de.dfki.madm.paren.operator.learner.functions.neuralnet.AutoMLPImprovedNeuralNetVisualizer;
+
+import java.awt.*;
 
 
 /**

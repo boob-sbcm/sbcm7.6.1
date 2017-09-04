@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.Icon;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 
 /**

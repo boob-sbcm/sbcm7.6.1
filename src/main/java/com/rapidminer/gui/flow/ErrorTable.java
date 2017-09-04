@@ -18,43 +18,10 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JToggleButton;
-import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableCellRenderer;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.processeditor.ProcessEditor;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceDockKey;
-import com.rapidminer.gui.tools.ResourceMenu;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.gui.tools.ViewToolBar;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessSetupError;
 import com.rapidminer.operator.ports.Port;
@@ -63,6 +30,18 @@ import com.rapidminer.operator.ports.quickfix.QuickFix;
 import com.rapidminer.tools.I18N;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

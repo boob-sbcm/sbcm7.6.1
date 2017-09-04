@@ -18,12 +18,6 @@
 */
 package com.rapidminer.gui.flow.processrendering.background;
 
-import java.awt.BorderLayout;
-import java.awt.Dialog.ModalityType;
-import java.awt.event.ActionEvent;
-
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
 import com.rapidminer.gui.flow.processrendering.view.ProcessRendererView;
@@ -32,6 +26,11 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.repository.MalformedRepositoryLocationException;
 import com.rapidminer.repository.gui.RepositoryLocationChooser;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.Dialog.ModalityType;
+import java.awt.event.ActionEvent;
 
 
 /**

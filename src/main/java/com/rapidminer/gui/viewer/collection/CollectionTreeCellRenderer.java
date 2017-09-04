@@ -18,21 +18,17 @@
 */
 package com.rapidminer.gui.viewer.collection;
 
-import java.awt.Component;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JTree;
-import javax.swing.tree.DefaultTreeCellRenderer;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.IOObjectCollection;
 import com.rapidminer.operator.ResultObject;
 import com.rapidminer.operator.learner.meta.MetaModel;
+
+import javax.swing.*;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

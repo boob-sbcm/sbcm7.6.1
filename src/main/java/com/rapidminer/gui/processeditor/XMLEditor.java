@@ -18,22 +18,6 @@
 */
 package com.rapidminer.gui.processeditor;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-import java.io.IOException;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JToolBar;
-
-import org.fife.ui.rsyntaxtextarea.RSyntaxDocument;
-import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
-import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
-import org.fife.ui.rtextarea.RTextScrollPane;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -46,6 +30,17 @@ import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+import org.fife.ui.rsyntaxtextarea.RSyntaxDocument;
+import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
+import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
+import org.fife.ui.rtextarea.RTextScrollPane;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

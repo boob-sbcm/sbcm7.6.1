@@ -25,15 +25,11 @@ import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
 import com.rapidminer.gui.new_plotter.gui.AttributeDropTextField;
 import com.rapidminer.gui.new_plotter.gui.treenodes.ValueSourceTreeNode;
 
-import java.awt.datatransfer.Transferable;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JTree;
-import javax.swing.TransferHandler;
+import javax.swing.*;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreePath;
+import java.awt.datatransfer.Transferable;
 
 
 /**

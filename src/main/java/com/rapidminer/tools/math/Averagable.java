@@ -18,12 +18,12 @@
 */
 package com.rapidminer.tools.math;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-
 import com.rapidminer.operator.ResultObjectAdapter;
 import com.rapidminer.report.Readable;
 import com.rapidminer.tools.Tools;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
 
 /**

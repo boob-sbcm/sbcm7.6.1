@@ -18,25 +18,6 @@
 */
 package com.rapidminer.gui.plotter;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.ListCellRenderer;
-
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.xy.XYBarRenderer;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.gui.actions.export.PrintableComponent;
 import com.rapidminer.gui.look.Colors;
@@ -47,6 +28,14 @@ import com.rapidminer.gui.plotter.charts.RapidXYBarPainter;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+import org.jfree.chart.renderer.category.BarRenderer;
+import org.jfree.chart.renderer.xy.XYBarRenderer;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
 
 
 /**

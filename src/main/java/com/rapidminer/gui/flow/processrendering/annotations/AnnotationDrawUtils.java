@@ -18,20 +18,18 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations;
 
-import java.io.IOException;
-import java.io.StringWriter;
-
-import javax.swing.JEditorPane;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.html.HTMLDocument;
-
-import org.apache.commons.lang.StringEscapeUtils;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationStyle;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+import org.apache.commons.lang.StringEscapeUtils;
+
+import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.html.HTMLDocument;
+import java.io.IOException;
+import java.io.StringWriter;
 
 
 /**

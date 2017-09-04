@@ -18,15 +18,15 @@
 */
 package com.rapidminer.tools.expression.internal.function.eval;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import com.rapidminer.gui.properties.ExpressionPropertyDialog;
 import com.rapidminer.tools.expression.Constant;
 import com.rapidminer.tools.expression.ExpressionType;
 import com.rapidminer.tools.expression.internal.SimpleConstant;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 /**

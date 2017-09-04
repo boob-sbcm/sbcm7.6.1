@@ -18,9 +18,8 @@
 */
 package com.rapidminer.gui.tools;
 
+import javax.swing.*;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import javax.swing.SwingUtilities;
 
 
 /**

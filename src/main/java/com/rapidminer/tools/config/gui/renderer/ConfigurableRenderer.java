@@ -18,16 +18,12 @@
 */
 package com.rapidminer.tools.config.gui.renderer;
 
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JLabel;
-import javax.swing.JList;
-
 import com.rapidminer.tools.config.AbstractConfigurator;
 import com.rapidminer.tools.config.Configurable;
 import com.rapidminer.tools.config.ConfigurationManager;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

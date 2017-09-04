@@ -18,14 +18,10 @@
 */
 package com.rapidminer.gui.flow.processrendering.view;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-
 import com.rapidminer.gui.flow.processrendering.draw.ProcessDrawDecorator;
 import com.rapidminer.operator.ExecutionUnit;
+
+import java.awt.event.*;
 
 
 /**

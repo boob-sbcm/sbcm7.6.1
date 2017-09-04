@@ -18,10 +18,10 @@
 */
 package com.rapidminer.test_utils;
 
+import com.rapidminer.test.asserter.AsserterFactory;
+
 import java.util.LinkedList;
 import java.util.List;
-
-import com.rapidminer.test.asserter.AsserterFactory;
 
 
 /**

@@ -18,21 +18,17 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.util.Collection;
-import java.util.LinkedList;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.JButton;
-import javax.swing.JTable;
-
 import com.rapidminer.gui.properties.AttributesPropertyDialog;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeAttributes;
 import com.rapidminer.parameter.UndefinedParameterError;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.Collection;
+import java.util.LinkedList;
 
 
 /**

@@ -18,13 +18,6 @@
  */
 package com.rapidminer.gui.flow;
 
-import java.awt.Point;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.stream.Collectors;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.flow.processrendering.model.ProcessRendererModel;
@@ -32,6 +25,13 @@ import com.rapidminer.io.process.ProcessLayoutXMLFilter;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.tools.XMLException;
+
+import java.awt.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**

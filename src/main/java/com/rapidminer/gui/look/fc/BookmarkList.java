@@ -18,27 +18,18 @@
 */
 package com.rapidminer.gui.look.fc;
 
-import java.awt.Color;
-import java.awt.Component;
+import com.rapidminer.gui.look.Colors;
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.gui.tools.SwingTools;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.File;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
-import javax.swing.ListCellRenderer;
-import javax.swing.UIManager;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.SwingTools;
 
 
 /**

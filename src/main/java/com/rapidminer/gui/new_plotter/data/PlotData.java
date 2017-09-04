@@ -18,28 +18,11 @@
 */
 package com.rapidminer.gui.new_plotter.data;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import com.rapidminer.datatable.DataTable;
-import com.rapidminer.datatable.DataTableListener;
-import com.rapidminer.datatable.DataTableView;
-import com.rapidminer.datatable.FilteredDataTable;
-import com.rapidminer.datatable.NominalSortingDataTableMapping;
-import com.rapidminer.datatable.SortedDataTableView;
-import com.rapidminer.datatable.ValueMappingDataTableView;
+import com.rapidminer.datatable.*;
 import com.rapidminer.gui.new_plotter.PlotConfigurationError;
-import com.rapidminer.gui.new_plotter.configuration.DefaultDimensionConfig;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.DomainConfigManager;
 import com.rapidminer.gui.new_plotter.configuration.DomainConfigManager.GroupingState;
-import com.rapidminer.gui.new_plotter.configuration.PlotConfiguration;
-import com.rapidminer.gui.new_plotter.configuration.RangeAxisConfig;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.listener.PlotConfigurationListener;
 import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent;
 import com.rapidminer.gui.new_plotter.listener.events.DimensionConfigChangeEvent.DimensionConfigChangeType;
@@ -48,6 +31,8 @@ import com.rapidminer.gui.new_plotter.listener.events.RangeAxisConfigChangeEvent
 import com.rapidminer.gui.new_plotter.listener.events.ValueSourceChangeEvent;
 import com.rapidminer.gui.new_plotter.utility.NumericalValueRange;
 import com.rapidminer.gui.new_plotter.utility.ValueRange;
+
+import java.util.*;
 
 
 /**

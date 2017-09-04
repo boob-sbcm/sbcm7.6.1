@@ -18,30 +18,9 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Collections;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import javax.swing.event.TableModelEvent;
-import javax.swing.table.AbstractTableModel;
-
 import com.rapidminer.example.set.CustomFilter.CustomFilters;
 import com.rapidminer.gui.properties.tablepanel.TablePanel;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellType;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeComboBox;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeDate;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeDateTime;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeLabel;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeRegex;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldDefault;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldInteger;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldNumerical;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldTime;
+import com.rapidminer.gui.properties.tablepanel.cells.interfaces.*;
 import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
@@ -49,6 +28,13 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.event.TableModelEvent;
+import javax.swing.table.AbstractTableModel;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 /**

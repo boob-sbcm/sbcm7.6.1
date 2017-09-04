@@ -18,9 +18,19 @@
 */
 package com.rapidminer.operator.features.weighting;
 
-import static com.rapidminer.operator.features.weighting.AbstractWeighting.PARAMETER_NORMALIZE_WEIGHTS;
-import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERIA_NAMES;
-import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERION_GAIN_RATIO;
+import com.rapidminer.example.AttributeWeights;
+import com.rapidminer.gui.renderer.RendererService;
+import com.rapidminer.operator.*;
+import com.rapidminer.operator.learner.meta.MetaModel;
+import com.rapidminer.operator.learner.tree.*;
+import com.rapidminer.operator.learner.tree.criterions.AbstractCriterion;
+import com.rapidminer.operator.learner.tree.criterions.Criterion;
+import com.rapidminer.operator.ports.InputPort;
+import com.rapidminer.operator.ports.OutputPort;
+import com.rapidminer.operator.ports.metadata.*;
+import com.rapidminer.parameter.ParameterType;
+import com.rapidminer.parameter.ParameterTypeBoolean;
+import com.rapidminer.parameter.ParameterTypeStringCategory;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -28,31 +38,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.gui.renderer.RendererService;
-import com.rapidminer.operator.Model;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.PortUserError;
-import com.rapidminer.operator.learner.meta.MetaModel;
-import com.rapidminer.operator.learner.tree.ConfigurableRandomForestModel;
-import com.rapidminer.operator.learner.tree.Edge;
-import com.rapidminer.operator.learner.tree.RandomForestModel;
-import com.rapidminer.operator.learner.tree.Tree;
-import com.rapidminer.operator.learner.tree.TreeModel;
-import com.rapidminer.operator.learner.tree.criterions.AbstractCriterion;
-import com.rapidminer.operator.learner.tree.criterions.Criterion;
-import com.rapidminer.operator.ports.InputPort;
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.operator.ports.metadata.CompatibilityLevel;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.ModelMetaData;
-import com.rapidminer.operator.ports.metadata.SimplePrecondition;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
+import static com.rapidminer.operator.features.weighting.AbstractWeighting.PARAMETER_NORMALIZE_WEIGHTS;
+import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERIA_NAMES;
+import static com.rapidminer.operator.learner.tree.AbstractTreeLearner.CRITERION_GAIN_RATIO;
 
 
 /**

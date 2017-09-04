@@ -18,21 +18,9 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
-import com.rapidminer.operator.Annotations;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorVersion;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.io.AbstractDataReader.AttributeColumn;
 import com.rapidminer.operator.io.AbstractExampleSource;
 import com.rapidminer.operator.nio.file.FileInputPortHandler;
@@ -43,21 +31,19 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.operator.ports.metadata.SimplePrecondition;
 import com.rapidminer.operator.preprocessing.filter.AbstractDateDataProcessing;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDateFormat;
-import com.rapidminer.parameter.ParameterTypeFile;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.ParameterTypeTupel;
-import com.rapidminer.parameter.PortProvider;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.BooleanParameterCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.parameter.internal.DataManagementParameterHelper;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.NumberFormat;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,10 +18,10 @@
 */
 package com.rapidminer.tools.config;
 
-import java.util.Map;
-
 import com.rapidminer.repository.internal.remote.RemoteRepository;
 import com.rapidminer.tools.config.gui.ConfigurableDialog;
+
+import java.util.Map;
 
 
 /**

@@ -18,18 +18,6 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-
-import org.w3c.dom.Document;
-import org.xml.sax.SAXException;
-
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.io.process.XMLTools;
 import com.rapidminer.parameter.ParameterHandler;
@@ -42,17 +30,23 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.PasswordInputCanceledException;
 import com.rapidminer.tools.XMLException;
-import com.rapidminer.tools.config.AbstractConfigurable;
-import com.rapidminer.tools.config.AbstractConfigurator;
-import com.rapidminer.tools.config.Configurable;
-import com.rapidminer.tools.config.ConfigurationException;
-import com.rapidminer.tools.config.ConfigurationManager;
+import com.rapidminer.tools.config.*;
 import com.rapidminer.tools.config.actions.ActionResult;
 import com.rapidminer.tools.config.actions.ActionResult.Result;
 import com.rapidminer.tools.config.actions.ConfigurableAction;
 import com.rapidminer.tools.config.actions.SimpleActionResult;
 import com.rapidminer.tools.config.gui.model.ConfigurableModel;
 import com.rapidminer.tools.container.Pair;
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+
+import javax.swing.*;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.logging.Level;
 
 
 /**

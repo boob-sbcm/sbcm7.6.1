@@ -18,11 +18,17 @@
 */
 package com.rapidminer.gui;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.StringWriter;
-import java.util.List;
-import java.util.logging.Level;
+import com.rapidminer.gui.renderer.RendererService;
+import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.operator.IOObject;
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorCreationException;
+import com.rapidminer.operator.OperatorDescription;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.I18N;
+import com.rapidminer.tools.LogService;
+import com.rapidminer.tools.OperatorService;
+import com.rapidminer.tools.Tools;
 
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
@@ -30,29 +36,11 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-
-import com.rapidminer.gui.renderer.RendererService;
-import com.rapidminer.gui.tools.SwingTools;
-import com.rapidminer.operator.IOObject;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorCreationException;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeDouble;
-import com.rapidminer.parameter.ParameterTypeEnumeration;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeLong;
-import com.rapidminer.parameter.ParameterTypeNumber;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.ParameterTypeStringCategory;
-import com.rapidminer.parameter.Parameters;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.OperatorService;
-import com.rapidminer.tools.Tools;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

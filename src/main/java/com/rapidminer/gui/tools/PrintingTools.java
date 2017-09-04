@@ -18,21 +18,6 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.print.PageFormat;
-import java.awt.print.Printable;
-import java.awt.print.PrinterException;
-import java.awt.print.PrinterJob;
-import java.io.File;
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.print.attribute.HashPrintRequestAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.swing.JMenuItem;
-
 import com.rapidminer.gui.Perspective;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.actions.export.PrintableComponent;
@@ -43,6 +28,19 @@ import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.tools.I18N;
 import com.vlsolutions.swing.docking.Dockable;
 import com.vlsolutions.swing.docking.DockableState;
+
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.print.PageFormat;
+import java.awt.print.Printable;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
+import java.io.File;
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -23,23 +23,9 @@ import com.rapidminer.gui.look.borders.DummyBorder;
 import com.rapidminer.gui.look.borders.PopupBorder;
 import com.rapidminer.gui.look.borders.ShadowedPopupMenuBorder;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
-
-import javax.swing.JApplet;
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
-import javax.swing.JMenu;
-import javax.swing.JRootPane;
-import javax.swing.Popup;
-import javax.swing.SwingUtilities;
 
 
 /**

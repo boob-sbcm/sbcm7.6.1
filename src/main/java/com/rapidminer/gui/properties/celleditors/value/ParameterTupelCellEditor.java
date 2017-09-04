@@ -23,18 +23,11 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeTupel;
 
-import java.awt.Component;
-import java.awt.GridLayout;
+import javax.swing.*;
+import javax.swing.plaf.basic.BasicComboBoxEditor;
+import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.ComboBoxEditor;
-import javax.swing.JComboBox;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-import javax.swing.plaf.basic.BasicComboBoxEditor;
 
 
 /**

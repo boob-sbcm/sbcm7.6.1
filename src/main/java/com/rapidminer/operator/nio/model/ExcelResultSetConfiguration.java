@@ -18,21 +18,6 @@
 */
 package com.rapidminer.operator.nio.model;
 
-import static com.rapidminer.operator.nio.ExcelExampleSource.PARAMETER_SHEET_NUMBER;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.util.Map;
-import java.util.zip.ZipFile;
-
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.TableModel;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.xml.sax.SAXException;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.UserError;
@@ -48,10 +33,22 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.io.Encoding;
-
 import jxl.Workbook;
 import jxl.WorkbookSettings;
 import jxl.read.biff.BiffException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.xml.sax.SAXException;
+
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.util.Map;
+import java.util.zip.ZipFile;
+
+import static com.rapidminer.operator.nio.ExcelExampleSource.PARAMETER_SHEET_NUMBER;
 
 
 /**

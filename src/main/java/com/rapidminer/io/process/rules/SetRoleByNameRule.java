@@ -26,7 +26,6 @@ import com.rapidminer.operator.preprocessing.filter.ChangeAttributeRole;
 import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.tools.OperatorService;
 import com.rapidminer.tools.XMLException;
-
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

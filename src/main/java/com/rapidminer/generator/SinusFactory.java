@@ -18,22 +18,16 @@
 */
 package com.rapidminer.generator;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.Statistics;
 import com.rapidminer.operator.OperatorException;
-import com.rapidminer.tools.math.BinaryPeakFinder;
-import com.rapidminer.tools.math.Complex;
-import com.rapidminer.tools.math.FastFourierTransform;
-import com.rapidminer.tools.math.Peak;
-import com.rapidminer.tools.math.PeakFinder;
-import com.rapidminer.tools.math.SpectrumFilter;
-import com.rapidminer.tools.math.WindowFunction;
+import com.rapidminer.tools.math.*;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
 
 
 /**

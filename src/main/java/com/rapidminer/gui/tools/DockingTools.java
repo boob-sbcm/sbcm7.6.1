@@ -18,19 +18,12 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Container;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.RapidMinerGUI;
-import com.vlsolutions.swing.docking.AutoHideExpandPanel;
-import com.vlsolutions.swing.docking.Dockable;
-import com.vlsolutions.swing.docking.DockableContainer;
-import com.vlsolutions.swing.docking.DockableState;
-import com.vlsolutions.swing.docking.RelativeDockablePosition;
-import com.vlsolutions.swing.docking.TabbedDockView;
-import com.vlsolutions.swing.docking.TabbedDockableContainer;
+import com.vlsolutions.swing.docking.*;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

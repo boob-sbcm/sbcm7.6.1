@@ -18,36 +18,6 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.lang.reflect.InvocationTargetException;
-import java.util.List;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JList;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.event.PopupMenuEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.plaf.basic.BasicComboPopup;
-
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.autocomplete.AutoCompleteComboBoxAddition;
 import com.rapidminer.operator.Operator;
@@ -55,6 +25,15 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ProgressListener;
 import com.rapidminer.tools.config.Configurable;
+
+import javax.swing.*;
+import javax.swing.event.PopupMenuEvent;
+import javax.swing.event.PopupMenuListener;
+import javax.swing.plaf.basic.BasicComboPopup;
+import java.awt.*;
+import java.awt.event.*;
+import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 
 
 /**

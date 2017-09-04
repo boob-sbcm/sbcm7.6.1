@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.ExampleSetUtilities;
@@ -33,6 +26,9 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.SimplePredictionModel;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.Tools;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

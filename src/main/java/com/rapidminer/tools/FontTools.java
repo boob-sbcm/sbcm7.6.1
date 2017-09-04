@@ -18,17 +18,15 @@
  */
 package com.rapidminer.tools;
 
-import java.awt.Font;
-import java.awt.GraphicsEnvironment;
+import com.rapidminer.gui.RapidMinerGUI;
+
+import javax.swing.*;
+import javax.swing.plaf.FontUIResource;
+import javax.swing.text.StyleContext;
+import java.awt.*;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Set;
-
-import javax.swing.UIManager;
-import javax.swing.plaf.FontUIResource;
-import javax.swing.text.StyleContext;
-
-import com.rapidminer.gui.RapidMinerGUI;
 
 
 /**

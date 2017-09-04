@@ -18,22 +18,6 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.Condition;
 import com.rapidminer.example.set.ConditionCreationException;
@@ -46,6 +30,13 @@ import com.rapidminer.operator.tools.ExpressionEvaluationException;
 import com.rapidminer.report.Tableable;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.ParameterService;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

@@ -18,9 +18,9 @@
 */
 package com.rapidminer.gui;
 
-import javax.swing.JFrame;
-
 import com.rapidminer.gui.tools.StatusBar;
+
+import javax.swing.*;
 
 
 /**

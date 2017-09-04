@@ -18,12 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter.attributes;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.apache.commons.lang.StringEscapeUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.set.ConditionCreationException;
@@ -36,6 +30,11 @@ import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeString;
 import com.rapidminer.tools.I18N;
+import org.apache.commons.lang.StringEscapeUtils;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

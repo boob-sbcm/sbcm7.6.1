@@ -18,13 +18,12 @@
 */
 package com.rapidminer.gui.plotter.mathplot;
 
-import java.awt.Color;
-
-import org.math.plot.Plot2DPanel;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import org.math.plot.Plot2DPanel;
+
+import java.awt.*;
 
 
 /**

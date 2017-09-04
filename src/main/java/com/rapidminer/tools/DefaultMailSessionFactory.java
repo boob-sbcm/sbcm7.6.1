@@ -18,17 +18,16 @@
  */
 package com.rapidminer.tools;
 
-import java.util.Properties;
-import java.util.logging.Level;
+import com.rapidminer.RapidMiner;
+import com.rapidminer.tools.cipher.CipherException;
+import com.rapidminer.tools.cipher.CipherTools;
 
 import javax.crypto.Cipher;
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
-
-import com.rapidminer.RapidMiner;
-import com.rapidminer.tools.cipher.CipherException;
-import com.rapidminer.tools.cipher.CipherTools;
+import java.util.Properties;
+import java.util.logging.Level;
 
 
 /**

@@ -22,11 +22,10 @@ import com.rapidminer.operator.learner.associations.AssociationRule;
 import com.rapidminer.operator.learner.associations.AssociationRules;
 import com.rapidminer.operator.learner.associations.Item;
 
+import javax.swing.table.AbstractTableModel;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
 
 
 /**

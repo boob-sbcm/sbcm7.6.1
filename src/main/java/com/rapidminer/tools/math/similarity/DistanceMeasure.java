@@ -18,8 +18,6 @@
 */
 package com.rapidminer.tools.math.similarity;
 
-import java.io.Serializable;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -29,6 +27,8 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.ports.InputPorts;
 import com.rapidminer.parameter.ParameterHandler;
 import com.rapidminer.tools.ReferenceCache;
+
+import java.io.Serializable;
 
 
 /**

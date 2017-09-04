@@ -18,19 +18,13 @@
 */
 package com.rapidminer.gui.look.borders;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Insets;
+import com.rapidminer.gui.look.RoundedPopupFactory;
 
-import javax.swing.JComponent;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.border.AbstractBorder;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.UIResource;
-
-import com.rapidminer.gui.look.RoundedPopupFactory;
+import java.awt.*;
 
 
 /**

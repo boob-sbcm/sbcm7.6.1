@@ -18,12 +18,12 @@
 */
 package com.rapidminer.example.table;
 
-import java.util.Date;
-
 import com.rapidminer.example.MinMaxStatistics;
 import com.rapidminer.example.UnknownStatistics;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.Date;
 
 
 /**

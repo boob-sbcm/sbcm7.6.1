@@ -18,12 +18,6 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.Process;
 import com.rapidminer.ProcessLocation;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -31,6 +25,11 @@ import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.DecisionRememberingConfirmDialog;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 
 
 /**

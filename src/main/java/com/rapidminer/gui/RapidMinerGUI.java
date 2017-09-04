@@ -18,44 +18,8 @@
  */
 package com.rapidminer.gui;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.GraphicsEnvironment;
-import java.awt.Toolkit;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.security.Policy;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.logging.Level;
-
-import javax.swing.SwingUtilities;
-import javax.swing.ToolTipManager;
-import javax.swing.UIManager;
-
-import com.rapidminer.FileProcessLocation;
-import com.rapidminer.NoOpUserError;
+import com.rapidminer.*;
 import com.rapidminer.Process;
-import com.rapidminer.ProcessLocation;
-import com.rapidminer.RapidMiner;
-import com.rapidminer.RepositoryProcessLocation;
 import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
 import com.rapidminer.gui.actions.OpenAction;
 import com.rapidminer.gui.autosave.AutoSave;
@@ -89,16 +53,9 @@ import com.rapidminer.studio.io.data.internal.file.LocalFileDataSourceFactory;
 import com.rapidminer.studio.io.data.internal.file.binary.BinaryDataSourceFactory;
 import com.rapidminer.studio.io.data.internal.file.csv.CSVDataSourceFactory;
 import com.rapidminer.studio.io.data.internal.file.excel.ExcelDataSourceFactory;
-import com.rapidminer.tools.FileSystemService;
-import com.rapidminer.tools.FontTools;
-import com.rapidminer.tools.I18N;
-import com.rapidminer.tools.LaunchListener;
+import com.rapidminer.tools.*;
 import com.rapidminer.tools.LaunchListener.RemoteControlHandler;
-import com.rapidminer.tools.LogService;
-import com.rapidminer.tools.ParameterService;
-import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
-import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.plugin.Plugin;
 import com.rapidminer.tools.update.internal.UpdateManagerRegistry;
 import com.rapidminer.tools.usagestats.CallToActionScheduler;
@@ -106,6 +63,17 @@ import com.rapidminer.tools.usagestats.UsageStatistics;
 import com.rapidminer.tools.usagestats.UsageStatsTransmissionDialog;
 import com.vlsolutions.swing.docking.DockableContainerFactory;
 import com.vlsolutions.swing.docking.ui.DockingUISettings;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.security.Policy;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

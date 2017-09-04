@@ -18,31 +18,20 @@
 */
 package com.rapidminer.gui.attributeeditor;
 
-import java.awt.BorderLayout;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
-import java.io.File;
-
-import javax.swing.Action;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JOptionPane;
-import javax.swing.JToolBar;
-
 import com.rapidminer.gui.ApplicationFrame;
-import com.rapidminer.gui.attributeeditor.actions.ClearAction;
-import com.rapidminer.gui.attributeeditor.actions.CloseAction;
-import com.rapidminer.gui.attributeeditor.actions.LoadDataAction;
-import com.rapidminer.gui.attributeeditor.actions.LoadSeriesDataAction;
-import com.rapidminer.gui.attributeeditor.actions.OpenAttributeFileAction;
-import com.rapidminer.gui.attributeeditor.actions.SaveAttributeFileAction;
-import com.rapidminer.gui.attributeeditor.actions.SaveDataAction;
+import com.rapidminer.gui.attributeeditor.actions.*;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.gui.tools.ExtendedJToolBar;
 import com.rapidminer.gui.tools.ResourceMenu;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.io.File;
 
 
 /**

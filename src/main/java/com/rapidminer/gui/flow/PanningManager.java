@@ -18,18 +18,12 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.AWTEvent;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.AWTEventListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
-
-import javax.swing.JComponent;
-import javax.swing.SwingUtilities;
-import javax.swing.Timer;
 
 
 /**

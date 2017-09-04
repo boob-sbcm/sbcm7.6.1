@@ -18,22 +18,21 @@
 */
 package com.rapidminer.gui.operatortree;
 
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.JOptionPane;
-import javax.swing.event.EventListenerList;
-import javax.swing.event.TreeModelEvent;
-import javax.swing.event.TreeModelListener;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-
 import com.rapidminer.ProcessSetupListener;
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 import com.rapidminer.tools.LogService;
+
+import javax.swing.*;
+import javax.swing.event.EventListenerList;
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

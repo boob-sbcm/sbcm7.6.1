@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -33,16 +29,14 @@ import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.metadata.AttributeSetPrecondition;
 import com.rapidminer.operator.ports.metadata.ParameterConditionedPrecondition;
 import com.rapidminer.operator.ports.metadata.PassThroughRule;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeAttribute;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.ParameterTypeList;
-import com.rapidminer.parameter.ParameterTypeString;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

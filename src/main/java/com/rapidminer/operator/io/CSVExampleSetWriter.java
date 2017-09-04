@@ -18,14 +18,6 @@
 */
 package com.rapidminer.operator.io;
 
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.sql.Date;
-import java.text.DateFormat;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -41,6 +33,14 @@ import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.parameter.conditions.PortConnectedCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.io.Encoding;
+
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.sql.Date;
+import java.text.DateFormat;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

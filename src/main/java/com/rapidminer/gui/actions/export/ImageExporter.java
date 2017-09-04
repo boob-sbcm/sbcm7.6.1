@@ -18,22 +18,6 @@
 */
 package com.rapidminer.gui.actions.export;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
-import javax.imageio.ImageIO;
-
-import org.freehep.graphics2d.VectorGraphics;
-import org.freehep.graphicsio.ps.PSGraphics2D;
-import org.freehep.graphicsio.svg.SVGGraphics2D;
-
 import com.lowagie.text.Document;
 import com.lowagie.text.Rectangle;
 import com.lowagie.text.pdf.DefaultFontMapper;
@@ -42,6 +26,16 @@ import com.lowagie.text.pdf.PdfTemplate;
 import com.lowagie.text.pdf.PdfWriter;
 import com.rapidminer.gui.tools.PrintingTools;
 import com.rapidminer.tools.I18N;
+import org.freehep.graphics2d.VectorGraphics;
+import org.freehep.graphicsio.ps.PSGraphics2D;
+import org.freehep.graphicsio.svg.SVGGraphics2D;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 
 /**

@@ -18,14 +18,14 @@
  */
 package com.rapidminer.gui.plotter;
 
-import java.awt.Color;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.parameter.ParameterTypeColor;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.parameter.ParameterChangeListener;
+
+import java.awt.*;
 
 
 /**

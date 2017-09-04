@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.meta;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -28,6 +25,9 @@ import com.rapidminer.operator.Model;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.Tools;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

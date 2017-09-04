@@ -18,17 +18,14 @@
 */
 package com.rapidminer.gui.graphs;
 
-import javax.swing.DefaultListModel;
-import javax.swing.JComponent;
-import javax.swing.JList;
-import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
 import com.rapidminer.ObjectVisualizer;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.operator.clustering.HierarchicalClusterNode;
 import com.rapidminer.tools.ObjectVisualizerService;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 
 /**

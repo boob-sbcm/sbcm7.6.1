@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.generator;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
@@ -33,11 +30,7 @@ import com.rapidminer.example.utils.ExampleSets;
 import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.io.AbstractExampleSource;
-import com.rapidminer.operator.ports.metadata.AttributeMetaData;
-import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
-import com.rapidminer.operator.ports.metadata.MDReal;
-import com.rapidminer.operator.ports.metadata.MetaData;
-import com.rapidminer.operator.ports.metadata.SetRelation;
+import com.rapidminer.operator.ports.metadata.*;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeBoolean;
 import com.rapidminer.parameter.ParameterTypeDouble;
@@ -46,6 +39,9 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.container.Range;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

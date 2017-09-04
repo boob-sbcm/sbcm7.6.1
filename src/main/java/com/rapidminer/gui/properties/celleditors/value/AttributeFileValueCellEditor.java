@@ -18,18 +18,16 @@
 */
 package com.rapidminer.gui.properties.celleditors.value;
 
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.io.File;
-
-import javax.swing.JButton;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.attributeeditor.AttributeEditorDialog;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.parameter.ParameterTypeAttributeFile;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.io.File;
 
 
 /**

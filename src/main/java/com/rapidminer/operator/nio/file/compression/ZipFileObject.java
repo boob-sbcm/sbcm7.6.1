@@ -18,6 +18,11 @@
 */
 package com.rapidminer.operator.nio.file.compression;
 
+import com.rapidminer.operator.OperatorException;
+import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.nio.file.FileObject;
+import com.rapidminer.tools.Tools;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashSet;
@@ -26,11 +31,6 @@ import java.util.zip.Deflater;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipOutputStream;
-
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.UserError;
-import com.rapidminer.operator.nio.file.FileObject;
-import com.rapidminer.tools.Tools;
 
 
 /**

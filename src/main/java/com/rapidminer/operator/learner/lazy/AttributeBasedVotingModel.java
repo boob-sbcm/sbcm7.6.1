@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.learner.lazy;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -30,6 +27,9 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.operator.learner.meta.Vote;
 import com.rapidminer.tools.Tools;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

@@ -23,9 +23,8 @@ import com.rapidminer.gui.tools.dialogs.wizards.AbstractWizard.WizardStepDirecti
 import com.rapidminer.gui.tools.dialogs.wizards.dataimport.FileSelectionWizardStep;
 import com.rapidminer.operator.nio.model.CSVResultSetConfiguration;
 
-import java.io.File;
-
 import javax.swing.filechooser.FileFilter;
+import java.io.File;
 
 
 /**

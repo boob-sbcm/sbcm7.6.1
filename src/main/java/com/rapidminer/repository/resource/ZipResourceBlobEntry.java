@@ -18,6 +18,10 @@
 */
 package com.rapidminer.repository.resource;
 
+import com.rapidminer.repository.BlobEntry;
+import com.rapidminer.repository.RepositoryException;
+import com.rapidminer.tools.LogService;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -25,10 +29,6 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-
-import com.rapidminer.repository.BlobEntry;
-import com.rapidminer.repository.RepositoryException;
-import com.rapidminer.tools.LogService;
 
 
 /**

@@ -21,15 +21,10 @@ package com.rapidminer.gui.look.ui;
 import com.rapidminer.gui.look.InternalFrameTitlePane;
 import com.rapidminer.gui.look.borders.Borders;
 
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Insets;
-import java.awt.LayoutManager;
-
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
+import java.awt.*;
 
 
 /**

@@ -18,52 +18,6 @@
  */
 package com.rapidminer.gui.tools.bubble;
 
-import java.awt.BasicStroke;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GraphicsDevice;
-import java.awt.GraphicsEnvironment;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.RenderingHints;
-import java.awt.Shape;
-import java.awt.Window;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.GeneralPath;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.AbstractButton;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
-import javax.swing.event.MouseInputAdapter;
-
 import com.rapidminer.gui.Perspective;
 import com.rapidminer.gui.PerspectiveChangeListener;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -75,12 +29,17 @@ import com.rapidminer.tools.LogService;
 import com.vlsolutions.swing.docking.Dockable;
 import com.vlsolutions.swing.docking.DockableState;
 import com.vlsolutions.swing.docking.DockingDesktop;
-import com.vlsolutions.swing.docking.event.DockableSelectionEvent;
-import com.vlsolutions.swing.docking.event.DockableSelectionListener;
-import com.vlsolutions.swing.docking.event.DockableStateChangeEvent;
-import com.vlsolutions.swing.docking.event.DockableStateChangeListener;
-import com.vlsolutions.swing.docking.event.DockingActionEvent;
-import com.vlsolutions.swing.docking.event.DockingActionListener;
+import com.vlsolutions.swing.docking.event.*;
+
+import javax.swing.*;
+import javax.swing.event.MouseInputAdapter;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.GeneralPath;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

@@ -18,18 +18,14 @@
 */
 package com.rapidminer.operator;
 
+import com.rapidminer.operator.ports.OutputPort;
+import com.rapidminer.parameter.*;
+import com.rapidminer.tools.OperatorService;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import com.rapidminer.operator.ports.OutputPort;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeCategory;
-import com.rapidminer.parameter.ParameterTypeInt;
-import com.rapidminer.parameter.UndefinedParameterError;
-import com.rapidminer.tools.OperatorService;
 
 
 /**

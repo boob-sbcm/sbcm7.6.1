@@ -18,17 +18,8 @@
 */
 package com.rapidminer.datatable;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import com.rapidminer.ObjectVisualizer;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.AttributeTypeException;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SplittedExampleSet;
 import com.rapidminer.example.table.AttributeFactory;
 import com.rapidminer.example.utils.ExampleSetBuilder;
@@ -38,6 +29,10 @@ import com.rapidminer.operator.UserError;
 import com.rapidminer.tools.ObjectVisualizerService;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.ParameterService;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

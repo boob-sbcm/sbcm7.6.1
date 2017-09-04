@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.clustering;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.Example;
@@ -34,6 +31,9 @@ import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.Tools;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 /**

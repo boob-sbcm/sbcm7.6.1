@@ -22,10 +22,9 @@ import com.rapidminer.gui.viewer.metadata.dialogs.NominalValueDialog;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.container.ValueAndCount;
 
-import java.util.List;
-
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
+import java.util.List;
 
 
 /**

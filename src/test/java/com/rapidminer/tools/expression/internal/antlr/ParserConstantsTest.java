@@ -18,23 +18,12 @@
 */
 package com.rapidminer.tools.expression.internal.antlr;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import org.junit.Test;
-
-import com.rapidminer.tools.expression.Expression;
-import com.rapidminer.tools.expression.ExpressionException;
-import com.rapidminer.tools.expression.ExpressionParser;
-import com.rapidminer.tools.expression.ExpressionParserBuilder;
-import com.rapidminer.tools.expression.ExpressionRegistry;
-import com.rapidminer.tools.expression.ExpressionType;
-import com.rapidminer.tools.expression.UnknownValue;
+import com.rapidminer.tools.expression.*;
 import com.rapidminer.tools.expression.internal.ExpressionParserConstants;
 import com.rapidminer.tools.expression.internal.StandardFunctionsWithConstants;
-import com.rapidminer.tools.expression.internal.antlr.AntlrParser;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 
 /**

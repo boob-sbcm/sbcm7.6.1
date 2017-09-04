@@ -18,9 +18,7 @@
 */
 package com.rapidminer.gui.new_plotter.engine.jfreechart.legend;
 
-import java.awt.Paint;
-import java.awt.Shape;
-import java.awt.Stroke;
+import java.awt.*;
 import java.text.AttributedString;
 
 

@@ -18,20 +18,16 @@
 */
 package com.rapidminer.example.set;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeRole;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.SimpleAttributes;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.DataRow;
 import com.rapidminer.example.table.ExampleTable;
 import com.rapidminer.example.table.MemoryExampleTable;
 import com.rapidminer.example.table.internal.ColumnarExampleTable;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
 /**

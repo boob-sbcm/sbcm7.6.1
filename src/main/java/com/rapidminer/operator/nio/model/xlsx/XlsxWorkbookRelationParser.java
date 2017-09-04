@@ -18,22 +18,16 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookParser.XlsxWorkbookSheet;
 import com.rapidminer.operator.nio.model.xlsx.XlsxWorkbookRelationParser.XlsxWorkbookRel;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+
+import java.util.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
 
 /**

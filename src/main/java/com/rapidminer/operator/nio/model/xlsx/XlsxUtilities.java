@@ -18,14 +18,12 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import java.util.Locale;
-
-import javax.xml.stream.XMLStreamReader;
-
+import com.rapidminer.operator.nio.ImportWizardUtils;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.AttributesImpl;
 
-import com.rapidminer.operator.nio.ImportWizardUtils;
+import javax.xml.stream.XMLStreamReader;
+import java.util.Locale;
 
 
 /**

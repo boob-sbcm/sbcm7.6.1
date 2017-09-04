@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.awt.event.ActionEvent;
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.Collections;
-import java.util.List;
-import java.util.logging.Level;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
@@ -39,6 +32,13 @@ import com.rapidminer.parameter.ParameterTypeLinkButton;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.update.internal.UpdateManagerRegistry;
+
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.util.Collections;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

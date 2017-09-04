@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -31,6 +29,7 @@ import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.operator.preprocessing.AbstractValueProcessing;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.math.container.Range;
+import org.apache.commons.lang.ArrayUtils;
 
 
 /**

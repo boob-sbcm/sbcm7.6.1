@@ -18,19 +18,15 @@
 */
 package com.rapidminer.operator;
 
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.ports.DummyPortPairExtender;
 import com.rapidminer.operator.ports.OutputPort;
 import com.rapidminer.operator.ports.PortPairExtender;
 import com.rapidminer.operator.ports.metadata.MDTransformationRule;
 import com.rapidminer.operator.ports.metadata.MetaDataFactory;
-import com.rapidminer.parameter.IOObjectCacheSuggestionProvider;
-import com.rapidminer.parameter.ParameterType;
-import com.rapidminer.parameter.ParameterTypeBoolean;
-import com.rapidminer.parameter.ParameterTypeSuggestion;
-import com.rapidminer.parameter.UndefinedParameterError;
+import com.rapidminer.parameter.*;
+
+import java.util.List;
 
 
 /**

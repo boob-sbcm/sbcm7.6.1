@@ -18,11 +18,11 @@
 */
 package com.rapidminer.example.table;
 
-import java.util.logging.Level;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
+
+import java.util.logging.Level;
 
 
 /**

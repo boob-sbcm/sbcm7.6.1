@@ -18,19 +18,12 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
 import javax.accessibility.Accessible;
-import javax.swing.ComboBoxModel;
-import javax.swing.JComboBox;
-import javax.swing.JList;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
+import javax.swing.*;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
+import java.awt.*;
 
 
 /**

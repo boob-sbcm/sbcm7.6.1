@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator.learner.functions.kernel.hyperhyper;
 
-import java.util.Iterator;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
@@ -32,6 +30,8 @@ import com.rapidminer.operator.OperatorProgress;
 import com.rapidminer.operator.UserError;
 import com.rapidminer.operator.learner.PredictionModel;
 import com.rapidminer.tools.Tools;
+
+import java.util.Iterator;
 
 
 /**

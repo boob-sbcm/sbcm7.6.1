@@ -30,15 +30,13 @@ import com.rapidminer.gui.new_plotter.gui.treenodes.DimensionConfigTreeNode;
 import com.rapidminer.gui.new_plotter.listener.PlotInstanceChangedListener;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
 
-import java.awt.CardLayout;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.swing.JPanel;
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreePath;
+import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

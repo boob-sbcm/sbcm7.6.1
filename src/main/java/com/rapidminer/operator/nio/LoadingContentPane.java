@@ -22,10 +22,8 @@ import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ProgressThreadListener;
 import com.rapidminer.gui.tools.ResourceLabel;
 
-import java.awt.CardLayout;
-
-import javax.swing.JComponent;
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

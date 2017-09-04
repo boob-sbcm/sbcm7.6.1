@@ -18,28 +18,6 @@
 */
 package com.rapidminer.gui.dialog;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.swing.AbstractButton;
-import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.ResourceActionAdapter;
 import com.rapidminer.gui.tools.ResourceLabel;
@@ -48,6 +26,14 @@ import com.rapidminer.gui.tools.dialogs.ButtonDialog;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.Tools;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**

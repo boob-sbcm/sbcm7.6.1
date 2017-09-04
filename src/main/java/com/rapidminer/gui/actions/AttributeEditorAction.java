@@ -18,14 +18,14 @@
 */
 package com.rapidminer.gui.actions;
 
-import java.awt.event.ActionEvent;
-
 import com.rapidminer.gui.attributeeditor.AttributeEditorDialog;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.operator.OperatorCreationException;
 import com.rapidminer.operator.io.ExampleSource;
 import com.rapidminer.tools.OperatorService;
+
+import java.awt.event.ActionEvent;
 
 
 /**

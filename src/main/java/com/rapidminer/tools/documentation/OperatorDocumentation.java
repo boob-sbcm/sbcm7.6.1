@@ -18,17 +18,12 @@
 */
 package com.rapidminer.tools.documentation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
+import com.rapidminer.Process;
+import com.rapidminer.io.process.XMLTools;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import com.rapidminer.Process;
-import com.rapidminer.io.process.XMLTools;
+import java.util.*;
 
 
 /**

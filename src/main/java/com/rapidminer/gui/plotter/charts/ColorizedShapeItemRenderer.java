@@ -19,11 +19,6 @@
 package com.rapidminer.gui.plotter.charts;
 
 import com.rapidminer.gui.plotter.ColorProvider;
-
-import java.awt.Graphics2D;
-import java.awt.Shape;
-import java.awt.geom.Rectangle2D;
-
 import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.entity.EntityCollection;
 import org.jfree.chart.plot.CrosshairState;
@@ -35,6 +30,9 @@ import org.jfree.chart.renderer.xy.XYShapeRenderer;
 import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYZDataset;
 import org.jfree.util.ShapeUtilities;
+
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
 
 
 /**

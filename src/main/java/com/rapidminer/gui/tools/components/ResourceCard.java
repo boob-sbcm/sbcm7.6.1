@@ -18,11 +18,10 @@
 */
 package com.rapidminer.gui.tools.components;
 
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
 
 
 /**

@@ -21,14 +21,9 @@ package com.rapidminer.gui.dialog;
 import com.rapidminer.example.AttributeWeights;
 import com.rapidminer.gui.properties.celleditors.value.PropertyValueCellEditor;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
+import java.util.*;
 
 
 /**

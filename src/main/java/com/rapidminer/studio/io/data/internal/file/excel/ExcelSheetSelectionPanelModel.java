@@ -18,15 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.swing.JTable;
-import javax.swing.table.TableModel;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.model.ParseException;
@@ -35,8 +26,14 @@ import com.rapidminer.operator.nio.model.xlsx.XlsxSheetMetaDataParser;
 import com.rapidminer.operator.nio.model.xlsx.XlsxSheetTableModel;
 import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
-
 import jxl.read.biff.BiffException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
+import javax.swing.*;
+import javax.swing.table.TableModel;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**

@@ -20,10 +20,8 @@ package com.rapidminer.gui.plotter;
 
 import com.rapidminer.datatable.DataTable;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-
-import javax.swing.JComponent;
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

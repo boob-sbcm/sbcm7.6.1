@@ -25,25 +25,13 @@ import com.rapidminer.gui.new_plotter.listener.PlotInstanceChangedListener;
 import com.rapidminer.gui.new_plotter.listener.events.PlotConfigurationChangeEvent;
 import com.rapidminer.gui.tools.SwingTools;
 
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.RenderingHints;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JSeparator;
-import javax.swing.SwingConstants;
 
 
 /**

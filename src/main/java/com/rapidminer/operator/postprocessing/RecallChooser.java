@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.postprocessing;
 
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SortedExampleSet;
 import com.rapidminer.example.table.NominalMapping;
 import com.rapidminer.operator.Operator;

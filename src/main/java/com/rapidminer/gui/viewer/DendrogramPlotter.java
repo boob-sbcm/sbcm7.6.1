@@ -24,10 +24,7 @@ import com.rapidminer.operator.clustering.HierarchicalClusterModel;
 import com.rapidminer.operator.clustering.HierarchicalClusterNode;
 import com.rapidminer.report.Renderable;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
+import java.awt.*;
 
 
 /**

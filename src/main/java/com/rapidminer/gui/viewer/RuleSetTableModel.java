@@ -20,16 +20,7 @@ package com.rapidminer.gui.viewer;
 
 import com.rapidminer.operator.learner.subgroups.RuleSet;
 import com.rapidminer.operator.learner.subgroups.hypothesis.Rule;
-import com.rapidminer.operator.learner.subgroups.utility.Accuracy;
-import com.rapidminer.operator.learner.subgroups.utility.Bias;
-import com.rapidminer.operator.learner.subgroups.utility.Binomial;
-import com.rapidminer.operator.learner.subgroups.utility.Coverage;
-import com.rapidminer.operator.learner.subgroups.utility.Lift;
-import com.rapidminer.operator.learner.subgroups.utility.Odds;
-import com.rapidminer.operator.learner.subgroups.utility.OddsRatio;
-import com.rapidminer.operator.learner.subgroups.utility.Precision;
-import com.rapidminer.operator.learner.subgroups.utility.Squared;
-import com.rapidminer.operator.learner.subgroups.utility.WRAcc;
+import com.rapidminer.operator.learner.subgroups.utility.*;
 
 import javax.swing.table.AbstractTableModel;
 

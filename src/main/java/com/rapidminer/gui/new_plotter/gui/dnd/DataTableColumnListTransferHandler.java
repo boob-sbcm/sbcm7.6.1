@@ -21,15 +21,11 @@ package com.rapidminer.gui.new_plotter.gui.dnd;
 import com.rapidminer.gui.dnd.AbstractPatchedTransferHandler;
 import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
 
+import javax.swing.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.Transferable;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.Icon;
-import javax.swing.JComponent;
-import javax.swing.JList;
-import javax.swing.TransferHandler;
 
 
 /**

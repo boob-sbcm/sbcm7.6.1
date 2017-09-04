@@ -18,15 +18,14 @@
 */
 package com.rapidminer.gui.properties;
 
+import com.rapidminer.operator.Operator;
+import com.rapidminer.operator.OperatorVersion;
+
+import javax.swing.*;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.AbstractSpinnerModel;
-
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorVersion;
 
 
 /**

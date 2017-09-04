@@ -18,12 +18,10 @@
 */
 package com.rapidminer.gui.flow.processrendering.annotations.model;
 
-import java.awt.Point;
-import java.awt.Polygon;
-import java.awt.Shape;
-import java.awt.geom.Rectangle2D;
-
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationDrawUtils;
+
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
 
 
 /**

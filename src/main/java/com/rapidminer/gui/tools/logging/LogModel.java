@@ -18,14 +18,13 @@
 */
 package com.rapidminer.gui.tools.logging;
 
-import java.util.List;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.ProgressListener;
+
+import javax.swing.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

@@ -22,7 +22,7 @@ import com.rapidminer.gui.new_plotter.engine.jfreechart.JFreeChartPlotEngine;
 import com.rapidminer.gui.new_plotter.gui.dialog.AddParallelLineDialog;
 import com.rapidminer.gui.tools.ResourceAction;
 
-import java.awt.Point;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 
 

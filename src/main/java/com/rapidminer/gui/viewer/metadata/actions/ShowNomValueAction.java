@@ -18,15 +18,14 @@
 */
 package com.rapidminer.gui.viewer.metadata.actions;
 
-import java.awt.event.ActionEvent;
-
-import javax.swing.JComponent;
-
 import com.rapidminer.gui.ApplicationFrame;
 import com.rapidminer.gui.tools.ResourceAction;
 import com.rapidminer.gui.viewer.metadata.AttributeStatisticsPanel;
 import com.rapidminer.gui.viewer.metadata.dialogs.NominalValueDialog;
 import com.rapidminer.gui.viewer.metadata.model.NominalAttributeStatisticsModel;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 
 /**

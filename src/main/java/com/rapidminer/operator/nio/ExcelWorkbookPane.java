@@ -18,27 +18,17 @@
 */
 package com.rapidminer.operator.nio;
 
-import java.awt.BorderLayout;
-import java.io.IOException;
-
-import javax.swing.JPanel;
-import javax.swing.JTabbedPane;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ExtendedJTabbedPane;
-import com.rapidminer.gui.tools.ExtendedJTable;
-import com.rapidminer.gui.tools.ProgressThread;
-import com.rapidminer.gui.tools.ResourceLabel;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.operator.nio.model.ExcelResultSetConfiguration;
 import com.rapidminer.operator.nio.model.ParseException;
 import com.rapidminer.operator.nio.model.xlsx.XlsxResultSet.XlsxReadMode;
-
 import jxl.read.biff.BiffException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.IOException;
 
 
 /**

@@ -18,10 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.operator.OperatorDescription;
@@ -35,6 +31,10 @@ import com.rapidminer.parameter.UndefinedParameterError;
 import com.rapidminer.parameter.conditions.EqualTypeCondition;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 
 /**

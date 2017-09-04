@@ -18,6 +18,15 @@
 */
 package com.rapidminer.studio.io.data.internal.file;
 
+import com.rapidminer.core.io.data.source.DataSourceFactory;
+import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
+import com.rapidminer.core.io.data.source.FileDataSource;
+import com.rapidminer.core.io.data.source.FileDataSourceFactory;
+import com.rapidminer.core.io.gui.ImportWizard;
+import com.rapidminer.core.io.gui.WizardStep;
+import com.rapidminer.tools.container.Pair;
+import org.apache.tika.Tika;
+
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
@@ -26,16 +35,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import org.apache.tika.Tika;
-
-import com.rapidminer.core.io.data.source.DataSourceFactory;
-import com.rapidminer.core.io.data.source.DataSourceFactoryRegistry;
-import com.rapidminer.core.io.data.source.FileDataSource;
-import com.rapidminer.core.io.data.source.FileDataSourceFactory;
-import com.rapidminer.core.io.gui.ImportWizard;
-import com.rapidminer.core.io.gui.WizardStep;
-import com.rapidminer.tools.container.Pair;
 
 
 /**

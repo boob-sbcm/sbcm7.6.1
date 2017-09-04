@@ -18,47 +18,6 @@
 */
 package com.rapidminer.gui.properties;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.StringReader;
-import java.net.URL;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
-import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.Icon;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSpinner;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingConstants;
-import javax.swing.border.Border;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.XMLStreamReader;
-import javax.xml.transform.Source;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.stream.StreamSource;
-
-import org.apache.commons.lang.StringEscapeUtils;
-import org.xml.sax.Attributes;
-import org.xml.sax.helpers.AttributesImpl;
-
 import com.rapidminer.Process;
 import com.rapidminer.gui.MainFrame;
 import com.rapidminer.gui.OperatorDocToHtmlConverter;
@@ -68,11 +27,7 @@ import com.rapidminer.gui.actions.ToggleExpertModeAction;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.processeditor.ProcessEditor;
 import com.rapidminer.gui.properties.celleditors.value.PropertyValueCellEditor;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.gui.tools.ResourceDockKey;
-import com.rapidminer.gui.tools.ResourceLabel;
-import com.rapidminer.gui.tools.SwingTools;
+import com.rapidminer.gui.tools.*;
 import com.rapidminer.gui.tools.components.LinkLocalButton;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorVersion;
@@ -84,6 +39,30 @@ import com.rapidminer.tools.Observer;
 import com.rapidminer.tools.PlatformUtilities;
 import com.vlsolutions.swing.docking.DockKey;
 import com.vlsolutions.swing.docking.Dockable;
+import org.apache.commons.lang.StringEscapeUtils;
+import org.xml.sax.Attributes;
+import org.xml.sax.helpers.AttributesImpl;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
+import javax.xml.transform.Source;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.stream.StreamSource;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.StringReader;
+import java.net.URL;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 /**

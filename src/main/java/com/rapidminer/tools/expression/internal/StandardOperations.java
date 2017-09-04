@@ -18,27 +18,17 @@
 */
 package com.rapidminer.tools.expression.internal;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import com.rapidminer.tools.expression.Constant;
 import com.rapidminer.tools.expression.ExpressionParserModule;
 import com.rapidminer.tools.expression.Function;
-import com.rapidminer.tools.expression.internal.function.basic.Divide;
-import com.rapidminer.tools.expression.internal.function.basic.Minus;
-import com.rapidminer.tools.expression.internal.function.basic.Modulus;
-import com.rapidminer.tools.expression.internal.function.basic.Multiply;
-import com.rapidminer.tools.expression.internal.function.basic.Plus;
-import com.rapidminer.tools.expression.internal.function.basic.Power;
-import com.rapidminer.tools.expression.internal.function.comparison.Equals;
-import com.rapidminer.tools.expression.internal.function.comparison.GreaterEqualThan;
-import com.rapidminer.tools.expression.internal.function.comparison.GreaterThan;
-import com.rapidminer.tools.expression.internal.function.comparison.LessEqualThan;
-import com.rapidminer.tools.expression.internal.function.comparison.LessThan;
-import com.rapidminer.tools.expression.internal.function.comparison.NotEquals;
+import com.rapidminer.tools.expression.internal.function.basic.*;
+import com.rapidminer.tools.expression.internal.function.comparison.*;
 import com.rapidminer.tools.expression.internal.function.logical.And;
 import com.rapidminer.tools.expression.internal.function.logical.Not;
 import com.rapidminer.tools.expression.internal.function.logical.Or;
+
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

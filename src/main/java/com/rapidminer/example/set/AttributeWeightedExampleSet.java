@@ -20,12 +20,7 @@ package com.rapidminer.example.set;
 
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableExampleSetAdapter;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.AttributeTransformation;
-import com.rapidminer.example.AttributeWeights;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.*;
 import com.rapidminer.example.table.ExampleTable;
 import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.IOContainer;

@@ -18,33 +18,22 @@
  */
 package com.rapidminer.example.utils;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.rapidminer.RapidMiner;
+import com.rapidminer.example.Attribute;
+import com.rapidminer.example.Attributes;
+import com.rapidminer.example.ExampleSet;
+import com.rapidminer.example.table.*;
+import com.rapidminer.example.test.ExampleTestTools;
+import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
+import com.rapidminer.tools.ParameterService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.rapidminer.RapidMiner;
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.table.DataRow;
-import com.rapidminer.example.table.DataRowFactory;
-import com.rapidminer.example.table.DataRowReader;
-import com.rapidminer.example.table.DoubleArrayDataRow;
-import com.rapidminer.example.table.GrowingExampleTable;
-import com.rapidminer.example.table.IntArrayDataRow;
-import com.rapidminer.example.test.ExampleTestTools;
-import com.rapidminer.example.utils.ExampleSetBuilder.DataManagement;
-import com.rapidminer.tools.ParameterService;
+import java.util.*;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**

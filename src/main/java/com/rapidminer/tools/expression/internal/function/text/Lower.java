@@ -18,11 +18,11 @@
 */
 package com.rapidminer.tools.expression.internal.function.text;
 
-import java.util.Locale;
-
 import com.rapidminer.tools.expression.Function;
 import com.rapidminer.tools.expression.FunctionInputException;
 import com.rapidminer.tools.expression.internal.function.AbstractArbitraryStringInputStringOutputFunction;
+
+import java.util.Locale;
 
 
 /**

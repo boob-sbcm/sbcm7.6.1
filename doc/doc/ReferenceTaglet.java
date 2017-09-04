@@ -3,6 +3,10 @@
  */
 package com.rapidminer.doc;
 
+import com.sun.javadoc.Tag;
+import com.sun.tools.doclets.Taglet;
+import org.kobjects.jdbc.TableManager;
+
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -12,11 +16,6 @@ import java.net.URLClassLoader;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Map;
-
-import org.kobjects.jdbc.TableManager;
-
-import com.sun.javadoc.Tag;
-import com.sun.tools.doclets.Taglet;
 
 /**
  * A taglet with name &quot;@rapidminer.reference&quot; can be used in the Javadoc comments of an operator to produce a

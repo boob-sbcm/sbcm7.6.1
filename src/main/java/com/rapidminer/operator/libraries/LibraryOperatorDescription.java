@@ -25,12 +25,11 @@ import com.rapidminer.operator.OperatorDescription;
 import com.rapidminer.operator.ports.metadata.Precondition;
 import com.rapidminer.tools.documentation.OperatorDocBundle;
 import com.rapidminer.tools.plugin.Plugin;
+import org.w3c.dom.Element;
 
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
-
-import org.w3c.dom.Element;
 
 
 /**

@@ -18,8 +18,6 @@
 */
 package com.rapidminer.operator;
 
-import java.util.List;
-
 import com.rapidminer.RapidMiner;
 import com.rapidminer.operator.ports.InputPort;
 import com.rapidminer.operator.ports.OutputPort;
@@ -29,6 +27,8 @@ import com.rapidminer.operator.ports.metadata.SimplePrecondition;
 import com.rapidminer.parameter.IOObjectCacheSuggestionProvider;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeSuggestion;
+
+import java.util.List;
 
 
 /**

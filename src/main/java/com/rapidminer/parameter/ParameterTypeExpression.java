@@ -18,11 +18,6 @@
 */
 package com.rapidminer.parameter;
 
-import java.util.concurrent.Callable;
-import java.util.logging.Level;
-
-import org.w3c.dom.Element;
-
 import com.rapidminer.MacroHandler;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorVersion;
@@ -31,6 +26,10 @@ import com.rapidminer.operator.ports.metadata.MetaData;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
 import com.rapidminer.tools.expression.ExpressionParserBuilder;
+import org.w3c.dom.Element;
+
+import java.util.concurrent.Callable;
+import java.util.logging.Level;
 
 
 /**

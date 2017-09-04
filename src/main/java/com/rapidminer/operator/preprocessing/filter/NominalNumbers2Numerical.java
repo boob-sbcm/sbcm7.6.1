@@ -18,13 +18,6 @@
 */
 package com.rapidminer.operator.preprocessing.filter;
 
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -46,6 +39,13 @@ import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.OperatorResourceConsumptionHandler;
 import com.rapidminer.tools.StrictDecimalFormat;
 import com.rapidminer.tools.math.container.Range;
+
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 
 
 /**

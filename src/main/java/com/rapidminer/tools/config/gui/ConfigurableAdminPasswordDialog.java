@@ -18,20 +18,6 @@
 */
 package com.rapidminer.tools.config.gui;
 
-import java.awt.Color;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.Window;
-
-import javax.swing.Box;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.tools.ProgressThread;
 import com.rapidminer.gui.tools.ResourceLabel;
 import com.rapidminer.gui.tools.dialogs.ButtonDialog;
@@ -40,6 +26,9 @@ import com.rapidminer.repository.internal.remote.RemoteRepositoryFactory;
 import com.rapidminer.repository.internal.remote.RemoteRepositoryFactoryRegistry;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.config.ConfigurationManager;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

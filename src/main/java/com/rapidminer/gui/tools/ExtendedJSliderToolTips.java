@@ -18,14 +18,11 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.EventQueue;
-import java.awt.event.ActionEvent;
-
-import javax.swing.Action;
-import javax.swing.JComponent;
-import javax.swing.JSlider;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 
 
 /**

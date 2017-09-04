@@ -18,16 +18,6 @@
 */
 package com.rapidminer.test.asserter;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
-import org.junit.Assert;
-import org.junit.ComparisonFailure;
-
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.table.SparseDataRow;
@@ -50,6 +40,15 @@ import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.math.AnovaCalculator.AnovaSignificanceTestResult;
 import com.rapidminer.tools.math.Averagable;
 import com.rapidminer.tools.math.AverageVector;
+import org.junit.Assert;
+import org.junit.ComparisonFailure;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

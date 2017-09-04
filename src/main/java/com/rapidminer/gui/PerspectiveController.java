@@ -18,13 +18,6 @@
 */
 package com.rapidminer.gui;
 
-import java.awt.event.ActionEvent;
-import java.io.File;
-import java.io.FilenameFilter;
-import java.util.logging.Level;
-
-import javax.swing.Action;
-
 import com.rapidminer.gui.processeditor.ProcessLogTab;
 import com.rapidminer.gui.processeditor.results.ResultTab;
 import com.rapidminer.gui.tools.ResourceAction;
@@ -32,12 +25,14 @@ import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
-import com.vlsolutions.swing.docking.Dockable;
-import com.vlsolutions.swing.docking.DockableResolver;
-import com.vlsolutions.swing.docking.DockableState;
-import com.vlsolutions.swing.docking.DockingContext;
-import com.vlsolutions.swing.docking.DockingDesktop;
+import com.vlsolutions.swing.docking.*;
 import com.vlsolutions.swing.docking.ws.WSDockKey;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.io.File;
+import java.io.FilenameFilter;
+import java.util.logging.Level;
 
 
 /**

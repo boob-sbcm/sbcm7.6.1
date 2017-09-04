@@ -18,11 +18,10 @@
 */
 package com.rapidminer.operator.nio.model.xlsx;
 
-import static org.junit.Assert.assertEquals;
-
+import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
 import org.junit.Test;
 
-import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
+import static org.junit.Assert.assertEquals;
 
 
 /**

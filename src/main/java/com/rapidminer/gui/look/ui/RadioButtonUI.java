@@ -18,20 +18,12 @@
 */
 package com.rapidminer.gui.look.ui;
 
-import java.awt.BasicStroke;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
+import com.rapidminer.gui.look.Colors;
 
-import javax.swing.AbstractButton;
-import javax.swing.JComponent;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicRadioButtonUI;
-
-import com.rapidminer.gui.look.Colors;
+import java.awt.*;
 
 
 /**

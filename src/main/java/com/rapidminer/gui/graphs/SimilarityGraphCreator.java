@@ -18,25 +18,6 @@
  */
 package com.rapidminer.gui.graphs;
 
-import java.awt.Dimension;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JSlider;
-import javax.swing.SwingConstants;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import org.apache.commons.collections15.Factory;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Example;
 import com.rapidminer.example.ExampleSet;
@@ -44,11 +25,19 @@ import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
-
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 import edu.uci.ics.jung.graph.util.EdgeType;
 import edu.uci.ics.jung.visualization.renderers.Renderer.EdgeLabel;
+import org.apache.commons.collections15.Factory;
+
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
+import java.util.Map.Entry;
 
 
 /**

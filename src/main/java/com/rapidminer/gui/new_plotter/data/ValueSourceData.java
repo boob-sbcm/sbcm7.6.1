@@ -18,32 +18,22 @@
 */
 package com.rapidminer.gui.new_plotter.data;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.Vector;
-
 import com.rapidminer.datatable.DataTable;
 import com.rapidminer.datatable.DataTableRow;
 import com.rapidminer.datatable.FilteredDataTable;
 import com.rapidminer.gui.new_plotter.ConfigurationChangeResponse;
 import com.rapidminer.gui.new_plotter.PlotConfigurationError;
-import com.rapidminer.gui.new_plotter.configuration.DataTableColumn;
-import com.rapidminer.gui.new_plotter.configuration.DefaultDimensionConfig;
-import com.rapidminer.gui.new_plotter.configuration.DimensionConfig;
+import com.rapidminer.gui.new_plotter.configuration.*;
 import com.rapidminer.gui.new_plotter.configuration.DimensionConfig.PlotDimension;
-import com.rapidminer.gui.new_plotter.configuration.GroupCellKey;
 import com.rapidminer.gui.new_plotter.configuration.SeriesFormat.IndicatorType;
-import com.rapidminer.gui.new_plotter.configuration.ValueSource;
 import com.rapidminer.gui.new_plotter.configuration.ValueSource.SeriesUsageType;
 import com.rapidminer.gui.new_plotter.listener.events.ValueSourceChangeEvent;
 import com.rapidminer.gui.new_plotter.utility.ValueRange;
 import com.rapidminer.tools.container.Pair;
 import com.rapidminer.tools.math.function.aggregation.AggregationFunction;
+
+import java.util.*;
+import java.util.Map.Entry;
 
 
 /**

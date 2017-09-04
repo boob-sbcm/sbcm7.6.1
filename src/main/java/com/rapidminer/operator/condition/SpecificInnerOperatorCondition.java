@@ -18,11 +18,7 @@
 */
 package com.rapidminer.operator.condition;
 
-import com.rapidminer.operator.DefaultIODescription;
-import com.rapidminer.operator.IllegalInputException;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorChain;
-import com.rapidminer.operator.WrongNumberOfInnerOperatorsException;
+import com.rapidminer.operator.*;
 
 
 /**

@@ -18,9 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.excel;
 
-import java.nio.file.Path;
-import java.text.DateFormat;
-
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetMetaData;
@@ -36,6 +33,9 @@ import com.rapidminer.operator.nio.model.xlsx.XlsxSheetMetaDataParser;
 import com.rapidminer.operator.nio.model.xlsx.XlsxUtilities.XlsxCellCoordinates;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapterUtils;
+
+import java.nio.file.Path;
+import java.text.DateFormat;
 
 
 /**

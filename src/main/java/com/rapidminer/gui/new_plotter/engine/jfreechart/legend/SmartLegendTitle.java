@@ -18,26 +18,16 @@
 */
 package com.rapidminer.gui.new_plotter.engine.jfreechart.legend;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.LinearGradientPaint;
-import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.geom.Rectangle2D;
-
 import org.jfree.chart.LegendItem;
 import org.jfree.chart.LegendItemSource;
-import org.jfree.chart.block.Arrangement;
-import org.jfree.chart.block.Block;
-import org.jfree.chart.block.BlockContainer;
-import org.jfree.chart.block.BorderArrangement;
-import org.jfree.chart.block.CenterArrangement;
-import org.jfree.chart.block.LabelBlock;
+import org.jfree.chart.block.*;
 import org.jfree.chart.title.LegendGraphic;
 import org.jfree.chart.title.LegendItemBlockContainer;
 import org.jfree.chart.title.LegendTitle;
 import org.jfree.ui.RectangleEdge;
+
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
 
 
 /**

@@ -18,22 +18,6 @@
 */
 package com.rapidminer.gui.tools.components.composite;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.Action;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JMenuItem;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.gui.Perspective;
 import com.rapidminer.gui.PerspectiveController;
 import com.rapidminer.gui.RapidMinerGUI;
@@ -42,6 +26,13 @@ import com.rapidminer.gui.actions.WorkspaceAction;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.gui.tools.dialogs.ConfirmDialog;
 import com.rapidminer.tools.I18N;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 
 /**

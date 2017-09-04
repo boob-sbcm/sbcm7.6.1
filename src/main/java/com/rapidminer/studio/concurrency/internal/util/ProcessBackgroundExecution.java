@@ -18,15 +18,15 @@
 */
 package com.rapidminer.studio.concurrency.internal.util;
 
-import java.io.IOException;
-import java.sql.Date;
-import java.text.DateFormat;
-import java.util.logging.Level;
-
 import com.rapidminer.Process;
 import com.rapidminer.repository.RepositoryLocation;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.XMLException;
+
+import java.io.IOException;
+import java.sql.Date;
+import java.text.DateFormat;
+import java.util.logging.Level;
 
 
 /**

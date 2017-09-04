@@ -18,14 +18,6 @@
 */
 package com.rapidminer.operator.nio.file;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import com.rapidminer.operator.IOObject;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
@@ -39,6 +31,10 @@ import com.rapidminer.parameter.PortProvider;
 import com.rapidminer.parameter.conditions.PortConnectedCondition;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.WebServiceTools;
+
+import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 
 /**

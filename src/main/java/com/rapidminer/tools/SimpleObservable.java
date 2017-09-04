@@ -18,11 +18,10 @@
 */
 package com.rapidminer.tools;
 
+import javax.swing.*;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.NoSuchElementException;
-
-import javax.swing.SwingUtilities;
 
 
 /**

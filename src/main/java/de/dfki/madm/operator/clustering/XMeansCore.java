@@ -18,20 +18,9 @@
  */
 package de.dfki.madm.operator.clustering;
 
-import java.util.ArrayList;
-
-import com.rapidminer.example.Attribute;
-import com.rapidminer.example.Attributes;
-import com.rapidminer.example.Example;
-import com.rapidminer.example.ExampleSet;
-import com.rapidminer.example.Tools;
+import com.rapidminer.example.*;
 import com.rapidminer.example.set.SplittedExampleSet;
-import com.rapidminer.operator.Operator;
-import com.rapidminer.operator.OperatorDescription;
-import com.rapidminer.operator.OperatorException;
-import com.rapidminer.operator.OperatorProgress;
-import com.rapidminer.operator.ProcessStoppedException;
-import com.rapidminer.operator.UserError;
+import com.rapidminer.operator.*;
 import com.rapidminer.operator.clustering.Centroid;
 import com.rapidminer.operator.clustering.CentroidClusterModel;
 import com.rapidminer.operator.clustering.Cluster;
@@ -41,8 +30,9 @@ import com.rapidminer.operator.clustering.clusterer.KMeans;
 import com.rapidminer.operator.clustering.clusterer.RMAbstractClusterer;
 import com.rapidminer.tools.RandomGenerator;
 import com.rapidminer.tools.math.similarity.DistanceMeasure;
-
 import de.dfki.madm.operator.KMeanspp;
+
+import java.util.ArrayList;
 
 
 public class XMeansCore extends RMAbstractClusterer {

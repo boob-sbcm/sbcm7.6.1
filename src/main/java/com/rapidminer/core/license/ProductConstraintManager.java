@@ -18,25 +18,7 @@
  */
 package com.rapidminer.core.license;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import com.rapidminer.license.AlreadyRegisteredException;
-import com.rapidminer.license.InvalidProductException;
-import com.rapidminer.license.License;
-import com.rapidminer.license.LicenseConstants;
-import com.rapidminer.license.LicenseManager;
-import com.rapidminer.license.LicenseManagerListener;
-import com.rapidminer.license.LicenseManagerRegistry;
-import com.rapidminer.license.LicenseStatus;
-import com.rapidminer.license.LicenseValidationException;
-import com.rapidminer.license.StudioLicenseConstants;
-import com.rapidminer.license.UnknownProductException;
+import com.rapidminer.license.*;
 import com.rapidminer.license.location.FileLicenseLocation;
 import com.rapidminer.license.location.LicenseLoadingException;
 import com.rapidminer.license.location.LicenseLocation;
@@ -51,6 +33,14 @@ import com.rapidminer.operator.Operator;
 import com.rapidminer.tools.FileSystemService;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 /**

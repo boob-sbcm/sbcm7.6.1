@@ -18,24 +18,6 @@
 */
 package com.rapidminer.gui.processeditor.results;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.logging.Level;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
-
 import com.rapidminer.core.license.ProductConstraintManager;
 import com.rapidminer.example.ExampleSet;
 import com.rapidminer.example.set.MappedExampleSet;
@@ -57,6 +39,12 @@ import com.rapidminer.operator.ResultObject;
 import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.usagestats.ActionStatisticsCollector;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
+import java.util.logging.Level;
 
 
 /**

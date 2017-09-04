@@ -18,49 +18,23 @@
 */
 package com.rapidminer.gui.properties.tablepanel;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import com.rapidminer.gui.properties.tablepanel.cells.implementations.*;
+import com.rapidminer.gui.properties.tablepanel.cells.interfaces.*;
+import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
+import com.rapidminer.gui.tools.ExtendedJScrollPane;
+import com.rapidminer.gui.tools.ResourceAction;
+import com.rapidminer.tools.container.Pair;
+
+import javax.swing.*;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.text.NumberFormat;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-
-import javax.swing.Box;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFormattedTextField;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.SwingUtilities;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
-
-import com.rapidminer.gui.properties.tablepanel.cells.implementations.CellTypeCheckBoxImpl;
-import com.rapidminer.gui.properties.tablepanel.cells.implementations.CellTypeComboBoxImpl;
-import com.rapidminer.gui.properties.tablepanel.cells.implementations.CellTypeDateImpl;
-import com.rapidminer.gui.properties.tablepanel.cells.implementations.CellTypeRegexImpl;
-import com.rapidminer.gui.properties.tablepanel.cells.implementations.CellTypeTextFieldDefaultImpl;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellType;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeCheckBox;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeComboBox;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeDate;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeDateTime;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeRegex;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldDefault;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldInteger;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldNumerical;
-import com.rapidminer.gui.properties.tablepanel.cells.interfaces.CellTypeTextFieldTime;
-import com.rapidminer.gui.properties.tablepanel.model.TablePanelModel;
-import com.rapidminer.gui.tools.ExtendedJScrollPane;
-import com.rapidminer.gui.tools.ResourceAction;
-import com.rapidminer.tools.container.Pair;
 
 
 /**

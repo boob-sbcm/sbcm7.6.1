@@ -21,11 +21,8 @@ package com.rapidminer.operator.ports.quickfix;
 import com.rapidminer.gui.tools.SwingTools;
 import com.rapidminer.tools.I18N;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
-
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.JOptionPane;
 
 
 /**

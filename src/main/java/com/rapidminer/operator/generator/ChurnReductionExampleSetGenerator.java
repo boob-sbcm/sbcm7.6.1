@@ -18,9 +18,6 @@
 */
 package com.rapidminer.operator.generator;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.rapidminer.example.Attribute;
 import com.rapidminer.example.Attributes;
 import com.rapidminer.example.ExampleSet;
@@ -37,6 +34,9 @@ import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.parameter.ParameterTypeInt;
 import com.rapidminer.tools.Ontology;
 import com.rapidminer.tools.RandomGenerator;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**

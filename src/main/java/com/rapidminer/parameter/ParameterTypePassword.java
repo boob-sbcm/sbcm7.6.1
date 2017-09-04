@@ -18,12 +18,12 @@
 */
 package com.rapidminer.parameter;
 
-import java.util.logging.Level;
-
 import com.rapidminer.tools.LogService;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.cipher.CipherException;
 import com.rapidminer.tools.cipher.CipherTools;
+
+import java.util.logging.Level;
 
 
 /**

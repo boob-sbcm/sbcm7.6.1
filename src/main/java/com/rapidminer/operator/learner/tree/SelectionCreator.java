@@ -18,22 +18,15 @@
 */
 package com.rapidminer.operator.learner.tree;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-
-import org.apache.commons.lang.ArrayUtils;
-
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorException;
 import com.rapidminer.studio.internal.Resources;
 import com.rapidminer.tools.Tools;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 
 
 /**

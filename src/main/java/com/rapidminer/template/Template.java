@@ -18,19 +18,6 @@
 */
 package com.rapidminer.template;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-
 import com.rapidminer.Process;
 import com.rapidminer.RepositoryProcessLocation;
 import com.rapidminer.gui.tools.SwingTools;
@@ -42,6 +29,17 @@ import com.rapidminer.tools.I18N;
 import com.rapidminer.tools.NonClosingZipInputStream;
 import com.rapidminer.tools.Tools;
 import com.rapidminer.tools.XMLException;
+
+import javax.swing.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 
 /**

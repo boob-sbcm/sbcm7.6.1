@@ -18,24 +18,17 @@
 */
 package com.rapidminer.gui.renderer.cluster;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-
 import com.rapidminer.datatable.SimpleDataTable;
 import com.rapidminer.datatable.SimpleDataTableRow;
 import com.rapidminer.gui.look.Colors;
-import com.rapidminer.gui.plotter.LabelRotatingPlotterAdapter;
-import com.rapidminer.gui.plotter.LocalNormalizationPlotterAdapter;
-import com.rapidminer.gui.plotter.Plotter;
-import com.rapidminer.gui.plotter.PlotterAdapter;
-import com.rapidminer.gui.plotter.PlotterConfigurationModel;
+import com.rapidminer.gui.plotter.*;
 import com.rapidminer.gui.renderer.AbstractRenderer;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.clustering.CentroidClusterModel;
 import com.rapidminer.report.Reportable;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

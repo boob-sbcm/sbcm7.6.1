@@ -27,7 +27,7 @@ import com.rapidminer.operator.IOContainer;
 import com.rapidminer.operator.similarity.SimilarityMeasureObject;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 /**

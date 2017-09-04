@@ -18,21 +18,19 @@
 */
 package com.rapidminer.gui.flow;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.swing.JScrollPane;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.TableModel;
-
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.tools.ExtendedJTable;
 import com.rapidminer.operator.Annotations;
 import com.rapidminer.operator.ports.metadata.AttributeMetaData;
 import com.rapidminer.operator.ports.metadata.ExampleSetMetaData;
 import com.rapidminer.tools.Ontology;
+
+import javax.swing.*;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.TableModel;
+import java.awt.*;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**

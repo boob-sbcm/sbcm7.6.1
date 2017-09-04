@@ -19,9 +19,9 @@
 
 package com.rapidminer.repository;
 
-import java.util.Comparator;
-
 import com.rapidminer.repository.gui.RepositoryBrowser;
+
+import java.util.Comparator;
 
 
 /**

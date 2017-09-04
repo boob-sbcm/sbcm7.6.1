@@ -28,8 +28,7 @@ import com.rapidminer.operator.tools.AttributeSubsetSelector;
 import com.rapidminer.parameter.ParameterType;
 import com.rapidminer.report.Reportable;
 
-import java.awt.Component;
-import java.awt.Dimension;
+import java.awt.*;
 import java.util.LinkedList;
 import java.util.List;
 

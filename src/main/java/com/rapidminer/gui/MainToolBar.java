@@ -18,30 +18,7 @@
 */
 package com.rapidminer.gui;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-
-import com.rapidminer.gui.actions.AboutAction;
-import com.rapidminer.gui.actions.BrowseAction;
-import com.rapidminer.gui.actions.RedoAction;
-import com.rapidminer.gui.actions.UndoAction;
-import com.rapidminer.gui.actions.WorkspaceAction;
+import com.rapidminer.gui.actions.*;
 import com.rapidminer.gui.actions.startup.TutorialAction;
 import com.rapidminer.gui.look.Colors;
 import com.rapidminer.gui.osx.OSXAdapter;
@@ -55,6 +32,12 @@ import com.rapidminer.tools.Observable;
 import com.rapidminer.tools.Observer;
 import com.rapidminer.tools.SystemInfoUtilities;
 import com.rapidminer.tools.SystemInfoUtilities.OperatingSystem;
+
+import javax.swing.*;
+import java.awt.*;
+import java.net.URI;
+import java.util.*;
+import java.util.List;
 
 
 /**

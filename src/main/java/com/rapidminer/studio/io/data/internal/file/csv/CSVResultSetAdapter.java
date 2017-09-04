@@ -18,9 +18,6 @@
 */
 package com.rapidminer.studio.io.data.internal.file.csv;
 
-import java.text.NumberFormat;
-import java.util.Date;
-
 import com.rapidminer.core.io.data.DataSet;
 import com.rapidminer.core.io.data.DataSetException;
 import com.rapidminer.core.io.data.DataSetRow;
@@ -28,6 +25,9 @@ import com.rapidminer.core.io.data.ParseException;
 import com.rapidminer.operator.nio.model.CSVResultSet;
 import com.rapidminer.operator.nio.model.DataResultSet;
 import com.rapidminer.studio.io.data.internal.ResultSetAdapter;
+
+import java.text.NumberFormat;
+import java.util.Date;
 
 
 /**

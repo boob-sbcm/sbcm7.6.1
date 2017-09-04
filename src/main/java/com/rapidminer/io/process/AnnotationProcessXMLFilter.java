@@ -18,13 +18,6 @@
 */
 package com.rapidminer.io.process;
 
-import java.awt.geom.Rectangle2D;
-
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
-
 import com.rapidminer.gui.flow.processrendering.annotations.AnnotationDrawUtils;
 import com.rapidminer.gui.flow.processrendering.annotations.model.OperatorAnnotation;
 import com.rapidminer.gui.flow.processrendering.annotations.model.ProcessAnnotation;
@@ -36,6 +29,12 @@ import com.rapidminer.gui.flow.processrendering.annotations.style.AnnotationStyl
 import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessRootOperator;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Text;
+
+import java.awt.geom.Rectangle2D;
 
 
 /**

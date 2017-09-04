@@ -18,27 +18,18 @@
 */
 package com.rapidminer.gui.dnd;
 
-import java.awt.datatransfer.Transferable;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
-import javax.swing.Action;
-import javax.swing.ActionMap;
-import javax.swing.Icon;
-import javax.swing.InputMap;
-import javax.swing.JComponent;
-import javax.swing.JMenu;
-import javax.swing.JPopupMenu;
-import javax.swing.KeyStroke;
-import javax.swing.TransferHandler;
-
 import com.rapidminer.gui.RapidMinerGUI;
 import com.rapidminer.gui.flow.processrendering.annotations.model.WorkflowAnnotation;
 import com.rapidminer.gui.operatortree.actions.CutCopyPasteDeleteAction;
 import com.rapidminer.gui.operatortree.actions.DeleteOperatorAction;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.ProcessRootOperator;
+
+import javax.swing.*;
+import java.awt.datatransfer.Transferable;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

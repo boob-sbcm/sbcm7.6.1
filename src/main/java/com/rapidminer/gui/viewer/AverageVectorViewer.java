@@ -18,21 +18,15 @@
 */
 package com.rapidminer.gui.viewer;
 
-import java.awt.Component;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
 import com.rapidminer.gui.processeditor.results.ResultDisplayTools;
 import com.rapidminer.gui.tools.ExtendedJScrollPane;
 import com.rapidminer.operator.IOContainer;
 import com.rapidminer.report.Readable;
 import com.rapidminer.tools.math.Averagable;
 import com.rapidminer.tools.math.AverageVector;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 /**

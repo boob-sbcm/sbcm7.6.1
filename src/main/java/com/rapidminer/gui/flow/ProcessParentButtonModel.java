@@ -24,10 +24,9 @@ import com.rapidminer.operator.ExecutionUnit;
 import com.rapidminer.operator.Operator;
 import com.rapidminer.operator.OperatorChain;
 
+import javax.swing.*;
 import java.util.LinkedList;
 import java.util.List;
-
-import javax.swing.Icon;
 
 
 /**

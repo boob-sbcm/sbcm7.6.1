@@ -18,24 +18,12 @@
 */
 package com.rapidminer.gui.tools;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.FocusTraversalPolicy;
+import com.rapidminer.gui.look.Colors;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
-
-import javax.swing.AbstractAction;
-import javax.swing.BoxLayout;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-
-import com.rapidminer.gui.look.Colors;
 
 
 /**
